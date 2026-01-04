@@ -49,3 +49,4 @@
 -added selected player name in scoreboard
 -added version number from old zeeshud versions
 -added 2007 class selection lighting (not sure if it works i dont have any comparison)
+-improved main menu scrolling bg (now it's not fake transparency!)
