@@ -29,6 +29,7 @@
 -fixed and added back jrpg and jrpg addon
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
+-updated the loading screen to look more lively
 -updated the map picture to look bigger
 -updated pre mym koth hud
 -updated training selection background
@@ -48,5 +49,6 @@
 -added a new closed caption style for better readability
 -added selected player name in scoreboard
 -added version number from old zeeshud versions
+-added tips on loading screen as an addon
 -added 2007 class selection lighting (not sure if it works i dont have any comparison)
 -improved main menu scrolling bg (now it's not fake transparency!)
