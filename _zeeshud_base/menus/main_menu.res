@@ -2084,10 +2084,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGPanel1Edge"
-		"xpos"			"220"
+		"xpos"			"-245"
 		"ypos"			"0"
-		"zpos"			"-55"
-		"wide"			"15"
+		"zpos"			"-56"
+		"wide"			"480"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"

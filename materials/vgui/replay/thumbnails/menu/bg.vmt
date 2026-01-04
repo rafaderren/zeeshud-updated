@@ -9,6 +9,7 @@
  	"$colortint_base"        "{ 255 255 255 }"
  	"$color2"        "{ 255 255 255 }"
 	"$basetexture" "vgui/replay/thumbnails/menu/bg"
+	"$alphatest" 1
 
 	"Proxies"
 	{
