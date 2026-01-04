@@ -2079,7 +2079,7 @@
 		"scaleImage"	"1"
 		"drawcolor"		"ZeesMain"
 	}
-	//bigass red thing's edge
+	//bigass black thing with edges
 	"BGPanel1Edge"
 	{
 		"ControlName"	"ImagePanel"
@@ -2093,7 +2093,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/menu/bg2"
 		"scaleImage"	"1"
-		"drawcolor"		"ZeesBlack"
+		"drawcolor"		"ZeesMain"
 	}
 	
 	"RankBG"
