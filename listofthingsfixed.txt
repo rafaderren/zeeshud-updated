@@ -38,6 +38,7 @@
 -moved pd score to fit with the hud
 -changed the vote panel to look bigger
 -made the hud have a little more customization on some things
+-improved main menu scrolling bg (now it's not fake transparency!)
 
 -addedd a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -51,4 +52,4 @@
 -added version number from old zeeshud versions
 -added tips on loading screen as an addon
 -added 2007 class selection lighting (not sure if it works i dont have any comparison)
--improved main menu scrolling bg (now it's not fake transparency!)
+-added custom animated character select as an addon
