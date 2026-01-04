@@ -60,52 +60,6 @@
 				"font"			"FUTURA_BOLD_12"
 			}
 		}
-		"Background"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
-			"xpos"				"25"
-			"ypos"				"0"
-			"zpos"				"0"
-			"wide"				"50"
-			"tall"				"25"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"bgcolor_override"	"ZeesBlue"
-
-			if_match
-			{
-				"xpos"				"9999"
-				"ypos"				"9999"
-				"visible"			"0"
-				"enabled"			"0"
-			}
-		}
-		"Background2"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
-			"xpos"				"23"
-			"ypos"				"0"
-			"zpos"				"-1"
-			"wide"				"53"
-			"tall"				"28"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"bgcolor_override"	"ZeesBlack"
-
-			if_match
-			{
-				"xpos"				"9999"
-				"ypos"				"9999"
-				"visible"			"0"
-				"enabled"			"0"
-			}
-		}
 	}
 
 	"RedTimer"
@@ -160,51 +114,91 @@
 				"font"			"FUTURA_BOLD_12"
 			}
 		}
-		"Background"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
-			"xpos"				"25"
-			"ypos"				"0"
-			"zpos"				"0"
-			"wide"				"50"
-			"tall"				"25"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"bgcolor_override"	"ZeesRed"
+	}
 
-			if_match
-			{
-				"xpos"				"9999"
-				"ypos"				"9999"
-				"visible"			"0"
-				"enabled"			"0"
-			}
+	"BackgroundRed"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BackgroundRed"
+		"xpos"				"75"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"ZeesRed"
+
+		if_match
+		{
+			"xpos"				"9999"
+			"ypos"				"9999"
 		}
-		"Background2"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
-			"xpos"				"25"
-			"ypos"				"0"
-			"zpos"				"-1"
-			"wide"				"53"
-			"tall"				"28"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"bgcolor_override"	"ZeesBlack"
+	}
 
-			if_match
-			{
-				"xpos"				"9999"
-				"ypos"				"9999"
-				"visible"			"0"
-				"enabled"			"0"
-			}
+	"BorderBackgroundRed"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BorderBackgroundRed"
+		"xpos"				"75"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"53"
+		"tall"				"28"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"ZeesBlack"
+		if_match
+		{
+			"xpos"				"9999"
+			"ypos"				"9999"
+		}
+	}
+
+	"BackgroundBlue"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BackgroundBlue"
+		"xpos"				"25"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"ZeesBlue"
+
+		if_match
+		{
+			"xpos"				"9999"
+			"ypos"				"9999"
+		}
+	}
+
+	"BorderBackgroundBlue"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BorderBackgroundBlue"
+		"xpos"				"23"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"53"
+		"tall"				"28"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"ZeesBlack"
+		if_match
+		{
+			"xpos"				"9999"
+			"ypos"				"9999"
 		}
 	}
 
