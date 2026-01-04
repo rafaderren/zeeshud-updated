@@ -6,6 +6,7 @@
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$basetexture" "vgui/replay/thumbnails/menu/bg2"
+	"$alphatest" 1
 
 	"Proxies"
 	{
