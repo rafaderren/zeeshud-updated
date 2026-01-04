@@ -63,7 +63,7 @@
 		"Background"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
+			"fieldName"			"Background"
 			"xpos"				"25"
 			"ypos"				"0"
 			"zpos"				"0"
@@ -86,7 +86,7 @@
 		"Background2"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
+			"fieldName"			"Background2"
 			"xpos"				"23"
 			"ypos"				"0"
 			"zpos"				"-1"
@@ -163,7 +163,7 @@
 		"Background"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
+			"fieldName"			"Background"
 			"xpos"				"25"
 			"ypos"				"0"
 			"zpos"				"0"
@@ -186,7 +186,7 @@
 		"Background2"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldName"			"ItemEffectMeterBG"
+			"fieldName"			"Background2"
 			"xpos"				"25"
 			"ypos"				"0"
 			"zpos"				"-1"
