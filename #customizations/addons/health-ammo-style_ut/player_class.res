@@ -13,6 +13,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
+	"speedometer"
+	{
+		"xpos"				"468"
+		"ypos"				"226"
+	}
+	
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"
