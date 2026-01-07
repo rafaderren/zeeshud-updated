@@ -1,4 +1,3 @@
-26/11/2025 to 24/12/2025
 -fixed payloads in pl mode not showing players on the payload
 -fixed floating health on robots and teammates
 -fixed spectator killstreak icon overlapping the killstreak counter
@@ -39,6 +38,7 @@
 -changed the vote panel to look bigger
 -made the hud have a little more customization on some things
 -improved main menu scrolling bg (now it's not fake transparency!)
+-restored and added hover team selection images
 
 -addedd a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
