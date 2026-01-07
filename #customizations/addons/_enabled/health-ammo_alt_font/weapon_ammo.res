@@ -2,6 +2,12 @@
 {
 
 
+
+	"AmmoInClip"
+	{
+		"font"			"ZH_51"
+	}
+
 	"AmmoInClipShadow"
 	{
 		"font"			"ZH_51"
@@ -10,6 +16,10 @@
 		"zpos"			"4"
 	}
 
+	"AmmoInReserve"
+	{
+		"font"			"ZH_21"
+	}
 
 	"AmmoInReserveShadow"
 	{
@@ -19,6 +29,10 @@
 		"zpos"			"4"
 	}
 
+	"AmmoNoClip"
+	{
+		"font"			"ZH_51"
+	}
 
 	"AmmoNoClipShadow"
 	{
