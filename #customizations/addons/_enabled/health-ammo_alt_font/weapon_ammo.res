@@ -1,8 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-
-
-
 	"AmmoInClip"
 	{
 		"font"			"ZH_51"
