@@ -1,6 +1,9 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-
+	"AmmoInClip"
+	{
+		"font"			"ZH_51"
+	}
 
 	"AmmoInClipShadow"
 	{
@@ -10,6 +13,10 @@
 		"zpos"			"4"
 	}
 
+	"AmmoInReserve"
+	{
+		"font"			"ZH_21"
+	}
 
 	"AmmoInReserveShadow"
 	{
@@ -19,6 +26,10 @@
 		"zpos"			"4"
 	}
 
+	"AmmoNoClip"
+	{
+		"font"			"ZH_51"
+	}
 
 	"AmmoNoClipShadow"
 	{
