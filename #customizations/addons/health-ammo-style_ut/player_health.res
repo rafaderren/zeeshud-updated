@@ -162,10 +162,10 @@
 		
 		"xpos"			"cs-1.21"
 		"ypos"			"r140"
-		"zpos"			"5"
+		// "zpos"			"5"
 		"wide"			"150"
 		"tall"			"100"
-		"font"			"ZH_51"
+		// "font"			"ZH_51"
 		
 		"xpos_minmode"	"40"
 		"ypos_minmode"	"r105"
@@ -187,12 +187,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"6"
+		// "xpos"			"-1"
+		// "ypos"			"-1"
+		// "zpos"			"6"
 		"wide"			"150"
 		"tall"			"100"
-		"font"			"ZHO_56"
+		// "font"			"ZHO_56"
 		
 		"visible"		"1"
 		"enabled"		"1"

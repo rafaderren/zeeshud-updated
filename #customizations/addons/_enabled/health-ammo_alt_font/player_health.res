@@ -2,6 +2,8 @@
 {
 	"PlayerStatusHealthValue"
 	{
+		"xpos"			"105"
+		"ypos"			"r140"
 		"zpos"			"5"
 	
 		"font"			"ZH_51"
