@@ -27,4 +27,15 @@
 		"tall"					"30"
 	}
 	
+	HudMedicCharge
+	{
+		"fieldName"			"HudMedicCharge"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"c25"
+		"ypos"				"c135"
+		"wide"				"600"
+		"tall"				"400"
+	}
+	
 }
