@@ -3,7 +3,7 @@ The (in)famous TF2 HUD that looks like Persona 5's UI updated by rafaderren.
 
 This version aims to fix issues that ZeesHUD have and add new features (when i feel like it)
 
-Also includes [optional speed-o-meter](https://www.teamfortress.tv/61625/speedometer-in-any-hud)
+Gamebanan page: https://gamebanana.com/mods/640375
 
 # Installation
 - **Download from recent releases to get stable versions** or download from the green code button to get beta versions
