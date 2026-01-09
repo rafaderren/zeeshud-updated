@@ -9,6 +9,7 @@
 	7	"background_mrlight_pyro"
 	8	"background_mrlight_scout"
 	9	"background_mrlight_sniper"
+	10	"background_mrlight_medic"
 
 }
 
@@ -23,5 +24,5 @@
 	7	"background_mrlight_pyro"
 	8	"background_mrlight_scout"
 	9	"background_mrlight_sniper"
-
+	10	"background_mrlight_medic"
 }
