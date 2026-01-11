@@ -732,7 +732,7 @@ Scheme
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
+				// "yres"			"1200 6000"
 				"antialias"		"1"
 			}
 			"6"
@@ -785,7 +785,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
+				// "yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -831,7 +831,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
+				// "yres"			"1200 6000"
 				"antialias"		"1"
 			}
 			"6"
@@ -1030,15 +1030,24 @@ Scheme
 		}
 		"HudFontMediumSecondary"
 		{
-			"1"
-			{
-				"name"			"futura_pt_bold"
-				"tall"			"20"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
+            "1"
+            {
+                "name"        "futura_pt_bold"
+                "tall"        "24"
+                "weight"    "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+                "name"        "futura_pt_bold"
+                "tall"        "10"
+                "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
 		"HudFontMediumBold"
 		{
 			"1"
@@ -2336,7 +2345,7 @@ Scheme
 				"tall"			"15"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
+				// "yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -2818,7 +2827,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
+				// "yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -2875,7 +2884,7 @@ Scheme
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
+				// "yres"			"1200 6000"
 				"antialias"		"1"
 			}
 			"6"
