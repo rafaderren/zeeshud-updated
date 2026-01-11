@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"ZeesBorderWhiteOpaque"
 
-		"log_font_small"			"FUTURA_BOLD_12"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
-		"log_font_large"			"HudFontMediumSecondary"
+		"log_font_small"			"HudFontSmallest"
+		"log_font_medium"			"HudFontSmallest"
+		"log_font_large"			"HudFontSmallest"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"ZeesMain"
