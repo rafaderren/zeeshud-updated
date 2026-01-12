@@ -8,7 +8,7 @@
 		
 		"xpos"			"r170"
 		"ypos"			"r116"
-		"zpos"			"3"
+		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"100"
 		
