@@ -253,7 +253,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
+				//"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -387,7 +387,7 @@ Scheme
 				"name"			"Verdana"
 				"tall"			"8"
 				"weight"		"300"
-				"yres"			"1200 10000"
+				//"yres"			"1200 10000"
 				"dropshadow"	"1"
 				"antialias" 	"1"
 			}
