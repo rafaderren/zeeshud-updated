@@ -928,8 +928,8 @@
 		"xpos"				"c90"
 		"ypos"				"c-72"
 		"zpos"				"1"
-		"wide"				"100"
-		"tall"				"190"
+		"wide"				"f0"
+		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}
 
