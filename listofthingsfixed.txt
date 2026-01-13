@@ -30,6 +30,7 @@
 -fixed classic style ammo counter turning into boxes when it reaches 100+ ammo
 -fixed classic style minmode ammo being offset
 -fixed default confim dialog (coaching, quit, etc)
+-fixed default meter not having the correct zpos for certain weapon combinations
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
 -updated the loading screen to look more lively
@@ -44,10 +45,13 @@
 -improved main menu scrolling bg (now it's not fake transparency!)
 -restored and added hover team selection images
 -updated classic style health bg to dark red
--updated font size to be smaller
+-updated font size to be smaller (technically a fix)
 -updated context menu border (item, medal toggle, matchmaking settings, etc) to white 
+-restored health_status_indicators addon functionality
+-reposition killstreak counter for classic style
+-changed low health indicator color to full red
 
--addedd a zeeshud styled skull control point (im not sure where it's used)
+-added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
 -added pull requests from the github page
 -added back map info instead of just having the maps image
