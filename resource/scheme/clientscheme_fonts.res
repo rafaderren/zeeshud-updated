@@ -3093,6 +3093,18 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
+		"AdobeBlank"
+		{
+			"1"
+			{
+				"name"			"Adobe Blank"
+				"tall"			"0"
+				"weight"		"0"
+				"additive"		"1"
+				"antialias" 	"0"
+			}
+		}
 	}
 
 	BitmapFontFiles
@@ -3308,6 +3320,11 @@ Scheme
 		{
 			"font"	"resource/fonts/zeesHUDNumbersOutline.ttf"
 			"name"	"zeesHUDNumbersOutline"
+		}
+		"13"
+		{
+			"font"	"resource/fonts/AdobeBlank.ttf"
+			"name"	"Adobe Blank"
 		}
 	}
 }
