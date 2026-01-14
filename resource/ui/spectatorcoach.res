@@ -1,3 +1,5 @@
+#base "../../#customizations/addons/_enabled/streamermode/nobase/spectatorcoach.res"
+
 "Resource/UI/SpectatorCoach.res"
 {
 	"Spectator"

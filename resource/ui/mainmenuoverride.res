@@ -1,3 +1,4 @@
+#base "../../#customizations/addons/_enabled/streamermode/main_menu.res"
 #base "../../_zeeshud_base/preload.res"
 #base "../../_zeeshud_base/preload_xhair.res"
 #base "../../#customizations/menu_buttons.res"
