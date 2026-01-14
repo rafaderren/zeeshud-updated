@@ -602,7 +602,7 @@
 		"zpos"				"50"
 		"wide"				"150"
 		"tall"				"260"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 
 		if_large
@@ -740,7 +740,7 @@
 		"zpos"				"50"
 		"wide"				"150"
 		"tall"				"260"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 
 		if_large
@@ -762,8 +762,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"FGColor"		"HUDRedTeamSolid"
+			"border"		"TFFatLineBorderRedBGOpaque"
 		}
+		
 		"RedTeamImage"
 		{
 			"ControlName"	"ImagePanel"

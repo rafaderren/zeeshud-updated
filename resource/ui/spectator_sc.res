@@ -1,3 +1,5 @@
+#base "../../#customizations/addons/_enabled/streamermode/nobase/spectator_sc.res"
+
 "Resource/UI/Spectator.res"
 {
 	"Spectator"
