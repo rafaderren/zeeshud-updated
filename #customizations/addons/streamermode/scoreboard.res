@@ -7,6 +7,21 @@
 	
 	"PlayerNameLabel"
 	{
-		"visible"		"0"
+		"ypos"		"9999"
+		"visible"	"0"
+		"enabled"	"0"	
+	}
+
+	"redplayerlist"
+	{	
+		"ypos"		"9999"
+		"visible"	"0"
+		"enabled"	"0"		
+	}
+    "BluePlayerList"
+	{	
+		"ypos"		"9999"
+		"visible"	"0"
+		"enabled"	"0"		
 	}
 }
