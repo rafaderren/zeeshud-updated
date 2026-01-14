@@ -24,4 +24,18 @@
 		"visible"	"0"
 		"enabled"	"0"		
 	}
+	
+	"Spectators"
+	{
+		"font"			"AdobeBlank"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"SpectatorsInQueue"
+	{
+		"font"			"AdobeBlank"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 }
