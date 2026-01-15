@@ -1,5 +1,5 @@
 
-"Customizations/_enabled/health_jrpg/HudItemEffectMeter_Killstreak_jrpg.res"
+"Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
 	{

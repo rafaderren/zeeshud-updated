@@ -1,4 +1,4 @@
-"Customizations/_enabled/health_jrpg/HudPlayerClass_jrpg.res"
+"resource\ui\HudPlayerClass.res"
 {
 	// Player Class Data
 	"HudPlayerClass"

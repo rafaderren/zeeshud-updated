@@ -1,4 +1,4 @@
-"Customizations/_enabled/health_jrpg/hudplayerhealth_jrpg.res"
+"Resource/UI/HudPlayerHealth.res"
 {
 
 	"HudPlayerHealth"
