@@ -214,4 +214,23 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
+	
+	"TurnOffMedigunNameDisclaimer"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TurnOffMedigunNameDisclaimer"
+		"font"			"FUTURA_BOLD_16"
+		"labelText"		"To turn off Medigun names please remove the slash in resource/chat_english.txt"
+		"textAlignment"	"center"
+		"xpos"		"10"
+		"ypos"		"400"
+		"wide"			"200"
+		"tall"			"100"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"fgcolor_override" "ZeesWhite"
+	}
 }
