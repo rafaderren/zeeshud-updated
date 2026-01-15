@@ -6,5 +6,6 @@
 
 #base "../../_zeeshud_base/supporters.res"
 #base "../../_zeeshud_base/menus/zh_options.res"
+#base "../../#customizations/addons/_enabled/refreshmainmenubutton/main_menu.res"
 #base "../../_zeeshud_base/menus/main_menu.res"
 
