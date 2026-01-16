@@ -652,12 +652,53 @@ Scheme
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
+				"range"		"0x0000 0x017F"
 			}
 			"2"
 			{
 				"name"			"futura_pt_bold"
 				"tall"			"12"
-				"range"			"0x0000 0x00FF"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"		"800"
+			}
+			"3"
+			{
+				"name"		"futura_pt_bold"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"futura_pt_bold"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"futura_pt_bold"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"futura_pt_bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"futura_pt_bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
 		}
@@ -729,7 +770,7 @@ Scheme
 			"5"
 			{
 				"name"			"futura_pt_bold"
-				"tall"			"22"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				// "yres"			"1200 6000"
@@ -782,7 +823,7 @@ Scheme
 			"5"
 			{
 				"name"			"futura_pt_bold"
-				"tall"			"16"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				// "yres"			"1200 6000"
@@ -828,7 +869,7 @@ Scheme
 			"5"
 			{
 				"name"			"futura_pt_bold"
-				"tall"			"30"
+				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 				// "yres"			"1200 6000"
@@ -908,9 +949,9 @@ Scheme
 			"5"
 			{
 				"name"			"futura_pt_bold"
-				"tall"			"24"
+				"tall"			"12"
 				"weight"		"700"
-				"yres"			"1200 10000"
+				"antialias"		"1"
 			}
 		}
 
@@ -955,11 +996,11 @@ Scheme
 			"5"
 			{
 				"name"			"futura_pt_bold"
-				"tall"			"52"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
-				"yres"			"1200 10000"
+				//"yres"			"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -1513,7 +1554,7 @@ Scheme
 			}
 		}
 
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{

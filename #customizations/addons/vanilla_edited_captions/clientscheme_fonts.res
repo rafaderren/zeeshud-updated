@@ -3,7 +3,7 @@ Scheme
 	Fonts
 	{
 
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
