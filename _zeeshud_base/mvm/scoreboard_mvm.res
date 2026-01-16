@@ -51,25 +51,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PlayerListBG"
-		"xpos"				"c-270"
+		"xpos"				"c-310"
 		"ypos"				"244"
 		"zpos"				"-1"
-		"wide"				"540"
-		"tall"				"175"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"TransparentBlack"
-		"PaintBackgroundType"	"0"
-	}
-	"PlayerListBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"PlayerListBG"
-		"xpos"				"c-270"
-		"ypos"				"244"
-		"zpos"				"-1"
-		"wide"				"540"
+		"wide"				"620"
 		"tall"				"175"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -78,13 +63,30 @@
 		"PaintBackgroundType"	"0"
 	}
 
+	// ???
+	// "PlayerListBG"
+	// {
+	// 	"ControlName"		"EditablePanel"
+	// 	"fieldName"			"PlayerListBG"
+	// 	"xpos"				"c-310"
+	// 	"ypos"				"244"
+	// 	"zpos"				"-1"
+	// 	"wide"				"620"
+	// 	"tall"				"175"
+	// 	"pinCorner"			"0"
+	// 	"visible"			"1"
+	// 	"enabled"			"1"
+	// 	"bgcolor_override"	"TransparentBlack"
+	// 	"PaintBackgroundType"	"0"
+	// }
+
 	"MvMPlayerList"
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"MvMPlayerList"
-		"xpos"				"c-260"
+		"xpos"				"c-300"
 		"ypos"				"248"
-		"wide"				"520"
+		"wide"				"600"
 		"tall"				"148"
 		"pinCorner"			"0"
 		"visible"			"1"

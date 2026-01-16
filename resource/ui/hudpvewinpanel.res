@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"90"
-		"image"			"../hud/tournament_panel_brown"
+		"image"			"replay/thumbnails/box_3_n"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		
@@ -32,7 +32,7 @@
 		"wide"			"300"
 		"tall"			"24"
 		"visible"		"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		
 		"WinningTeamLabelDropshadow"
 		{	
@@ -54,7 +54,7 @@
 			"brighttext"		"0"
 			
 			// blue Background
-			"PaintBackgroundType" "2"
+			"PaintBackgroundType" "0"
 			"fgcolor_override"	"black"		
 			"bgcolor_override"	"91 122 142 200"
 		}

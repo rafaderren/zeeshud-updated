@@ -12,7 +12,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"image"			"replay/thumbnails/box_3_n"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -30,7 +30,7 @@
 		"wide"			"250"
 		"tall"			"35"
 		"visible"		"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		
 		"WaveCompleteLabelShadow"
 		{
@@ -48,7 +48,7 @@
 			"fgcolor"		"black"		
 			
 			// Red Background
-			"PaintBackgroundType" "2"
+			"PaintBackgroundType" "0"
 			"fgcolor_override"	"black"		
 			"bgcolor_override"	"190 60 60 225"
 		}
