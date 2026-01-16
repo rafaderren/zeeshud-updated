@@ -47,6 +47,5 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"255 255 255 255"
 	}
 }
