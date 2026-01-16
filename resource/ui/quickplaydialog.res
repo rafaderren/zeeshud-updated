@@ -34,7 +34,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
+		"border"				"CyanBorderThick"
 
 		"Background"
 		{
@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
+			"bgcolor_override"	"DarkGrey"
 			"proportionalToParent"	"1"
 		}
 
@@ -729,13 +729,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			// "border_default"	"MainMenuButtonDefault"
+			// "border_armed"		"MainMenuButtonArmed"
+			// "paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			// "defaultFgColor_override" "46 43 42 255"
+			// "armedFgColor_override" "235 226 202 255"
+			// "depressedFgColor_override" "46 43 42 255"
 		}
 
 		"ShowServersButton"
@@ -762,13 +762,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			// "border_default"	"MainMenuButtonDefault"
+			// "border_armed"		"MainMenuButtonArmed"
+			// "paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			// "defaultFgColor_override" "46 43 42 255"
+			// "armedFgColor_override" "235 226 202 255"
+			// "depressedFgColor_override" "46 43 42 255"
 		}
 
 		"OptionsButton"
@@ -798,7 +798,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		
-			"image_drawcolor"	"235 226 202 255"
+			// "image_drawcolor"	"235 226 202 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -951,7 +951,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"1"
-				"fgcolor_override" "46 43 42 255"
+				// "fgcolor_override" "46 43 42 255"
 			}
 		
 			"TextLabel"

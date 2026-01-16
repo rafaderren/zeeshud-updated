@@ -46,13 +46,13 @@ Scheme
 		Button.DepressedTextColor				"TanLight"
 		Button.DepressedBgColor					"TanDark"
 
-		CheckButton.TextColor					"Yellow"
-		CheckButton.SelectedTextColor			"Yellow"
+		CheckButton.TextColor					"TanLight"
+		CheckButton.SelectedTextColor			"TanLight"
 		CheckButton.BgColor						"TransparentBlack"
-		CheckButton.Border1  					"Yellow"		// the left checkbutton border
-		CheckButton.Border2  					"Yellow"		// the right checkbutton border
-		CheckButton.Check						"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor			"Yellow"
+		CheckButton.Border1  					"TanLight"		// the left checkbutton border
+		CheckButton.Border2  					"TanLight"		// the right checkbutton border
+		CheckButton.Check						"TanLight"		// color of the check itself
+		CheckButton.HighlightFgColor			"TanLight"
 
 		ComboBoxButton.ArrowColor				"TanLight"
 		ComboBoxButton.ArmedArrowColor			"TanLight"
