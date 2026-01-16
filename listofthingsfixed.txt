@@ -39,7 +39,8 @@
 -updated the loading screen to look more lively
 -updated the map picture to look bigger
 -updated pre mym koth hud
--updated training selection background
+-updated training menu
+-updated quickplay menu (lol)
 -changed winpanel zpos from 1 to 100
 -changed arena winpanel zpos from 1 to 100
 -moved pd score to fit with the hud
