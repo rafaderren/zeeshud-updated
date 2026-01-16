@@ -2731,8 +2731,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
-				"tall"			"10"
+				"name"			"futura_pt_bold"
+				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
