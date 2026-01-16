@@ -961,7 +961,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/tournament_panel_brown"
+			"image"					"replay/thumbnails/box_3_n"
 			//"image"				"../hud/color_panel_browner"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -973,7 +973,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_brown_opaque"
+			"image"					"replay/thumbnails/box_3_n"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -984,7 +984,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_brown"
+			"image"					"replay/thumbnails/box_3_n"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -995,7 +995,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_red_opaque"
+			"image"					"replay/thumbnails/box_3_r"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1006,7 +1006,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_red_opaque"
+			"image"					"replay/thumbnails/box_3_r"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1017,7 +1017,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_red"
+			"image"					"replay/thumbnails/box_3_r"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1028,7 +1028,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_red_more_opaque"
+			"image"					"replay/thumbnails/box_3_r"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1039,7 +1039,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_blu"
+			"image"					"replay/thumbnails/box_3_b"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1050,7 +1050,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_blu_more_opaque"
+			"image"					"replay/thumbnails/box_3_b"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1061,7 +1061,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_blu_opaque"
+			"image"					"replay/thumbnails/box_3_b"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1072,7 +1072,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_clear"
+			"image"					"replay/thumbnails/box_3_n"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -1083,7 +1083,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_blu"
+			"image"					"replay/thumbnails/box_3_b"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
