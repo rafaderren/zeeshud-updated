@@ -728,14 +728,6 @@
 			"Command"		"playnow"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			// "border_default"	"MainMenuButtonDefault"
-			// "border_armed"		"MainMenuButtonArmed"
-			// "paintbackground"	"0"
-			
-			// "defaultFgColor_override" "46 43 42 255"
-			// "armedFgColor_override" "235 226 202 255"
-			// "depressedFgColor_override" "46 43 42 255"
 		}
 
 		"ShowServersButton"
@@ -761,14 +753,6 @@
 			"Command"		"show_servers"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			// "border_default"	"MainMenuButtonDefault"
-			// "border_armed"		"MainMenuButtonArmed"
-			// "paintbackground"	"0"
-			
-			// "defaultFgColor_override" "46 43 42 255"
-			// "armedFgColor_override" "235 226 202 255"
-			// "depressedFgColor_override" "46 43 42 255"
 		}
 
 		"OptionsButton"
@@ -797,8 +781,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		
-			// "image_drawcolor"	"235 226 202 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
