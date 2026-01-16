@@ -214,7 +214,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"80"
+		"xpos"			"150"
 		"ypos"			"r425"
 		"zpos"			"1"
 		"wide"			"170"
@@ -230,7 +230,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"210"
+		"xpos"			"280"
 		"ypos"			"r52"
 		"zpos"			"20"
 		"wide"			"15"
@@ -305,7 +305,7 @@
 		"xpos"			"-25"
 		"ypos"			"r55"
 		"zpos"			"1"
-		"wide"			"140"
+		"wide"			"500"
 		"tall"			"50"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
