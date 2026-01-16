@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"40 37 37 255"
+		// "bgcolor_override"	"40 37 37 255"
 	}
 	
 	"GradientPanel"
@@ -114,7 +114,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		// "fgcolor_override"	"246 237 211 255"
 	}
 	
 	"CurPageLabel"
@@ -135,7 +135,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		// "fgcolor_override"	"246 237 211 255"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"ButtonBorder"
 	}
@@ -162,14 +162,6 @@
 		"Command"			"startofflinepractice"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
 	}
 	
 	"DifficultyLabel"
@@ -188,7 +180,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		// "fgcolor_override"	"246 237 211 255"
 	}
 	
 	"DifficultyComboBox"
@@ -213,14 +205,14 @@
 		"unicode"			"0"
 		"textinsetx"		"50"
 		
-		"fgcolor_override"	"246 237 211 255"
-		"bgcolor_override"	"16 14 14 255"
+		// "fgcolor_override"	"246 237 211 255"
+		// "bgcolor_override"	"16 14 14 255"
 		
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "51 47 46 255"
-		"selectionColor_override" "51 47 46 255"
-		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "51 47 46 255"
+		// "disabledFgColor_override" "235 226 202 255"
+		// "disabledBgColor_override" "51 47 46 255"
+		// "selectionColor_override" "51 47 46 255"
+		// "selectionTextColor_override" "235 226 202 255"
+		// "defaultSelectionBG2Color_override" "51 47 46 255"
 	}
 	
 	"PlayersLabel"
@@ -239,7 +231,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		// "fgcolor_override"	"246 237 211 255"
 	}
 	
 	"NumPlayersTextEntry"
@@ -265,8 +257,8 @@
 		"NumericInputOnly"	"1"
 		"selectallonfirstfocus"	"1"
 		
-		"bgcolor_override"	"16 14 14 255"
-		"fgcolor_override"	"246 237 211 255"
+		// "bgcolor_override"	"16 14 14 255"
+		// "fgcolor_override"	"246 237 211 255"
 	}
 	
 	"SuggestedPlayerCountLabel"
@@ -286,6 +278,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"116 105 92 255"
+		// "fgcolor_override"	"116 105 92 255"
 	}
 }
