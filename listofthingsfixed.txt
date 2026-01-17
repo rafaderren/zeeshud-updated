@@ -57,6 +57,7 @@
 -changed low health indicator color to full red
 -updated the scoreboard to be bigger and able to show longer names
 -updated the rank panel to look bigger
+-updated classic style killstreak to use the actual old one
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -73,3 +74,9 @@
 -added custom animated character select as an addon
 -added streamer mode addon
 -added refresh main menu button addon (on the left of the refresh hud button)
+-added old zeeshud elements from the old alpha versions
+	- alpha 1 killcam
+	- alpha 2 menu
+	- alpha 3 menu
+	- alpha 4 old topbar
+	- alpha 1-3 team selection

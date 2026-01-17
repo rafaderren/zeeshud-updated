@@ -6,9 +6,9 @@
 		{
 			"visible"		"1"
 		}
-		// "BGPanel2"
-		// {
-		// 	"visible"		"1"
-		// }
+	}
+	"BGPanel2"
+	{
+		"visible"		"1"
 	}
 }

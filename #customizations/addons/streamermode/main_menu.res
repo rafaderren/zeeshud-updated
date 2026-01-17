@@ -16,6 +16,11 @@
 			"visible"		"0"
 		}
 	}
+	
+	"BGPanel2"
+	{
+		"visible"		"0"
+	}
 
 	"IDAvatarLabel"
 	{
