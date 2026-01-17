@@ -48,6 +48,7 @@
 	{
 		"ypos"			"r20"
 		"zpos"			"1"
+		"sound_released"	"UI/zeesastrous_jingle_old.wav"
 	}
 
 	//rank
