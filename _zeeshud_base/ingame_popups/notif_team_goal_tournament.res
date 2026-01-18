@@ -25,10 +25,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/color_panel_browner"
+			"image"			"replay/thumbnails/box_3_n_t"
 
-			"src_corner_height"	"23"			// pixels inside the image
-			"src_corner_width"	"23"
+			"src_corner_height"	"30"			// pixels inside the image
+			"src_corner_width"	"30"
 			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"
 		}
@@ -45,10 +45,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"image"			"../HUD/color_panel_browner"
+			"image"			"replay/thumbnails/box_3_n_t"
 
-			"src_corner_height"	"23"			// pixels inside the image
-			"src_corner_width"	"23"
+			"src_corner_height"	"30"			// pixels inside the image
+			"src_corner_width"	"30"
 			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"
 		}

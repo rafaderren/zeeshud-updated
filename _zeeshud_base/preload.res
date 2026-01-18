@@ -540,51 +540,51 @@
 	//		  		CTF ICONS
 	//
 	//=====================================
-	"ctf_moving"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ctf_moving"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_ico_flag_moving"
-	}
-	"ctf_moving_alt"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ctf_moving_alt"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_ico_flag_moving_alt"
-	}
-	"ctf_home"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ctf_home"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_ico_flag_home"
-	}
-	"ctf_home_alt"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ctf_home_alt"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_ico_flag_home_alt"
-	}
-	"ctf_dropped"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ctf_dropped"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_ico_flag_dropped"
-	}
+	// "ctf_moving"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"ctf_moving"
+	// 	"xpos"			"9999"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"../hud/objectives_flagpanel_ico_flag_moving"
+	// }
+	// "ctf_moving_alt"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"ctf_moving_alt"
+	// 	"xpos"			"9999"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"../hud/objectives_flagpanel_ico_flag_moving_alt"
+	// }
+	// "ctf_home"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"ctf_home"
+	// 	"xpos"			"9999"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"../hud/objectives_flagpanel_ico_flag_home"
+	// }
+	// "ctf_home_alt"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"ctf_home_alt"
+	// 	"xpos"			"9999"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"../hud/objectives_flagpanel_ico_flag_home_alt"
+	// }
+	// "ctf_dropped"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"ctf_dropped"
+	// 	"xpos"			"9999"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"../hud/objectives_flagpanel_ico_flag_dropped"
+	// }
 	"ctf_blue_arrow"
 	{
 		"ControlName"	"ImagePanel"
@@ -630,15 +630,15 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_compass_gray"
 	}
-	"ctf_gray_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ctf_gray_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_compass_gray_with_red"
-	}
+	// "ctf_gray_red"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"ctf_gray_red"
+	// 	"xpos"			"9999"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"../hud/objectives_flagpanel_compass_gray_with_red"
+	// }
 	
 	//=====================================
 	//
@@ -761,7 +761,132 @@
 		"enabled"		"1"
 		"image"			"../effects/soldier_buff_defense_red"
 	}
+
+	//=====================================
+	//
+	//		  	NOTIFICATION
+	//
+	//=====================================
 	
+	"notificationblack"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"notificationblack"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/notification_black"
+	}
+
+	"notificationpurple"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"notificationpurple"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/notification_purple"
+	}
+
+	"scorepanelblackbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelblackbg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_black_bg"
+	}
+
+	"scorepanelblackbgsecondary"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelblackbgsecondary"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_black_bg_secondary"
+	}
+
+	"scorepanelblackbglodef"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelblackbglodef"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_black_bg_lodef"
+	}
+
+	"scorepanelblackbgsolid"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelblackbgsolid"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_black_bg_solid"
+	}
+
+	"scorepanelredbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelredbg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_red_bg"
+	}
+
+	"scorepanelredbglodef"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelredbglodef"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_red_bg_lodef"
+	}
+
+	"scorepanelredbgsolid"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelredbgsolid"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_red_bg_solid"
+	}
+
+	"scorepanelbluebg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelbluebg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_blue_bg"
+	}
+
+	"scorepanelbluebglodef"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelbluebglodef"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_blue_bg_lodef"
+	}
+
+	"scorepanelbluebgsolid"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scorepanelbluebgsolid"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/score_panel_blue_bg_solid"
+	}
 	
 	//=====================================
 	//

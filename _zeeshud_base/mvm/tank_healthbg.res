@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/box_3_n"
+		"image"			"replay/thumbnails/box_3_n_t"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
