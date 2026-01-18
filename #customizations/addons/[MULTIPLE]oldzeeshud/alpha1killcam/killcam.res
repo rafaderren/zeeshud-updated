@@ -19,7 +19,6 @@
 			"tall"			"320"
 			"image"			"replay/thumbnails/killcam_bg_v1"
 			"scaleImage"		"1"
-            "drawcolor"		""
 		}
 
 		"FreezeLabel"
