@@ -13,14 +13,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
+		"image"			"replay/thumbnails/box_3_b"
+		"image_lodef"	"replay/thumbnails/box_3_b"
 		
-		"src_corner_height"		"23"			// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"src_corner_height"		"30"			// pixels inside the image
+		"src_corner_width"		"30"
+
+		"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"7"
 	}
 	"Background_Red"
 	{
@@ -35,14 +35,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
+		"image"			"replay/thumbnails/box_3_r"
+		"image_lodef"	"replay/thumbnails/box_3_r"
 		
-		"src_corner_height"		"23"			// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"30"			// pixels inside the image
+		"src_corner_width"		"30"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"7"
 	}
 
 	"AvatarBGPanel"
