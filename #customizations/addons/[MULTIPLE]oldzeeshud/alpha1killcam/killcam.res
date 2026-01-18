@@ -1,5 +1,10 @@
 "Resource/UI/FreezePanel_Basic.res"
 {
+	"itempanel"
+	{
+		"xpos"			"0"
+	}
+	
 	"FreezePanelBase"
 	{
 		"xpos"			"r320"

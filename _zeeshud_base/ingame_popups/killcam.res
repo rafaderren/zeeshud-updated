@@ -5,7 +5,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r240"
-		"ypos"			"r240"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"240"
 		"tall"			"160"
