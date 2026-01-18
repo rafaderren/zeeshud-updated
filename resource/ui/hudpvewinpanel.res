@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"90"
-		"image"			"replay/thumbnails/box_3_n"
+		"image"			"replay/thumbnails/box_3_n_t"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		
