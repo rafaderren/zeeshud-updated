@@ -1,3 +1,4 @@
+#base "../../../../cfg/creditszees.txt"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
