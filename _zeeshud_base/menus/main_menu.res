@@ -1274,10 +1274,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"-50"
+		"xpos"			"500"
 		"ypos"			"r77"
 		"zpos"			"1"
-		"wide"			"900"
+		"wide"			"350"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
