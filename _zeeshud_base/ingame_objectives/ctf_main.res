@@ -396,7 +396,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-28"
-		"ypos"			"r120"
+		"ypos"			"r95"
 		"zpos"			"5"
 		"wide"			"56"
 		"tall"			"56"
@@ -405,12 +405,12 @@
 
 		"if_hybrid"
 		{
-			"ypos"		"r120"
+			"ypos"		"r95"
 		}
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r120"
+			"ypos"		"r95"
 		}
 		
 	}
