@@ -34,6 +34,7 @@
 -fixed disguise menu toggle label being cut off
 -fixed casual prematch door red panel BG being missing
 -fixed item ad title font being cut off
+-potential fix to avoid centered meters being on top of everything
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
 -updated the loading screen to look more lively
@@ -65,6 +66,7 @@
 -updated the ctf compass textures to look less tf2 ish
 -updated non editablepanel borders
 -updated loading text
+-updated controller uis to be accurate
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
