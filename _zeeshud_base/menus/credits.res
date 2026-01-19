@@ -202,22 +202,22 @@
 			"fgcolor_override"	"ZeesWhite"
 			"wrap"			"1"
 		}
+	}
 
-
-		"CloseButton"
-		{
+	"CloseButton"
+	{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"CloseButton"
 			"xpos"		"20"
 			"ypos"		"450"
-			"zpos"		"2"
+			"zpos"		"1008"
 			"wide"		"90"
 			"tall"		"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"		"FUTURA_BOLD_20"
 			"paintbackground"	"0"
-			"command"			"engine CreditsMenuOff"
+			"command"		"engine CreditsMenuOff"
 			"labelText"			"EXIT CREDITS"
 			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
@@ -230,11 +230,5 @@
 
 			"defaultFgColor_override" 	"ZeesWhite"
 			"armedFgColor_override" 	"ZeesBlack"
-			
-			"pin_to_sibling" "ButtonAnchor"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
-			
-		}
 	}
 } 
