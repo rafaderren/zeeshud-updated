@@ -303,9 +303,25 @@
 	
 	
 	//DONE
+	// "TFLogoImage"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"TFLogoImage"
+	// 	"xpos"			"0"
+	// 	"ypos"			"25"
+	// 	"zpos"			"0"
+	// 	"wide"			"180"
+	// 	"tall"			"90"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"replay/thumbnails/menu/logo"
+	// 	"scaleImage"	"1"
+		
+	// }
+
 	"TFLogoImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -314,9 +330,28 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/logo"
-		"scaleImage"	"1"
-		
+		// "scaleImage"	"1"
+		"command"		"engine CreditsMenuOn"
+		"labeltext"			""
+		"sound_depressed"	""
+		"sound_released"	""
+		"sound_armed"		""
+		"paintbackground"	"0"
+		"border_default"	""
+		"border_armed"		""
+		"image_default"		"replay/thumbnails/menu/logo"
+		"image_armed"		"replay/thumbnails/menu/logo_hover"
+		"SubImage"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "SubImage"
+			"xpos" "0"
+			"ypos" "0"
+			"wide" "f0"
+			"tall" "f0"
+			"proportionaltoparent" "1"
+			"scaleimage" "1"
+		}
 	}
 
 	"TFCharacterImage"
@@ -1284,7 +1319,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"ZeesHUD Updated BETA (linux-fix)"
+		"labelText"		"ZeesHUD Updated BETA"
 		"font"			"FUTURA_BOLD_16"
 		"textAlignment"	"east"
 		"textinsetx"	"0"
