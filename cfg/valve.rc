@@ -8,6 +8,8 @@ exec joystick.cfg
 // run a user script file if present
 exec autoexec.cfg
 
+exec menu.cfg
+
 //
 // stuff command line statements
 //
