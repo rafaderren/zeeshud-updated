@@ -16,7 +16,7 @@
 	
 	"speedometer"
 	{
-		"xpos"				"468"
+		"xpos"				"c43"
 		"ypos"				"226"
 	}
 	
