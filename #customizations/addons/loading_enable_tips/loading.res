@@ -31,4 +31,22 @@
 		"enabled"		"1"
 		"wrap"			"1"
 	}
+	"TipBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TipBackground"
+		"xpos"				"c-300"
+		"ypos"				"397"
+		"wide"				"420"
+		"tall"				"78"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+
+		"paintbackgroundtype"	"0"
+		"settitlebarvisible"	"0"
+		"border"				"ZeesBorderWhiteOpaque"
+	}
 }
