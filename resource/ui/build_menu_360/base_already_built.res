@@ -1,6 +1,16 @@
-#base "../build_menu/base_already_built.res"
-
 "Resource/UI/build_menu/base_already_built.res"
 {
+	"NumberBg"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+	}
 
+	"NumberLabel"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+	}
 }
+
+#base "../build_menu/base_already_built.res"
