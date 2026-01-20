@@ -886,11 +886,11 @@
 		"fieldName" 		"HudMenuEngyBuild"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-200"
+		"xpos"				"c-225"
 		"ypos"				"c-80"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"160"
+		"wide"			"450"
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -899,11 +899,11 @@
 		"fieldName" 		"HudMenuEngyDestroy"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-200"
+		"xpos"				"c-225"
 		"ypos"				"c-80"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"160"
+		"wide"			"450"
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
 
