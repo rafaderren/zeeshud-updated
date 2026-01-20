@@ -12,12 +12,6 @@
 		"enabled"			"0"
 	}
 	
-	"TauntModelPanel1"
-	{
-		"xpos"			"21"
-		"ypos"			"80"
-	}
-	
 	"NumberBg1"
 	{
 		"visible" 			"0"
@@ -28,12 +22,6 @@
 	{
 		"visible" 			"0"
 		"enabled"			"0"
-	}
-
-	"TauntModelPanel2"
-	{
-		"xpos"			"75"
-		"ypos"			"80"
 	}
 	
 	"NumberBg2"
@@ -46,12 +34,6 @@
 	{
 		"visible" 			"0"
 		"enabled"			"0"
-	}
-
-	"TauntModelPanel3"
-	{
-		"xpos"			"129"
-		"ypos"			"80"
 	}
 	
 	"NumberBg3"
@@ -66,12 +48,6 @@
 		"enabled"			"0"
 	}
 
-	"TauntModelPanel4"
-	{
-		"xpos"			"183"
-		"ypos"			"80"
-	}
-	
 	"NumberBg4"
 	{
 		"visible" 			"0"
@@ -84,11 +60,6 @@
 		"enabled"			"0"
 	}
 
-	"TauntModelPanel5"
-	{
-		"ypos"			"80"
-	}
-	
 	"NumberBg5"
 	{
 		"visible" 			"0"
@@ -99,12 +70,6 @@
 	{
 		"visible" 			"0"
 		"enabled"			"0"
-	}
-
-	"TauntModelPanel6"
-	{
-		"xpos"			"291"
-		"ypos"			"80"
 	}
 	
 	"NumberBg6"
@@ -119,11 +84,6 @@
 		"enabled"			"0"
 	}
 
-	"TauntModelPanel7"
-	{
-		"xpos"			"345"
-		"ypos"			"80"
-	}
 	
 	"NumberBg7"
 	{
@@ -137,11 +97,6 @@
 		"enabled"			"0"
 	}
 
-	"TauntModelPanel8"
-	{
-		"xpos"			"393"
-		"ypos"			"80"
-	}
 	
 	"NumberBg8"
 	{
