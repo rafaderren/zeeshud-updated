@@ -388,82 +388,6 @@
 		"image"			"../sprites/obj_icons/icon_obj_white"
 	}
 
-	"cpicona"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpicona"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_a"
-	}
-
-	"cpiconb"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconb"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_b"
-	}
-
-	"cpiconc"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconc"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_c"
-	}
-
-	"cpicond"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpicond"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_d"
-	}
-
-	"cpicone"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpicone"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_e"
-	}
-	"cpcapblu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpcapblu"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
-	}
-	"cpcapred"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpcapred"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_red"
-	}
-	"cpcapmask"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpcapmask"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
-	}
 	"iconobjskullneutral"
 	{
 		"ControlName"	"ImagePanel"
@@ -540,51 +464,6 @@
 	//		  		CTF ICONS
 	//
 	//=====================================
-	// "ctf_moving"
-	// {
-	// 	"ControlName"	"ImagePanel"
-	// 	"fieldName"		"ctf_moving"
-	// 	"xpos"			"9999"
-	// 	"visible"		"1"
-	// 	"enabled"		"1"
-	// 	"image"			"../hud/objectives_flagpanel_ico_flag_moving"
-	// }
-	// "ctf_moving_alt"
-	// {
-	// 	"ControlName"	"ImagePanel"
-	// 	"fieldName"		"ctf_moving_alt"
-	// 	"xpos"			"9999"
-	// 	"visible"		"1"
-	// 	"enabled"		"1"
-	// 	"image"			"../hud/objectives_flagpanel_ico_flag_moving_alt"
-	// }
-	// "ctf_home"
-	// {
-	// 	"ControlName"	"ImagePanel"
-	// 	"fieldName"		"ctf_home"
-	// 	"xpos"			"9999"
-	// 	"visible"		"1"
-	// 	"enabled"		"1"
-	// 	"image"			"../hud/objectives_flagpanel_ico_flag_home"
-	// }
-	// "ctf_home_alt"
-	// {
-	// 	"ControlName"	"ImagePanel"
-	// 	"fieldName"		"ctf_home_alt"
-	// 	"xpos"			"9999"
-	// 	"visible"		"1"
-	// 	"enabled"		"1"
-	// 	"image"			"../hud/objectives_flagpanel_ico_flag_home_alt"
-	// }
-	// "ctf_dropped"
-	// {
-	// 	"ControlName"	"ImagePanel"
-	// 	"fieldName"		"ctf_dropped"
-	// 	"xpos"			"9999"
-	// 	"visible"		"1"
-	// 	"enabled"		"1"
-	// 	"image"			"../hud/objectives_flagpanel_ico_flag_dropped"
-	// }
 	"ctf_blue_arrow"
 	{
 		"ControlName"	"ImagePanel"
@@ -630,16 +509,6 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_compass_gray"
 	}
-	// "ctf_gray_red"
-	// {
-	// 	"ControlName"	"ImagePanel"
-	// 	"fieldName"		"ctf_gray_red"
-	// 	"xpos"			"9999"
-	// 	"visible"		"1"
-	// 	"enabled"		"1"
-	// 	"image"			"../hud/objectives_flagpanel_compass_gray_with_red"
-	// }
-	
 	//=====================================
 	//
 	//			VACCINATOR ICONS
