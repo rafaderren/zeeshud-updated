@@ -56,7 +56,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"SMB2_10"
+		"font"				"FUTURA_BOLD_10"
 		"fgcolor"			"ZeesRed"
 		"xpos"				"5"
 		"ypos"				"3"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"SMB2_10"
+		"font"				"FUTURA_BOLD_10"
 		"fgcolor"			"ZeesRed"
 		"xpos"				"5"
 		"ypos"				"3"
