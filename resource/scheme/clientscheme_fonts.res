@@ -3112,6 +3112,7 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -3327,5 +3328,13 @@ Scheme
 			"font"	"resource/fonts/AdobeBlank.ttf"
 			"name"	"Adobe Blank"
 		}
+		"14"		"resource/linux_fonts/DejaVuSans.ttf"
+		"15"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"16"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"17"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"18"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"19"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"20"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"21"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
