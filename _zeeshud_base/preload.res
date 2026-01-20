@@ -509,66 +509,6 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_compass_gray"
 	}
-	//=====================================
-	//
-	//			VACCINATOR ICONS
-	//
-	//=====================================
-	
-	"def_buff_b_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"def_buff_b_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/defense_buff_bullet_red"
-	}
-	"def_buff_b_blu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"def_buff_b_blu"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/defense_buff_bullet_blue"
-	}
-	"def_buff_e_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"def_buff_e_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/defense_buff_explosion_red"
-	}
-	"def_buff_e_blu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"def_buff_e_blu"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/defense_buff_explosion_blue"
-	}
-	"def_buff_e_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"def_buff_f_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/defense_buff_fire_red"
-	}
-	"def_buff_e_blu"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"def_buff_f_blu"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/defense_buff_fire_blue"
-	}
 	
 	//=====================================
 	//
