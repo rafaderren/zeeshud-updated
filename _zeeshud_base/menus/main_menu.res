@@ -335,7 +335,7 @@
 		"labeltext"			""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_armed"		""
 		"paintbackground"	"0"
 		"border_default"	""
 		"border_armed"		""
