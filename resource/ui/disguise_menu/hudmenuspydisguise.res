@@ -21,7 +21,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"font"				"FUTURA_BOLD_10"
-		"xpos"				"3"
+		"xpos"				"328"
 		"ypos"				"1"
 		"zpos"				"3"
 		"wide"				"100"
@@ -43,7 +43,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ToggleLabel"
 		"font"				"TextTooltipFont"
-		"xpos"				"-15"
+		"xpos"				"310"
 		"ypos"				"165"
 		"zpos"				"2"
 		"wide"				"200"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_1"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"12"
 		"zpos"				"2"
 		"wide"				"80"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_1"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"12"
 		"zpos"				"2"
 		"wide"				"80"
@@ -107,7 +107,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_2"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"27"
 		"zpos"				"2"
 		"wide"				"80"
@@ -119,7 +119,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_2"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"27"
 		"zpos"				"2"
 		"wide"				"80"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_3"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"42"
 		"zpos"				"2"
 		"wide"				"80"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_3"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"42"
 		"zpos"				"2"
 		"wide"				"80"
@@ -155,7 +155,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_4"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"60"
 		"zpos"				"2"
 		"wide"				"80"
@@ -167,7 +167,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_4"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"60"
 		"zpos"				"2"
 		"wide"				"80"
@@ -179,7 +179,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_5"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"75"
 		"zpos"				"2"
 		"wide"				"80"
@@ -191,7 +191,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_5"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"75"
 		"zpos"				"2"
 		"wide"				"80"
@@ -203,7 +203,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_6"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"90"
 		"zpos"				"2"
 		"wide"				"80"
@@ -215,7 +215,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_6"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"90"
 		"zpos"				"2"
 		"wide"				"80"
@@ -227,7 +227,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_7"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"110"
 		"zpos"				"2"
 		"wide"				"80"
@@ -239,7 +239,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_7"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"110"
 		"zpos"				"2"
 		"wide"				"80"
@@ -251,7 +251,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_8"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"125"
 		"zpos"				"2"
 		"wide"				"80"
@@ -263,7 +263,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_8"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"125"
 		"zpos"				"2"
 		"wide"				"80"
@@ -275,7 +275,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_red_9"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"140"
 		"zpos"				"2"
 		"wide"				"80"
@@ -287,7 +287,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"class_item_blue_9"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"140"
 		"zpos"				"2"
 		"wide"				"80"
@@ -317,7 +317,7 @@
 		"fieldName"			"NumberLabel"
 		"font"				"FUTURA_BOLD_12"
 		"fgcolor"			"ZeesWhite"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"30"
 		"zpos"				"5"
 		"wide"				"15"
@@ -354,7 +354,7 @@
 		"fieldName"			"NumberLabel"
 		"font"				"FUTURA_BOLD_12"
 		"fgcolor"			"ZeesWhite"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"80"
 		"zpos"				"5"
 		"wide"				"15"
@@ -391,7 +391,7 @@
 		"fieldName"			"NumberLabel"
 		"font"				"FUTURA_BOLD_12"
 		"fgcolor"			"ZeesWhite"
-		"xpos"				"10"
+		"xpos"				"335"
 		"ypos"				"130"
 		"zpos"				"5"
 		"wide"				"15"
@@ -410,7 +410,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"MenuBG"
-		"xpos"				"0"
+		"xpos"				"325"
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"100"
