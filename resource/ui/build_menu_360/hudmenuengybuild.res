@@ -118,7 +118,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintIcon"
 		"font"			"GameUIButtons"
-		"xpos"			"220"			// align me to the left edge of the first selection
+		"xpos"			"180"			// align me to the left edge of the first selection
 		"ypos"			"152"
 		"zpos"			"1"
 		"wide"			"300"
@@ -138,7 +138,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintLabel_Bright"
 		"font"			"ControllerHintText"
-		"xpos"			"240"			// align me to the left edge of the first selection
+		"xpos"			"200"			// align me to the left edge of the first selection
 		"ypos"			"151"
 		"zpos"			"1"
 		"wide"			"300"
@@ -159,7 +159,7 @@
 		"fieldName"		"DestroyHintLabel_Dim"
 		"font"			"ControllerHintText"
 		"fgcolor"		"TanDark"
-		"xpos"			"240"			// align me to the left edge of the first selection
+		"xpos"			"200"			// align me to the left edge of the first selection
 		"ypos"			"151"
 		"zpos"			"1"
 		"wide"			"300"
