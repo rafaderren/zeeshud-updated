@@ -577,7 +577,7 @@
 		"font"			"ScoreboardMedium"
 		"labelText"		"%playername%"
 		"textAlignment"	"east"
-		"xpos"			"-9340"
+		"xpos"			"r10200"
 		"ypos"			"r130"
 		"zpos"			"3"
 		"wide"			"9999"

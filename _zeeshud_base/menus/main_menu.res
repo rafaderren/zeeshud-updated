@@ -1309,7 +1309,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"500"
+		"xpos"			"r350"
 		"ypos"			"r77"
 		"zpos"			"1"
 		"wide"			"350"

@@ -7,7 +7,7 @@
 		"controlName"		"ImagePanel"
 		"fieldName"			"speedometer"
 		"zpos"				"-100"
-		"xpos"				"425"
+		"xpos"				"c0"
 		"ypos"				"231"
 		"wide"				"50"
 		"tall"				"12"
