@@ -912,11 +912,15 @@
 		"fieldName" 		"HudEurekaEffectTeleportMenu"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-105"
+		// "xpos"				"c-105"
 		"ypos"				"c-75"
 		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"150"
+		// "wide"				"200"
+		// "tall"				"150"
+		"xpos"			"c-125"
+		// "ypos"			"c-55"
+		"wide"			"250"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 

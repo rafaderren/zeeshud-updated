@@ -6,12 +6,6 @@
 		"enabled"			"0"
 	}
 
-	"NumberBg"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-	}
-
 	"NumberLabel"
 	{
 		"visible"			"0"
