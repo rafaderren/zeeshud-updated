@@ -9,10 +9,11 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"330"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"DarkGrey"
 		"settitlebarvisible"	""
-		"border"				"GrayDialogBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"border"				"CyanBorderThick"
 		
 		"button_kv"
 		{
@@ -341,10 +342,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TanDarker"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 
 	"VerticalLine"
@@ -370,10 +371,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TanDarker"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 
 	"CancelButton"

@@ -9,10 +9,11 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"DarkGrey"
 		"settitlebarvisible"	""
-		"border"				"GrayDialogBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"border"				"CyanBorderThick"
 		
 		"button_kv"
 		{
