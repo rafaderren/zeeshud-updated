@@ -43,7 +43,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"CONATECH v2.8"
+		"labelText"			"CONATECH v2.9"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
