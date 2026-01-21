@@ -31,13 +31,34 @@
 		"iconColor"			"White"
 	}
 
+	"WindowLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"WindowLabel"
+		"font"				"FUTURA_BOLD_12"
+		"xpos"				"24"
+		"ypos"				"2"
+		"zpos"				"2"
+		"wide"				"380"
+		"tall"				"10"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"CONATECH v2.9"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor"			"ZeesBlack"
+	}
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"Cerbetica28"
-		"xpos"				"10"
-		"ypos"				"0"
+		"font"				"FUTURA_BOLD_24"
+		"xpos"				"28"
+		"ypos"				"13"
 		"zpos"				"2"
 		"wide"				"380"
 		"tall"				"25"
@@ -55,7 +76,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"Cerbetica28"
+		"font"				"FUTURA_BOLD_24"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -100,7 +121,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"available_target_1"
-		"xpos"				"0"
+		"xpos"				"20"
 		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"100"
@@ -112,7 +133,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"available_target_2"
-		"xpos"				"100"
+		"xpos"				"120"
 		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"100"
@@ -124,7 +145,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"unavailable_target_1"
-		"xpos"				"0"
+		"xpos"				"20"
 		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"100"
@@ -136,7 +157,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"unavailable_target_2"
-		"xpos"				"100"
+		"xpos"				"120"
 		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"100"
@@ -146,16 +167,24 @@
 
 	"MenuBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"			"MenuBG"
-		"xpos"				"0"
-		"ypos"				"20"
+		"xpos"				"20"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"200"
-		"tall"				"120"
+		"tall"				"140"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"TransparentBlack"
-		"PaintBackgroundType"	"2"
+		"image"			"replay/thumbnails/box_engie_neutral_trans"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_engie_neutral_trans"
+		"teambg_3"		"replay/thumbnails/box_engie_neutral_trans"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"85"
+		"src_corner_width"		"85"
+		"draw_corner_width"		"40"
+		"draw_corner_height" 	"40"
 	}
 }
