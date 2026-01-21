@@ -164,10 +164,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TextColor"
+		"panel_bgcolor" "TanDarker"
 		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"image_indent"			"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage2"
 	{
@@ -180,10 +180,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TextColor"
+		"panel_bgcolor" "TanDarker"
 		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"image_indent"			"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage3"
 	{
@@ -196,10 +196,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TextColor"
+		"panel_bgcolor" "TanDarker"
 		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"image_indent"			"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage4"
 	{
@@ -212,10 +212,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TextColor"
+		"panel_bgcolor" "TanDarker"
 		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"image_indent"			"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage5"
 	{
@@ -228,10 +228,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TextColor"
+		"panel_bgcolor" "TanDarker"
 		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"image_indent"			"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage6"
 	{
@@ -244,10 +244,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TextColor"
+		"panel_bgcolor" "TanDarker"
 		"panel_bgcolor_mouseover" "White"
-		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"image_indent"			"2"
+		"PaintBackgroundType"	"0"
 	}
 
 	"IconsMoveLeftButton"
