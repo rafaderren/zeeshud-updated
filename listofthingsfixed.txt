@@ -70,7 +70,8 @@
 -updated non editablepanel borders
 -updated loading text
 -updated disguise and building ui to have controller support (currently xbox 360 ui)
--updated a few controller exclusive HUD elements (not finished)
+-updated controller exclusive HUD elements (WIP)
+-updated gamepad icons
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -94,4 +95,5 @@
 	- alpha 4 old topbar
 	- old team selection
 	- old loading screen
--added a fully custom credits menu (crayon)
+-added a fully custom credits menu
+-added 4:3 adjustment addon
