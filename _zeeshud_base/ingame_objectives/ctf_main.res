@@ -410,7 +410,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r95"
+			"ypos"		"r85"
 		}
 		
 	}
