@@ -77,6 +77,7 @@
 -updated tc_hydro capture status ui
 -updated select player ui's (duel, choose coach, etc)
 -updated class preview buttons to have consistent look
+-updated hitmans hitmaker default meter to use big meter
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds

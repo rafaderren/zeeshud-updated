@@ -1,4 +1,4 @@
-#base "meter_cleaver.res"
+#base "meter_big.res"
 
 "Resource/UI/HudItemEffectMeter_SniperFocus.res"
 {
