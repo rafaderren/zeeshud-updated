@@ -37,6 +37,7 @@
 		"fieldName"			"TipBackground"
 		"xpos"				"c-300"
 		"ypos"				"397"
+		"zpos"				"11"
 		"wide"				"420"
 		"tall"				"78"
 		"autoResize"		"0"
