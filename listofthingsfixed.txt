@@ -75,6 +75,8 @@
 -updated pass time ui
 -updated player destruction ui
 -updated tc_hydro capture status ui
+-updated select player ui's (duel, choose coach, etc)
+-updated class preview buttons to have consistent look
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -100,3 +102,7 @@
 	- old loading screen
 -added a fully custom credits menu
 -added 4:3 adjustment addon
+
+-removed mod_textures.res to avoid new killicons from being unregistered
+-removed unused hud files
+-removed centered meters from the default addons
