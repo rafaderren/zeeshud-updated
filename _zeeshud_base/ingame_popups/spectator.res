@@ -1,3 +1,4 @@
+#base ../../resource/ui/hudinspectpanel.res
 "Resource/UI/Spectator.res"
 {
 	"Spectator"
@@ -154,87 +155,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"9999"
-	}
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"r240"
-		"ypos"			"r100"
-		"zpos"			"10"
-		"wide"			"240"
-		"tall"			"100"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"paintbackground"		"1"
-		"PaintBackgroundType"	"0"
-
-		"model_ypos"		"20"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
-
-		"text_xpos"			"10"
-		"text_ypos"			"10"
-		"text_wide"			"220"
-		"text_center"		"1"
-
-		"max_text_height"	"100"
-		"padding_height"	"10"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-
-		"ItemBG"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"240"
-			"tall"			"900"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"				"replay/thumbnails/box_3_n_t"
-			"scaleImage"		"1"
-			"teambg_1"			"replay/thumbnails/box_3_n_t"
-			"teambg_2"			"replay/thumbnails/box_3_n_t"
-			"teambg_3"			"replay/thumbnails/box_3_n_t"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"10"
-			"draw_corner_height" 	"10"
-		}
-
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"	"1"
-			"inventory_image_type"	"1"
-		}
-
-		"ItemLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
 	}
 
 	"spectator_extras"

@@ -1,100 +1,10 @@
+#base ../../resource/ui/hudinspectpanel.res
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"itempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
 		"xpos"			"r240"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"240"
-		"tall"			"160"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"model_ypos"		"20"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
-
-		"text_xpos"			"10"
-		"text_ypos"			"10"
-		"text_wide"			"220"
-		"text_center"		"1"
-
-		"max_text_height"	"100"
-		"padding_height"	"10"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-
-		"ItemBackground"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"ItemBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"240"
-			"tall"			"900"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"image"				"replay/thumbnails/box_3_n"
-			"scaleImage"		"1"
-			"teambg_1"			"replay/thumbnails/box_3_n"
-			"teambg_2"			"replay/thumbnails/box_3_r"
-			"teambg_3"			"replay/thumbnails/box_3_b"
-			"alpha"				"255"
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
-		}
-
-		// "TitleBackground"
-		// {
-			// "ControlName"	"ImagePanel"
-			// "fieldName"		"TitleBackground"
-			// "xpos"			"4"
-			// "ypos"			"4"
-			// "zpos"			"-1"
-			// "wide"			"232"
-			// "tall"			"14"
-			// "autoResize"	"0"
-			// "pinCorner"		"0"
-			// "visible"		"1"
-			// "enabled"		"1"
-		// }
-
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"			"1"
-			"inventory_image_type"	"1"
-		}
-
-		"ItemLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmall"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
+		"ypos"			"r240"
 	}
 
 	"FreezePanelBase"
