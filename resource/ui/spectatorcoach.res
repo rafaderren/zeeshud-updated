@@ -1,4 +1,4 @@
-#base "../../#customizations/addons/_enabled/streamermode/nobase/spectatorcoach.res"
+#base "../../#customizations/addons/_enabled/streamer_mode/nobase/spectatorcoach.res"
 #base ../../resource/ui/hudinspectpanel.res
 "Resource/UI/SpectatorCoach.res"
 {
