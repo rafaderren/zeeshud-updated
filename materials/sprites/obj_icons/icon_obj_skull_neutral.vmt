@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "sprites\obj_icons/icon_obj_skull_neutral"
+	"$baseTexture" "vgui\replay\thumbnails\cp_icons/icon_obj_skull_neutral"
     "$translucent" 1
     "$vertexcolor" 1
     "$no_fullbright" 1
