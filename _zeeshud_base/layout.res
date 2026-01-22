@@ -1047,7 +1047,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-44"
-		"ypos"				"27"
+		"ypos"				"40"
 		"zpos"				"0"
 		"wide"				"80"
 		"tall"				"15"
