@@ -3,7 +3,7 @@
 	"MapInfoWatchIntro"
 	{
 		"xpos"			"c-120"
-		"ypos"			"c126"
+		"ypos"			"c156"
 		"zpos"			"6"
 		"wide"			"240"
 		"tall"			"30"
@@ -25,10 +25,5 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
-	}
-
-	"MapInfoBack"
-	{
-		"ypos"			"c156"
 	}
 }
