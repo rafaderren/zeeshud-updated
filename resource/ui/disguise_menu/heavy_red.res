@@ -12,7 +12,7 @@
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#TF_Class_Name_HWGuy"
 		"fgcolor"			"ZeesRed"
