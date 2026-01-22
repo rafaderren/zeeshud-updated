@@ -4,9 +4,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CapCountdownLabel"
-		"font"			"SMB_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-10"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"30"
