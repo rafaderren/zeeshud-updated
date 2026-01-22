@@ -351,7 +351,7 @@
             {
                 "ControlName"	"CTFImagePanel"
                 "fieldName"		"BGRed"
-                "xpos"			"r705"
+                "xpos"			"151"
                 "ypos"			"23"
                 "zpos"			"0"
                 "wide"			"145"
@@ -372,7 +372,7 @@
             {
                 "ControlName"	"CTFImagePanel"
                 "fieldName"		"BGEscrowRed"
-                "xpos"			"r632"
+                "xpos"			"224"
                 "ypos"			"1"
                 "zpos"			"-1"
                 "wide"			"70"
