@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
-		"font"				"SMB2_8"
+		"font"				"FUTURA_BOLD_10"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"1"
