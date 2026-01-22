@@ -89,7 +89,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"9"
+		"wide"			"15"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -98,7 +98,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"SMB_8"
+		"font"			"FUTURA_BOLD_10"
 	}
 
 	"CPTimerBG"
