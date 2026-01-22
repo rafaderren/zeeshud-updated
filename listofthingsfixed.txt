@@ -114,3 +114,4 @@
 -removed unused hud files
 -removed centered meters from the default addons
 -removed centered metals from the default addons
+-removed alt fonts from the default addons
