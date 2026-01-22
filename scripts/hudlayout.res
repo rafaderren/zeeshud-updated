@@ -1,4 +1,4 @@
-#base "../#customizations/addons/_enabled/streamermode/layout.res"
+#base "../#customizations/addons/_enabled/streamer_mode/layout.res"
 #base "../#customizations/crosshairs.res"
 #base "../#customizations/hitmarker.res"
 #base "../#customizations/transparent_viewmodel.res"
