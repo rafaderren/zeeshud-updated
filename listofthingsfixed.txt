@@ -83,7 +83,7 @@
 -updated hitmans hitmaker default meter to use big meter
 -updated inspect weapon ui to be shared for consistency
 -updated capture point timer to look less tf2 ish
--updated stopwatch position to be more visible
+-updated stopwatch to be in style
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
