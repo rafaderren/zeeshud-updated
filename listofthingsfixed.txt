@@ -39,7 +39,6 @@
 -fixed checkbox text using the default tf2 text color
 -fixed ad font being cut off
 -fixed koth timer countdown using outdated font
--fixed both team names overlapping together
 -fixed map vote result being off center
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
@@ -72,7 +71,6 @@
 -updated the ctf compass textures to look less tf2 ish
 -updated non editablepanel borders
 -updated loading text
--updated disguise and building ui to have controller support (currently xbox 360 ui)
 -updated controller exclusive HUD elements (WIP)
 -updated gamepad icons
 -updated pass time ui
@@ -110,6 +108,7 @@
 -added a fully custom credits menu
 -added 4:3 adjustment addon
 -added motd movie addon
+-added centered labels subaddon for centered meters addons
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
