@@ -398,6 +398,16 @@
 		"image"			"../sprites/obj_icons/icon_obj_skull_neutral"
 	}
 	
+	"iconobjtimer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"iconobjtimer"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_timer"
+	}
+	
 	//=====================================
 	//
 	//			PAYLOAD ICONS
