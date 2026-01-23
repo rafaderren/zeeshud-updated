@@ -1,0 +1,19 @@
+{
+    "meters_centered": {
+        "name": "Centered Meters",
+        "description": "Meters are centered instead of being in the bottom right",
+        "version": 1.0,
+        "isfromupdated": false,
+        "ismultiple": true,
+        "issubaddon": false,
+        "subaddons": [
+            "centered_labels"
+        ],
+        "conflicts":[
+            "health-ammo-style_ut"
+        ],
+        "previews": [
+            "preview.png"
+        ]
+    }
+}

@@ -108,6 +108,7 @@
 -added a fully custom credits menu
 -added 4:3 adjustment addon
 -added motd movie addon
+-added centered labels subaddon for centered meters addons
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files

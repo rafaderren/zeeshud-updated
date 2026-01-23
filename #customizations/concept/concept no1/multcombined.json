@@ -1,0 +1,90 @@
+{
+    "meters_centered": {
+        "name": "Old ZeesHUD Elements",
+        "description": "Restores old ZeesHUD elements from previous Alpha Versions.",
+        "version": 1.0,
+        "isfromupdated": false,
+        "ismultiple": true,
+        "issubaddon": false,
+        "subaddons": [
+            {"oldtimepanel": {
+                "name": "Alpha 4 Old Time Panel",
+                "description": "Restores Alpha 4 Old Time Panel.",
+                "version": 1.0,
+                "ismultiple": false,
+                "issubaddon": true,
+                "conflicts":[
+                ],
+                "previews": [
+                    "preview1.png"
+                ]
+            },
+            "oldteamselection": {
+                "name": "Old Team Selection",
+                "description": "Restores old team selection seen in alpha 1-3.",
+                "version": 1.0,
+                "ismultiple": false,
+                "issubaddon": true,
+                "conflicts":[
+                ],
+                "previews": [
+                    "preview1.mp4"
+                ]
+            },
+            "oldloadingscreen": {
+                "name": "Old Loading Screen",
+                "description": "Restores old loading screen seen in alpha 1-2.",
+                "version": 1.0,
+                "ismultiple": false,
+                "issubaddon": true,
+                "conflicts":[
+                ],
+                "previews": [
+                    "preview1.png"
+                ]
+            },
+            "alpha3menu": {
+                "name": "Alpha 3 Main Menu",
+                "description": "Restores Alpha 3 main menu.",
+                "version": 1.0,
+                "ismultiple": false,
+                "issubaddon": true,
+                "conflicts":[
+                    "alpha2menu"
+                ],
+                "previews": [
+                    "preview1.png"
+                ]
+            },
+            "alpha2menu": {
+                "name": "Alpha 2 Main Menu",
+                "description": "Restores Alpha 2 main menu.",
+                "version": 1.0,
+                "ismultiple": false,
+                "issubaddon": true,
+                "conflicts":[
+                    "alpha3menu"
+                ],
+                "previews": [
+                    "preview1.png"
+                ]
+            },
+            "alpha1killcam": {
+                "name": "Alpha 1 Killcam",
+                "description": "Restores Alpha 1 killcam.",
+                "version": 1.0,
+                "ismultiple": false,
+                "issubaddon": true,
+                "conflicts":[
+                ],
+                "previews": [
+                    "preview1.png"
+                ]
+            }
+        }],
+        "conflicts":[
+        ],
+        "previews": [
+        ]
+    }
+}
