@@ -1,11 +1,11 @@
 "Resource/UI/MapInfoMenu.res"
 {
-	"MapInfoContinueHintIcon" [$WIN32]
+	"MapInfoContinueHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoContinueHintIcon"
-		"xpos"			"r185"
-		"ypos"			"r37"
+		"xpos"			"c-75"
+		"ypos"			"c98"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -20,12 +20,12 @@
 		"actionName"	"menu_select"
 	}
 
-	"MapInfoBackHintIcon" [$WIN32]
+	"MapInfoBackHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoBackHintIcon"
-		"xpos"			"45"
-		"ypos"			"r37"
+		"xpos"			"c-75"
+		"ypos"			"c128"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -41,4 +41,4 @@
 	}
 }
 
-#base mapinfomenu
+#base mapinfomenu.res

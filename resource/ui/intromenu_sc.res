@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"ContinueHintIcon"
-		"xpos"			"r185"
-		"ypos"			"r37"
+		"xpos"				"c-90"
+		"ypos"				"c108"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -24,8 +24,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"BackHintIcon"
-		"xpos"			"45"
-		"ypos"			"r37"
+		"xpos"			"c-90"
+		"ypos"			"c138"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"

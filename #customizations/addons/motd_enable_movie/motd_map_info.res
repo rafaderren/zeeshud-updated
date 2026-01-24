@@ -26,4 +26,25 @@
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}
+	
+	"MapInfoIntroHintIcon" [$WIN32]
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"MapInfoIntroHintIcon"
+		"xpos"			"c-100"
+		"ypos"			"c156"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Y"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_toggle_function"
+	}
 }

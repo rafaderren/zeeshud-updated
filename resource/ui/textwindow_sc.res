@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"OkHintIcon"
-		"xpos"			"r185"
-		"ypos"			"r37"
+		"xpos"			"c-75"
+		"ypos"			"c98"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"

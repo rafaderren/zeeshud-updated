@@ -6,7 +6,7 @@
 		"font"				""
 		"fgcolor"			""
 		"xpos"			"37"
-		"ypos"			"100"
+		"ypos"			"90"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
