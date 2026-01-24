@@ -1,11 +1,12 @@
+#base "../../#customizations/addons/_enabled/loading_enable_stats/leaderboardspreadentry.res"
 "Resource/UI/LeaderboardEntry.res"
 {
 	"LeaderboardEntry"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LeaderboardEntry"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"30"

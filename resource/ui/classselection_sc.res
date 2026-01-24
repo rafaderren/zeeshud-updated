@@ -4,11 +4,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PrevOptionHintIcon"
-		"xpos"			"c-321"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"c-289"
+		"ypos"			"r100"
+		"wide"			"50"
+		"tall"			"50"
 		"zpos"			"4"
 		"autoResize"	"0"
 		"visible"		"1"
@@ -23,11 +22,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextOptionHintIcon"
-		"xpos"			"c289"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
-		"wide"			"25"
-		"tall"			"25"
+		"xpos"			"c234"
+		"ypos"			"r100"
+		"wide"			"50"
+		"tall"			"50"
 		"zpos"			"4"
 		"autoResize"	"0"
 		"visible"		"1"
@@ -42,10 +40,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"RandomHintIcon"
-		"xpos"			"c262"
-		"xpos_hidef"	"c250"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"				"r88"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -62,10 +58,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"ScoutHintIcon"
-		"xpos"			"c-288"
-		"xpos_hidef"	"c290"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"				"c-213"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -82,10 +76,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"SoldierHintIcon"
-		"xpos"			"c-238"
-		"xpos_hidef"	"c-244"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c-163"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -102,10 +94,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PyroHintIcon"
-		"xpos"			"c-188"
-		"xpos_hidef"	"c-194"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c-113"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -122,9 +112,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"DemomanHintIcon"
-		"xpos"			"c-98"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c-63"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -141,9 +130,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"HeavyHintIcon"
-		"xpos"			"c-48"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c-13"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -160,9 +148,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"EngineerHintIcon"
-		"xpos"			"c2"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c37"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -179,10 +166,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MedicHintIcon"
-		"xpos"			"c90"
-		"xpos_hidef"	"c70"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c87"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -199,10 +184,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"SniperHintIcon"
-		"xpos"			"c140"
-		"xpos_hidef"	"c120"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c137"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -219,10 +202,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"SpyHintIcon"
-		"xpos"			"c190"
-		"xpos_hidef"	"c170"
-		"ypos"			"70"
-		"ypos_hidef"	"75"
+		"xpos"			"c187"
+		"ypos"				"r125"
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"9"
@@ -237,15 +218,17 @@
 
 	"CancelButton" [$WIN32] 
 	{
-		"labelText"		"CANCEL"
+		"xpos"			"35"
+		"ypos"			"422"
+		"labelText"		"#zeeshud_cancel_caps"
 	}
 
 	"CancelHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
-		"xpos"			"c-290"
-		"ypos"			"r38"
+		"xpos"			"10"
+		"ypos"			"420"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -262,6 +245,7 @@
 	
 	"EditLoadoutButton" [$WIN32] 
 	{
+		"xpos"			"35"
 		"labelText"		"LOADOUT"
 	}
 
@@ -269,8 +253,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"EditLoadoutHintIcon"
-		"xpos"			"r176"
-		"ypos"			"r38"
+		"xpos"			"10"
+		"ypos"			"448"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"

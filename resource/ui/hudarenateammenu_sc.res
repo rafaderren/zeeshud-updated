@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextOptionHintIcon"
-		"xpos"			"r80"
+		"xpos"			"c-270"
 		"ypos"			"290"
 		"wide"			"50"
 		"tall"			"50"
@@ -38,10 +38,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinAutoHintIcon"
-		"xpos"			"c-270"
-		"ypos"			"290"
-		"wide"			"50"
-		"tall"			"50"
+		"xpos"			"40"
+		"ypos"			"c-33"
+		"wide"			"25"
+		"tall"			"25"
 		"zpos"			"5"
 		"autoResize"	"0"
 		"visible"		"0"
@@ -55,10 +55,10 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinSpectatorsHintIcon"
-		"xpos"			"c-120"
-		"ypos"			"290"
-		"wide"			"50"
-		"tall"			"50"
+		"xpos"			"40"
+		"ypos"			"c7"
+		"wide"			"25"
+		"tall"			"25"
 		"zpos"			"5"
 		"autoResize"	"0"
 		"visible"		"0"
@@ -72,8 +72,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
-		"xpos"			"r185"
-		"ypos"			"r45"
+		"xpos"			"40"
+		"ypos"			"420"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -85,6 +85,26 @@
 		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
+	}
+	
+	"CancelButton"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CancelButton"
+		"xpos"			"0"
+		"ypos"			"418"
+		"zpos"			"3"
+		"wide"			"255"
+		"tall"			"30"
+		"tabPosition"	"2"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#zeeshud_cancel_caps"
+		"textAlignment"	"center"
+		"font"			"Cerbetica20"
+		"paintbackground" "0"
 	}
 }
 

@@ -24,6 +24,29 @@
 		"enabled"			"0"
 	}
 	
+	"TauntModelPanel1Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel1Background"
+		"xpos"			"17"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
+	}
+	
 	"NumberBg2"
 	{
 		"visible" 			"0"
@@ -34,6 +57,29 @@
 	{
 		"visible" 			"0"
 		"enabled"			"0"
+	}
+	
+	"TauntModelPanel2Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel2Background"
+		"xpos"			"73"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
 	}
 	
 	"NumberBg3"
@@ -47,6 +93,29 @@
 		"visible" 			"0"
 		"enabled"			"0"
 	}
+	
+	"TauntModelPanel3Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel3Background"
+		"xpos"			"127"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
+	}
 
 	"NumberBg4"
 	{
@@ -58,6 +127,29 @@
 	{
 		"visible" 			"0"
 		"enabled"			"0"
+	}
+	
+	"TauntModelPanel4Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel4Background"
+		"xpos"			"182"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
 	}
 
 	"NumberBg5"
@@ -72,6 +164,29 @@
 		"enabled"			"0"
 	}
 	
+	"TauntModelPanel5Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel5Background"
+		"xpos"			"237"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
+	}
+	
 	"NumberBg6"
 	{
 		"visible" 			"0"
@@ -84,6 +199,28 @@
 		"enabled"			"0"
 	}
 
+	"TauntModelPanel6Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel6Background"
+		"xpos"			"292"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
+	}
 	
 	"NumberBg7"
 	{
@@ -97,6 +234,28 @@
 		"enabled"			"0"
 	}
 
+	"TauntModelPanel7Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel7Background"
+		"xpos"			"347"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
+	}
 	
 	"NumberBg8"
 	{
@@ -109,13 +268,36 @@
 		"visible" 			"0"
 		"enabled"			"0"
 	}
+	
+	"TauntModelPanel8Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TauntModelPanel8Background"
+		"xpos"			"402"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n"
+		"teambg_3"		"replay/thumbnails/box_3_n"
+		"drawcolor"		"ZeesGray"
+		
+		"src_corner_height"		"30"
+		"src_corner_width"		"30"
+		"draw_corner_width"		"7"
+		"draw_corner_height" 	"7"
+	}
 
 	"PrevHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PrevHintIcon"
-		"xpos"			"0"
-		"ypos"			"85"
+		"xpos"			"20"
+		"ypos"			"120"
 		"zpos"			"200"
 		"wide"			"25"
 		"tall"			"25"
@@ -131,8 +313,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextHintIcon"
-		"xpos"			"445"
-		"ypos"			"85"
+		"xpos"			"425"
+		"ypos"			"120"
 		"zpos"			"200"
 		"wide"			"25"
 		"tall"			"25"
@@ -148,8 +330,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"TauntHintIcon"
-		"xpos"			"325"
-		"ypos"			"152"
+		"xpos"			"343"
+		"ypos"			"120"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
@@ -166,8 +348,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"352"
-		"ypos"			"145"
+		"xpos"			"370"
+		"ypos"			"113"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -185,8 +367,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"WeaponTauntHintIcon"
-		"xpos"			"173"
-		"ypos"			"152"
+		"xpos"			"188"
+		"ypos"			"120"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -203,8 +385,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"200"
-		"ypos"			"145"
+		"xpos"			"215"
+		"ypos"			"113"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -222,8 +404,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
-		"xpos"			"20"			// align me to the left edge of the first selection
-		"ypos"			"152"
+		"xpos"			"65"			// align me to the left edge of the first selection
+		"ypos"			"120"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
@@ -241,8 +423,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"47"
-		"ypos"			"145"
+		"xpos"			"92"
+		"ypos"			"113"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -254,6 +436,28 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+	}
+	
+	"MenuBG2"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"MenuBG2"
+		"xpos"				"10"
+		"ypos"				"100"
+		"zpos"				"-1"
+		"wide"				"450"
+		"tall"				"55"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n_t"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_3_n_t"
+		"teambg_3"		"replay/thumbnails/box_3_n_t"
+		
+		"src_corner_height"		"50"
+		"src_corner_width"		"50"
+		"draw_corner_width"		"17"
+		"draw_corner_height" 	"17"
 	}
 }
 

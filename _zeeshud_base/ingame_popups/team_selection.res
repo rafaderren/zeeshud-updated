@@ -32,6 +32,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
+	
 	//ditto
 	"MapInfo"
 	{
@@ -46,6 +47,14 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
+	}
+
+	"TeamMenuSpectate"
+	{
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"SelectTeamLabel"
@@ -70,8 +79,8 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"6"
-		"wide"			"300"
-		"tall"			"250"
+		"wide"			"350"
+		"tall"			"350"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -131,13 +140,13 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"250"
+		"wide"			"350"
+		"tall"			"350"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"3"
+		"tabPosition"	"4"
 		//"labelText"	"#TF_RedTeam_Name"
 		"labelText"		" "
 		"textAlignment"	"center"
@@ -197,12 +206,12 @@
 		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"200"
-		"tall"			"70"
+		"tall"			"100"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"3"
+		"tabPosition"	"1"
 		//"labelText"		"#TF_Random"
 		"labelText"		" "
 		"textAlignment"	"center"
@@ -260,12 +269,12 @@
 		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"200"
-		"tall"			"70"
+		"tall"			"100"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"3"
+		"tabPosition"	"2"
 		//"labelText"		"#TF_Spectate"
 		"labelText"		" "
 		"textAlignment"	"center"
@@ -426,56 +435,52 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
+		"xpos"			"c-70"
+		"ypos"			"r45"
 		"wide"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
-	"teambutton0SC"
+	"PrevOptionHintIcon"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"teambutton0SC"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&3"
-		"command"		"jointeam blue"
-		"team"			"3"
+		"xpos"			"75"
+		"ypos"			"c-25"
 	}
 
-	"teambutton1SC"
+	"NextOptionHintIcon"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"teambutton1SC"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&4"
-		"command"		"jointeam red"
-		"team"			"4"
+		"xpos"			"r100"
+		"ypos"			"c-25"
 	}
 
-	"teambutton2SC"
+	"JoinBluHintIcon"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"teambutton2SC"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&1"
-		"command"		"jointeam auto"
+		"xpos"			"c-180"
+		"ypos"			"200"
 	}
 
-	"teambutton3SC"
+	"JoinRedHintIcon"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"teambutton3SC"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&2"
-		"command"		"jointeam spectate"
+		"xpos"			"c130"
+		"ypos"			"200"
+	}
+
+	"JoinAutoHintIcon"
+	{
+		"xpos"			"c-210"
+		"ypos"			"r150"
+	}
+
+	"JoinSpectatorsHintIcon"
+	{
+		"xpos"			"c160"
+		"ypos"			"r150"
+	}
+
+	"CancelHintIcon"
+	{
+		"xpos"			"c-70"
+		"ypos"			"r50"
 	}
 }

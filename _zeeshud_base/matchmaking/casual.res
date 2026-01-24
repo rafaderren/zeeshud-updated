@@ -75,7 +75,7 @@
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"169 123 53 255"
+			"image_armedcolor"	"TanDark"
 
 			"SubImage"
 			{
@@ -119,7 +119,7 @@
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
-			"image_armedcolor"	"169 123 53 255"
+			"image_armedcolor"	"TanDark"
 
 			"SubImage"
 			{

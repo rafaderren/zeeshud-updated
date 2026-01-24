@@ -9,7 +9,7 @@
 		"xpos_minmode"				"c-104"
 		"ypos"				"r133"
 		"ypos_minmode"		"r133"
-		"zpos"			"4"
+		"zpos"				"-3"
 		"wide"				"168"
 		"wide_minmode"				"168"
 		"tall"				"32"

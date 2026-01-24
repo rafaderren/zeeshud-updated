@@ -2,34 +2,17 @@
 {
 	"intro"
 	{
-		"ControlName"		"CTFIntroMenu"
+		"ControlName"		"Frame"
 		"fieldName"		"intro"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"		"0"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintbackground"	"0"
-	}
-	
-	"MainBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"MainBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-1"
-		"wide"				"f0"
-		"tall"				"f0"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"TransparentBlack"
 	}
 	
 	"titlelabel"
@@ -214,37 +197,5 @@
 		"font"			"IntroMenuCaption"
 		"fgcolor"		"White"
 		"wrap"			"1"
-	}
-	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"intro"
-			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"continue"
-			"text"		"#Button_SkipIntro_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
 	}	
 }

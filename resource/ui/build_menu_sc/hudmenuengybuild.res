@@ -56,8 +56,8 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"BuildHintIcon"
-		"xpos"			"350"			// align me to the left edge of the first selection
-		"ypos"			"156"
+		"xpos"			"340"			// align me to the left edge of the first selection
+		"ypos"			"163"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
@@ -78,7 +78,7 @@
 		"fieldName"		"BuildHintLabel_Bright"
 		"font"			"ControllerHintText"
 		"xpos"			"370"
-		"ypos"			"151"
+		"ypos"			"156"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -99,7 +99,7 @@
 		"font"			"ControllerHintText"
 		"fgcolor"		"TanDark"
 		"xpos"			"370"
-		"ypos"			"151"
+		"ypos"			"156"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -118,7 +118,7 @@
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"DestroyHintIcon"
 		"xpos"			"180"			// align me to the left edge of the first selection
-		"ypos"			"156"
+		"ypos"			"163"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
@@ -138,8 +138,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintLabel_Bright"
 		"font"			"ControllerHintText"
-		"xpos"			"200"			// align me to the left edge of the first selection
-		"ypos"			"151"
+		"xpos"			"210"			// align me to the left edge of the first selection
+		"ypos"			"156"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -159,8 +159,8 @@
 		"fieldName"		"DestroyHintLabel_Dim"
 		"font"			"ControllerHintText"
 		"fgcolor"		"TanDark"
-		"xpos"			"200"			// align me to the left edge of the first selection
-		"ypos"			"151"
+		"xpos"			"210"			// align me to the left edge of the first selection
+		"ypos"			"156"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -179,7 +179,7 @@
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
 		"xpos"			"40"			// align me to the left edge of the first selection
-		"ypos"			"156"
+		"ypos"			"163"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
@@ -199,8 +199,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
 		"font"			"ControllerHintText"
-		"xpos"			"60"
-		"ypos"			"151"
+		"xpos"			"70"
+		"ypos"			"156"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"39"
@@ -214,15 +214,15 @@
 		"brighttext"	"0"
 	}
 
-	"MenuBG2"
+	"ButtonLegendBG"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"			"MenuBG2"
+		"fieldName"			"ButtonLegendBG"
 		"xpos"				"25"
 		"ypos"				"154"
 		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"35"
+		"tall"				"45"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"			"replay/thumbnails/box_3_n_t"
@@ -235,43 +235,6 @@
 		"src_corner_width"		"50"
 		"draw_corner_width"		"17"
 		"draw_corner_height" 	"17"
-	}
-
-	"CancelHintLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CancelHintLabel"
-		"font"			"ControllerHintText"
-		"xpos"			"42"
-		"ypos"			"151"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"39"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Cancel"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}
-	"ButtonLegendBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ButtonLegendBG"
-		"xpos"			"15"
-		"ypos"			"154"
-		"zpos"			"1"
-		"wide"			"420"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
 	}
 
 	"PrevHintIcon"
