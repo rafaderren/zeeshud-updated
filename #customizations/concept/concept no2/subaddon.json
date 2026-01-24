@@ -2,10 +2,8 @@
     "oldtimepanel": {
         "name": "Alpha 4 Old Time Panel",
         "description": "Restores Alpha 4 Old Time Panel",
-        "version": 1.0,
-        "isfromupdated": true,
-        "ismultiple": false,
-        "issubaddon": true,
+        "conflicts":[
+        ],    
         "previews": [
             "preview1.png"
         ]

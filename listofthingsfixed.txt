@@ -83,6 +83,7 @@
 -updated capture point timer to look less tf2 ish
 -updated stopwatch to be in style
 -updated default jetpack meter position
+-updated centered meter labels to be in the center instead of the left
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -109,7 +110,6 @@
 -added a fully custom credits menu
 -added 4:3 adjustment addon
 -added motd movie addon
--added centered labels subaddon for centered meters addons
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
