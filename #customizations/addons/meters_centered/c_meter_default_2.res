@@ -6,7 +6,7 @@
 	{
 		"ypos"					"r120"
 		"ypos_minmode"			"r120"
-
+		"zpos"			"-2"
 	}
 	"ItemEffectMeterBarMask"
 	{
