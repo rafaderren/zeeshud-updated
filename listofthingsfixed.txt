@@ -40,6 +40,7 @@
 -fixed ad font being cut off
 -fixed koth timer countdown using outdated font
 -fixed map vote result being off center
+-fixed centered meters having high zpos priority
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
 -updated the loading screen to look more lively
@@ -71,7 +72,7 @@
 -updated the ctf compass textures to look less tf2 ish
 -updated non editablepanel borders
 -updated loading text
--updated controller exclusive HUD elements (WIP)
+-updated controller exclusive HUD elements
 -updated gamepad icons
 -updated pass time ui
 -updated player destruction ui
@@ -84,6 +85,9 @@
 -updated stopwatch to be in style
 -updated default jetpack meter position
 -updated centered meter labels to be in the center instead of the left
+-updated in-game notification background to solid for better readability
+-updated weapon inspect ui
+-updated casual dashboard colors
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
