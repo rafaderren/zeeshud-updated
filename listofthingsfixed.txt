@@ -100,7 +100,7 @@
 -added a new closed caption style for better readability
 -added selected player name in scoreboard
 -added version number from old zeeshud versions
--added tips on loading screen as an addon
+-added stat summary on loading screen as an addon
 -added 2007 class selection lighting (not sure if it works i dont have any comparison)
 -added custom animated character select as an addon
 -added streamer mode addon
