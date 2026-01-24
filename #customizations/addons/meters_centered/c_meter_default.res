@@ -47,13 +47,13 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
 		
-		"xpos"				"-38"
+		"xpos"				"60"
 		"ypos"				"17"
 		"zpos"				"6"
 		"wide"				"80"
 		"tall"				"16"
 		
-		"xpos_minmode"				"-38"
+		"xpos_minmode"				"60"
 		"ypos_minmode"				"17"
 		"wide_minmode"				"80"
 		"tall_minmode"				"16"
@@ -61,15 +61,19 @@
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
-		"enabled"			"1"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Ball"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"ZeesBlack"
 		"font"				"FUTURA_BOLD_12"
 		"font_minmode"				"FUTURA_BOLD_12"
+
+		"enabled"			"0"
+		"textAlignment"		"center"
+		"DisabledFGColor2_Override"	"ZeesBlack"
+		"fgcolor"			"ZeesBlack"
 	}
 	"ItemEffectAnchor"
 	{

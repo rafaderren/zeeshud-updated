@@ -48,7 +48,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
-		"xpos"				"-38"
+		"xpos"				"40"
 		"ypos"				"17"
 		"zpos"				"6"
 		"wide"				"80"
@@ -62,7 +62,8 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"ZeesWhite"
+		
+		"fgcolor"			"ZeesBlack"
 		"font"				"FUTURA_BOLD_12"
 	}
 	
