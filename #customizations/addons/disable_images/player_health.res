@@ -1,7 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-
-	
 	//the little bar that goes under the health
 	"PlayerStatusHealthImageBG2"
 	{
@@ -10,7 +8,17 @@
 		"enabled"		"0"
 	}
 	
+	"PlayerStatusHealthImageBG3"
+	{
 
-
+		"visible"		"0"
+		"enabled"		"0"
+	}
 	
+	"PlayerStatusHealthImage"
+	{
+
+		"visible"		"0"
+		"enabled"		"0"
+	}
 }
