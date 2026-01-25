@@ -5,154 +5,76 @@
         "version": 1.0,
         "default": false,
         "isfromupdated": true,
-        "ismultiple": true,
-        
         "subaddons": [
             {"oldtimepanel": {
                 "name": "Alpha 4 Old Time Panel",
                 "description": "Restores Alpha 4 Old Time Panel.",
                 "version": 1.0,
-                "ismultiple": false,
-                
                 "conflicts":[
                 ],
                 "previews": [
-                    "preview1.png"
+                    "oldtimepanel.png"
                 ]
             },
             "oldteamselection": {
                 "name": "Old Team Selection",
                 "description": "Restores old team selection seen in alpha 1-3.",
                 "version": 1.0,
-                "ismultiple": false,
-                
                 "conflicts":[
                 ],
                 "previews": [
-                    "preview1.mp4"
+                    "oldteamsel.png"
                 ]
             },
             "oldloadingscreen": {
                 "name": "Old Loading Screen",
                 "description": "Restores old loading screen seen in alpha 1-2.",
                 "version": 1.0,
-                "ismultiple": false,
-                
                 "conflicts":[
                 ],
                 "previews": [
-                    "preview1.png"
+                    "oldloading1.png",
+                    "oldloading2.png"
                 ]
             },
             "alpha3menu": {
                 "name": "Alpha 3 Main Menu",
                 "description": "Restores Alpha 3 main menu.",
                 "version": 1.0,
-                "ismultiple": false,
-                
                 "conflicts":[
                     "alpha2menu"
                 ],
                 "previews": [
-                    "preview1.png"
+                    "alpha3menu.png",
+                    "alpha3menudashboard.png"
                 ]
             },
             "alpha2menu": {
                 "name": "Alpha 2 Main Menu",
                 "description": "Restores Alpha 2 main menu.",
                 "version": 1.0,
-                "ismultiple": false,
-                
                 "conflicts":[
                     "alpha3menu"
                 ],
                 "previews": [
-                    "preview1.png"
+                    "alpha2menu.png",
+                    "alpha2menudashboard.png"
                 ]
             },
             "alpha1killcam": {
                 "name": "Alpha 1 Killcam",
                 "description": "Restores Alpha 1 killcam.",
                 "version": 1.0,
-                "ismultiple": false,
-                
                 "conflicts":[
                 ],
                 "previews": [
-                    "preview1.png"
+                    "alpha1killcam.png"
                 ]
             }
         }],
         "conflicts":[
         ],
         "previews": [
-            "preview1.png"
-        ]
-    },
-    "meters_centered": {
-        "name": "Centered Meters",
-        "description": "Replaces meters from the bottom right to the center.",
-        "version": 1.1,
-        "default": false,
-        "isfromupdated": false,
-        "ismultiple": true,
-        "subaddons": [
-            {"centered_labels": {
-                "name": "Centered Label",
-                "description": "Repositions metere labels inside the meters.",
-                "conflicts":[
-                ],
-                "previews": [
-                    "preview1.png"
-                ]
-            }
-        }],
-        "conflicts":[
-            "health-ammo-style_ut"
-        ],
-        "previews": [
-            "preview1.png"
-        ]
-    },
-    "metal_centered": {
-        "name": "Centered Metal Counter",
-        "description": "Replaces metal counter from the bottom right to the crosshair.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": false,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[],
-        "previews": [
-            "preview1.png"
-        ]
-    },
-    "uber_centered": {
-        "name": "Centered Uber Counter",
-        "description": "Replaces uber counter from the bottom right to the crosshair.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": false,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[],
-        "previews": [
-            "preview1.png"
-        ]
-    },
-    "streamer_mode": {
-        "name": "Streamer Mode",
-        "description": "Hides player names and avatars, don't forget to check chat_english.txt.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": true,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[
-            "mainmenu_enablefriends"
-        ],
-        "previews": [
-            "preview1.png"
         ]
     },
     "speed-o-meter": {
@@ -161,37 +83,79 @@
         "version": 1.0,
         "default": false,
         "isfromupdated": true,
-        "ismultiple": false,
         "subaddons": [],
         "conflicts":[],
         "previews": [
-            "preview1.png"
+            "speedo.png",
+            "speedo.mp4"
         ]
     },
-    "target_health_font_smaller": {
-        "name": "Smaller Target Health Font",
-        "description": "Lowers the size of target health font, recommended for MvM.",
+    "health_status_indicators": {
+        "name": "Health Status Indicators",
+        "description": "Enables health status on crosshair.",
+        "version": 1.0,
+        "default": true,
+        "isfromupdated": false,
+        "subaddons": [],
+        "previews": [
+            "statusindicator.png"
+        ]
+    },
+    "meters_centered": {
+        "name": "Centered Meters",
+        "description": "Replaces meters from the bottom right to the center.",
+        "version": 1.1,
+        "default": false,
+        "isfromupdated": false,
+        "subaddons": [],
+        "conflicts":[
+            "health-ammo-style_ut"
+        ],
+        "previews": [
+            "centered_meters.png"
+        ]
+    },
+    "metal_centered": {
+        "name": "Centered Metal Counter",
+        "description": "Replaces metal counter from the bottom right to the crosshair.",
+        "version": 1.0,
+        "default": false,
+        "isfromupdated": false,
+        "subaddons": [],
+        "conflicts":[],
+        "previews": [
+            "metalscentered.png",
+            "metalscentered.mp4"
+        ]
+    },
+    "uber_centered": {
+        "name": "Centered Uber Counter",
+        "description": "Replaces uber counter from the bottom right to the crosshair.",
+        "version": 1.0,
+        "default": false,
+        "isfromupdated": false,
+        "subaddons": [],
+        "conflicts":[],
+        "previews": [
+            "centereduber.png",
+            "centereduber.mp4"
+        ]
+    },
+    "streamer_mode": {
+        "name": "Streamer Mode",
+        "description": "Hides player names and avatars, don't forget to check chat_english.txt.",
         "version": 1.0,
         "default": false,
         "isfromupdated": true,
-        "ismultiple": false,
         "subaddons": [],
-        "conflicts":[],
+        "conflicts":[
+            "mainmenu_enablefriends"
+        ],
         "previews": [
-            "preview1.png"
-        ]
-    },
-    "vanilla_edited_captions": {
-        "name": "Alternate Captions",
-        "description": "Makes captions big and the text smaller.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": true,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[],
-        "previews": [
-            "preview1.png"
+            "streamer1.png",
+            "streamer2.png",
+            "streamer3.png",
+            "streamer4.png"
         ]
     },
     "refresh_main_menu_button": {
@@ -200,53 +164,69 @@
         "version": 1.0,
         "default": false,
         "isfromupdated": true,
-        "ismultiple": false,
         "subaddons": [],
         "conflicts":[],
         "previews": [
-            "preview1.png"
+            "refreshmainmenu.png"
+        ]
+    },
+    "loading_enable_stats": {
+        "name": "Enable Loading Stats",
+        "description": "Adds personal stats and leaderboard and map credits to the loading.",
+        "version": 1.1,
+        "default": false,
+        "isfromupdated": true,
+        "subaddons": [],
+        "conflicts":[],
+        "previews": [
+            "statsummary.png",
+            "statsummary2.png"
         ]
     },
     "motd_enable_movie": {
         "name": "Enable Map Movie Button",
         "description": "Adds an option to watch map specified movie in the map info motd.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": true,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[],
-        "previews": [
-            "preview1.png"
-        ]
-    },
-    "loading_enable_stats": {
-        "name": "Enable Loading Stats",
-        "description": "Adds personal stats and leaderboard or map credits to the loading.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": true,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[],
-        "previews": [
-            "preview1.png"
-        ]
-    },
-    "health-ammo-style_ut": {
-        "name": "UT Style HUD",
-        "description": "Changes HUD style to UT style.",
         "version": 1.1,
         "default": false,
-        "isfromupdated": false,
-        "ismultiple": false,
+        "isfromupdated": true,
         "subaddons": [],
-        "conflicts":[
-            "meters_centered",
-            "health-ammo-style_classic",
-            "health_jrpg_nobar",
-            "health_jrpg"
-        ],
+        "conflicts":[],
+        "previews": [
+            "movie.mp4"
+        ]
+    },
+    "animated_class_screen": {
+        "name": "Animated Class Selection Screen",
+        "description": "Changes the left foreground into a moving texture.",
+        "version": 1.0,
+        "default": false,
+        "isfromupdated": true,
+        "subaddons": [],
+        "previews": [
+            "red.mp4",
+            "blue.mp4"
+        ]
+    },
+    "target_health_font_smaller": {
+        "name": "Smaller Target Health Font",
+        "description": "Lowers the size of target health font, recommended for MvM.",
+        "version": 1.0,
+        "default": false,
+        "isfromupdated": true,
+        "subaddons": [],
+        "conflicts":[],
+        "previews": [
+            "smallerhealthfont.png"
+        ]
+    },
+    "vanilla_edited_captions": {
+        "name": "Alternate Captions",
+        "description": "Makes captions big and the text smaller.",
+        "version": 1.0,
+        "default": false,
+        "isfromupdated": true,
+        "subaddons": [],
+        "conflicts":[],
         "previews": [
             "preview1.png"
         ]
@@ -257,7 +237,6 @@
         "version": 1.1,
         "default": false,
         "isfromupdated": false,
-        "ismultiple": false,
         "subaddons": [],
         "conflicts":[
             "health-ammo-style_ut",
@@ -265,67 +244,32 @@
             "health_jrpg"
         ],
         "previews": [
-            "preview1.png"
+            "classicstyle.png"
         ]
     },
-    "health-ammo_font_futura": {
-        "name": "Futura Font",
-        "description": "Changes HUD font to Futura.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": false,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[
-            "health_jrpg_nobar",
-            "health_jrpg"
-        ],
-        "previews": [
-            "preview1.png"
-        ]
-    },
-    "health-ammo_alt_font": {
-        "name": "Alt Font",
-        "description": "Changes HUD font to Alt Font, recommended for 1920x1080 resolutions.",
+    "health-ammo-style_ut": {
+        "name": "UT Style HUD",
+        "description": "Changes HUD style to UT style.",
         "version": 1.1,
         "default": false,
         "isfromupdated": false,
-        "ismultiple": false,
         "subaddons": [],
         "conflicts":[
+            "meters_centered",
+            "health-ammo-style_classic",
             "health_jrpg_nobar",
             "health_jrpg"
         ],
         "previews": [
-            "preview1.png"
-        ]
-    },
-    "health_jrpg_nobar": {
-        "name": "Health JRPG w/No Health Bar",
-        "description": "Changes HUD style to Health JRPG style without a health bar.",
-        "version": 2.0,
-        "default": false,
-        "isfromupdated": false,
-        "ismultiple": false,
-        "subaddons": [],
-        "conflicts":[
-            "health-ammo_alt_font",
-            "health-ammo_font_futura",
-            "health-ammo-style_classic",
-            "health-ammo-style_ut",
-            "health_jrpg"
-        ],
-        "previews": [
-            "preview1.png"
+            "UTstyle.png"
         ]
     },
     "health_jrpg": {
         "name": "Health JRPG",
-        "description": "Changes HUD style to Health JRPG style.",
+        "description": "Changes HUD style to Health JRPG style (has issues with shaders).",
         "version": 2.0,
         "default": false,
         "isfromupdated": false,
-        "ismultiple": false,
         "subaddons": [],
         "conflicts":[
             "health-ammo_alt_font",
@@ -335,31 +279,25 @@
             "health_jrpg_nobar"
         ],
         "previews": [
-            "preview1.png"
+            "jrpgstyle.png"
         ]
     },
-    "disable_images": {
-        "name": "Disable Hud Backgrounds",
-        "description": "Clears the HUD Background for maximum visibility. (untested)",
-        "version": 1.0,
+    "health_jrpg_nobar": {
+        "name": "Health JRPG w/No Health Bar",
+        "description": "Changes HUD style to Health JRPG style without a health bar.",
+        "version": 2.0,
         "default": false,
         "isfromupdated": false,
-        "ismultiple": false,
         "subaddons": [],
+        "conflicts":[
+            "health-ammo_alt_font",
+            "health-ammo_font_futura",
+            "health-ammo-style_classic",
+            "health-ammo-style_ut",
+            "health_jrpg"
+        ],
         "previews": [
-            "preview1.png"
-        ]
-    },
-    "animated_class_screen": {
-        "name": "Animated Class Selection Screen",
-        "description": "Changes the left foreground into a moving texture.",
-        "version": 1.0,
-        "default": false,
-        "isfromupdated": true,
-        "ismultiple": false,
-        "subaddons": [],
-        "previews": [
-            "preview1.png"
+            "jrpgstylenobar.png"
         ]
     },
     "4by3_adjustments": {
@@ -368,22 +306,58 @@
         "version": 1.0,
         "default": false,
         "isfromupdated": true,
-        "ismultiple": false,
         "subaddons": [],
         "previews": [
-            "preview1.png"
+            "chat.png",
+            "scoreboard.png"
         ]
     },
-    "health_status_indicators": {
-        "name": "Health Status Indicators",
-        "description": "Enables health status on crosshair.",
+    "disable_images": {
+        "name": "Disable Hud Backgrounds",
+        "description": "Clears the HUD backgrounds and images for maximum visibility.",
         "version": 1.0,
-        "default": true,
+        "default": false,
         "isfromupdated": false,
-        "ismultiple": false,
         "subaddons": [],
         "previews": [
-            "preview1.png"
+            "default.png",
+            "classic.png",
+            "UT.png",
+            "jrpg.png"
+        ]
+    },
+    "health-ammo_alt_font": {
+        "name": "Alt Font",
+        "description": "Changes HUD font to Alt Font, recommended for 1920x1080 resolutions.",
+        "version": 1.1,
+        "default": false,
+        "isfromupdated": false,
+        "subaddons": [],
+        "conflicts":[
+            "health_jrpg_nobar",
+            "health_jrpg"
+        ],
+        "previews": [
+            "default.png",
+            "classic.png",
+            "UT.png"
+        ]
+    },
+    "health-ammo_font_futura": {
+        "name": "Futura Font",
+        "description": "Changes HUD font to Futura.",
+        "version": 1.0,
+        "default": false,
+        "isfromupdated": false,
+        "subaddons": [],
+        "conflicts":[
+            "health_jrpg_nobar",
+            "health_jrpg"
+        ],
+        "previews": [
+            "default.png",
+            "classic.png",
+            "UT.png"
         ]
     },
     "mainmenu_enablefriends": {
@@ -392,12 +366,13 @@
         "version": 1.0,
         "default": true,
         "isfromupdated": false,
-        "ismultiple": false,
         "subaddons": [
             "streamer_mode"
         ],
         "previews": [
-            "preview1.png"
+            "default.png",
+            "alpha2.png",
+            "alpha3.png"
         ]
     }
 }
