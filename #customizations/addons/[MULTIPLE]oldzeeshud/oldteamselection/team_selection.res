@@ -139,31 +139,23 @@
 	{
 		"xpos"			"c-315"
 		"ypos"			"50"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 	
 	"teambutton1"
 	{
 		"xpos"			"c-10"
 		"ypos"			"50"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 	
 	"teambutton2"
 	{
 		"xpos"			"c-210"
 		"ypos"			"r150"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 	
 	"teambutton3"
 	{
 		"xpos"			"c10"
 		"ypos"			"r150"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 }
