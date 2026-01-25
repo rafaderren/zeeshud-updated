@@ -41,4 +41,4 @@
 	}
 }
 
-#base intromenu
+#base intromenu.res
