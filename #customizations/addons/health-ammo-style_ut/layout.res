@@ -1,7 +1,5 @@
 "Resource/HudLayout.res"
 {
-	
-	
 	HudPlayerStatus
 	{
 		"fieldName"			"HudPlayerStatus"
@@ -36,6 +34,18 @@
 		"ypos"				"c135"
 		"wide"				"600"
 		"tall"				"400"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"cs-1.1"
+		"ypos"				"r50"
+		"wide"				"100"
+		"tall"				"20"
+		"visible" 			"1"
+		"enabled" 			"1"
 	}
 	
 }

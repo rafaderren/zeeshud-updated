@@ -185,7 +185,7 @@
     },
     "motd_enable_movie": {
         "name": "Enable Map Movie Button",
-        "description": "Adds an option to watch map specified movie in the map info motd.",
+        "description": "Adds an option to watch a map specified movie in the map info MOTD.",
         "version": 1.1,
         "default": false,
         "isfromupdated": true,
@@ -228,7 +228,7 @@
         "subaddons": [],
         "conflicts":[],
         "previews": [
-            "preview1.png"
+            "alternatecaption.png"
         ]
     },
     "health-ammo-style_classic": {
@@ -362,7 +362,7 @@
     },
     "mainmenu_enablefriends": {
         "name": "Enable Friend Status",
-        "description": "Enables friend status in main menu.",
+        "description": "Enables friend status in the main menu.",
         "version": 1.0,
         "default": true,
         "isfromupdated": false,
