@@ -92,6 +92,7 @@
 -updated mode selection text colors
 -updated disable images to be compatible with other hud styles
 -updated mvm credits positioning for ut style
+-updated mvm and building textures to look less tf2 ish
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds

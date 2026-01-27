@@ -706,6 +706,202 @@
 		"enabled"		"1"
 		"image"			"../hud/score_panel_blue_bg_solid"
 	}
+
+	//=====================================
+	//
+	//		  	Mann vs. Machine
+	//
+	//=====================================
+	
+	"bombcarrierupgradeframe"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bombcarrierupgradeframe"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/bomb_carrier_upgrade_frame"
+	}
+
+	"bombdropped"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bombdropped"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/bomb_dropped"
+	}
+
+	"hudmvmbombupgrade_1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudmvmbombupgrade_1"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_mvm_bomb_upgrade_1"
+	}
+
+	"hudmvmbombupgrade_1_disabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudmvmbombupgrade_1_disabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_mvm_bomb_upgrade_1_disabled"
+	}
+
+	"hudmvmbombupgrade_3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudmvmbombupgrade_3"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_mvm_bomb_upgrade_3"
+	}
+
+	"hudmvmbombupgrade_3_disabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudmvmbombupgrade_3_disabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_mvm_bomb_upgrade_3_disabled"
+	}
+
+	"hudmvmbombupgrade_2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudmvmbombupgrade_2"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_mvm_bomb_upgrade_2"
+	}
+
+	"hudmvmbombupgrade_2_disabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudmvmbombupgrade_2_disabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_mvm_bomb_upgrade_2_disabled"
+	}
+
+	"hudmvmbombupgradeboss"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudmvmbombupgradeboss"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_mvm_bomb_upgrade_boss"
+	}
+
+	"hudobjstatusdispenser"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudobjstatusdispenser"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_dispenser"
+	}
+
+	"hudobjstatussapper"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudobjstatussapper"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_sapper"
+	}
+
+	"hudobjstatussentry_1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudobjstatussentry_1"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_sentry_1"
+	}
+
+	"hudobjstatussentry_2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudobjstatussentry_2"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_sentry_2"
+	}
+
+	"hudobjstatussentry_3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudobjstatussentry_3"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_sentry_3"
+	}
+
+	"hudobjstatusteleentrance"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudobjstatusteleentrance"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_tele_entrance"
+	}
+
+	"hudobjstatusteleexit"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudobjstatusteleexit"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_tele_exit"
+	}
+
+	"hudupgrade1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudupgrade1"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_upgrade_1"
+	}
+
+	"hudupgrade2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudupgrade2"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_upgrade_2"
+	}
+
+	"hudupgrade3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"hudupgrade3"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_upgrade_3"
+	}
 	
 	//=====================================
 	//
