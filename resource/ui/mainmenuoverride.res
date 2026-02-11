@@ -1,4 +1,4 @@
-#base "../../cfg/creditszees.txt"
+#base "../../../../cfg/creditszees.txt"
 #base "../../#customizations/addons/_enabled/streamer_mode/main_menu.res"
 #base "../../_zeeshud_base/preload.res"
 #base "../../_zeeshud_base/preload_xhair.res"
