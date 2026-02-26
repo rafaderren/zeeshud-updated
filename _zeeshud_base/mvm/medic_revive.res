@@ -29,7 +29,7 @@
     "visible"            "1"
     "enabled"            "1"
 
-    "image"              "replay/thumbnails/box_3_r_t"
+    "image"              "replay/thumbnails/box_3_r"
 
     "src_corner_width"     "23"
     "src_corner_height"    "23"
