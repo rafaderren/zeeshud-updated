@@ -183,7 +183,7 @@
 
 		"activeimage"		"pve/buy_disabled"
 		"inactiveimage"		"pve/buy_disabled"
-		"sound_depressed"	"UI/1.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"	"255 255 255 0"
