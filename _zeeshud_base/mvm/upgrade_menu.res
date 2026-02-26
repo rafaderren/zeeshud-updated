@@ -1,5 +1,87 @@
 "Resource/UI/HudUpgradePanel.res"
 {
+
+	"menutitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"menutitle"
+		"font"			"GAMERIA_24"
+		"labelText"		"Upgrades"
+		"textAlignment"	"north"
+		"wrap"			"0"
+		"centerwrap"	"1"
+		"xpos"			"130"
+		"ypos"			"62"
+		"zpos"			"0"
+		"wide"			"240"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled" "0"
+	}
+
+	"menutitleshadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"menutitleshadow"
+		"font"			"GAMERIA_24"
+		"labelText"		"Upgrades"
+		"textAlignment"	"north"
+		"wrap"			"0"
+		"centerwrap"	"1"
+		"xpos"			"133"
+		"ypos"			"64"
+		"zpos"			"-1"
+		"wide"			"240"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled" "0"
+		"fgcolor"				"0 0 0 255"
+	}
+
+    "Weaponnamebackground"
+    {
+        "ControlName" "CTFImagePanel"
+        "fieldName"   "Weaponnamebackground"
+        "xpos"        "192"
+        "ypos"        "143"      // top padding
+        "wide"        "148"
+        "tall"        "215"     // slightly less than parent tall
+        "zpos"        "0"
+
+        "image"       "replay/thumbnails/box_3_mvm"
+        "autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+
+    }
+
+		"weaponnameseparator"
+		{
+			"ControlName"	"Panel"
+			"fieldName"		"weaponnameseparator"
+			"xpos"			"194"
+			"ypos"			"215"
+			"zpos"			"5"
+			"wide"			"143"
+			"tall"			"3"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"255 255 255 255"
+		}
+
 	"HudUpgradePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -18,10 +100,10 @@
 
 		"itempanel_xpos"		"15"
 		"itempanel_ypos"		"10"
-		"itempanel_xdelta"		"5"
+		"itempanel_xdelta"		"10"
 		"itempanel_ydelta"		"5"
 
-		"upgradebuypanel_xpos"	"160"
+		"upgradebuypanel_xpos"	"169"
 		"upgradebuypanel_ypos"	"65"
 		"upgradebuypanel_delta"	"6"
 
@@ -65,7 +147,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"0 0 0 200"
 	}
 
 	"SelectWeaponPanel"
@@ -85,24 +167,25 @@
 
 		"OutterPanelBG"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"OutterPanelBG"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"6"
+			"ypos"			"1"
 			"zpos"			"-8"
-			"wide"			"500"
-			"tall"			"310"
+			"wide"			"489"
+			"tall"			"319"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../HUD/tournament_panel_brown"
+			"visible"		"1"
+			"enabled"		"1"
+			"teambg_2"		"replay/thumbnails/box_3_r"
+			"teambg_3"		"replay/thumbnails/box_3_b"
 
-			"src_corner_height"	"23"	// pixels inside the image
+			"src_corner_height"	"23"
 			"src_corner_width"	"23"
 
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"
+			"draw_corner_width"	"5"
+			"draw_corner_height" "5"
 
 		}
 
@@ -126,56 +209,58 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"BetweenBG"
 			"xpos"			"10"
-			"ypos"			"278"
+			"ypos"			"277"
 			"zpos"			"-8"
 			"wide"			"480"
 			"tall"			"38"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"fillcolor"		"DarkGrey"
 		}
 
 		"InnerPanelRim"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"InnerPanelRim"
 			"xpos"			"9999"
 		}
 		"TopBorder"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"TopBorder"
 			"xpos"			"10"
-			"ypos"			"50"
+			"ypos"			"52"
 			"zpos"			"-1"
 			"wide"			"480"
-			"tall"			"5"
+			"tall"			"3"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"teambg_2"		"replay/thumbnails/bar_red"
+			"teambg_3"		"replay/thumbnails/bar_blu"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
 		}
 		"BottomBorder"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"BottomBorder"
 			"xpos"			"10"
 			"ypos"			"275"
 			"zpos"			"-1"
 			"wide"			"480"
-			"tall"			"5"
+			"tall"			"3"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"teambg_2"		"replay/thumbnails/bar_red"
+			"teambg_3"		"replay/thumbnails/bar_blu"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
 		}
 		"LeftBorder"
 		{
@@ -220,7 +305,7 @@
 			"ypos"			"55"
 			"zpos"			"0"
 			"wide"			"470"
-			"tall"			"220"
+			"tall"			"223"
 			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"border"			"DarkGrey"
@@ -244,13 +329,14 @@
 			"labelText"		"#TF_Bot_Generic_ClassName"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"PlayerUpgrade"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			//"bgcolor_override"	"142 132 121 255"
+
+			"bgcolor_override"	"255 255 255 255"
 			"alpha"	"0"
 		}
 
@@ -259,8 +345,8 @@
 			"ControlName"	"CTFClassImage"
 			"fieldName"		"ClassImage"
 			"xpos"			"30"
-			"ypos"			"15"
-			"zpos"			"-2"
+			"ypos"			"12"
+			"zpos"			"-1"
 			"wide"			"40"
 			"tall"			"40"
 			"visible"		"1"
@@ -273,8 +359,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SentryIcon"
-			"xpos"			"332"
-			"ypos"			"12"
+			"xpos"			"352"
+			"ypos"			"15"
 			"wide"			"34"
 			"tall"			"34"
 			"zpos"			"-2"
@@ -290,7 +376,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ActiveTabPanel"
-			"xpos"			"88"
+			"xpos"			"87"
 			"ypos"			"8"
 			"zpos"			"-3"
 			"wide"			"74"
@@ -300,44 +386,66 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"0 0 0 255"
 			"PaintBackgroundType"	"0"
+
+    	"Background"
+    	{
+        	"ControlName" "CTFImagePanel"
+        	"fieldName"   "Background"
+        	"xpos"        "3"
+        	"ypos"        "2"
+        	"wide"        "71"
+        	"tall"        "46"
+        	"zpos"        "1"
+
+		"teambg_2"		"replay/thumbnails/box_3_r_t"
+		"teambg_3"		"replay/thumbnails/box_3_b_t"
+        	"autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+    	}
 		}
 
 		"MouseOverTabPanel"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"MouseOverTabPanel"
 			"xpos"			"14"
 			"ypos"			"9"
 			"zpos"			"-6"
-			"wide"			"72"
+			"wide"			"73"
 			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"Transparent"
 			"PaintBackgroundType"	"0"
+			"teambg_2"		"replay/thumbnails/bar_red"
+			"teambg_3"		"replay/thumbnails/bar_blu"
 		}
 
 		"MouseOverUpgradePanel"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"MouseOverUpgradePanel"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"10"
-			"wide"			"157"
-			"tall"			"45"
+			"wide"			"158"
+			"tall"			"48"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
 			"PaintBackgroundType"	"0"
+			"teambg_2"		"replay/thumbnails/bar_red"
+			"teambg_3"		"replay/thumbnails/bar_blu"
 		}
 
 		"InactiveTabPanel1"
@@ -354,8 +462,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"255 255 255 0"
 			"PaintBackgroundType"	"0"
+    "Background"
+    {
+        "ControlName" "CTFImagePanel"
+        "fieldName"   "Background"
+        "xpos"        "0"
+        "ypos"        "0"
+        "wide"        "71"
+        "tall"        "45"
+        "zpos"        "1"
+
+        "image"       "replay/thumbnails/box_3_n_t"
+        "autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+    }
 		}
 
 		"InactiveTabPanel2"
@@ -372,8 +498,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"255 255 255 0"
 			"PaintBackgroundType"	"0"
+    "Background"
+    {
+        "ControlName" "CTFImagePanel"
+        "fieldName"   "Background"
+        "xpos"        "0"
+        "ypos"        "0"
+        "wide"        "71"
+        "tall"        "45"
+        "zpos"        "1"
+
+        "image"       "replay/thumbnails/box_3_n_t"
+        "autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+    }
 		}
 
 		"InactiveTabPanel3"
@@ -390,8 +534,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"255 255 255 0"
 			"PaintBackgroundType"	"0"
+    "Background"
+    {
+        "ControlName" "CTFImagePanel"
+        "fieldName"   "Background"
+        "xpos"        "0"
+        "ypos"        "0"
+        "wide"        "71"
+        "tall"        "45"
+        "zpos"        "1"
+
+        "image"       "replay/thumbnails/box_3_n_t"
+        "autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+    }
 		}
 
 		"InactiveTabPanel4"
@@ -408,8 +570,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"255 255 255 0"
 			"PaintBackgroundType"	"0"
+    "Background"
+    {
+        "ControlName" "CTFImagePanel"
+        "fieldName"   "Background"
+        "xpos"        "0"
+        "ypos"        "0"
+        "wide"        "71"
+        "tall"        "45"
+        "zpos"        "1"
+
+        "image"       "replay/thumbnails/box_3_n_t"
+        "autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+    }
 		}
 
 		"InactiveTabPanel5"
@@ -426,8 +606,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"255 255 255 0"
 			"PaintBackgroundType"	"0"
+    "Background"
+    {
+        "ControlName" "CTFImagePanel"
+        "fieldName"   "Background"
+        "xpos"        "0"
+        "ypos"        "0"
+        "wide"        "71"
+        "tall"        "45"
+        "zpos"        "1"
+
+        "image"       "replay/thumbnails/box_3_n_t"
+        "autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+    }
 		}
 
 		"InactiveTabPanel6"
@@ -444,8 +642,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"97 94 85 255"
+			"bgcolor_override"	"255 255 255 0"
 			"PaintBackgroundType"	"0"
+    "Background"
+    {
+        "ControlName" "CTFImagePanel"
+        "fieldName"   "Background"
+        "xpos"        "0"
+        "ypos"        "0"
+        "wide"        "71"
+        "tall"        "45"
+        "zpos"        "1"
+
+        "image"       "replay/thumbnails/box_3_n_t"
+        "autoResize"  "0"
+
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
+    }
 		}
 
 		"InactiveSeparatorPanel"
@@ -526,20 +742,21 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
+
 		"UpgradeItemsDescriptionBG"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"UpgradeItemsDescriptionBG"
 			"xpos"			"25"
 			"ypos"			"65"
-			"zpos"			"0"
+			"zpos"			"5"
 			"wide"			"130"
 			"tall"			"65"
+        		"image"       "replay/thumbnails/box_3_r_t"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"bgcolor_override"	"HudTimerProgressInActive"
 		}
 
 		"UpgradeItemsDescriptionLabel"
@@ -564,7 +781,7 @@
 
 		"UpgradeItemsBG"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"UpgradeItemsBG"
 			"xpos"			"25"
 			"ypos"			"135"
@@ -576,7 +793,6 @@
 			"visible"		"0"
 			"enabled"		"0"
 
-			"bgcolor_override"	"97 94 84 255"
 		}
 
 		"UpgradeItemsHeaderBG"
@@ -641,14 +857,14 @@
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"
-			"ypos"			"280"
+			"ypos"			"283"
 			"wide"			"245"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"121 195 58 255"
+			"fgcolor"		"0 230 148 255"
 		}
 
 		"CreditsTextLabel"
@@ -659,7 +875,7 @@
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
 			"xpos"			"250"
-			"ypos"			"280"
+			"ypos"			"283"
 			"wide"			"500"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -722,7 +938,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"RespecButton"
-			"xpos"			"50"
+			"xpos"			"20"
 			"ypos"			"286"
 			"zpos"			"1"
 			"wide"			"120"

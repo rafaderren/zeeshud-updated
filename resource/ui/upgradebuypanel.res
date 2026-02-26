@@ -14,8 +14,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		
-		"upgradebutton_xpos"	"37"
-		"upgradebutton_ypos"	"26"
+		"upgradebutton_xpos"	"34"
+		"upgradebutton_ypos"	"25"
 		
 		"skilltreebuttons_kv"
 		{
@@ -40,12 +40,14 @@
 	
 	"InnerPanelRim"
 	{
-		"ControlName"	"Panel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"InnerPanelRim"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"155"
+		"teambg_2"		"replay/thumbnails/box_3_r_t"
+		"teambg_3"		"replay/thumbnails/box_3_b_t"
 		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -53,36 +55,40 @@
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"97 94 85 255"
+		"bgcolor_override"	"97 94 85 0"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
 	}
 	
 	"IconBorder"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"IconBorder"
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"7"
+		"ypos"			"5"
 		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"235 226 202 255"
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"255 255 255 255"
 	}
 	
 	"Icon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Icon"
-		"xpos"			"4"
-		"ypos"			"4"
-		"wide"			"26"
-		"tall"			"26"
-		"zpos"			"20"
+		"xpos"			"9"
+		"ypos"			"7"
+		"wide"			"20"
+		"tall"			"21"
+		"zpos"			"21"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -98,8 +104,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PriceLabel"
-		"xpos"			"2"
-		"ypos"			"32"
+		"xpos"			"4"
+		"ypos"			"28"
 		"wide"			"30"
 		"tall"			"13"
 		"zpos"			"25"
@@ -118,7 +124,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ShortDescriptionLabel"
-		"xpos"			"37"
+		"xpos"			"34"
 		"ypos"			"4"
 		"wide"			"97"
 		"tall"			"22"
@@ -137,27 +143,31 @@
 	
 	"BuySellBG"
 	{
-		"ControlName"	"Panel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BuySellBG"
-		"xpos"			"135"
+		"xpos"			"134"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"20"
+		"wide"			"21"
 		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+        	"image"       "replay/thumbnails/box_3_n_t"
 		
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"117 114 103 255"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
 	}
 	
 	"IncrementButton"
 	{
 		"ControlName"	"CImageButton"
 		"fieldName"		"IncrementButton"
-		"xpos"			"137"
+		"xpos"			"136"
 		"ypos"			"4"
 		"wide"			"16"
 		"tall"			"16"
@@ -173,7 +183,7 @@
 
 		"activeimage"		"pve/buy_disabled"
 		"inactiveimage"		"pve/buy_disabled"
-		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_depressed"	"UI/1.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"	"255 255 255 0"
@@ -191,7 +201,7 @@
 	{
 		"ControlName"	"CImageButton"
 		"fieldName"		"DecrementButton"
-		"xpos"			"137"
+		"xpos"			"136"
 		"ypos"			"24"
 		"wide"			"16"
 		"tall"			"16"
