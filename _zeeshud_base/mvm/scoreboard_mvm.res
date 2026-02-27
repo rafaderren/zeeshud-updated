@@ -49,7 +49,7 @@
 
 	"PlayerListBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"PlayerListBG"
 		"xpos"				"c-310"
 		"ypos"				"244"
@@ -59,8 +59,14 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"TransparentBlack"
+		"image"		"replay/thumbnails/box_3_n_t"
 		"PaintBackgroundType"	"0"
+
+			"src_corner_height"	"23"
+			"src_corner_width"	"23"
+
+			"draw_corner_width"	"5"
+			"draw_corner_height" "5"
 	}
 
 	// ???
@@ -129,7 +135,7 @@
 		}
 		"CreditStatsBG"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"CreditStatsBG"
 			"xpos"			"0"
 			"ypos"			"25"
@@ -138,9 +144,15 @@
 			"tall"			"115"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"TransparentBlack"
-			"border"		"ZeesBorderColoredOpaque"
+			"teambg_2"		"replay/thumbnails/box_3_r"
+			"teambg_3"		"replay/thumbnails/box_3_b"
 			"PaintBackgroundType"	"2"
+
+			"src_corner_height"	"23"
+			"src_corner_width"	"23"
+
+			"draw_corner_width"	"5"
+			"draw_corner_height" "5"
 
 		}
 
