@@ -670,9 +670,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"405"
+		"xpos"			"403"
 		"ypos"			"428"
-		"wide"			"46"
+		"wide"			"49"
 		"tall"			"35"
 		"image"			"replay/thumbnails/box_3_n"
 		"enabled"		"1"
