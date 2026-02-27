@@ -932,7 +932,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/buy_disabled"
+		"image"			"pve/buy_disabled"
 	}
 
 	"buy_enabled"
@@ -942,7 +942,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/buy_enabled"
+		"image"			"pve/buy_enabled"
 	}
 
 	"buy_selected"
@@ -952,7 +952,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/buy_selected"
+		"image"			"pve/buy_selected"
 	}
 
 	"sell_disabled"
@@ -962,7 +962,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/sell_disabled"
+		"image"			"pve/sell_disabled"
 	}
 
 	"sell_enabled"
@@ -972,7 +972,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/sell_enabled"
+		"image"			"pve/sell_enabled"
 	}
 
 	"sell_selected"
@@ -982,7 +982,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/sell_selected"
+		"image"			"pve/sell_selected"
 	}
 
 	"upgrade_owned"
@@ -992,7 +992,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/upgrade_owned"
+		"image"			"pve/upgrade_owned"
 	}
 
 	"upgrade_purchased"
@@ -1002,7 +1002,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/upgrade_purchased"
+		"image"			"pve/upgrade_purchased"
 	}
 
 	"upgrade_unowned"
@@ -1012,7 +1012,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/pve/upgrade_unowned"
+		"image"			"pve/upgrade_unowned"
 	}
 
 }
