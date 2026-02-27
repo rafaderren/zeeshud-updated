@@ -918,4 +918,101 @@
 		"enabled"		"1"
 		"image"			"../hud/health_dead"
 	}
+
+	//=====================================
+	//
+	//		  	MVM UPGRADE STATION
+	//
+	//=====================================
+
+	"buy_disabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buy_disabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/buy_disabled"
+	}
+
+	"buy_enabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buy_enabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/buy_enabled"
+	}
+
+	"buy_selected"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buy_selected"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/buy_selected"
+	}
+
+	"sell_disabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sell_disabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/sell_disabled"
+	}
+
+	"sell_enabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sell_enabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/sell_enabled"
+	}
+
+	"sell_selected"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sell_selected"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/sell_selected"
+	}
+
+	"upgrade_owned"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"upgrade_owned"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/upgrade_owned"
+	}
+
+	"upgrade_purchased"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"upgrade_purchased"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/upgrade_purchased"
+	}
+
+	"upgrade_unowned"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"upgrade_unowned"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/pve/upgrade_unowned"
+	}
+
 }
