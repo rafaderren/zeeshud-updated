@@ -31,6 +31,24 @@
 		"tall"			"35"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
+
+		"Wavecompletebackground"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Wavecompletebackground"
+			"textAlignment"	"center"
+			"labelText"		""
+			"xpos"			"4"
+			"ypos"			"3"
+			"wide"			"242"
+			"tall"			"36"
+			"visible"		"1"
+			"enabled"		"1"	
+			
+			// Red Background
+			"PaintBackgroundType" "0"	
+			"bgcolor_override"	"188 54 54 225"
+		}
 		
 		"WaveCompleteLabelShadow"
 		{
@@ -46,11 +64,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"black"		
-			
-			// Red Background
-			"PaintBackgroundType" "0"
 			"fgcolor_override"	"black"		
-			"bgcolor_override"	"190 60 60 225"
 		}
 		
 		"WaveCompleteLabel"
