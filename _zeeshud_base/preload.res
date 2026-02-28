@@ -935,80 +935,81 @@
 		"image"			"pve/buy_disabled"
 	}
 
-	"buy_enabled"
+	"buyenabled"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"buy_enabled"
-		"xpos"			"9999"
+		"fieldName"		"buyenabled"
+		"xpos"			"c0"
+		"ypos"			"c0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/buy_enabled"
 	}
 
-	"buy_selected"
+	"buyselected"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"buy_selected"
+		"fieldName"		"buyselected"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/buy_selected"
 	}
 
-	"sell_disabled"
+	"selldisabled"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"sell_disabled"
+		"fieldName"		"selldisabled"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/sell_disabled"
 	}
 
-	"sell_enabled"
+	"sellenabled"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"sell_enabled"
+		"fieldName"		"sellenabled"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/sell_enabled"
 	}
 
-	"sell_selected"
+	"sellselected"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"sell_selected"
+		"fieldName"		"sellselected"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/sell_selected"
 	}
 
-	"upgrade_owned"
+	"upgradeowned"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"upgrade_owned"
+		"fieldName"		"upgradeowned"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/upgrade_owned"
 	}
 
-	"upgrade_purchased"
+	"upgradepurchased"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"upgrade_purchased"
+		"fieldName"		"upgradepurchased"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/upgrade_purchased"
 	}
 
-	"upgrade_unowned"
+	"upgradeunowned"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"upgrade_unowned"
+		"fieldName"		"upgradeunowned"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
