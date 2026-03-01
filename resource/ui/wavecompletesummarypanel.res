@@ -2,7 +2,7 @@
 {		
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -12,7 +12,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/box_3_n_t"
+		"teambg_2"		"replay/thumbnails/box_3_r_t"
+		"teambg_3"		"replay/thumbnails/box_3_b_t"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -31,6 +32,20 @@
 		"tall"			"35"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
+
+		"Wavecompletebackground"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"Wavecompletebackground"
+			"xpos"			"4"
+			"ypos"			"3"
+			"wide"			"242"
+			"tall"			"36"
+			"visible"		"1"
+			"enabled"		"1"	
+			"teambg_2"		"replay/thumbnails/bar_red"
+			"teambg_3"		"replay/thumbnails/bar_blu"
+		}
 		
 		"WaveCompleteLabelShadow"
 		{
@@ -46,11 +61,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"black"		
-			
-			// Red Background
-			"PaintBackgroundType" "0"
 			"fgcolor_override"	"black"		
-			"bgcolor_override"	"190 60 60 225"
 		}
 		
 		"WaveCompleteLabel"
