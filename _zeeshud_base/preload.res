@@ -921,7 +921,7 @@
 
 	//=====================================
 	//
-	//		  	MVM UPGRADE STATION
+	//		  	MVM STUFF
 	//
 	//=====================================
 
@@ -939,8 +939,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"buyenabled"
-		"xpos"			"c0"
-		"ypos"			"c0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/buy_enabled"
@@ -1014,6 +1014,57 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"pve/upgrade_unowned"
+	}
+
+	"instantupgradecanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"instantupgradecanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_building_instant_red"
+	}
+
+	"critcanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"critcanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_critboost_red"
+	}
+
+	"recallcanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"recallcanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_recall_red"
+	}
+
+	"ammocanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ammocanteen"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_refill_ammo_red"
+	}
+
+	"ubercanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ubercanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_ubercharge_red"
 	}
 
 }
