@@ -79,13 +79,14 @@
 		"font"					"HudFontSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
+		"textinsety"			"-1"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"cancel"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"border_default"		"ZeesBorderWhite"
-		"border_armed"			"ZeesBorderRed"
+		"border_armed"			"ZeesBorderColoredOpaque"
 		"paintbackground"		"0"
 	}
 
@@ -108,13 +109,14 @@
 		"font"					"HudFontSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
+		"textinsety"			"-1"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"confirm"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"border_default"		"ZeesBorderWhite"
-		"border_armed"			"ZeesBorderRed"
+		"border_armed"			"ZeesBorderColoredOpaque"
 		"paintbackground"		"0"
 	}
 }
