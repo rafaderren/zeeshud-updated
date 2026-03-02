@@ -15,20 +15,22 @@
 
     "Background"
     {
-        "ControlName" "CTFImagePanel"
-        "fieldName"   "Background"
-        "xpos"        "-50"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"Background"
+		"xpos"        "-50"
         "ypos"        "3"
         "wide"        "10"
         "tall"        "15"
         "zpos"        "-1"
-        "image"       "replay/thumbnails/box_3_r_t"
-        "autoResize"  "0"
-
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"
+		"image"       "replay/thumbnails/box_3_r_t"
+		"teambg_2"		"replay/thumbnails/box_3_b_t"
+		"teambg_3"		"replay/thumbnails/box_3_r_t"
+		"autoResize"	"0"
+		
+		"src_corner_height"	"23"
+		"src_corner_width"	"23"
+		"draw_corner_width"	"5"
+		"draw_corner_height" 	"5"	
     }
 }
 
