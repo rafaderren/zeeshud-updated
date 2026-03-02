@@ -2,7 +2,7 @@
 {
 	"ConfirmDialog"
 	{
-		"ControlName"			"Frame"
+		"ControlName"			"EditableFrame"
 		"fieldName"				"ConfirmDialog"
 		"xpos"					"c-150"
 		"ypos"					"140"
@@ -19,7 +19,7 @@
 		"paintborder"			"1"
 		"border_default"		"ZeesBorderWhite"
 		"border_armed"			"ZeesBorderRed"
-		"bgcolor_override"		"ZeesBlack"
+		"border"			"ZeesBorderWhiteOpaque"
 		
 	}
 	
