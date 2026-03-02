@@ -11,7 +11,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderWhiteOpaque"
+		"border"			"ZeesBorderColorOpaque"
 		"PaintBackgroundType"	"2"
 
 		"PassedIcon"
@@ -79,7 +79,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderWhiteOpaque"
+		"border"			"ZeesBorderColorOpaque"
 		"PaintBackgroundType"	"2"
 
 		"Header"
@@ -409,7 +409,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderRed"
+		"border"			"ZeesBorderColorOpaque"
 		"bgcolor_override"	"DarkGrey"
 		"PaintBackgroundType"	"2"
 
@@ -478,7 +478,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderRed"
+		"border"			"ZeesBorderColorOpaque"
 		"bgcolor_override"	"DarkGrey"
 		"PaintBackgroundType"	"2"
 
@@ -549,10 +549,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"paintborder"			"1"
-		"border"				"ZeesBorderWhiteOpaque"
-		"PaintBackground"		"1"
-		"PaintBackgroundType"	"2"
+		"border"				"ZeesBorderColorOpaque"
 
 		"header_font"				"ItemFontNameLarge"
 		"header_fgcolor"			"Orange"
