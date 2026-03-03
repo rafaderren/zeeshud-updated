@@ -668,9 +668,22 @@
 
 	"CountdownBG"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CountdownBG"
-		"wide"			"0"
+		"xpos"			"403"
+		"ypos"			"429"
+		"wide"			"49"
+		"tall"			"33"
+		"image"			"replay/thumbnails/box_3_n"
+		"enabled"		"1"
+		"visible"		"0"
+
+		"src_corner_height"	"22"
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"
+		"draw_corner_height" 	"5"	
+
 	}
 
 	"CountdownLabel"
@@ -690,7 +703,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 	}
 
 	"CountdownLabelShadow"

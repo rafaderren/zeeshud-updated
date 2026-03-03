@@ -1,17 +1,38 @@
 "Resource/UI/HudMannVsMachineStatus.res"
 {
-	"WaveStatusPanel"
-	{
-		"ControlName"		"CWaveStatusPanel"
-		"fieldName"			"WaveStatusPanel"
-		"xpos"				"c-300"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"600"
-		"tall"				"67"
-		"visible"			"1"
-		"enabled"			"1"
-	}
+
+"WaveStatusPanel"
+{
+    "ControlName" "CWaveStatusPanel"
+    "fieldName"   "WaveStatusPanel"
+    "xpos"        "c-300"
+    "ypos"        "0"
+    "zpos"        "0"
+    "wide"        "600"
+    "tall"        "15"
+    "visible"     "1"
+    "enabled"     "1"
+
+    "Background"
+    {
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"Background"
+		"xpos"        "-50"
+        "ypos"        "3"
+        "wide"        "10"
+        "tall"        "15"
+        "zpos"        "-1"
+		"image"       "replay/thumbnails/box_3_r_t"
+		"teambg_2"		"replay/thumbnails/box_3_b_t"
+		"teambg_3"		"replay/thumbnails/box_3_r_t"
+		"autoResize"	"0"
+		
+		"src_corner_height"	"23"
+		"src_corner_width"	"23"
+		"draw_corner_width"	"5"
+		"draw_corner_height" 	"5"	
+    }
+}
 
 	"WaveCompleteSummaryPanel"
 	{
@@ -202,7 +223,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ServerChangeMessage"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"50"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -219,8 +240,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"DarkRedTeamBorder"
-			"bgcolor_override"	"Red"
+			"border"		"ZeesBorderWhiteOpaque"
 		}
 
 		"ServerChangeLabel"

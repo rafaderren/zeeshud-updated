@@ -918,4 +918,153 @@
 		"enabled"		"1"
 		"image"			"../hud/health_dead"
 	}
+
+	//=====================================
+	//
+	//		  	MVM STUFF
+	//
+	//=====================================
+
+	"buy_disabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buy_disabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/buy_disabled"
+	}
+
+	"buyenabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buyenabled"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/buy_enabled"
+	}
+
+	"buyselected"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buyselected"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/buy_selected"
+	}
+
+	"selldisabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"selldisabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/sell_disabled"
+	}
+
+	"sellenabled"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sellenabled"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/sell_enabled"
+	}
+
+	"sellselected"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sellselected"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/sell_selected"
+	}
+
+	"upgradeowned"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"upgradeowned"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/upgrade_owned"
+	}
+
+	"upgradepurchased"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"upgradepurchased"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/upgrade_purchased"
+	}
+
+	"upgradeunowned"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"upgradeunowned"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"pve/upgrade_unowned"
+	}
+
+	"instantupgradecanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"instantupgradecanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_building_instant_red"
+	}
+
+	"critcanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"critcanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_critboost_red"
+	}
+
+	"recallcanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"recallcanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_recall_red"
+	}
+
+	"ammocanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ammocanteen"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_refill_ammo_red"
+	}
+
+	"ubercanteen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ubercanteen"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_ubercharge_red"
+	}
+
 }
