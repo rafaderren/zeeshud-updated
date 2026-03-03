@@ -9,9 +9,10 @@
 		"wide"				"150"
 		"tall"				"67"
 		"visible"			"0"
+		"color"					"0 170 0 255"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderColorOpaque"
+		"border"			"ZeesBorderGreenOpaque"
 		"PaintBackgroundType"	"2"
 
 		"PassedIcon"
@@ -409,8 +410,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderColorOpaque"
-		"bgcolor_override"	"DarkGrey"
+		"border"			"ZeesBorderRedOpaque"
 		"PaintBackgroundType"	"2"
 
 		"FailedIcon"
@@ -443,7 +443,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardSmall"
 			"wrap"				"1"
-			"fgcolor_override"	"ZeesRed"
+			"fgcolor_override"	"ZeesWhite"
 		}
 
 		"FailedReason"
@@ -478,7 +478,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderColorOpaque"
+		"border"			"ZeesBorderRedOpaque"
 		"bgcolor_override"	"DarkGrey"
 		"PaintBackgroundType"	"2"
 
@@ -512,7 +512,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardSmall"
 			"wrap"				"1"
-			"fgcolor_override"	"ZeesRed"
+			"fgcolor_override"	"ZeesWhite"
 		}
 
 		"FailedReason"

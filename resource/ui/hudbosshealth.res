@@ -5,7 +5,7 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BorderImage"	
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"175"
 		"tall"			"15"
@@ -25,11 +25,11 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BorderLabel"	
-		"xpos"			"90"
-		"ypos"			"10"
+		"xpos"			"98"
+		"ypos"			"25"
 		"zpos"			"6"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"22"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -38,12 +38,29 @@
 		"image"			"replay/thumbnails/bosshp"	
 	}
 
+	"BorderFlair"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"BorderFlair"	
+		"xpos"			"81"
+		"ypos"			"25"
+		"zpos"			"6"
+		"wide"			"22"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"image"			"replay/thumbnails/bosshp2"	
+	}
+
 	"BorderBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BorderBG"	
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"15"
 		"zpos"			"3"
 		"wide"			"175"
 		"tall"			"14"
@@ -51,13 +68,14 @@
 		"enabled"		"1"
 		"bgcolor_override"	"ZeesBlack"
 	}
+
 	
 	"HealthBarPanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HealthBarPanel"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"15"
 		"zpos"			"4"
 		"wide"			"168"
 		"tall"			"18"
@@ -96,8 +114,8 @@
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
