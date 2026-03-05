@@ -117,17 +117,18 @@
 	}
 	"ScoreboardBackground"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"c-310"
-		"ypos"			"97"
+		"xpos"			"c-309"
+		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"620"
+		"wide"			"618"
 		"tall"			"300"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"TransparentBlack"
+		"border"		"ZeesBorderWhite"
 
 		if_mvm
 		{
@@ -337,10 +338,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-310"
+		"xpos"			"c-308"
 		"ypos"			"96"
 		"zpos"			"20"
-		"wide"			"310"
+		"wide"			"308"
 		"tall"			"240"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -364,7 +365,7 @@
 		"xpos"			"c0"
 		"ypos"			"96"
 		"zpos"			"20"
-		"wide"			"310"
+		"wide"			"308"
 		"tall"			"240"
 		"pinCorner"		"0"
 		"visible"		"1"

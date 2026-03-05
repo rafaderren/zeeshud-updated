@@ -114,11 +114,11 @@
 			"textAlignment"		"north"
 			"font"				"HudFontSmall"
 			"selectedcolor"		"ZeesWhite"
-			"unselectedcolor"	"ZeesGray"
+			"unselectedcolor"	"ZeesBorderWhite"
 			"defaultBgColor_override"	"ZeesNull"
-			"paintbackground"			"2"
-			"activeborder_override"		"ZeesBorderWhite"
-			"normalborder_override"		"ZeesBorderRed"
+			"paintbackground"			"0"
+			"activeborder_override"		"ZeesBorderWhiteOpaque"
+			"normalborder_override"		"ZeesBorderColorOpaque"
 		}
 	}
 
@@ -143,7 +143,7 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"back"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"1"
 		"border_default"	"ZeesBorderWhite"
 		"border_armed"		"ZeesBorderRed"
 		"sound_depressed"	"UI/buttonclick.wav"

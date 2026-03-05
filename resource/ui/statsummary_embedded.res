@@ -2,7 +2,7 @@
 {
 	"TFStatsSummary"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TFStatsSummary"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -10,7 +10,6 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"	"DarkGrey"
 	}
 
 	"MainBackground"
@@ -191,20 +190,40 @@
 			}
 		}
 
-		"AveragesBG"
+		"AveragesBG2"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"AveragesBG"
-			"xpos"			"c-295"
-			"ypos"			"165"
-			"wide"			"600"
+			"fieldName"		"AveragesBG2"
+			"xpos"			"c-310"
+			"ypos"			"172"
+			"wide"			"650"
 			"tall"			"300"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"TransparentBlack"
+			"bgcolor_override"	"0 0 0 200"
+			"PaintBackgroundType"	"0"
+		}
+		"AveragesBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"AveragesBG"
+			"xpos"			"c-310"
+			"ypos"			"172"
+			"wide"			"650"
+			"tall"			"300"
+			"border"		"ZeesBorderColored"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"PaintBackgroundType"	"2"
+
+    			"src_corner_width"     "23"
+    			"src_corner_height"    "23"
+    			"draw_corner_width"    "5"
+    			"draw_corner_height"   "5"
 		}
 		"AveragesLabel"
 		{
@@ -1325,19 +1344,20 @@
 		}
 		"RecordsSubBG1"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RecordsSubBG1"
-			"xpos"			"c+124"
+			"xpos"			"c+120"
 			"ypos"			"230"
 			"zpos"			"2"
-			"wide"			"167"
-			"tall"			"160"
+			"wide"			"187"
+			"tall"			"190"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"fillcolor"		"0 0 0 80"
+			"border"		"ZeesBorderColoredOpaque"
+			"fillcolor"		"0 0 0 200"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"
