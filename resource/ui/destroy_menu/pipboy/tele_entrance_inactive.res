@@ -1,4 +1,4 @@
-#base "../base_inactive.res"
+#base "base_inactive.res"
 
 "Resource/UI/build_menu/tele_entrance_inactive.res"
 {
