@@ -328,10 +328,10 @@
 				"unicode"		"0"
 			}
 		}
-		"AveragesBG"
+		"AveragesBG2"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"AveragesBG"
+			"fieldName"		"AveragesBG2"
 			"xpos"			"c-295"
 			"ypos"			"165"
 			"wide"			"650"
@@ -341,7 +341,27 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 200"
+			"PaintBackgroundType"	"0"
+		}
+		"AveragesBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"AveragesBG"
+			"xpos"			"c-295"
+			"ypos"			"165"
+			"wide"			"650"
+			"tall"			"300"
+			"border"		"ZeesBorderColored"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"PaintBackgroundType"	"2"
+
+    			"src_corner_width"     "23"
+    			"src_corner_height"    "23"
+    			"draw_corner_width"    "5"
+    			"draw_corner_height"   "5"
 		}
 		"AveragesLabel"
 		{
@@ -1432,7 +1452,7 @@
 		}		
 		"RecordsBG"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"RecordsBG"
 			"xpos"			"9999"
 			"ypos"			"9999"
@@ -1442,7 +1462,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"15 15 15 255"
 		}
 		"RecordsLabel1"
 		{
@@ -1462,18 +1481,19 @@
 		}
 		"RecordsSubBG1"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RecordsSubBG1"
-			"xpos"			"c+124"
+			"xpos"			"c+120"
 			"ypos"			"230"
 			"zpos"			"2"
-			"wide"			"173"
-			"tall"			"185"
+			"wide"			"187"
+			"tall"			"190"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
+			"border"		"ZeesBorderColoredOpaque"
 			"fillcolor"		"0 0 0 200"
 			"PaintBackgroundType"	"0"
 		}

@@ -88,6 +88,8 @@
 		"ypos"			"234"
 		"tall"			"30"
 		"textAlignment"	"west"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 		"font"			"CIKANDEI_36"
 	}
 
@@ -96,6 +98,8 @@
 		"xpos"			"r355"
 		"ypos"			"116"
 		"wide"			"60"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 		"font"			"CIKANDEI_36"
 	}
 	
@@ -149,13 +153,13 @@
 	
 	"teambutton2"
 	{
-		"xpos"			"c-210"
+		"xpos"			"999999"
 		"ypos"			"r150"
 	}
 	
 	"teambutton3"
 	{
-		"xpos"			"c10"
+		"xpos"			"9999999"
 		"ypos"			"r150"
 	}
 }

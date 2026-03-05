@@ -358,6 +358,8 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 		"font"			"CIKANDEI_48"
 		"fgcolor"		"ZeesWhite"
 	}
@@ -379,6 +381,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 		"font"			"CIKANDEI_48"
 		"fgcolor"		"ZeesWhite"
 	}

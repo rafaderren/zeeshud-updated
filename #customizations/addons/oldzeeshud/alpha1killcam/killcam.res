@@ -57,11 +57,23 @@
 
 		"AvatarImage"
 		{
-			"xpos"			"260"
-			"ypos"			"124"
-			"wide"			"34"
-			"tall"			"34"
+			"ControlName"	"CAvatarImagePanel"
+			"fieldName"		"AvatarImage"
+			"xpos"			"-163"
+			"ypos"			"-63"
+			"zpos"			"3"
+			"wide"			"36"
+			"tall"			"36"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
 			"scaleImage"	"1"
+			"bgcolor"		"ZeesWhite"
+			"color_outline"	"HudTimerProgressInActive"
+			
+			"pin_to_sibling"		"FreezePanelAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 }
