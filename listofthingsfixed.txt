@@ -43,6 +43,7 @@
 -fixed centered meters having high zpos priority
 -fixed futura font to have proper shadow
 -fixed chatbox size for linux
+-fixed an issue with hitboxes for buttons on team selection panels (Jess Fox)
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
 -updated the loading screen to look more lively
@@ -94,7 +95,10 @@
 -updated disable images to be compatible with other hud styles
 -updated mvm credits positioning for ut style
 -updated mvm and building textures to look less tf2 ish
--updated most mvm hud (Jess521521)
+-overhauled most MVM elements including upgrade menu, wave pass/fail, canteen UI and more. (Jess Fox)
+-improved the look of the loading stats addon and it's counterpart in the loadout menu  (Jess Fox)
+-updated alpha 1 killcam addon to show profile pictures  (Jess Fox)
+-updated the look and alignment of various elements across the hud (Jess Fox)
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -121,9 +125,11 @@
 -added a fully custom credits menu
 -added 4:3 adjustment addon
 -added motd movie addon
+-added a custom Halloween boss health bar (Jess Fox)
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
 -removed centered meters from the default addons
 -removed centered metals from the default addons
 -removed alt fonts from the default addons
+
