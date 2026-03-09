@@ -7,7 +7,7 @@
 		"xpos"					"c-150"
 		"ypos"					"140"
 		"wide"					"300"
-		"tall"					"200"
+		"tall"					"400"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -16,8 +16,7 @@
 		"settitlebarvisible"	"0"
 		"paintborder"			"2"
 		"paintbackground"		"1"
-		"border"				"ZeesBorderWhite"
-		"bgcolor_override"		"DarkGrey"
+		"border"			"ZeesBorderWhiteOpaque"
 	}
 
 	"TitleLabel"
@@ -91,11 +90,14 @@
 		"font"					"HudFontSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
+		"textinsety"			"-1"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"cancel"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
+		"border_default"		"ZeesBorderWhite"
+		"border_armed"			"ZeesBorderColoredOpaque"
 	}
 
 	"ConfirmButton"
@@ -117,10 +119,13 @@
 		"font"					"HudFontSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
+		"textinsety"			"-1"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"confirm"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
+		"border_default"		"ZeesBorderWhite"
+		"border_armed"			"ZeesBorderColoredOpaque"
 	}
 }
