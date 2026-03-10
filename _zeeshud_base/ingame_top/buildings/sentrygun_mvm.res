@@ -47,7 +47,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon_Sentry_1"
-		"xpos"			"30"
+		"xpos"			"29"
 		"ypos"			"1"
 		"wide"			"15"
 		"tall"			"15"
@@ -55,7 +55,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"White"
+		"iconColor"		"ZeesWhite"
 	}
 
 	"NotBuiltPanel"
@@ -165,7 +165,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
+			"xpos"			"10"
 			"ypos"			"4"
 			"wide"			"8"
 			"tall"			"15"
