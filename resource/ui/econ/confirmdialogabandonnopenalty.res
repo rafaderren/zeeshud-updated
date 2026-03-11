@@ -7,7 +7,7 @@
 		"xpos"					"c-150"
 		"ypos"					"140"
 		"wide"					"300"
-		"tall"					"400"
+		"tall"					"200"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -35,7 +35,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"ColorCyan"
+		"fgcolor_override"		"ZeesWhite"
 	}
 
 	"AbandonIcon"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ExplanationLabel"
-		"font"					"EconFontSmall"
+		"font"					"HudFontSmallBold"
 		"labelText"				"%text%"
 		"textAlignment"			"north-west"
 		"xpos"					"60"

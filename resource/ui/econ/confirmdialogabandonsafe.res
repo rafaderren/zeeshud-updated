@@ -38,13 +38,14 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
+		"fgcolor_override" 		"ZeesWhite"
 	}
 
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ExplanationLabel"
-		"font"					"FUTURA_BOLD_12"
+		"font"					"HudFontSmallBold"
 		"labelText"				"%text%"
 		"textAlignment"			"north"
 		"xpos"					"40"
