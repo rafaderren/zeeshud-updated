@@ -79,6 +79,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"		"0"
 	}		
 
 	"ConfirmButton"
@@ -106,6 +107,7 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"		"0"
 	}			
 	
 	"OptOutCheckbox"

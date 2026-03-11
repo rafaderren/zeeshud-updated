@@ -98,6 +98,7 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"border_default"		"ZeesBorderWhite"
 		"border_armed"			"ZeesBorderColoredOpaque"
+		"paintbackground"		"0"
 	}
 
 	"ConfirmButton"
@@ -127,5 +128,6 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"border_default"		"ZeesBorderWhite"
 		"border_armed"			"ZeesBorderColoredOpaque"
+		"paintbackground"		"0"
 	}
 }
