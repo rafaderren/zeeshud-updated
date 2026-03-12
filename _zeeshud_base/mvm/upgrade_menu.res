@@ -907,6 +907,11 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" 	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderRedOpaque"
+			"textinsety"		"-1"
+
 		}
 
 		"CloseButton"
@@ -932,6 +937,10 @@
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" 	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderGreenOpaque"
+			"textinsety"		"-1"
 		}
 
 		"RespecButton"
@@ -957,6 +966,10 @@
 			"Command"		"respec"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" 	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderRedOpaque"
+			"textinsety"		"-1"
 		}
 	}
 
