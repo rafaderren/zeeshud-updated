@@ -270,5 +270,13 @@ event HudSnapShotReminderIn
 //==================================================================================
 
 event CompetitiveGame_LowerChatWindow	{ }
-event CompetitiveGame_RestoreChatWindow	{ }
+event CompetitiveGame_RestoreChatWindow	{ 
+	RunEvent DefaultAnimHudSnapShotReminderIn	0.0
+    
+	RunEvent HudHealthReset 0.0
+    RunEvent HudHealthBonusPulseStop 		0.0
+    RunEvent HudHealthDyingPulseStop 		0.0
+    RunEvent HudLowAmmoPulseStop 			0.0
+    RunEvent HudMedicChargedStop 			0.0
+}
 event HudTournament_MoveChatWindow 		{ }
