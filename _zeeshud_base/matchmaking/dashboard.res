@@ -558,7 +558,7 @@
 				"actionsignallevel"	"3"
 
 				"armedBgColor_override"		"ZeesMain"
-				"defaultBgColor_override"	"ZeesDarkMain"
+				"defaultBgColor_override"	"DarkGrey"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
