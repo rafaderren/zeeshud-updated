@@ -135,49 +135,27 @@
 
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		
-		"xpos"			"cs-1.21"
+	
+		"xpos"			"cs-1.18"
 		"ypos"			"r140"
-		// "zpos"			"5"
-		"wide"			"150"
+		"wide"			"240"
 		"tall"			"100"
-		// "font"			"ZH_51"
 		
 		"xpos_minmode"	"40"
 		"ypos_minmode"	"r105"
 		"wide_minmode"	"240"
 		"tall_minmode"	"100"
-		
-		"textinsetx"	"4"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
 
-		"fgcolor"		"Health Text"
+		"textAlignment"	"east"
 	}
 
 	"PlayerStatusHealthValueShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
-		
-		// "xpos"			"-1"
-		// "ypos"			"-1"
-		// "zpos"			"6"
-		"wide"			"150"
+		"wide"			"240"
 		"tall"			"100"
-		// "font"			"ZHO_56"
 		
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
-		"fgcolor"		"Health Text Shadow"
-		"textinsetx"	"8"
+		"textAlignment"	"east"
+		"textinsetx"	"6"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
