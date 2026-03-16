@@ -7,6 +7,7 @@
 #base "../../#customizations/addons/_enabled/mainmenu_enablefriends/friends.res"
 #base "../../#customizations/addons/_enabled/oldzeeshud/_enabled/alpha3menu/main_menu.res"
 #base "../../#customizations/addons/_enabled/oldzeeshud/_enabled/alpha2menu/main_menu.res"
+#base "../../#customizations/addons/_enabled/enable_menu_character/main_menu.res"
 
 #base "../../_zeeshud_base/supporters.res"
 #base "../../_zeeshud_base/menus/zh_options.res"
