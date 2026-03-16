@@ -411,8 +411,8 @@
 		"font"			"FUTURA_BOLD_10"
 		"labelText"		"%spectators%"
 		"textAlignment"	"west"
-		"xpos"			"c-266"
-		"ypos"			"330"
+		"xpos"			"c-294"
+		"ypos"			"351"
 		"zpos"			"900"
 		"wide"			"541"
 		"tall"			"20"
@@ -423,7 +423,8 @@
 		
 		if_mvm
 		{
-			"ypos"		"400"
+			"ypos"		"395"
+			"xpos"		"c-300"
 		}
 	}
 
