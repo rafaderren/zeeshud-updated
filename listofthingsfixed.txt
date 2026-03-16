@@ -49,6 +49,8 @@
 -fixed misplaced mvm class selection upgrade indicator (Jess Fox)
 -fixed misplaced disposable sentry label (Jess Fox)
 -fixed join party match button being completely white (Jess Fox)
+-fixed overlapping default uber meter for MvM
+-fixed ut style health numbers
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
 -updated the loading screen to look more lively
@@ -61,8 +63,8 @@
 -moved pd score to fit with the hud
 -changed the vote panel to look bigger
 -made the hud have a little more customization on some things
--improved main menu scrolling bg (now it's not fake transparency!)
--restored and added hover team selection images
+-improved main menu scrolling bg (now it's not fake transparency!) (Crayon)
+-restored and added hover team selection images (Crayon)
 -updated classic style health bg to dark red
 -updated font size to be smaller (technically a fix)
 -updated context menu border (item, medal toggle, matchmaking settings, etc) to white 
@@ -100,12 +102,14 @@
 -updated disable images to be compatible with other hud styles
 -updated mvm credits positioning for ut style
 -updated mvm and building textures to look less tf2 ish
--overhauled most MVM elements including upgrade menu, wave pass/fail, canteen UI and more. (Jess Fox)
+-overhauled most mvm elements including upgrade menu, wave pass/fail, canteen ui and more. (Jess Fox)
 -improved the look of the loading stats addon and it's counterpart in the loadout menu  (Jess Fox)
 -updated alpha 1 killcam addon to show profile pictures  (Jess Fox)
 -updated the look and alignment of various elements across the hud (Jess Fox)
 -properly styled the back button in the loadout screen (Jess Fox)
 -properly styled all popup dialogs (Jess Fox)
+-updated spectator target id to use team colored backgrounds
+-updated killstreak icon color
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -133,6 +137,7 @@
 -added 4:3 adjustment addon
 -added motd movie addon
 -added a custom Halloween boss health bar (Jess Fox)
+-added vaccinator uber label (Jess Fox)
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
