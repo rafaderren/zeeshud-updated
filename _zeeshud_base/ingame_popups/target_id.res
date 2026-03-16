@@ -137,7 +137,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"KillStreakAnchor"
-		"xpos"				"-4"
+		"xpos"				"-3"
 		"ypos"				"18"
 		"wide"				"8"
 		"tall"				"8"
@@ -150,7 +150,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"KillStreakIcon"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"3"
 		"zpos"				"12"
 		"wide"				"12"
 		"tall"				"12"

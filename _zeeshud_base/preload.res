@@ -918,6 +918,16 @@
 		"enabled"		"1"
 		"image"			"../hud/health_dead"
 	}
+	
+	"ks_icon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ks_icon"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+	}
 
 	//=====================================
 	//
