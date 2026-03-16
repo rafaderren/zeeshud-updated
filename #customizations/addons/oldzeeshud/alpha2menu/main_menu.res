@@ -57,11 +57,6 @@
 		"wide"			"350"
 		"tall"			"175"
 	}
-	
-	"TFCharacterImage"
-	{
-		"xpos"			"c-200"
-	}
 
 	"CycleRankTypeButton"
 	{
