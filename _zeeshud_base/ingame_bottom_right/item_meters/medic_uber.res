@@ -63,11 +63,23 @@
 
 	"IndividualChargesLabel"
 	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"IndividualChargesLabel"
-		"xpos"				"9999"
-		"visible"			"0"
-		"enabled"			"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"IndividualChargesLabel"
+		"xpos"			"47"
+		"ypos"			"7"
+		"zpos"			"10"
+		"wide"			"90"
+		"tall"			"15"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#zeeshud_vaclabel"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"FUTURA_BOLD_14"
 	}
 
 	"ChargeMeterLabel"

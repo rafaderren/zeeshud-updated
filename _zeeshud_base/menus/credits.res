@@ -191,7 +191,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"HonorableMentions"
 			"font"			"FUTURA_BOLD_20"
-			"labelText"		"Special thanks to: Jess_fox, Borm, Jofre, Techno, DarSitam and the reddit guy/RightWestern for helping with the mod!"
+			"labelText"		" Special thanks to: Jess_fox, Borm, Jofre, Techno, DarSitam and the reddit guy/RightWestern for helping with the mod!"
 			"textAlignment"	"north-west"
 			"xpos"			"125"
 			"ypos"			"450"

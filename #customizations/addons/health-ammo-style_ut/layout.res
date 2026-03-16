@@ -32,6 +32,7 @@
 		"enabled"			"1"
 		"xpos"				"c25"
 		"ypos"				"c135"
+		"ypos_minmode"				"c135"
 		"wide"				"600"
 		"tall"				"400"
 	}

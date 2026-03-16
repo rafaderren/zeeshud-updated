@@ -69,7 +69,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"r300"
-		"ypos"				"r70"
+		"ypos"				"r90"
+		"ypos_minmode"		"r70"
 		"wide"				"232"
 		"tall"				"64"
 	}
