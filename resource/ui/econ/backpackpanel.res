@@ -50,6 +50,7 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
 
+
 			"Button"
 			{
 				"fieldName"			"Button"

@@ -365,6 +365,7 @@
 		"paintbackground"	"0"
 		"border_default"	"ZeesBorderWhiteOpaque"
 		"border_armed"		"ZeesBorderColorOpaque"
+		"inactiveFgColor_override"	"0 255 255 255"
 	}
 
 	"CurPageLabel"
