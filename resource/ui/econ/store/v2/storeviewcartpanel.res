@@ -224,7 +224,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"ColorCyan"
+		"bgcolor_override"		"ZeesWhite"
 	}
 
 	"ClientArea"
@@ -250,7 +250,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"ColorCyan"
+			"bgcolor_override"		"ZeesWhite"
 		}
 
 		"CartItemsLabel"
@@ -487,6 +487,10 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"CheckoutButton"
@@ -512,5 +516,9 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 }

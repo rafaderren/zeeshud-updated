@@ -2,12 +2,12 @@
 {
 	"crafting_panel"
 	{
-		"ControlName"		"Frame"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"crafting_panel"
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"400"
+		"tall"				"377"
 		"zpos"				"501"
 		"visible"			"1"
 		"autoResize"		"0"
@@ -16,9 +16,8 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override"		"DarkGrey"
-		"outoffocus_bgcolor_override"	"DarkGrey"
+		"paintbackground"	"0"
+		"border"		"ZeesBorderWhiteOpaque"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
@@ -38,7 +37,7 @@
 			"tall"				"45"
 			"visible"			"0"
 			"bgcolor_override"	"Transparent"
-			"noitem_textcolor"	"TextColor"
+			"noitem_textcolor"	"155 155 155 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
 
@@ -75,7 +74,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"namelabel"
 					"xpos"			"0"
-					"ypos"			"0"
+					"ypos"			"-6"
 					"zpos"			"2"
 					"wide"			"50"
 					"tall"			"30"
@@ -85,7 +84,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"TanLight"
+					"fgcolor"		"255 255 255 255"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -107,11 +106,11 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override"	"TextColor"
+			"defaultFgColor_override"	"155 155 155 255"
 			"defaultBgColor_override"	"Transparent"
-			"armedFgColor_override"		"TanLight"
+			"armedFgColor_override"		"255 255 255 255"
 			"armedBgColor_override"		"Transparent"
-			"depressedFgColor_override"	"15 255 255 255"
+			"depressedFgColor_override"	"ZeesMain"
 			"depressedBgColor_override"	"Transparent"
 		}
 
@@ -157,7 +156,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"200 187 161 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 
 	"selectedrecipecontainer"
@@ -170,7 +169,7 @@
 		"wide"				"300"
 		"tall"				"350"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"200 187 161 0"
+		"bgcolor_override"		"255 255 255 0"
 
 		"RecipeTitle"
 		{
@@ -188,7 +187,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor"		"255 255 255 255"
 			"wrap"			"1"
 		}
 
@@ -208,7 +207,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"153 204 255 255"
+			"fgcolor"		"255 255 255 255"
 			"wrap"			"1"
 		}
 
@@ -228,7 +227,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TextColor"
+			"fgcolor"		"255 255 255 255"
 		}
 
 		"OutputLabel"
@@ -247,7 +246,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TextColor"
+			"fgcolor"		"255 255 255 255"
 		}
 
 		"CraftButton"
@@ -273,6 +272,10 @@
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColoredOpaque"
 		}
 
 		"FreeAccountLabel"
@@ -336,7 +339,7 @@
 		"wide"				"280"
 		"tall"				"240"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"59 54 48 255"
+		"fgcolor_override"	"155 155 155 255"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons"	"1"
 	}
@@ -351,7 +354,7 @@
 		"wide"				"280"
 		"tall"				"240"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"200 187 161 0"
+		"bgcolor_override"		"255 255 255 0"
 	}
 
 	"mouseoveritempanel"
@@ -388,7 +391,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"TextColor"
+			"fgcolor"		"255 255 255 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -449,7 +452,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

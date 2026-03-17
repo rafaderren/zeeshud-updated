@@ -416,7 +416,7 @@
 		"paintbackground"	"0"
 		"paintborder"		"0"
 		"image_drawcolor"	"White"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"155 155 155 255"
 
 		"SubImage"
 		{
@@ -824,8 +824,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
-		"bgcolor_override"		"ZeesDarkGray"
+		"border"				"ZeesBorderColoredOpaque"
 
 		"MOTD_HeaderContainer"
 		{
@@ -852,9 +851,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType" "0"
+				"paintbackground"		"0"
 				"fgcolor_override"	"ZeesWhite"
-				"bgcolor_override"	"0 0 0 0"
 			}
 		}
 
@@ -862,8 +860,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"282"
-			"ypos"			"4"
+			"xpos"			"279"
+			"ypos"			"7"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -884,12 +882,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"motd_hide"
 			"paintbackground"	"0"
-
-			//"defaultFgColor_override" "ZeesWhite"
-			//"armedFgColor_override" "TanDarker"
-			"defaultFgColor_override" "Blank"
-			"armedFgColor_override" "Blank"
-			"depressedFgColor_override" "Blank"
 
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"155 155 155 255"
@@ -1054,9 +1046,9 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
 			"xpos"			"75"
-			"ypos"			"rs1.4"
+			"ypos"			"rs2"
 			"wide"			"150"
-			"tall"			"15"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1064,6 +1056,7 @@
 			"tabPosition"	"0"
 			"labelText"		"#MMenu_MOTD_URL"
 			"textinsetx"	"20"
+			"textinsety"	"-1"
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
@@ -1076,12 +1069,9 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override" "White"
-			"defaultBgColor_override" "Black"
-			"armedFgColor_override" "Black"
-			"armedBgColor_override" "White"
-			"depressedFgColor_override" "White"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"MOTD_PrevButton"
@@ -1174,16 +1164,6 @@
 			}
 		}
 	}
-	
-	// according to TF2 players, i'm a greedy piece of shit for wanting to
-	// acknowledge people who helped me pay rent, so i just removed supporters
-	// to keep kids who have never owned their own house to shut the fuck up
-	
-	// to be fair according to them i'm a pedophile because for having
-	// a legal relationship with someone 2 years younger than me who is now
-	// a shotacon and lies about having mental illnesses for attention so w/e you can't
-	// really trust them on these kinds of issues
-
 
 	"Notifications_Panel"
 	{

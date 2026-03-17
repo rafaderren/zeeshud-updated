@@ -46,7 +46,7 @@
 			"tall"				"10"
 			"visible"			"0"
 			"bgcolor_override"	"Transparent"
-			"noitem_textcolor"	"ZeesGray"
+			"noitem_textcolor"	"ZeesBlack"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
 
@@ -58,7 +58,7 @@
 				"tall"				"13"
 				"visible"			"1"
 				"bgcolor_override"	"ZeesMain"
-				"noitem_textcolor"	"ZeesGray"
+				"noitem_textcolor"	"ZeesWhite"
 				"PaintBackgroundType"	"2"
 				"paintborder"		"1"
 				"textAlignment"		"center"
@@ -66,6 +66,10 @@
 				"font"				"HudFontSmallest"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"WhiteBorderThick"
+				"border_armed"		"WhiteSelectedBorderThick"
 			}
 
 			"New"
@@ -76,9 +80,9 @@
 				"textAlignment"		"east"
 				"ypos"				"0"
 				"xpos"				"0"
-				"zpos"				"0"
+				"zpos"				"100"
 				"wide"				"f1"
-				"tall"				"f-3"
+				"tall"				"f-4"
 				"textinsetx"		"8"
 				"autoResize"		"1"
 				"pinCorner"			"0"
@@ -414,6 +418,10 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-3"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"CurPageLabel"
@@ -457,6 +465,10 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-3"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"DragToNextPageButton"
@@ -481,6 +493,10 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"0"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"DragToPrevPageButton"
@@ -505,6 +521,10 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"0"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"CancelApplyToolButton"

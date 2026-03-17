@@ -100,7 +100,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"ColorCyan"
+		"bgcolor_override"		"WhiteBorderThick"
 	}
 
 	"Sheet"
@@ -128,7 +128,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"ColorCyan"
+			"bgcolor_override"		"ZeesWhite"
 		}
 
 		"tabskv"
@@ -138,10 +138,10 @@
 			"font"				"HudFontSmall"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
-			"defaultBgColor_override"	"DarkGrey"
+			"defaultBgColor_override"	"ZeesBlack"
 			"paintbackground"		"1"
-			"activeborder_override"	"CyanBorderTabs"
-			"normalborder_override" "CyanBorderTabsInactive"
+			"activeborder_override"	"WhiteBorderThick"
+			"normalborder_override" "WhiteSelectedBorderThick"
 			"unselectedBgColor_override"	"10 10 10 255"
 			"depressedBgColor_override"		"10 10 10 255"
 		}
@@ -170,6 +170,9 @@
 		"Command"			"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"armory_panel"
@@ -201,8 +204,8 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"			"SupportCommunityMapMakersCheckButton"
-		"xpos"				"c275"
-		"ypos"				"437"
+		"xpos"				"c298"
+		"ypos"				"436"
 		"zpos"				"5"
 		"wide"				"25"
 		"tall"				"25"
@@ -216,8 +219,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
 		"textAlignment"		"north-west"
-		"xpos"				"c304"
-		"ypos"				"440"
+		"xpos"				"c324"
+		"ypos"				"432"
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"100"
@@ -250,5 +253,8 @@
 		"Command"			"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }
