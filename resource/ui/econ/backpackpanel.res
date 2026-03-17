@@ -298,7 +298,7 @@
 		"unicode"			"1"
 		"fgcolor_override"	"ZeesWhite"
 		"bgcolor_override"	"ZeesGray"
-		"paintbackgroundtype" "2"
+		"paintbackgroundtype" "0"
 		"font"				"HudFontSmallest"
 	}
 

@@ -104,7 +104,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ColorPurple"
+		"fgcolor_override" "ZeesMain"
 	}
 	"ClassLabel"
 	{
@@ -161,9 +161,9 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"DarkerGrey"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"	"ZeesWhite"
+		"bgcolor_override"	"ZeesGray"
+		"paintbackgroundtype" "0"
 	}
 
 	"TopLine"
