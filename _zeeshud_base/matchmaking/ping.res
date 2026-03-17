@@ -28,7 +28,7 @@
 		"tall"			"f-50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"ZeesBorderWhiteOpaque"
 		"proportionaltoparent"	"1"
 	}
 
