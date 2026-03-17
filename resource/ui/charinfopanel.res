@@ -1,3 +1,4 @@
+#base "../../#customizations\addons\_enabled\team_comtress_2_compatibility\charinfopanel.res"
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"
