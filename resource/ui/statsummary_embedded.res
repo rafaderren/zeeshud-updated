@@ -1941,16 +1941,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 
 	"ResetStatsButton"
 	{
 		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c130"
-		"ypos"			"290"
+		"xpos"			"c180"
+		"ypos"			"296"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -1964,8 +1962,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 
 	"CloseButton"

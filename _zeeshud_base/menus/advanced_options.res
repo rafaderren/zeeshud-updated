@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"CancelButton"
-		"xpos"				"150"
+		"xpos"				"100"
 		"ypos"				"310"
 		"zpos"				"1"
 		"wide"				"100"
