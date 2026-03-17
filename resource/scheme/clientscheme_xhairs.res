@@ -218,7 +218,8 @@ Scheme
 	{
 		"200"
 		{
-			"font" "resource/fonts/TF2Crosshairs.ttf"
+			"font" "resource/fonts/TF2Crosshairs.ttf" [!$LINUX]
+			"font" "resource/fonts/linux/tf2crosshairs.ttf" [$LINUX]
 			"name" "TF2Crosshairs"
 		}
 	}

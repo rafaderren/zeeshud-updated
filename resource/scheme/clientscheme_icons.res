@@ -42,7 +42,8 @@ Scheme
 	{
 		"121"
 		{
-			"font"	"resource/fonts/Icons.otf"
+			"font"	"resource/fonts/Icons.otf" [!$LINUX]
+			"font"	"resource/fonts/linux/icons.otf" [$LINUX]
 			"name"	"FlawHUDIcons"
 		}
 	}

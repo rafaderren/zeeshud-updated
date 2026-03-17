@@ -3256,17 +3256,20 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/CIKANDEI.ttf"
+			"font"	"resource/fonts/CIKANDEI.ttf" [!$LINUX]
+			"font"	"resource/fonts/cikandei.ttf" [$LINUX]
 			"name"	"CIKANDEI"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/GAMERIA.ttf"
+			"font"	"resource/fonts/GAMERIA.ttf" [!$LINUX]
+			"font"	"resource/fonts/linux/gameria.ttf" [$LINUX]
 			"name"	"GAMERIA"
 		}
 		"10"
 		{
-			"font"	"resource/fonts/Futura PT Bold.otf"
+			"font"	"resource/fonts/Futura PT Bold.otf" [!$LINUX]
+			"font"	"resource/fonts/linux/futura_pt_bold.otf" [$LINUX]
 			"name"	"Futura PT Bold"
 			"turkish"
 			{
@@ -3327,17 +3330,20 @@ Scheme
 		}
 		"11"
 		{
-			"font"	"resource/fonts/zeesHUDNumbers.ttf"
+			"font"	"resource/fonts/zeesHUDNumbers.ttf" [!$LINUX]
+			"font"	"resource/fonts/linux/zeeshudnumbers.ttf" [$LINUX]
 			"name"	"zeesHUDNumbers"
 		}
 		"12"
 		{
-			"font"	"resource/fonts/zeesHUDNumbersOutline.ttf"
+			"font"	"resource/fonts/zeesHUDNumbersOutline.ttf" [!$LINUX]
+			"font"	"resource/fonts/linux/zeeshudnumbersoutline.ttf" [$LINUX]
 			"name"	"zeesHUDNumbersOutline"
 		}
 		"13"
 		{
-			"font"	"resource/fonts/AdobeBlank.ttf"
+			"font"	"resource/fonts/AdobeBlank.ttf" [!$LINUX]
+			"font"	"resource/fonts/linux/adobeblank.otf" [$LINUX]
 			"name"	"Adobe Blank"
 		}
 		"14"		"resource/linux_fonts/DejaVuSans.ttf"
