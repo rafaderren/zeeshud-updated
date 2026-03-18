@@ -3,6 +3,9 @@
 #base "../#customizations/hitmarker.res"
 #base "../#customizations/transparent_viewmodel.res"
 
+//team comtress 2 compatibility
+#base "../#customizations/addons/_enabled/team_comtress_2_compatibility/layout.res"
+
 //vanilla captions
 #base "../#customizations/addons/_enabled/vanilla_edited_captions/layout.res"
 
@@ -10,7 +13,7 @@
 #base "../#customizations/addons/_enabled/uber_centered/layout.res"
 
 //ut style 
-//i think this is supposed to be undertale? idk im probably dumb for saying this
+//its unreal tournament style
 #base "../#customizations/addons/_enabled/health-ammo-style_ut/layout.res"
 
 //centered metal

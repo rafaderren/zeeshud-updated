@@ -1204,6 +1204,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImageSolider"
@@ -1219,6 +1221,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImagePyro"
@@ -1234,6 +1238,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImageDemoman"
@@ -1249,6 +1255,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImageHeavy"
@@ -1264,6 +1272,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImageEngineer"
@@ -1279,6 +1289,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImageMedic"
@@ -1294,6 +1306,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImageSniper"
@@ -1309,6 +1323,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"MvMUpgradeImageSpy"
@@ -1324,6 +1340,8 @@
 		"enabled"		"1"
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"keyboardinputenabled" "0"
 	}
 
 	"TFPlayerModel"
