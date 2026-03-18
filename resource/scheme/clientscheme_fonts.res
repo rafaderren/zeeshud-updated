@@ -3257,7 +3257,7 @@ Scheme
 		"8"
 		{
 			"font"	"resource/fonts/CIKANDEI.ttf" [!$LINUX]
-			"font"	"resource/fonts/cikandei.ttf" [$LINUX]
+			"font"	"resource/fonts/linux/cikandei.ttf" [$LINUX]
 			"name"	"CIKANDEI"
 		}
 		"9"
