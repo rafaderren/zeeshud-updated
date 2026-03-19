@@ -78,6 +78,9 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"		"ZeesBorderWhite"
+		"border_armed"			"ZeesBorderColoredOpaque"
+		"paintbackground"		"0"
 	}		
 
 	"CancelButtonHintIcon"
@@ -118,6 +121,9 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"		"ZeesBorderWhite"
+		"border_armed"			"ZeesBorderColoredOpaque"
+		"paintbackground"		"0"
 	}
 
 	"ConfirmButtonHintIcon"
@@ -155,5 +161,7 @@
 		"wrap"			"0"
 		"font"			"HudFontSmallest"
 		"selected_fgcolor_override" "255 0 0 255"
+		"border_default"		"ZeesBorderWhite"
+		"border_armed"			"ZeesBorderColoredOpaque"
 	}
 }
