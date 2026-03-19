@@ -81,6 +81,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"		"0"
+		"border_default"		"ZeesBorderWhite"
+		"border_armed"			"ZeesBorderColoredOpaque"
 	}		
 
 	"ConfirmButton"
