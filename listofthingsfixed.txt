@@ -138,6 +138,7 @@
 -added motd movie addon
 -added a custom Halloween boss health bar (Jess Fox)
 -added vaccinator uber label (Jess Fox)
+-added statbar color as customizable color
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
