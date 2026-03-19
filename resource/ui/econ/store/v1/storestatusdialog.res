@@ -10,10 +10,9 @@
 		"zpos"					"10000"
 		"wide"					"250"
 		"tall"					"150"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"PaintBackgroundType"	"0"
+		"border"		"ZeesBorderWhiteOpaque"
 	}
 	
 	"TitleLabel"
@@ -61,5 +60,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"		"ZeesBorderWhite"
+		"border_armed"			"ZeesBorderColoredOpaque"
+		"paintbackground"		"0"
 	}
 }
