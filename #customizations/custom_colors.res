@@ -37,5 +37,17 @@
 		"Solid Color Uber"			"255 0 90 255"
 		"Flashing Uber Color1"		"255 0 90 255"
 		"Flashing Uber Color2"		"255 0 0 255"
+
+		//---------------------------------------------
+		// Player Stats
+		"StatBar1"					"255 0 90 128"
+		"StatBar2"					"230 0 80 128"
+		"StatBar3"					"204 0 71 128"
+		"StatBar4"					"179 0 62 128"
+		"StatBar5"					"153 0 54 128"
+		"StatBar6"					"128 0 45 128"
+		"StatBar7"					"102 0 36 128"
+		"StatBar8"					"77 0 27 128"
+		"StatBar9"					"51 0 18 128"
 	}
 }
