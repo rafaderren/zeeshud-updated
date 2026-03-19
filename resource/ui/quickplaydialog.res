@@ -34,7 +34,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 
 		"Background"
 		{
@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"DarkGrey"
+			"bgcolor_override"	"ZeesBlack"
 			"proportionalToParent"	"1"
 		}
 
@@ -125,6 +125,10 @@
 				"Command"		"more_info"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 	
 			"ModeInfoContainer"
@@ -299,6 +303,10 @@
 				"Command"		"prevpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}		
 				
 			"NextPageButton"
@@ -323,6 +331,10 @@
 				"Command"		"nextpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}	
 		}
 
@@ -728,6 +740,10 @@
 			"Command"		"playnow"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"ShowServersButton"
@@ -753,6 +769,10 @@
 			"Command"		"show_servers"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"OptionsButton"
@@ -781,6 +801,10 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 			
 			"SubImage"
 			{
@@ -840,6 +864,10 @@
 			"Command"		"explain_beta"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 			"proportionaltoparent"	"1"
 
 			"pin_to_sibling"               "BetaCheckButton"
@@ -893,6 +921,10 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}		
 
 		"BetaExplanation"
@@ -979,6 +1011,10 @@
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 				"Command"		"close"
 				"proportionaltoparent"	"1"
 			

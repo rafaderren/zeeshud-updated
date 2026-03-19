@@ -9,11 +9,11 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"330"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"ZeesBlack"
 		"settitlebarvisible"	""
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 		
 		"button_kv"
 		{
@@ -79,7 +79,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "ZeesMain"
 	}
 	
 	"PlayerListScroller"
@@ -160,6 +160,10 @@
 			"Command"		"friends"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 		"subbutton1"
 		{
@@ -184,6 +188,10 @@
 			"Command"		"server"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 	"StatePanel1"
@@ -357,7 +365,7 @@
 		"wide"				"1"
 		"tall"				"24"
 		"PaintBackground"	"1"
-		"bgcolor_override" "122 111 98 255"
+		"bgcolor_override" "255 255 255 255"
 	}
 
 	"ClassUsageImage_Locked"
@@ -400,5 +408,9 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }

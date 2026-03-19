@@ -32,7 +32,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 
 		"Background"
 		{
@@ -47,7 +47,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"DarkGrey"
+			"bgcolor_override"	"ZeesBlack"
 		}
 
 		"TitleLabel"
