@@ -55,7 +55,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 175"
+		"fillcolor"		"0 0 0 255"
 		"tileImage"		"1"
 	}
 
@@ -84,7 +84,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 220"
+		"fillcolor"		"0 0 0 255"
 		"tileImage"		"1"
 	}
 
@@ -253,6 +253,7 @@
 		"Command"			"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
 		"paintbackground"	"0"
 		"border_default"	"ZeesBorderWhiteOpaque"
 		"border_armed"		"ZeesBorderColorOpaque"

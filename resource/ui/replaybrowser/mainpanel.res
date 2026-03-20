@@ -56,7 +56,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"27 27 27 200"
+		"fillcolor"		"0 0 0 255"
 		"tileImage"		"1"
 	}
 
@@ -85,7 +85,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"27 27 27 200"
+		"fillcolor"		"0 0 0 255"
 		"tileImage"		"1"
 	}
 
@@ -101,7 +101,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"ColorCyan"
+		"bgcolor_override"		"ZeesWhite"
 	}
 
 	"Sheet"
@@ -127,7 +127,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"ColorCyan"
+			"bgcolor_override"		"ZeesWhite"
 		}
 
 		"tabskv"
@@ -139,8 +139,8 @@
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"25 25 25 255"
 			"paintbackground"			"1"
-			"activeborder_override"		"CyanBorderTabs"
-			"normalborder_override"		"CyanBorderTabsInactive"
+			"activeborder_override"		"WhiteBorderThick"
+			"normalborder_override"		"WhiteSelectedBorderThick"
 			"unselectedBgColor_override"	"10 10 10 255"
 			"depressedBgColor_override"		"10 10 10 255"
 		}
@@ -169,5 +169,9 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }

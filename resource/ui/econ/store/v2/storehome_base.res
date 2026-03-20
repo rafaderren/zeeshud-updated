@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
-		"bgcolor_override"				"DarkGrey"
+		"bgcolor_override"				"25 25 25 255"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
 
@@ -324,7 +324,7 @@
 			"font"				"HudFontSmallest"
 			"fgcolor"			"TanDark"
 
-			"defaultBgColor_override"	"25 25 25 255"
+			"defaultBgColor_override"	"5 5 5 255"
 			"defaultFgColor_override"	"124 124 124 255"
 			"armedBgColor_override"		"0 0 0 100"
 			"armedFgColor_override"		"225 225 225 255"
@@ -452,7 +452,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"textinsetx"	"15"
 		"Command"		"viewcart"
 		"defaultBgColor_override" "TanDarker"
@@ -528,9 +528,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"textinsety"		"-1"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		"border_default"	"WhiteBorderThick"
 		"border_armed"		"WhiteSelectedBorderThick"
+		"defaultBgColor_override"	"0 0 0 255"
+		"armedBgColor_override"		"0 0 0 100"
 	}
 
 	"TitleLabel"
