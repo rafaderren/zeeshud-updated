@@ -350,8 +350,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "255 255 255 255"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -379,8 +379,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "255 255 255 255"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
 	}

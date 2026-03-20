@@ -713,7 +713,7 @@
 		"labelText"			"#LoadoutChangesUpdate"
 		"textAlignment"		"north"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"30"
