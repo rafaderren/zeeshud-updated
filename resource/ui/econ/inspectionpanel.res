@@ -2,16 +2,15 @@
 {
 	"BGImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"-50"
 		"zpos"			"1"
-		"wide"			"o1"
-		"tall"			"p0.75"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"item_carousel_bg"
+		"wide"			"852"
+		"tall"			"327"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
@@ -113,6 +112,23 @@
 				"maxDistance"		"1000"
 			}
 		}
+	}
+
+	"loadoutBG"
+	{
+		"controlname"		"imagepanel"
+		"fieldname"			"loadoutBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/items/items_menu_bg_6"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"scaleImage"		"1"
+	
 	}
 
 	"TeamNavPanel"
@@ -220,7 +236,7 @@
 		"zpos"			"100"
 		"visible"		"1"
 		"bgcolor_override"	"DarkerGrey"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"mouseinputenabled"		"1"
 		"proportionaltoparent"	"1"
 		"paintborder"			"0"

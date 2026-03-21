@@ -16,7 +16,6 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"paintbackground"	"0"
-		"border"		"ZeesBorderWhiteOpaque"
 
 		"item_ypos"					"60"
 		"item_ydelta"				"80"
@@ -86,6 +85,23 @@
 			"enabled"		"1"
 			"fgcolor"		"153 204 255 255"
 		}
+	}
+
+	"loadoutBG"
+	{
+		"controlname"		"imagepanel"
+		"fieldname"			"loadoutBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/items/items_menu_bg_7"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"scaleImage"		"1"
+	
 	}
 
 	"CaratLabel"

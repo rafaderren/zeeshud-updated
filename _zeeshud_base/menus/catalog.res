@@ -15,7 +15,6 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
-		"border"		"ZeesBorderWhiteOpaque"
 		"thumbnail_bgcolor"				"45 45 45 255"
 		"thumbnail_bgcolor_mouseover"	"ZeesMain"
 		"thumbnail_bgcolor_selected"	"ZeesMain"
@@ -53,6 +52,23 @@
 				"allow_rot"				"0"
 			}
 		}
+	}
+
+	"loadoutBG"
+	{
+		"controlname"		"imagepanel"
+		"fieldname"			"loadoutBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/items/items_menu_bg_5"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"scaleImage"		"1"
+	
 	}
 
 	"CaratLabel"
@@ -170,6 +186,22 @@
 			"image_box"			"ArmoryScrollbarBox"
 		}
 	}
+
+	"DataPanelBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DataPanelBG"
+		"xpos"			"c20"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"270"
+		"tall"			"253"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 255"
+		"paintborder"	"1"
+	}
+
 
 	"SelectedItemModelPanel"
 	{

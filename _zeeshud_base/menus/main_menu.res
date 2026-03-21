@@ -1288,7 +1288,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"r350"
+		"xpos"			"r354"
 		"ypos"			"r77"
 		"zpos"			"1"
 		"wide"			"350"
@@ -1312,7 +1312,7 @@
 
 		"defaultFgColor_override" "255 255 255 255"
 		"armedFgColor_override" "ZeesMain"
-		"depressedFgColor_override" "72 255 255 255"
+		"depressedFgColor_override" "ZeesMain"
 
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"ZeesMain"
