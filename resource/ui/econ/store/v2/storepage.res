@@ -161,7 +161,7 @@
 		"unicode"		"1"
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"15 15 15 255"
-		"paintbackgroundtype" "2"
+		"paintbackgroundtype" "0"
 		"font"		"HudFontSmall"
 	}
 
@@ -200,7 +200,7 @@
 		{
 			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"15 15 15 255"
-			"armedFgColor_override"		"15 255 255 255"
+			"armedFgColor_override"		"155 155 155 255"
 			"armedBgColor_override"		"15 15 15 255"
 			"paintbackgroundtype"		"2"
 		}
@@ -226,7 +226,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"border_override"	"ButtonBorder"
+		"border_override"	"WhiteBorderThick"
 		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
@@ -241,7 +241,7 @@
 		{
 			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"15 15 15 255"
-			"armedFgColor_override"		"15 255 255 255"
+			"armedFgColor_override"		"155 155 155 255"
 			"armedBgColor_override"		"15 15 15 255"
 			"paintbackgroundtype"		"2"
 		}
