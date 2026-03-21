@@ -96,7 +96,7 @@
 		"zpos"				"-2"
 		"wide"				"f0"
 		"tall"				"480"
-		"image"				"replay/thumbnails/items/items_menu_bg_7"
+		"image"				"replay/thumbnails/items/items_menu_bg_2"
 		"visible"			"1"
 		"enabled"			"1"
 		

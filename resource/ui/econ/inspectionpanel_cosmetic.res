@@ -443,7 +443,7 @@
 					"wide"			"145"
 					"tall"			"9"
 					"visible"		"1"
-					"PaintBackgroundType"	"2"
+					"PaintBackgroundType"	"0"
 					"bgcolor_override"		"215 206 182 255"
 				}
 
@@ -569,14 +569,14 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "ZeesBlack"
 		}
 
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
@@ -765,7 +765,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
@@ -1069,7 +1069,7 @@
 		"visible"			"0"
 		"bgcolor_override"	"Transparent"
 		"noitem_textcolor"	"TextColor"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"		"1"
 		"text_center_x"		"1"
 		"resize_to_text"	"1"
