@@ -531,7 +531,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
 			"wrap"				"1"
-			"bgcolor_override"	"0 255 255 255"
+			"bgcolor_override"	"ZeesWhite"
 		}
 	}
 
