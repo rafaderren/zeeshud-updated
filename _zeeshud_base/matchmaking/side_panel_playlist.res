@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"			"center"
-		"font"					"HudFontMediumSecondary"
+		"font"					"FUTURA_BOLD_24"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}
