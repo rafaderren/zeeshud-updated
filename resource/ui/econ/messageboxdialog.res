@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"EconFontSmall"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
