@@ -9,10 +9,10 @@
 		"ypos"				"200"
 		"wide"				"200"
 		"tall"				"110"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"ZeesBlack"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorder"
+		"border"				"WhiteBorderThick"
 	}
 
 	"CenterPositioner"
@@ -117,5 +117,9 @@
 		"Command"			"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }
