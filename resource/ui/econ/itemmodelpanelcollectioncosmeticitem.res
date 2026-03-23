@@ -120,7 +120,7 @@
 			"enabled"		"1"
 			"labelText"		"%collectionname%"
 			"textAlignment"	"west"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"ZeesWhite"
 			"centerwrap"	"0"
 		}
 	
@@ -154,7 +154,7 @@
 			"wide"			"145"
 			"tall"			"9"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override"		"215 206 182 255"
 		}
 		
@@ -174,9 +174,9 @@
 			"enabled"		"1"
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
+			"fgcolor"		"LightRed"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 	
 		"paint_icon"

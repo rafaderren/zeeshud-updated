@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
-		"bgcolor_override"				"DarkGrey"
+		"bgcolor_override"				"25 25 25 255"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
 
@@ -38,8 +38,8 @@
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"0"
 		"item_backdrop_zpos"				"1"
-		"item_panel_bgcolor"			"Grey"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
+		"item_panel_bgcolor"			"45 45 45 255"
+		"item_panel_bgcolor_mouseover"	"ZeesMain"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
 		"classicon_xdelta"				"5"
 
@@ -295,7 +295,7 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ItemCategoryTabs"
 		"xpos"				"c-230"
-		"ypos"				"31"
+		"ypos"				"30"
 		"zpos"				"0"
 		"wide"				"430"
 		"tall"				"25"
@@ -324,12 +324,12 @@
 			"font"				"HudFontSmallest"
 			"fgcolor"			"TanDark"
 
-			"defaultBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"124 114 99 255"
+			"defaultBgColor_override"	"5 5 5 255"
+			"defaultFgColor_override"	"124 124 124 255"
 			"armedBgColor_override"		"0 0 0 100"
-			"armedFgColor_override"		"235 227 203 255"
+			"armedFgColor_override"		"225 225 225 255"
 			"selectedBgColor_override"	"0 0 0 100"
-			"selectedFgColor_override"	"235 227 203 255"
+			"selectedFgColor_override"	"255 255 255 255"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -366,7 +366,10 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override" "TanDarker"
+		"textinsety"		"-3"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"CurPageLabel"
@@ -385,7 +388,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ColorCyan"
+		"fgcolor_override" "ZeesMain"
 	}
 
 	"NextPageButton"
@@ -411,6 +414,10 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override" "TanDarker"
+		"textinsety"		"-3"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"BackpackSpaceLabel"
@@ -445,12 +452,16 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"textinsetx"	"15"
 		"Command"		"viewcart"
 		"defaultBgColor_override" "TanDarker"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"CartImage"
@@ -514,10 +525,14 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"marketplace"
-		"paintbackground"	"1"
-		"defaultBgColor_override" "TanDarker"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"1"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
+		"defaultBgColor_override"	"0 0 0 255"
+		"armedBgColor_override"		"0 0 0 100"
 	}
 
 	"TitleLabel"
@@ -620,6 +635,6 @@
 		"enabled"		"1"
 		"paintbackground"	"1"
 		"bgcolor_override"	"DarkerGrey"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 }

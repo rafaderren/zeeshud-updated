@@ -114,6 +114,8 @@ Scheme
 		Label.DisabledFgColor1			"DullWhite"
 		Label.DisabledFgColor2			"Blank"
 
+		FrameSystemButton.Icon			"replay/thumbnails/vguiicon"
+
 		ListPanel.TextColor					"White"
 		ListPanel.BgColor					"HudBlack"
 		ListPanel.SelectedBgColor			"White"

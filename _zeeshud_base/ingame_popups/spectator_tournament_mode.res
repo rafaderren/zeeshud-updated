@@ -163,7 +163,7 @@
 				"fieldName"			"playername"
 				"font"				"HudFontSmall"
 				"xpos"				"54"
-				"ypos"				"0"
+				"ypos"				"1"
 				"zpos"				"5"
 				"wide"				"80"
 				"tall"				"16"
@@ -237,7 +237,7 @@
 				"fieldName"			"respawntime"
 				"font"				"HudFontSmallest"
 				"xpos"				"5"
-				"ypos"				"3"
+				"ypos"				"4"
 				"zpos"				"5"
 				"wide"				"23"
 				"tall"				"10"
@@ -246,7 +246,7 @@
 				"visible"			"1"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"west"
-				"fgcolor"			"ZeesRedDark"
+				"fgcolor"			"0 230 148 255"
 			}
 
 			"respawntimeBG"

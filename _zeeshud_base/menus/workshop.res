@@ -31,7 +31,7 @@
 		"tabPosition"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 
 		"Background"
 		{
@@ -156,8 +156,10 @@
 				"Command"		"learn_more"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"NoBorder"
-				"border_armed"		"NoBorder"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 		}
 
@@ -269,6 +271,10 @@
 				"Command"		"prevpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 
 			"CurPageLabel"
@@ -287,7 +293,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override" "ColorCyan"
+				"fgcolor_override" "ZeesMain"
 			}
 
 			"NextPageButton"
@@ -312,6 +318,10 @@
 				"Command"		"nextpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 
 			"ViewPublishedButton"
@@ -337,7 +347,10 @@
 				"Command"		"view_files"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"NoBorder"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 
 			"EditButton"
@@ -364,10 +377,10 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Edit"
 				"command"			"edit"
-				"border_default"	"NoBorder"
-
-				"image_drawcolor"		"TanLight"
-				"image_disabledcolor"	"ColorBlack"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 
 				"SubImage"
 				{
@@ -409,10 +422,10 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_View"
 				"command"			"view"
-				"border_default"	"NoBorder"
-
-				"image_drawcolor"		"TanLight"
-				"image_disabledcolor" 	"ColorBlack"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 
 				"SubImage"
 				{
@@ -454,10 +467,10 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Delete"
 				"command"			"delete_item"
-				"border_default"	"NoBorder"
-
-				"image_drawcolor"		"TanLight"
-				"image_disabledcolor"	"ColorBlack"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 
 				"SubImage"
 				{
@@ -496,7 +509,10 @@
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"NoBorder"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"LoadTestMapButton"
@@ -519,7 +535,10 @@
 			"Command"		"itemtest"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"NoBorder"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"PublishButton"
@@ -542,7 +561,10 @@
 			"Command"		"publish"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"NoBorder"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"LearnMore2Button"
@@ -565,7 +587,10 @@
 			"Command"		"learn_more"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"NoBorder"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"ViewLegalAgreementButton"
@@ -591,7 +616,10 @@
 			"Command"		"view_legal_agreement"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"NoBorder"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"CancelButton"
@@ -617,7 +645,10 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"NoBorder"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 }

@@ -15,8 +15,8 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override"		"DarkGrey"
+		"bgcolor_override"				"25 25 25 255"
+		"infocus_bgcolor_override"		"ZeesBlack"
 		"outoffocus_bgcolor_override"	"DarkGrey"
 		"max_cart_model_panels"	"10"
 		"item_ypos"				"70"
@@ -33,10 +33,11 @@
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
-		"item_backdrop_paintbackgroundtype"	"0"
-		"item_panel_bgcolor"			"Grey"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_backdrop_paintbackgroundtype"	"1"
+		"item_panel_bgcolor"			"45 45 45 255"
+		"item_panel_border"			"WhiteBorderThick"
+		"item_panel_bgcolor_mouseover"	"ZeesMain"
+		"item_panel_bgcolor_selected"	"155 155 155 255"
 		"classicon_xdelta"		"5"
 
 		"modelpanels_kv"
@@ -50,7 +51,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"ColorBlack"
 			"noitem_textcolor"		"TextColor"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"24"
 			"model_ypos"	"6"
@@ -104,7 +105,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"ColorBlack"
 			"noitem_textcolor"		"TextColor"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"2"
 			"model_ypos"	"2"
@@ -160,7 +161,7 @@
 		"unicode"		"1"
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"15 15 15 255"
-		"paintbackgroundtype" "2"
+		"paintbackgroundtype" "0"
 		"font"		"HudFontSmall"
 	}
 
@@ -184,7 +185,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"border_override"	"ButtonBorder"
+		"border_override"	"WhiteBorderThick"
 		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
@@ -199,7 +200,7 @@
 		{
 			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"15 15 15 255"
-			"armedFgColor_override"		"15 255 255 255"
+			"armedFgColor_override"		"155 155 155 255"
 			"armedBgColor_override"		"15 15 15 255"
 			"paintbackgroundtype"		"2"
 		}
@@ -225,7 +226,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"border_override"	"ButtonBorder"
+		"border_override"	"WhiteBorderThick"
 		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
@@ -240,7 +241,7 @@
 		{
 			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"15 15 15 255"
-			"armedFgColor_override"		"15 255 255 255"
+			"armedFgColor_override"		"155 155 155 255"
 			"armedBgColor_override"		"15 15 15 255"
 			"paintbackgroundtype"		"2"
 		}
@@ -281,7 +282,7 @@
 			"pinCorner"			"0"
 			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
+
 			"bgcolor_override"		"35 35 35 255"
     	}
 
@@ -350,6 +351,10 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"textinsety"		"-3"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"CurPageLabel"
@@ -368,7 +373,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ColorCyan"
+		"fgcolor_override" "ZeesMain"
 	}
 
 	"NextPageButton"
@@ -393,6 +398,10 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"textinsety"		"-3"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"PriceLabel"
@@ -524,10 +533,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
+			"fgcolor"			"255 255 255 255"
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -536,9 +545,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 
-			"image_drawcolor"		"75 215 255 180"
-			"image_armedcolor"		"75 215 255 255"
-			"image_selectedcolor"	"75 215 255 255"
+			"image_drawcolor"		"255 255 255 180"
+			"image_armedcolor"		"255 255 255 255"
+			"image_selectedcolor"	"255 255 255 255"
 
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -728,9 +737,12 @@
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
 		"Command"		"viewcart"
-		"defaultBgColor_override" "TanDarker"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"CartImage"

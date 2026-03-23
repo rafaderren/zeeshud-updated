@@ -29,7 +29,7 @@
 			"zpos"			"-2"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -49,8 +49,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"bgcolor_override"	"DarkGrey"
+			"border"		"WhiteBorderThick"
+			"bgcolor_override"	"ZeesBlack"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 
@@ -59,7 +59,7 @@
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"DescLabel"
 				"xpos"			"0"
-				"ypos"			"5"
+				"ypos"			"2"
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
@@ -85,7 +85,7 @@
 				"ControlName"	"Label"
 				"fieldName"		"AutoJoinLabel"
 				"xpos"			"0"
-				"ypos"			"rs1-17"
+				"ypos"			"rs1-20"
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
@@ -104,10 +104,10 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"AbandonButton"
 				"xpos"			"rs1-10"
-				"ypos"			"rs1-5"
+				"ypos"			"rs1-3"
 				"zpos"			"100"
 				"wide"			"75"
-				"tall"			"15"
+				"tall"			"19"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -123,10 +123,13 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
-				"paintbackground"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 
 			"SmallJoinButton"
@@ -134,10 +137,10 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"SmallJoinButton"
 				"xpos"			"10"
-				"ypos"			"rs1-5"
-				"wide"			"90"
+				"ypos"			"rs1-3"
+				"wide"			"95"
 				"zpos"			"100"
-				"tall"			"15"
+				"tall"			"19"
 
 				if_expected
 				{
@@ -163,6 +166,10 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 
 			"WideJoinButton"
@@ -170,10 +177,10 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"WideJoinButton"
 				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
+				"ypos"			"rs1-3"
 				"wide"			"150"
 				"zpos"			"100"
-				"tall"			"15"
+				"tall"			"19"
 
 				"autoResize"	"0"
 				"pinCorner"		"3"
@@ -193,6 +200,10 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 
 			"JoiningLabel"

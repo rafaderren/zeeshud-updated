@@ -70,7 +70,7 @@
 			"xpos"			"0"
 			"ypos"			"100"
 			"wide"			"140"
-			"tall"			"16"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
@@ -85,6 +85,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"set_style"
+			"textinsety"		"-2"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 }

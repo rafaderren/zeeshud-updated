@@ -47,7 +47,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"wide"			"0"
-		"fgcolor"		"200 80 60 0"
+		"fgcolor"		"ZeesMain"
 	}
 
 	"TitleLabel"

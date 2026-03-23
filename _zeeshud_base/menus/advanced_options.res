@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"CancelButton"
-		"xpos"				"150"
+		"xpos"				"100"
 		"ypos"				"310"
 		"zpos"				"1"
 		"wide"				"100"
@@ -66,6 +66,10 @@
 		"Command"			"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"OkButton"
@@ -91,6 +95,10 @@
 		"Command"			"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"PanelListPanel"

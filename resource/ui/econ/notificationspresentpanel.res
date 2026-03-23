@@ -7,11 +7,11 @@
 		"xpos"			"c80"
 		"ypos"			"25"
 		"zpos"			"10000"
-		"wide"			"220"
+		"wide"			"300"
 		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"border"		"ZeesBorderWhiteOpaque"
 	}
 
 	"TextLabel"
@@ -31,7 +31,7 @@
 		"wrap"			"0"
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"
-		"font"			"TFFontSmall"
+		"font"			"FUTURA_BOLD_12"
 		"proportionaltoparent"	"1"
 	}
 }

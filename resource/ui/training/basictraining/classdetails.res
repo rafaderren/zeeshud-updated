@@ -22,6 +22,10 @@
 		"Command"			"startbasictraining"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 	
 	"OverlayPanel"
@@ -37,8 +41,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"40 37 37 255"
-		"border"			"ButtonBorder"
+		"bgcolor_override"	"0 0 0 255"
+		"border"			"WhiteBorderThick"
 		
 		"ClassNameLabel"
 		{
