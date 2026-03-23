@@ -5,6 +5,7 @@
 		"ControlName"		"Frame"
 		"fieldName"			"armory_panel"
 		"wide"				"f0"
+		"tall"				"377"
 		"zpos"				"501"
 		"visible"			"1"
 		"autoResize"		"0"
@@ -13,12 +14,10 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override"		"DarkGrey"
-		"outoffocus_bgcolor_override"	"DarkGrey"
-		"thumbnail_bgcolor"				"Grey"
-		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
-		"thumbnail_bgcolor_selected"	"176 166 148 255"
+		"paintbackground"	"0"
+		"thumbnail_bgcolor"				"45 45 45 255"
+		"thumbnail_bgcolor_mouseover"	"ZeesMain"
+		"thumbnail_bgcolor_selected"	"ZeesMain"
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
 		"thumbnails_x"			"c-300"
@@ -35,7 +34,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"ColorBlack"
 			"noitem_textcolor"		"TextColor"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"7"
 			"model_ypos"	"5"
@@ -53,6 +52,23 @@
 				"allow_rot"				"0"
 			}
 		}
+	}
+
+	"loadoutBG"
+	{
+		"controlname"		"imagepanel"
+		"fieldname"			"loadoutBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/items/items_menu_bg_5"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"scaleImage"		"1"
+	
 	}
 
 	"CaratLabel"
@@ -140,7 +156,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-		"border"		"NoBorder"
+		"border"		"WhiteBorderThick"
 
 		"Data_TextRichText"
 		{
@@ -150,7 +166,7 @@
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
-			"ypos"			"118"
+			"ypos"			"105"
 			"wide"			"250"
 			"tall"			"125"
 			"autoResize"	"0"
@@ -170,6 +186,22 @@
 			"image_box"			"ArmoryScrollbarBox"
 		}
 	}
+
+	"DataPanelBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DataPanelBG"
+		"xpos"			"c20"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"270"
+		"tall"			"253"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 255"
+		"paintborder"	"1"
+	}
+
 
 	"SelectedItemModelPanel"
 	{
@@ -284,6 +316,10 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-3"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"CurPageLabel"
@@ -327,6 +363,10 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-3"
+		"paintbackground"	"0"
+		"border_default"	"WhiteBorderThick"
+		"border_armed"		"WhiteSelectedBorderThick"
 	}
 
 	"WikiButton"
@@ -352,6 +392,10 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"ViewSetButton"
@@ -377,6 +421,10 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"StoreButton"
@@ -401,6 +449,10 @@
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"ReloadSchemeButton"
@@ -426,5 +478,9 @@
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 }

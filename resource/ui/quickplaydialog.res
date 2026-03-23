@@ -34,7 +34,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 
 		"Background"
 		{
@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"DarkGrey"
+			"bgcolor_override"	"ZeesBlack"
 			"proportionalToParent"	"1"
 		}
 
@@ -106,11 +106,11 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"MoreInfoButton"
-				"xpos"			"325"
+				"xpos"			"320"
 				"ypos"			"10"
 				"zpos"			"10"
-				"wide"			"15"
-				"tall"			"15"
+				"wide"			"20"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -125,6 +125,10 @@
 				"Command"		"more_info"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 	
 			"ModeInfoContainer"
@@ -299,6 +303,10 @@
 				"Command"		"prevpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}		
 				
 			"NextPageButton"
@@ -323,6 +331,10 @@
 				"Command"		"nextpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}	
 		}
 
@@ -728,6 +740,10 @@
 			"Command"		"playnow"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"ShowServersButton"
@@ -753,6 +769,10 @@
 			"Command"		"show_servers"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"OptionsButton"
@@ -781,16 +801,20 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
+				"xpos"			"5"
+				"ypos"			"5"
 				"zpos"			"1"
-				"wide"			"19"
-				"tall"			"19"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -824,8 +848,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"10"
-			"wide"			"15"
-			"tall"			"15"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -840,6 +864,10 @@
 			"Command"		"explain_beta"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 			"proportionaltoparent"	"1"
 
 			"pin_to_sibling"               "BetaCheckButton"
@@ -893,6 +921,10 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}		
 
 		"BetaExplanation"
@@ -979,6 +1011,7 @@
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"textinsety"		"-1"
 				"Command"		"close"
 				"proportionaltoparent"	"1"
 			

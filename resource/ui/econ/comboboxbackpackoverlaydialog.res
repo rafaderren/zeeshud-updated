@@ -9,10 +9,10 @@
 		"ypos"					"105"
 		"wide"					"280"
 		"tall"					"240"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"ZeesBlack"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 	}
 
 	"TitleLabel"
@@ -89,7 +89,7 @@
 		"unicode"			"0"
 
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"ZeesBlack"
 		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "Black"
 		"selectionColor_override" "Black"
@@ -120,6 +120,10 @@
 		"Command"			"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"OkButton"
@@ -145,5 +149,9 @@
 		"Command"			"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }

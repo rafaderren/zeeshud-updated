@@ -32,7 +32,7 @@
 		"labelText"		""
 		"textAlignment"	"North"
 		"font"			"TeamMenu"
-		"textinsetx"	"2"
+		"textinsetx"	"10"
 		"textinsety"	"7"
 	}
 }

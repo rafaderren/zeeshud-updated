@@ -32,7 +32,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 		
 		// "GradientBgPanel"
 		// {
@@ -65,7 +65,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"DarkGrey"
+			"bgcolor_override"	"0 0 0 255"
 		}
 
 		"TitleLabel"
@@ -126,6 +126,10 @@
 			"Command"		"prevpage"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}	
 		
 		"CancelButton"
@@ -148,6 +152,10 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"cancel"
+			"textinsety"		"-1"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}			

@@ -51,6 +51,14 @@
 -fixed join party match button being completely white (Jess Fox)
 -fixed overlapping default uber meter for MvM
 -fixed ut style health numbers
+-minor layout and color fixes for various elements (Jess Fox)
+
+-overhauled the look of the training menu, backpack menu and all of it's sub-menus, notification alert, trading panel, item inspecting, advanced options, mann co. store, match found and abandon popup, matchmaking settings, workshop panel, duel minigame panel, coach panel and credits menu (Jess Fox)
+-robot count icons now have sharp corners (Jess Fox)
+-improved the look of leaderboard icons for domination, nemesis and dead statuses (Jess Fox)
+-improved the look of the mvm class upraded icon on class selection screen (Jess Fox)
+
+
 
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
 -updated the loading screen to look more lively
@@ -139,6 +147,9 @@
 -added a custom Halloween boss health bar (Jess Fox)
 -added vaccinator uber label (Jess Fox)
 -added statbar color as customizable color
+-added a small TF2 logo to source GUI's (Jess Fox)
+-added status effect icon for the base jumper (Jess Fox)
+-added compatibility for team comtress 2 as an addon
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files

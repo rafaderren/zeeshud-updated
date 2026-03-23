@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"ScrollBar"
 		"FieldName"		"ScrollBar"
-		"xpos"			"c226"
+		"xpos"			"c233"
 		"ypos"			"c-120"
 		"wide"			"4"
 		"tall"			"200"
@@ -42,7 +42,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"		"DullWhite"
+			"fgcolor_override"		"255 255 255 255"
 		}
 
 		"UpButton"
@@ -93,8 +93,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"			"CyanBorderThick"
-		"bgcolor_override"	"DarkGrey"
+		"border"			"WhiteBorderThick"
+		"bgcolor_override"	"ZeesBlack"
 		"PaintBorder"		"1"
 
 		// Background for the player model & item preview panels
@@ -110,8 +110,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"NoBorder"
-			"bgcolor_override"	"Grey"
+			"border"		"WhiteBorderThick"
+			"bgcolor_override"	"ZeesBlack"
 		}
 
 		"ItemNameLabel"
@@ -348,6 +348,10 @@
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"textinsety"		"-1"
+					"paintbackground"	"0"
+					"border_default"	"ZeesBorderWhiteOpaque"
+					"border_armed"		"ZeesBorderColoredOpaque"
 				}
 
 				"TradableLabel"
@@ -562,10 +566,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 
 		"bgblockout"
 		{
@@ -578,8 +582,8 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override" "Grey"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override" "ZeesBlack"
 		}
 
 		"itempanel"
@@ -614,10 +618,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 
 		"bgblockout"
 		{
@@ -630,8 +634,8 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override" "Grey"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override" "ZeesBlack"
 		}
 
 		"itempanel"
@@ -666,10 +670,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 
 		"bgblockout"
 		{
@@ -682,8 +686,8 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override" "Grey"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override" "ZeesBlack"
 		}
 
 		"itempanel"
@@ -718,10 +722,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 
 		"bgblockout"
 		{
@@ -734,8 +738,8 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override" "Grey"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override" "ZeesBlack"
 		}
 
 		"itempanel"
@@ -770,10 +774,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 
 		"bgblockout"
 		{
@@ -786,8 +790,8 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override" "Grey"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override" "ZeesBlack"
 		}
 
 		"itempanel"
@@ -824,8 +828,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -840,8 +844,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -856,8 +860,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -872,8 +876,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -888,8 +892,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -904,8 +908,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "TanDarker"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor" "White"
+		"panel_bgcolor_mouseover" "ZeesMain"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -933,9 +937,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override"	"255 255 255 255"
 	}
 
 	"IconsMoveRightButton"
@@ -961,9 +965,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override"	"255 255 255 255"
 	}
 
 	"ClassUsageMouseoverLabel"
@@ -1012,9 +1016,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override"	"255 255 255 255"
 		"button_activation_type"	"0"
 	}
 
@@ -1041,9 +1045,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override"	"255 255 255 255"
 		"button_activation_type"	"0"
 	}
 
@@ -1066,6 +1070,10 @@
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-2"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"GoFullscreenButton"
@@ -1092,8 +1100,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"gofullscreen"
 		"paintbackground"	"0"
-		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"128 117 104 255"
+		"image_drawcolor"		"255 255 255 2255"
+		"image_armedcolor"		"ZeesMain"
 
 		"SubImage"
 		{
@@ -1135,8 +1143,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"zoom_toggle"
 		"paintbackground"	"0"
-		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"128 117 104 255"
+		"image_drawcolor"		"255 255 255 255"
+		"image_armedcolor"		"ZeesMain"
 
 		"SubImage"
 		{
@@ -1427,6 +1435,10 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"TryItOutButton"
@@ -1451,6 +1463,10 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"AddToCartButton"
@@ -1475,6 +1491,10 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"mouseoveritempanel"

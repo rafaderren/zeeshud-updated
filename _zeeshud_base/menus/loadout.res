@@ -129,6 +129,25 @@
 		"enabled"		"1"
 	}
 
+	"CaratLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CaratLabel"
+		"font"			"HudFontMediumSmallSecondary"
+		"labelText"		">>"
+		"textAlignment"	"west"
+		"xpos"			"c-290"
+		"ypos"			"19"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"16"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "ZeesMain"
+	}
+
 	"TauntCaratLabel"
 	{
 		"ControlName"	"CExLabel"

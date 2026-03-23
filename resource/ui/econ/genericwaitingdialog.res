@@ -9,10 +9,10 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"105"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"ZeesBlack"
 		"paintbackgroundtype"	"1"
 		"settitlebarvisible"	"0"
-		"border"				"NoBorder"
+		"border"				"WhiteBorderThick"
 	}
 
 	"TitleLabel"

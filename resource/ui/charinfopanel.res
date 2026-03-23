@@ -118,8 +118,8 @@
 			"unselectedcolor"	"ZeesBorderWhite"
 			"defaultBgColor_override"	"ZeesNull"
 			"paintbackground"			"0"
-			"activeborder_override"		"ZeesBorderWhiteOpaque"
-			"normalborder_override"		"ZeesBorderColorOpaque"
+			"activeborder_override"		"ZeesBorderColorOpaque"
+			"normalborder_override"		"ZeesBorderWhiteOpaque"
 		}
 	}
 
@@ -142,10 +142,10 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"textinsety"		"-1"
 		"default"		"0"
 		"Command"		"back"
 		"PaintBackgroundType"	"1"
+		"textinsety"		"-1"
 		"paintbackground"	"0"
 		"border_default"	"ZeesBorderWhiteOpaque"
 		"border_armed"		"ZeesBorderColorOpaque"

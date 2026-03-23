@@ -98,10 +98,10 @@
 				"ypos"			"58"
 				"zpos"			"5"
 				"wide"			"580"
-				"tall"			"5"
+				"tall"			"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"loadout_solid_line"
+				"image"			"replay/thumbnails/dummy"
 				"tileImage"		"1"
 			}
 
@@ -128,6 +128,11 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"paintbackground"	"1"
+				"border_default"	"WhiteBorderThick"
+				"border_armed"		"WhiteSelectedBorderThick"
+				"defaultBgColor_override"	"0 0 0 255"
+				"armedBgColor_override"		"0 0 0 255"
 			}
 
 			"PriceLabel"
@@ -177,7 +182,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 175"
+		"fillcolor"		"0 0 0 255"
 		"tileImage"		"1"
 	}
 
@@ -207,7 +212,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 220"
+		"fillcolor"		"0 0 0 255"
 		"tileImage"		"1"
 	}
 
@@ -224,7 +229,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"ColorCyan"
+		"bgcolor_override"		"ZeesWhite"
 	}
 
 	"ClientArea"
@@ -250,7 +255,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"ColorCyan"
+			"bgcolor_override"		"ZeesWhite"
 		}
 
 		"CartItemsLabel"
@@ -273,16 +278,16 @@
 
 		"SeparatorLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"SeparatorLine"
 			"xpos"			"c-300"
 			"ypos"			"60"
 			"zpos"			"5"
 			"wide"			"600"
-			"tall"			"5"
+			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
+			"image"			"replay/thumbnails/dummy"
 			"tileImage"		"1"
 		}
 
@@ -314,7 +319,7 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"DullWhite"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"fgcolor_override"	"255 255 255 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"DarkGrey"
 			"autohide_buttons" "1"
 
@@ -487,6 +492,10 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 
 	"CheckoutButton"
@@ -512,5 +521,9 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}
 }

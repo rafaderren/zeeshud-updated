@@ -8,14 +8,14 @@
 		"ypos"			"0"
 		"zpos"			"500"
 		"wide"			"f0"
-		"tall"			"400"
+		"tall"			"377"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"		"DarkGrey"
+		"paintbackground"	"0"
 
 		"item_ypos"					"60"
 		"item_ydelta"				"80"
@@ -87,6 +87,23 @@
 		}
 	}
 
+	"loadoutBG"
+	{
+		"controlname"		"imagepanel"
+		"fieldname"			"loadoutBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/items/items_menu_bg_2"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"scaleImage"		"1"
+	
+	}
+
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -103,7 +120,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ColorPurple"
+		"fgcolor_override" "ZeesMain"
 	}
 	"ClassLabel"
 	{
@@ -160,9 +177,9 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"DarkerGrey"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"	"ZeesWhite"
+		"bgcolor_override"	"ZeesGray"
+		"paintbackgroundtype" "0"
 	}
 
 	"TopLine"
@@ -255,6 +272,10 @@
 		"Command"		"vguicancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"OnlyAllowUniqueQuality"
@@ -300,6 +321,10 @@
 		"Command"		"show_backpack"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 	"ShowSelection"
 	{
@@ -324,6 +349,10 @@
 		"Command"		"show_selection"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"PrevPageButton"
@@ -348,6 +377,11 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-5"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
+		"inactiveFgColor_override"	"0 255 255 255"
 	}
 
 	"CurPageLabel"
@@ -366,7 +400,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ColorCyan"
+		"fgcolor_override" "ZeesMain"
 	}
 
 	"NextPageButton"
@@ -391,6 +425,10 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-5"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"mouseoveritempanel"

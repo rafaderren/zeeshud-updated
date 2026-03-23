@@ -67,6 +67,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"goprev"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -92,6 +96,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"gonext"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -134,7 +142,10 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"ButtonBorder"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 	
 	"StartOfflinePracticeButton"
@@ -159,6 +170,10 @@
 		"Command"			"startofflinepractice"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 	
 	"DifficultyLabel"

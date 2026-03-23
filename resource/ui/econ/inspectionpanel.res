@@ -2,16 +2,15 @@
 {
 	"BGImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"-50"
 		"zpos"			"1"
-		"wide"			"o1"
-		"tall"			"p0.75"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"item_carousel_bg"
+		"wide"			"852"
+		"tall"			"327"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
@@ -21,14 +20,14 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
-		"ypos"			"6"
+		"ypos"			"-5"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TanDark"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
@@ -113,6 +112,23 @@
 				"maxDistance"		"1000"
 			}
 		}
+	}
+
+	"loadoutBG"
+	{
+		"controlname"		"imagepanel"
+		"fieldname"			"loadoutBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/items/items_menu_bg_6"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"scaleImage"		"1"
+	
 	}
 
 	"TeamNavPanel"
@@ -219,11 +235,12 @@
 		"tall"			"100"
 		"zpos"			"100"
 		"visible"		"1"
-		"bgcolor_override"	"DarkerGrey"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"ZeesBlack"
+		"PaintBackgroundType"	"0"
 		"mouseinputenabled"		"1"
 		"proportionaltoparent"	"1"
-		"paintborder"			"0"
+		"paintborder"			"1"
+		"border"		"WhiteBorderThick"
 
 		"fixed_item"
 		{
@@ -433,7 +450,7 @@
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
 			"xpos"			"90"
-			"ypos"			"50"
+			"ypos"			"47"
 
 			"fixed_item"
 			{
@@ -470,7 +487,7 @@
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
-			"ypos"			"50"
+			"ypos"			"47"
 
 			"fixed_item"
 			{
@@ -598,7 +615,7 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
-			"font"			"HudFontSmall"
+			"font"			"FUTURA_BOLD_12"
 			"textinsetx"	"0"
 			"textAlignment"	"center"
 			"proportionaltoparent"	"1"

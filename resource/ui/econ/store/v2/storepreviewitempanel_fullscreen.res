@@ -62,9 +62,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override"	"255 255 255 255"
 	}		
 	
 	"RotateRightButton"
@@ -89,9 +89,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override"	"255 255 255 255"
 	}	
 				
 	"NextWeaponButton"
@@ -113,6 +113,10 @@
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-1"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColoredOpaque"
 	}					
 
 	"ZoomButton"

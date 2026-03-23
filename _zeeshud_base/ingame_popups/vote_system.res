@@ -145,7 +145,7 @@
 			"ypos"				"50"
 			"wide"				"130"
 			"tall"				"1"
-			"fillcolor"			"DullWhite"
+			"fillcolor"			"ZeesWhite"
 			"zpos"				"0"
 		}
 
@@ -356,7 +356,7 @@
 			"ypos"				"100"
 			"wide"				"130"
 			"tall"				"1"
-			"fillcolor"			"DullWhite"
+			"fillcolor"			"ZeesWhite"
 			"zpos"				"0"
 		}
 
@@ -365,7 +365,7 @@
 			"ControlName"		"Label"
 			"fieldName"			"VoteCountLabel"
 			"xpos"				"10"
-			"ypos"				"100"
+			"ypos"				"102"
 			"wide"				"140"
 			"tall"				"20"
 			"visible"			"1"
@@ -375,7 +375,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"DullWhite"
+			"fgcolor_override"	"ZeesWhite"
 		}
 
 		// Vote Bar
@@ -531,7 +531,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
 			"wrap"				"1"
-			"fgcolor_override"	"ZeesWhite"
+			"bgcolor_override"	"ZeesWhite"
 		}
 	}
 
@@ -650,9 +650,9 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 
-			"fgcolor_override"					"TextColor"
-			"bgcolor_override"					"Yellow"
-			"disabledFgColor_override"			"TextColor"
+			"fgcolor_override"					"ZeesWhite"
+			"bgcolor_override"					"DarkGrey"
+			"disabledFgColor_override"			"ZeesWhite"
 			"disabledBgColor_override"			"Yellow"
 			"selectionColor_override"			"Yellow"
 			"selectionTextColor_override"		"TextColor"

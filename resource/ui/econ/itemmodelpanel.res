@@ -132,7 +132,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"LightRed"
 			"bgcolor_override"		"ColorBlack"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 
 		"paint_icon"
@@ -164,7 +164,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"LightRed"
+			"fgcolor"		"ZeesMain"
 			"bgcolor_override"		"ColorBlack"
 			"PaintBackgroundType"	"2"
 		}
@@ -187,7 +187,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 
 		"matcheslabel"
