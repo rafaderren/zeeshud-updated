@@ -53,7 +53,7 @@
 -fixed ut style health numbers
 -minor layout and color fixes for various elements (Jess Fox)
 
--overhauled the look of the training menu, backpack menu and all of it's sub-menus, notification alert, trading panel, item inspecting, advanced options, mann co. store, match found and abandon popup, matchmaking settings, workshop panel, sapper ui, duel minigame panel, coach panel and credits menu (Jess Fox)
+-overhauled the look of the training menu, backpack menu and all of it's sub-menus, notification alert, trading panel, item inspecting, advanced options, mann co. store, match found and abandon popup, matchmaking settings, workshop panel, duel minigame panel, coach panel and credits menu (Jess Fox)
 -robot count icons now have sharp corners (Jess Fox)
 -improved the look of leaderboard icons for domination, nemesis and dead statuses (Jess Fox)
 -improved the look of the mvm class upraded icon on class selection screen (Jess Fox)

@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"150"
-		"tall"			"180"
+		"tall"			"177"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -23,19 +23,14 @@
 		"ypos"			"138"
 		"zpos"			"-1"
 		"wide"			"140"
-		"tall"			"40"
+		"tall"			"70"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/box_engie_neutral_trans"
-		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/box_engie_red_trans"
-		"teambg_3"		"replay/thumbnails/box_engie_blue_trans"
-		
-		"src_corner_height"		"85"
-		"src_corner_width"		"85"
-		"draw_corner_width"		"20"
-		"draw_corner_height" 	"20"
+		"image"			"replay/thumbnails/build_bg_small"
+		"scaleImage"	"0"
+		"teambg_2"		"replay/thumbnails/build_bg_small"
+		"teambg_3"		"replay/thumbnails/build_bg_small"
 	}
 
 	"Background"
@@ -60,7 +55,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sapper"
-				"iconColor"		"ZeesWhite"
+				"iconColor"		"ZeesBlack"
 		"iconColor_minmode"	"ZeesWhite"
 	}
 
@@ -152,7 +147,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"fgcolor"		"ZeesWhite"
+				"fgcolor"		"ZeesBlack"
 			"fgcolor_minmode"		"ZeesWhite"
 			}
 
@@ -190,14 +185,14 @@
 				"ControlName"	"CIconPanel"
 				"fieldName"		"TargetIcon"
 				"xpos"			"0"
-				"ypos"			"3"
+				"ypos"			"5"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"obj_status_sentrygun_1"
-						"iconColor"		"ZeesWhite"
+						"iconColor"		"ZeesBlack"
 		"iconColor_minmode"	"ZeesWhite"	
 			}
 
