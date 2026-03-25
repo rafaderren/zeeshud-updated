@@ -674,7 +674,7 @@
 		"ypos"			"429"
 		"wide"			"49"
 		"tall"			"33"
-		"image"			"replay/thumbnails/box_3_n"
+		"image"			"replay/thumbnails/blank"
 		"enabled"		"1"
 		"visible"		"0"
 
@@ -682,7 +682,12 @@
 		"src_corner_width"	"22"
 	
 		"draw_corner_width"	"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
+
+		if_mvm
+		{
+		"image"			"replay/thumbnails/box_3_n"
+		}
 
 	}
 

@@ -479,8 +479,8 @@
 		"enabled"			"1"
 		"paintborder"		"1"
 		"border"			"ZeesBorderRedOpaque"
-		"bgcolor_override"	"DarkGrey"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0"
 
 		"FailedIcon"
 		{
@@ -513,6 +513,7 @@
 			"font"				"ScoreboardSmall"
 			"wrap"				"1"
 			"fgcolor_override"	"ZeesWhite"
+			"bgcolor_override"	"0 0 0 0"
 		}
 
 		"FailedReason"
@@ -531,7 +532,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
 			"wrap"				"1"
-			"bgcolor_override"	"ZeesWhite"
+			"bgcolor_override"	"0 0 0 0"
 		}
 	}
 
