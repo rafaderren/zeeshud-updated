@@ -9,7 +9,7 @@
 		"ypos"					"c-225"
 		"wide"					"560"
 		"tall"					"345"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"ZeesBlack"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"WhiteBorderThick"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontSmallBold"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -215,7 +215,7 @@
 		"itemmodelpanel"
 		{
 			"force_use_model"		"1"
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"allow_rot"				"1"
 		}
 	}
@@ -255,8 +255,8 @@
 			"zpos"		"-1"
 			"wide"		"350"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
 			"UseAvatarRadio"
 			{
@@ -298,6 +298,9 @@
 				"Command"		"pick_image"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"paintbackground"	"0"
+				"border_default"	"ZeesBorderWhiteOpaque"
+				"border_armed"		"ZeesBorderColorOpaque"
 			}
 
 			"ForBestResultsLabel"
@@ -324,8 +327,8 @@
 			"zpos"		"-1"
 			"wide"		"180"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
 			"PreviewCroppedImage"
 			{
@@ -375,6 +378,9 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"NextButton"
@@ -392,6 +398,9 @@
 			"Command"		"next_page"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 
@@ -431,8 +440,8 @@
 			"zpos"		"-1"
 			"wide"		"160"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
 			"FilterLabel"
 			{
@@ -548,6 +557,9 @@
 					"Command"		"prev_stencil_palette"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"paintbackground"	"0"
+					"border_default"	"ZeesBorderWhiteOpaque"
+					"border_armed"		"ZeesBorderColorOpaque"
 				}
 
 				"NextStencilPaletteButton"
@@ -565,6 +577,9 @@
 					"Command"		"next_stencil_palette"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"paintbackground"	"0"
+					"border_default"	"ZeesBorderWhiteOpaque"
+					"border_armed"		"ZeesBorderColorOpaque"
 				}
 
 				"StencilGradientMap"
@@ -610,8 +625,8 @@
 			"zpos"		"-1"
 			"wide"		"180"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
 			"PreviewFilteredImage"
 			{
@@ -634,8 +649,8 @@
 			"zpos"		"-1"
 			"wide"		"180"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
 			"GradientBgPanel"
 			{
@@ -645,12 +660,12 @@
 				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"160"
-				"tall"			"180"
+				"tall"			"190"
 				"visible"		"1"
 				"tileImage"		"0"
 				"scaleImage"	"1"
-				"image"			"loadout_bottom_gradient"
-				"border"		"ButtonBorder"
+				"image"			""
+				"border"		"ZeesBorderWhiteOpaque"
 				"paintbackgroundtype"	"2"
 				"paintbackground"	"1"
 			}
@@ -686,6 +701,9 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"BackButton"
@@ -703,6 +721,9 @@
 			"Command"		"prev_page"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"NextButton"
@@ -720,6 +741,9 @@
 			"Command"		"next_page"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 
@@ -757,8 +781,8 @@
 			"zpos"		"-1"
 			"wide"		"350"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
 			"WarningText"
 			{
@@ -784,8 +808,8 @@
 			"zpos"		"-1"
 			"wide"		"180"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
 			"GradientBgPanel"
 			{
@@ -795,12 +819,12 @@
 				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"160"
-				"tall"			"180"
+				"tall"			"190"
 				"visible"		"1"
 				"tileImage"		"0"
 				"scaleImage"	"1"
-				"image"			"loadout_bottom_gradient"
-				"border"		"ButtonBorder"
+				"image"			""
+				"border"		"ZeesBorderWhiteOpaque"
 				"paintbackgroundtype"	"2"
 				"paintbackground"	"1"
 			}
@@ -837,6 +861,9 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"BackButton"
@@ -854,6 +881,9 @@
 			"Command"		"prev_page"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"OkButton"
@@ -872,6 +902,9 @@
 			"Command"		"apply"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 
@@ -909,41 +942,40 @@
 			"zpos"		"-1"
 			"wide"		"180"
 			"tall"		"200"
-			"border"		"GrayDialogBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"		""
+			"bgcolor_override"		"ZeesBlack"
 
-				"GradientBgPanel"
-				{
-					"ControlName"	"ImagePanel"
-					"FieldName"		"GradientBgPanel"
-					"xpos"			"10"
-					"ypos"			"10"
-					"zpos"			"1"
-					"wide"			"160"
-					"tall"			"180"
-					"visible"		"1"
-					"tileImage"		"0"
-					"scaleImage"	"1"
-					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
-					"paintbackgroundtype"	"2"
-					"paintbackground"	"1"
-				}
-
-				"DragToRotateLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
-					"labelText"		"#ToolCustomizeTextureDragToRotate"
-					"textAlignment"	"center"
-					"xpos"			"10"
-					"ypos"			"170"
-					"zpos"			"2"
-					"wide"			"160"
-					"tall"			"20"
-					"centerwrap"	"1"
-				}
+			"GradientBgPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"FieldName"		"GradientBgPanel"
+				"xpos"			"10"
+				"ypos"			"10"
+				"zpos"			"1"
+				"wide"			"160"
+				"tall"			"190"
+				"visible"		"1"
+				"tileImage"		"0"
+				"scaleImage"	"1"
+				"image"			""
+				"border"		"ZeesBorderWhiteOpaque"
+				"paintbackgroundtype"	"2"
+				"paintbackground"	"1"
+			}
+			"DragToRotateLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"DragToRotateLabel"
+				"font"			"HudFontSmall"
+				"labelText"		"#ToolCustomizeTextureDragToRotate"
+				"textAlignment"	"center"
+				"xpos"			"10"
+				"ypos"			"170"
+				"zpos"			"2"
+				"wide"			"160"
+				"tall"			"20"
+				"centerwrap"	"1"
 			}
 		}
+	}
 }
