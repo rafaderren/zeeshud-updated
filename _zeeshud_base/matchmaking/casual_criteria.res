@@ -18,15 +18,15 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"Title"
-		"xpos"					"8"
-		"ypos"					"23"
+		"xpos"					"4"
+		"ypos"					"20"
 		"zpos"					"99"
 		"wide"					"f0"
 		"tall"					"20"
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"			"center"
-		"font"					"HudFontMediumSecondary"
+		"font"			"FUTURA_BOLD_24"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}
