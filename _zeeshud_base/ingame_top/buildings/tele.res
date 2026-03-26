@@ -67,7 +67,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_not_built"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -194,7 +194,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -223,7 +223,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -241,7 +241,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -281,7 +281,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_charging"
-					"textAlignment"	"Left"
+					"textAlignment"	"west"
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
@@ -299,7 +299,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"Left"
+					"textAlignment"	"west"
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
@@ -329,7 +329,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_times_used"
-					"textAlignment"	"Left"
+					"textAlignment"	"west"
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
@@ -348,7 +348,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_sentry_upgrade"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -366,7 +366,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
