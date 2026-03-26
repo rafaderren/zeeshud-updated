@@ -57,7 +57,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override" "White"
 	}
 
 	"ShowLaterButton"

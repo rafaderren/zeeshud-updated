@@ -9,7 +9,7 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"ZeesBlack"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
@@ -242,6 +242,9 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 	
 	"OkButton"
@@ -267,5 +270,8 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }

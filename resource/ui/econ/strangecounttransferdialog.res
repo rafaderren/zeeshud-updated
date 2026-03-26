@@ -24,17 +24,17 @@
 		"zpos"					"0"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"ZeesBlack"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"proportionaltoparent"	"1"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMedium"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
 			"xpos"			"95"
@@ -164,7 +164,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Yellow"
+			"fgcolor_override" "White"
 		}
 
 		"CancelButton"
@@ -191,6 +191,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 
 		"OkButton"
@@ -217,6 +220,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 }

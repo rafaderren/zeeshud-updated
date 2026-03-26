@@ -650,14 +650,6 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-
-			"fgcolor_override"					"ZeesWhite"
-			"bgcolor_override"					"DarkGrey"
-			"disabledFgColor_override"			"ZeesWhite"
-			"disabledBgColor_override"			"Yellow"
-			"selectionColor_override"			"Yellow"
-			"selectionTextColor_override"		"TextColor"
-			"defaultSelectionBG2Color_override" "Yellow"
 		}
 
 		"CallVoteButton"

@@ -128,6 +128,12 @@
 		"enabled"			"1"
 		
 		"scaleImage"		"1"
+
+		"consume_mode"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		}
 	
 	}
 
@@ -252,10 +258,10 @@
 			"tall"		"60"
 			"visible"	"1"
 		}
-		"consume_mode"
-		{
-			"border"		"ReplayHighlightBorder"
-		}
+		// "consume_mode"
+		// {
+		// 	"border"		"ReplayHighlightBorder"
+		// }
 
 		"DebugButton"
 		{

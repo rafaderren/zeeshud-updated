@@ -9,10 +9,10 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"ZeesBlack"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorderThick"
+		"border"				"WhiteBorderThick"
 	}
 
 	"mouseoveritempanel"
@@ -51,7 +51,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"DarkerGrey"
+			"bgcolor_override"		"ZeesBlack"
 		}
 
 		"attriblabel"
@@ -312,7 +312,7 @@
 		"wrap"				"0"
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"35 35 35 255"
-		"paintbackgroundtype" "2"
+		"paintbackgroundtype" "0"
 		"labelText"			""
 		"font"				"HudFontSmall"
 		"textAlignment"		"west"
@@ -360,6 +360,9 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"OkButton"
@@ -385,5 +388,8 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }

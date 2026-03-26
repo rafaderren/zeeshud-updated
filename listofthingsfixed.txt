@@ -118,6 +118,7 @@
 -properly styled all popup dialogs (Jess Fox)
 -updated spectator target id to use team colored backgrounds
 -updated killstreak icon color
+-updated item consumable style
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds

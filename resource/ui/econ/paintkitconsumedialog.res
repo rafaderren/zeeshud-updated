@@ -56,8 +56,8 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"border"		"CyanBorderThick"
-		"bgcolor_override"	"DarkGrey"
+		"border"		"WhiteBorderThick"
+		"bgcolor_override"	"ZeesBlack"
 	}
 
 	"Shade"
@@ -86,8 +86,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"CyanBorderThick"
-		"bgcolor_override"	"DarkGrey"
+		"border"		"WhiteBorderThick"
+		"bgcolor_override"	"ZeesBlack"
 
 		"CTFLogoPanel"
 		{
@@ -133,8 +133,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"CyanBorderThick"
-		"bgcolor_override"	"DarkGrey"
+		"border"		"WhiteBorderThick"
+		"bgcolor_override"	"ZeesBlack"
 
 		"CTFLogoPanel"
 		{
@@ -180,8 +180,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"CyanBorderThick"
-		"bgcolor_override"	"DarkGrey"
+		"border"		"WhiteBorderThick"
+		"bgcolor_override"	"ZeesBlack"
 
 		"CTFLogoPanel"
 		{
@@ -226,6 +226,15 @@
 		"wide"		"f0"
 		"tall"		"350"
 		"proportionaltoparent"	"1"
+
+		"loadoutBG"
+		{
+
+			"image"				""
+			"visible"			"0"
+			"enabled"			"0"
+		
+		}
 	}
 
 	"CancelButton"
@@ -258,6 +267,9 @@
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"ConfirmButton"
@@ -291,5 +303,8 @@
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }
