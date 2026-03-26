@@ -1038,8 +1038,8 @@
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		"paintbackground"	"0"
 
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"155 155 155 255"
 
 		"SubImage"
 		{
