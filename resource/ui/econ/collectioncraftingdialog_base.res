@@ -175,7 +175,7 @@
 	"Dimmer"
 	{
 		"fieldName"				"Dimmer"
-		"ControlName"			"EditablePanel"
+		"ControlName"				"ImagePanel"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
@@ -184,8 +184,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 		"proportionaltoparent"	"1"
-
-		"bgcolor_override"		"30 30 30 255"
+		"image"				"replay/thumbnails/items/items_menu_bg_2"
 	}
 
 	"BG"
@@ -217,7 +216,7 @@
 			"paintbackgroundtype"	"1"
 			"proportionaltoparent"	"1"
 
-			"border"				"GrayDialogBorder"
+			"border"				"ZeesBorderWhiteOpaque"
 		}
 	}
 
@@ -234,7 +233,7 @@
 		"tall"					"250"
 		"proportionaltoparent"	"1"
 
-		"linecolor"			"RedSolid"
+		"linecolor"			"ZeesMain"
 	}
 
 	"LetterBack_Bottom"
@@ -355,7 +354,7 @@
 		"paintbackground"	"0"
 		"proportionaltoparent"	"1"
 		"paintborder"		"0"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ZeesWhite"
 	}
 
 	"ResponseTimeout"
@@ -379,7 +378,7 @@
 		"paintbackground"	"0"
 		"proportionaltoparent"	"1"
 		"paintborder"		"0"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ZeesWhite"
 	}
 
 	"NewItemPanel"
@@ -413,7 +412,7 @@
 			"paintbackground"	"0"
 			"proportionaltoparent"	"1"
 			"paintborder"		"0"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"ZeesWhite"
 		}
 
 		"ItemName"
@@ -601,11 +600,11 @@
 			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "255 255 255 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"150 60 45 255"
+			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1060,6 +1059,7 @@
 		"Command"		"startexplanation1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border"		"WhiteBorderThick"
 	}
 
 	"DebugReload"
