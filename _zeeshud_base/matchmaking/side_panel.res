@@ -102,7 +102,8 @@
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"169 123 53 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedBgColor_override"	"ZeesMain"
 
 		if_left
 		{
@@ -131,7 +132,8 @@
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"169 123 53 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedBgColor_override"	"ZeesMain"
 
 		if_left
 		{

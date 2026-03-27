@@ -34,7 +34,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"Title"
-		"xpos"					"8"
+		"xpos"					"5"
 		"ypos"					"23"
 		"zpos"					"99"
 		"wide"					"f0"
@@ -141,7 +141,9 @@
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"TransparentBlack"
+			"defaultBgColor_override"		"ZeesBlack"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"ZeesBlack"
 		}
 
 		"PlayForBraggingRightsExplanation"
@@ -258,7 +260,9 @@
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"TransparentBlack"
+			"defaultBgColor_override"		"ZeesBlack"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"ZeesBlack"
 		}
 
 		"PlayOnCommunityServerExplanation"
