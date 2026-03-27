@@ -16,11 +16,11 @@
 		"ControlName"		"EditablePanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"0"
-		"wide"				"p1.3"
+		"wide"				"p1.1"
 		"tall"				"f0"
 
 		"proportionaltoparent"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"ZeesBorderWhite"
 	}
 
 	"Checkbutton"

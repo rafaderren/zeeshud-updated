@@ -35,7 +35,7 @@
 	{
 	//	"ControlName"			"CTFPlaylistPanel"
 		"fieldName"				"playlist"
-		"xpos"					"8"
+		"xpos"					"14"
 		"ypos"					"50"
 		"zpos"					"100"
 		"wide"					"255"

@@ -132,6 +132,30 @@ Scheme
 			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"
 		}
+
+				ZeesBorderColoredTransparent
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ZeesMain"
+			"image"					"replay/thumbnails/box_3_mvm"
+			"src_corner_height"		"30"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
+
+		ZeesBorderWhiteTransparent
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ZeesWhite"
+			"image"					"replay/thumbnails/box_3_mvm"
+			"src_corner_height"		"30"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
 		
 		ZeesBorderWhite
 		{

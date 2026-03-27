@@ -176,7 +176,7 @@
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
 			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanDark"
+			"fgcolor_override"	"ZeesMain"
 			"mouseinputenabled"	"1"
 		}
 
@@ -208,7 +208,7 @@
 			"zpos"			"101"
 			"wide"			"f15"
 			"tall"			"f63"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -235,14 +235,14 @@
 				"xpos"			"rs0.7-1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
+				"wide"			"4" // This gets slammed from client schme.  GG.
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"ZeesWhite"
 				}
 
 				"UpButton"

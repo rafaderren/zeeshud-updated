@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CMVMCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"5"
+		"xpos"			"8"
 		"ypos"			"15"
 		"zpos"			"100"
 		"wide"			"410"
@@ -53,6 +53,8 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
+
+		"armedBgColor_override"			"ZeesMain"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -114,7 +116,7 @@
 		"xpos"			"5"
 		"ypos"			"rs1-8"
 		"zpos"			"101"
-		"wide"			"270"
+		"wide"			"70"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -180,6 +182,8 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
+
+		"armedBgColor_override"			"ZeesMain"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

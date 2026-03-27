@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"270"
+		"wide"			"240"
 		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
@@ -25,7 +25,7 @@
 		"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"InnerShadowBorderThin"
 		"proportionaltoparent"	"1"
@@ -41,11 +41,11 @@
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"ZeesMain"
 	}
 
 	"ToolTipHack"
@@ -84,16 +84,16 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
-		"xpos"			"0"
-		"ypos"			"-10"
+		"xpos"			"-1"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"250"
-		"tall"			"50"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"
-		"textinsetx"	"4"
-		"textinsety"	"16"
+		"textinsetx"	"10"
+		"textinsety"	"2"
 		"use_proportional_insets" "1"
 		"font"			"Cerbetica24"
 		"textAlignment"	"east"
@@ -104,15 +104,15 @@
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
 
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
+		"border_default"	"ZeesBorderWhiteTransparent"
+		"border_armed"		"ZeesBorderColoredTransparent"
 		"paintbackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "TanDark"
+		"armedFgColor_override" "ZeesMain"
 		"depressedFgColor_override" "White"
 	}
 
