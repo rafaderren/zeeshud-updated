@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"		"0"
-		"border"				"SteamWorkshopBorder"
+		"border"				"WhiteBorderThick"
 	}
 
 	"Background"
@@ -62,7 +62,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"57 52 49 255"
+		"bgcolor_override"	"0 0 0 255"
+		"border"		"WhiteBorderThick"
 	}
 
 	"Title"	
@@ -125,9 +126,9 @@
 		"maxchars"		"128"
 		"NumericInputOnly"		"0"
 		"unicode"		"1"
-		"fgcolor_override"	"0 0 0 255"
-		"bgcolor_override"	"235 226 202 255"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"0 0 0 255"
+		"paintbackgroundtype" "0"
 		"font"		"HudFontSmallest"
 	}
 
@@ -256,9 +257,9 @@
 		"maxchars"		"128"
 		"NumericInputOnly"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"0 0 0 255"
-		"bgcolor_override"	"235 226 202 255"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"0 0 0 255"
+		"paintbackgroundtype" "0"
 		"font"		"HudFontSmallest"
 	}
 
@@ -301,8 +302,8 @@
 		"maxchars"		"128"
 		"NumericInputOnly"		"0"
 		"unicode"		"1"
-		"fgcolor_override"	"0 0 0 255"
-		"bgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"0 0 0 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -379,7 +380,7 @@
 			"labelText"		""
 			"command"		"ClearIcon"				
 				
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"255 255 255 255"
 			"image_disabledcolor" "0 0 0 255"
 
 			"SubImage"
@@ -1360,6 +1361,9 @@
 			"Command"		"EditQC"
 			"Default"		"0"
 			"font"			"HudFontSmallestBold"
+			"defaultBgColor_override"		"ZeesBlack"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"ZeesBlack"
 		}
 	}
 
@@ -1476,7 +1480,7 @@
 				"labelText"		""
 				"command"		"EditMaterial0"				
 					
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -1549,7 +1553,7 @@
 				"labelText"		""
 				"command"		"EditMaterial1"				
 					
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -1623,7 +1627,7 @@
 				"labelText"		""
 				"command"		"EditMaterial2"				
 					
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -1696,7 +1700,7 @@
 				"labelText"		""
 				"command"		"EditMaterial3"				
 					
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -1844,7 +1848,7 @@
 				"labelText"		""
 				"command"		"ClearAnimationSource"				
 				
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -1878,7 +1882,7 @@
 				"labelText"		""
 				"command"		"BrowseAnimationSource"				
 				
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -1967,7 +1971,7 @@
 				"labelText"		""
 				"command"		"ClearAnimationVCD"				
 				
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -2001,7 +2005,7 @@
 				"labelText"		""
 				"command"		"BrowseAnimationVCD"				
 				
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"255 255 255 255"
 				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
@@ -2146,11 +2150,14 @@
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"west"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 				
 		"labelText"		"#TF_ImportFile_Browse"
 		"command"		"Load"				
 				
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"255 255 255 255"
 		"image_disabledcolor" "0 0 0 255"
 
 		"SubImage"
@@ -2187,6 +2194,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"Close"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"ButtonPreview"
@@ -2210,6 +2220,9 @@
 		"Command"		"BuildPreview"
 		"Default"		"1"
 		"font"		"HudFontSmallestBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"ButtonVerify"
@@ -2233,6 +2246,9 @@
 		"Command"		"BuildVerify"
 		"Default"		"1"
 		"font"		"HudFontSmallestBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"ButtonBuild"
@@ -2256,6 +2272,9 @@
 		"Command"		"BuildFinal"
 		"Default"		"1"
 		"font"		"HudFontSmallestBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"BetaNotice"

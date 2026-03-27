@@ -31,7 +31,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"ZeesBlack"
 	}
 
 	"WorkshopBG"
@@ -62,7 +62,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"ZeesBlack"
+		"border"		"WhiteBorderThick"
 	}
 
 	"Title"
@@ -177,6 +178,9 @@
 		"Command"			"PreviewBrowse"
 		"Default"			"1"
 		"font"				"HudFontSmallBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"LabelTitle"
@@ -218,9 +222,9 @@
 		"maxchars"			"128"
 		"NumericInputOnly"	"0"
 		"unicode"			"1"
-		"fgcolor_override"	"0 0 0 255"
-		"bgcolor_override"	"235 226 202 255"
-		"paintbackgroundtype"	"2"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"0 0 0 255"
+		"paintbackgroundtype"	"0"
 		"font"					"HudFontSmall"
 	}
 
@@ -262,9 +266,9 @@
 		"maxchars"			"8000"
 		"NumericInputOnly"	"0"
 		"unicode"			"1"
-		"fgcolor_override"	"0 0 0 255"
-		"bgcolor_override"	"235 226 202 255"
-		"paintbackgroundtype"	"2"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"0 0 0 255"
+		"paintbackgroundtype"	"0"
 		"font"					"HudFontSmall"
 	}
 
@@ -294,7 +298,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"SourceFile"
 		"xpos"				"225"
-		"ypos"				"250"
+		"ypos"				"310"
 		"wide"				"275"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -332,6 +336,9 @@
 		"Command"			"MainFileCosmetics"
 		"Default"			"1"
 		"font"				"HudFontSmallBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 
 		"SubImage"
 		{
@@ -340,6 +347,7 @@
 			"xpos"			"115"
 			"ypos"			"0"
 			"zpos"			"1"
+			"visible"		"0"
 			"wide"			"25"
 			"tall"			"25"
 			"scaleImage"	"1"
@@ -368,6 +376,9 @@
 		"Command"			"MainFileOther"
 		"Default"			"1"
 		"font"				"HudFontSmallBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"ButtonSourceMaps"
@@ -391,6 +402,9 @@
 		"Command"			"MainFileMaps"
 		"Default"			"1"
 		"font"				"HudFontSmallBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 
 		"SubImage"
 		{
@@ -399,6 +413,7 @@
 			"xpos"			"115"
 			"ypos"			"0"
 			"zpos"			"1"
+			"visible"		"0"
 			"wide"			"25"
 			"tall"			"25"
 			"scaleImage"	"1"
@@ -1225,6 +1240,9 @@
 		"Command"			"Close"
 		"Default"			"0"
 		"font"				"HudFontSmallBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"ButtonPublish"
@@ -1248,5 +1266,8 @@
 		"Command"			"Publish"
 		"Default"			"1"
 		"font"				"HudFontSmallBold"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 }
