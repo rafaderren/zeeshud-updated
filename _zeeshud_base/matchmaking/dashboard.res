@@ -597,6 +597,7 @@
 
 			"armedBgColor_override"		"195 20 0 255"
 			"defaultBgColor_override"	"175 25 11 255"
+			"depressedBgColor_override"	"175 25 11 255"
 
 			"defaultFgColor_override"	"ZeesWhite"
 			"armedFgColor_override"		"ZeesWhite"
@@ -656,6 +657,7 @@
 
 			"armedBgColor_override"		"ZeesDarkRed"
 			"defaultBgColor_override"	"ZeesRed"
+			"depressedBgColor_override"	"ZeesRed"
 
 			"defaultFgColor_override"	"ZeesWhite"
 			"armedFgColor_override"		"ZeesWhite"
@@ -714,6 +716,7 @@
 
 			"armedBgColor_override"		"ZeesDarkBlue"
 			"defaultBgColor_override"	"ZeesBlue"
+			"depressedBgColor_override"	"ZeesBlue"
 
 			"defaultFgColor_override"	"ZeesWhite"
 			"armedFgColor_override"		"ZeesWhite"
@@ -771,6 +774,7 @@
 
 			"armedBgColor_override"		"ZeesGreen"
 			"defaultBgColor_override"	"ZeesDarkGreen"
+			"depressedBgColor_override"	"ZeesDarkGreen"
 
 			"defaultFgColor_override"	"ZeesWhite"
 			"armedFgColor_override"		"ZeesWhite"
