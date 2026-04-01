@@ -23,8 +23,8 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"ZeesWhite"
 	}
 	"AvatarImage"
 	{
@@ -39,7 +39,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
+		"color_outline"	"ZeesWhite"
 	}
 
 	"AvatarTextLabel"
