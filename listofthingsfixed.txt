@@ -49,7 +49,7 @@
 -fixed misplaced mvm class selection upgrade indicator (Jess Fox)
 -fixed misplaced disposable sentry label (Jess Fox)
 -fixed join party match button being completely white (Jess Fox)
--fixed overlapping default uber meter for MvM
+-fixed overlapping default uber meter for mvm
 -fixed ut style health numbers
 -minor layout and color fixes for various elements (Jess Fox)
 -fixed dashboard colors (Jess Fox)
@@ -58,9 +58,6 @@
 -robot count icons now have sharp corners (Jess Fox)
 -improved the look of leaderboard icons for domination, nemesis and dead statuses (Jess Fox)
 -improved the look of the mvm class upraded icon on class selection screen (Jess Fox)
-
-
-
 -u̶̶̶p̶̶̶d̶̶̶a̶̶̶t̶̶̶e̶̶̶d̶̶̶ ̶f̶̶̶l̶̶̶o̶̶̶a̶̶̶t̶̶̶i̶̶̶n̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶t̶̶̶o̶̶̶ ̶s̶̶̶u̶̶̶p̶̶̶p̶̶̶o̶̶̶r̶̶̶t̶̶̶ ̶b̶̶̶i̶̶̶g̶̶̶ ̶h̶̶̶e̶̶̶a̶̶̶l̶̶̶t̶̶̶h̶̶̶ ̶n̶̶̶u̶̶̶m̶̶̶b̶̶̶e̶̶̶r̶̶̶s̶̶̶
 -updated the loading screen to look more lively
 -updated the map picture to look bigger
@@ -120,9 +117,10 @@
 -updated spectator target id to use team colored backgrounds
 -updated killstreak icon color
 -updated item consumable style
--reposition MvM canteens (Jess Fox)
+-reposition mvm canteens (Jess Fox)
 -updated notification popup (Jess Fox)
 -updated killstreak notification border (Jess Fox)
+-pdated ut style health bar
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds

@@ -76,11 +76,20 @@
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"cs-0.505" 
+			//	REMEMBER NOT TO MOVE THIS ELEMENT'S XPOS
+			//	OR IT'LL BREAK THE FUCKING ICONS AGAIN
+		"ypos"			"r118"
+		"zpos"			"-1"
+		"wide"			"56"
+		"tall"			"56"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"	
+		"drawcolor"		"Black"
 	}
 
 	//for some  reason i have to put the low hp thing here
