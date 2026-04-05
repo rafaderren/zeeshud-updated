@@ -49,7 +49,7 @@
 -fixed misplaced mvm class selection upgrade indicator (Jess Fox)
 -fixed misplaced disposable sentry label (Jess Fox)
 -fixed join party match button being completely white (Jess Fox)
--fixed overlapping default uber meter for MvM
+-fixed overlapping default uber meter for mvm
 -fixed ut style health numbers
 -minor layout and color fixes for various elements (Jess Fox)
 -fixed dashboard colors (Jess Fox)
@@ -120,7 +120,7 @@
 -updated spectator target id to use team colored backgrounds
 -updated killstreak icon color
 -updated item consumable style
--reposition MvM canteens (Jess Fox)
+-reposition mvm canteens (Jess Fox)
 -updated notification popup (Jess Fox)
 -updated killstreak notification border (Jess Fox)
 
