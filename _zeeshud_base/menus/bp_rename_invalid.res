@@ -213,6 +213,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
+		"textinsety"		"-1"
 		"border_default"	"ZeesBorderWhiteOpaque"
 		"border_armed"		"ZeesBorderColorOpaque"
 	}
