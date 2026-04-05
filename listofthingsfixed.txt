@@ -52,8 +52,9 @@
 -fixed overlapping default uber meter for MvM
 -fixed ut style health numbers
 -minor layout and color fixes for various elements (Jess Fox)
+-fixed dashboard colors (Jess Fox)
 
--overhauled the look of the training menu, backpack menu and all of it's sub-menus, notification alert, trading panel, item inspecting, advanced options, mann co. store, match found and abandon popup, matchmaking settings, workshop panel, duel minigame panel, coach panel and credits menu (Jess Fox)
+-overhauled the look of the training menu, backpack menu and all of it's sub-menus, notification alert, trading panel, item inspecting, trade up panel, advanced options, mode selection, mann co. store, match found and abandon popup, matchmaking settings, workshop panel, duel minigame panel, coach panel and credits menu (Jess Fox)
 -robot count icons now have sharp corners (Jess Fox)
 -improved the look of leaderboard icons for domination, nemesis and dead statuses (Jess Fox)
 -improved the look of the mvm class upraded icon on class selection screen (Jess Fox)
@@ -119,6 +120,9 @@
 -updated spectator target id to use team colored backgrounds
 -updated killstreak icon color
 -updated item consumable style
+-reposition MvM canteens (Jess Fox)
+-updated notification popup (Jess Fox)
+-updated killstreak notification border (Jess Fox)
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds

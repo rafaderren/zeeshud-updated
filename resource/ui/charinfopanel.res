@@ -145,7 +145,7 @@
 		"default"		"0"
 		"Command"		"back"
 		"PaintBackgroundType"	"1"
-		"textinsety"		"-1"
+		"textinsety"		"-2"
 		"paintbackground"	"0"
 		"border_default"	"ZeesBorderWhiteOpaque"
 		"border_armed"		"ZeesBorderColorOpaque"
