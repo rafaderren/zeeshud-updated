@@ -452,7 +452,7 @@
 			"fieldName"			"FailedReason"
 			"xpos"				"10"
 			"ypos"				"29"
-			"wide"				"140"
+			"wide"				"137"
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
