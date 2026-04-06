@@ -1175,9 +1175,9 @@
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
+		"border"				"WhiteBorderThick"
 		"bgcolor_override"		"ZeesBlack"
 
 		"Notifications_CloseButton"
@@ -1207,8 +1207,8 @@
 			"paintbackground"	"0"
 
 			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"72 255 255 255"
-			"depressedFgColor_override"	"72 255 255 255"
+			"armedFgColor_override"		"ZeesRed"
+			"depressedFgColor_override"	"ZeesRed"
 
 			"image_drawcolor"			"255 255 255 255"
 			"image_armedcolor"			"ZeesMain"
