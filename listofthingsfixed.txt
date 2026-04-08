@@ -122,6 +122,7 @@
 -updated killstreak notification border (Jess Fox)
 -updated ut style health bar
 -updated health color image (Jess Fox)
+-updated arena team select, arena victory panel, arena notification, arena player count and arena team composition (Jess Fox)
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
