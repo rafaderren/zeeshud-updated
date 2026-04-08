@@ -20,15 +20,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SidePanelBG"
-		"xpos"			"0"
+		"xpos"			"175"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"f0"
+		"wide"			"500"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 120"
+		"image"			"replay/thumbnails/team/arenabg"
+		"scaleimage"		"1"
 	}
 
 	"SysMenu"
@@ -65,24 +65,63 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"mapname"
-		"xpos"			"0"
-		"ypos"			"35"
+		"xpos"			"300"
+		"ypos"			"40"
 		"zpos"			"1"
-		"wide"			"255"
-		"tall"			"30"
+		"wide"			"245"
+		"tall"			"45"
 		"textAlignment"	"center"
-		"font"			"Cerbetica28"
+		"font"			"Cerbetica24"
+		"border"		"ZeesBorderWhiteOpaque"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ZeesWhite"
+	}
+
+		"buttonbg1"
+		{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"buttonbg1"
+		"xpos"		"297"
+		"ypos"		"185"
+		"zpos"		"2"
+		"wide"		"255"
+		"tall"		"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"textinsetx"	"10"
+			
+		"border_default"		"ZeesMenuButton"
+			
+	}
+
+		"buttonbg2"
+		{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"buttonbg2"
+		"xpos"		"297"
+		"ypos"		"265"
+		"zpos"		"2"
+		"wide"		"255"
+		"tall"		"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"textinsetx"	"10"
+			
+		"border_default"		"ZeesMenuButton"
+			
 	}
 
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"0"
-		"ypos"			"c-35"
+		"xpos"			"297"
+		"ypos"			"c-56"
 		"zpos"			"3"
 		"wide"			"255"
 		"tall"			"30"
@@ -95,21 +134,21 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 		"command"		"jointeam spectate"
 		"font"			"Cerbetica20"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
+		"defaultFgColor_override" 	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override" "255 255 255 255"
+		"selectedFgColor_override" 	"235 226 255 255"
 	}
 
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"0"
-		"ypos"			"c5"
+		"xpos"			"297"
+		"ypos"			"c25"
 		"zpos"			"3"
 		"wide"			"255"
 		"tall"			"30"
@@ -125,10 +164,10 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"Cerbetica20"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
+		"defaultFgColor_override" 	"255 255 255 255"
+		"armedFgColor_override"		"ZeesMain"
+		"depressedFgColor_override" "255 255 255 255"
+		"selectedFgColor_override" 	"235 226 255 255"
 	}
 
 	"SpectateBG"
@@ -140,8 +179,8 @@
 		"zpos"			"0"
 		"wide"			"255"
 		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"	"HudBlack"
 	}
 
