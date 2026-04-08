@@ -84,7 +84,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
 		"font"			"HudFontMediumBigBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ZeesWhite"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -103,7 +103,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ZeesWhite"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -175,6 +175,9 @@
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 	}
 
 	"PrevButton"
@@ -199,6 +202,9 @@
 		"Command"		"previtem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 	}
 
 	"CloseButton"
@@ -224,6 +230,9 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 	}
 
 	"OpenLoadoutButton"
@@ -248,6 +257,9 @@
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 	}
 
 	"DiscardButton"
