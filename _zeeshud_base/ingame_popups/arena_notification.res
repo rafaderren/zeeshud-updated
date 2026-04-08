@@ -11,9 +11,8 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"TransparentBlack"
-		"PaintBackgroundType"	"2"
-		"border"				"CyanBorderThick"
+		"border"		"ZeesBorderWhiteOpaque"
+		"PaintBackgroundType"	"0"
 	}
 
 	"WarningLabel"
