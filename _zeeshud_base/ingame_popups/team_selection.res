@@ -441,24 +441,29 @@
 		"fieldName"		"CancelButton"
 		"xpos"			"c-70"
 		"ypos"			"r45"
-		"wide"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
-	"CancelButtonShortcut"	[$WIN32]
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButtonShortcut"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"zpos"			"999999"
-		"wide"			"1"
-		"tall"			"1"
+		"zpos"			"6"
+		"wide"			"140"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"command"		"cancelmenu"
-		"labelText"		"&Q"
+		"tabPosition"	"0"
+		"labelText"		"(&Q)  CANCEL"
+		"textAlignment"	"center"
+		"Command"		"vguicancel"
+		"font"			"FUTURA_BOLD_24"
+		"paintbackground" "0"
+
+		"fgcolor"					"ZeesWhite"
+		"defaultFgColor_override"	"ZeesWhite"
+		"armedFgColor_override"		"ZeesBlack"
+		"depressedFgColor_override"	"ZeesBlack"
+		"selectedFgColor_override"	"ZeesGreen"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 	}
 
 	"PrevOptionHintIcon"
