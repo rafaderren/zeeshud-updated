@@ -113,19 +113,15 @@
 	"CancelButton"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CancelButton"
-		"zpos"			"6"
-		"wide"			"140"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#zeeshud_cancel_caps"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"paintbackground" "0"
+		
+		"armedFgColor_override"		"ZeesWhite"
+		"depressedFgColor_override"	"ZeesWhite"
+		"selectedFgColor_override"	"ZeesWhite"
+		
+		"sound_depressed"	""
+		"sound_released"	""
+		"sound_armed"		""
 	}
 	
 	"teambutton0"
