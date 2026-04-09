@@ -73,11 +73,11 @@
 			"xpos"			"5"
 			"ypos"			"4"
 			"zpos"			"3"
-			"wide"			"7"
+			"wide"			"8"
 			"tall"			"13"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"capture_icon_white"
+			"image"			"replay/thumbnails/arenaiconleft"
 			"scaleImage"	"1"
 		}
 	}
@@ -152,14 +152,14 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
-			"xpos"			"34"
+			"xpos"			"33"
 			"ypos"			"4"
 			"zpos"			"3"
-			"wide"			"7"
+			"wide"			"8"
 			"tall"			"13"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"capture_icon_white"
+			"image"			"replay/thumbnails/arenaiconright"
 			"scaleImage"	"1"
 		}
 	}
