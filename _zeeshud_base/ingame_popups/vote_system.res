@@ -672,6 +672,9 @@
 			"Command"			"CallVote"
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"DarkGrey"
+			"defaultBgColor_override"		"DarkGrey"
 		}
 		"Button1"
 		{
@@ -693,6 +696,9 @@
 			"Command"			"Close"
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"DarkGrey"
+			"defaultBgColor_override"		"DarkGrey"
 		}
 	}
 }
