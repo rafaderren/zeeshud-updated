@@ -138,28 +138,4 @@
 		"xpos"			"c70"
 		"ypos"			"r40"
 	}
-
-	"teambutton0"
-	{
-		"xpos"			"c-315"
-		"ypos"			"50"
-	}
-	
-	"teambutton1"
-	{
-		"xpos"			"c-10"
-		"ypos"			"50"
-	}
-	
-	"teambutton2"
-	{
-		"xpos"			"999999"
-		"ypos"			"r150"
-	}
-	
-	"teambutton3"
-	{
-		"xpos"			"9999999"
-		"ypos"			"r150"
-	}
 }

@@ -72,7 +72,7 @@
 		"image"			"replay/thumbnails/team/label"
 	}
 
-	"teambutton0"
+	"teambutton0"	[$WIN32]
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
@@ -83,10 +83,10 @@
 		"tall"			"350"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		" "
+		"labelText"		"&1"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -133,7 +133,7 @@
 		}
 	}
 
-	"teambutton1"
+	"teambutton1"	[$WIN32]
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
@@ -144,11 +144,11 @@
 		"tall"			"350"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"4"
 		//"labelText"	"#TF_RedTeam_Name"
-		"labelText"		" "
+		"labelText"		"&3"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -198,7 +198,7 @@
 		}
 	}
 
-	"teambutton2"
+	"teambutton2"	[$WIN32]
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
@@ -209,11 +209,11 @@
 		"tall"			"100"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"1"
 		//"labelText"		"#TF_Random"
-		"labelText"		" "
+		"labelText"		"&4"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -261,7 +261,7 @@
 		}
 	}
 
-	"teambutton3"
+	"teambutton3"	[$WIN32]
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
@@ -272,11 +272,11 @@
 		"tall"			"100"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"2"
 		//"labelText"		"#TF_Spectate"
-		"labelText"		" "
+		"labelText"		"&2"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -441,9 +441,29 @@
 		"fieldName"		"CancelButton"
 		"xpos"			"c-70"
 		"ypos"			"r45"
-		"wide"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"zpos"			"6"
+		"wide"			"140"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"(&Q)  CANCEL"
+		"textAlignment"	"center"
+		"Command"		"vguicancel"
+		"font"			"FUTURA_BOLD_24"
+		"paintbackground" "0"
+
+		"fgcolor"					"ZeesWhite"
+		"defaultFgColor_override"	"ZeesWhite"
+		"armedFgColor_override"		"ZeesBlack"
+		"depressedFgColor_override"	"ZeesBlack"
+		"selectedFgColor_override"	"ZeesGreen"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 	}
 
 	"PrevOptionHintIcon"

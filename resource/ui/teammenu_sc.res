@@ -113,49 +113,37 @@
 	"CancelButton"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CancelButton"
-		"zpos"			"6"
-		"wide"			"140"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#zeeshud_cancel_caps"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"paintbackground" "0"
+		"labelText"		"#TF_Cancel_NoKey"
+		
+		"armedFgColor_override"		"ZeesWhite"
+		"depressedFgColor_override"	"ZeesWhite"
+		"selectedFgColor_override"	"ZeesWhite"
+		
+		"sound_depressed"	""
+		"sound_released"	""
+		"sound_armed"		""
 	}
 	
 	"teambutton0"
 	{
-		"xpos"			"c-315"
-		"ypos"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 	}
 	
 	"teambutton1"
 	{
-		"xpos"			"c-10"
-		"ypos"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 	}
 	
 	"teambutton2"
 	{
-		"xpos"			"c-210"
-		"ypos"			"r150"
 		"visible"		"1"
 		"enabled"		"1"
 	}
 	
 	"teambutton3"
 	{
-		"xpos"			"c10"
-		"ypos"			"r150"
 		"visible"		"1"
 		"enabled"		"1"
 	}

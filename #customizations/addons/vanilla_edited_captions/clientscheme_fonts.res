@@ -7,7 +7,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -30,7 +30,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -41,7 +41,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -53,7 +53,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"900"

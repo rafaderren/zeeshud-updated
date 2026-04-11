@@ -765,7 +765,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"(&R) RESET"
+		"labelText"		"(&R)  RESET"
 		"textAlignment"	"west"
 		"Command"		"resetclass"
 		"font"			"FUTURA_BOLD_24"
