@@ -1,0 +1,10 @@
+scout: -63
+soldier: -105 -75
+pyro: -41 
+demo: -63 -30
+heavy: ?
+engi: -63
+medic: -41
+sniper: -90
+spy: -26
+683x1024
