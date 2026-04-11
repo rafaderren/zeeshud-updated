@@ -123,6 +123,7 @@
 -updated ut style health bar
 -updated health color image (Jess Fox)
 -updated arena team select, arena victory panel, arena notification, arena player count and arena team composition (Jess Fox, Crayon)
+-restored team join binds and cancel button
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -155,6 +156,7 @@
 -added a small TF2 logo to source GUI's (Jess Fox)
 -added status effect icon for the base jumper (Jess Fox)
 -added compatibility for team comtress 2 as an addon
+-added team colored class selection buttons
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
