@@ -145,32 +145,13 @@
 	"PlayerStatusHealthValue"
 	{
 	
-		"xpos"			"cs-1.18"
+		"xpos"			"cs-0.93"
 		"ypos"			"r140"
-		"wide"			"240"
-		"tall"			"100"
 		
 		"xpos_minmode"	"40"
 		"ypos_minmode"	"r105"
-		"wide_minmode"	"240"
-		"tall_minmode"	"100"
-
-		"textAlignment"	"east"
 	}
-
-	"PlayerStatusHealthValueShadow"
-	{
-		"wide"			"240"
-		"tall"			"100"
-		
-		"textAlignment"	"east"
-		"textinsetx"	"6"
-
-		"pin_to_sibling"		"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
-
+	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
