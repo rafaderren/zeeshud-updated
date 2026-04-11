@@ -113,7 +113,7 @@
 	"CancelButton"
 	{
 		"ControlName"	"CExLabel"
-		"labelText"		"#zeeshud_cancel_caps"
+		"labelText"		"#TF_Cancel_NoKey"
 		
 		"armedFgColor_override"		"ZeesWhite"
 		"depressedFgColor_override"	"ZeesWhite"

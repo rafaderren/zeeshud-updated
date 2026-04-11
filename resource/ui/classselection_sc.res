@@ -220,7 +220,7 @@
 	{
 		"xpos"			"35"
 		"ypos"			"422"
-		"labelText"		"#zeeshud_cancel_caps"
+		"labelText"		"#TF_Cancel_NoKey"
 	}
 
 	"CancelHintIcon"
