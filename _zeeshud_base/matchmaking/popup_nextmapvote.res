@@ -7,7 +7,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"260"
+		"wide"			"280"
 		"tall"			"80"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -49,7 +49,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"WhiteBorderThick"
+			"bgcolor_override"	"ZeesBlack"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 
@@ -83,8 +84,8 @@
 
 				"image_default"		"glyph_collapse"						
 
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawcolor"	"255 255 255 255"
+				"image_armedcolor"	"ZeesMain"
 
 				"SubImage"
 				{
@@ -133,8 +134,8 @@
 
 				"image_default"		"glyph_expand"						
 
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawcolor"	"255 255 255 255"
+				"image_armedcolor"	"ZeesMain"
 
 				"SubImage"
 				{
@@ -159,7 +160,7 @@
 				"ControlName"	"Label"
 				"fieldName"		"DescLabel"
 				"xpos"			"0"
-				"ypos"			"3"
+				"ypos"			"0"
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
@@ -177,7 +178,7 @@
 				"ControlName"	"CircularProgressBar"
 				"fieldName"		"TimeRemainingProgressBar"
 				"xpos"			"rs1-2"
-				"ypos"			"4"
+				"ypos"			"3"
 				"wide"			"20"
 				"tall"			"o1"
 				"proportionaltoparent"	"1"
@@ -190,7 +191,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"MapChoice0"
 				"xpos"			"p0.2-s0.5"
-				"ypos"			"15"
+				"ypos"			"14"
 				"zpos"			"-1"
 				"wide"			"100"
 				"tall"			"60"
@@ -204,7 +205,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"MapChoice1"
 				"xpos"			"p0.5-s0.5"
-				"ypos"			"15"
+				"ypos"			"14"
 				"zpos"			"-1"
 				"wide"			"100"
 				"tall"			"60"
@@ -218,7 +219,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"MapChoice2"
 				"xpos"			"p0.8-s0.5"
-				"ypos"			"15"
+				"ypos"			"14"
 				"zpos"			"-1"
 				"wide"			"100"
 				"tall"			"60"

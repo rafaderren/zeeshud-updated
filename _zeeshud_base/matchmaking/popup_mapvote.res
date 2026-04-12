@@ -51,8 +51,9 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"3"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"stay_armed_on_click"	"1"
+		"defaultBgColor_override"		"ZeesWhite"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
