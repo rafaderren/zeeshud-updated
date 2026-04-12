@@ -13,16 +13,24 @@ I'm not a hud developer I'm just doing this because I love this hud :)
 
 # FAQ
 Q: Will the HUD use logbase in the future?
+
 A: No, the HUD is not designed to use logbase as it will be complicated to make addons work with another
 
+
 Q: How do I contribute fixes/additions/improvements to this project?
+
 A: You may make pull requests in the [Github page](https://github.com/rafaderren/ZeesHUD-Updated)
 
+
 Q: How can I see what each addons do?
+
 A: You can use ZeesMaster or visit the [Google Docs page](https://docs.google.com/document/d/e/2PACX-1vTiOce2LZ8cdC2Bv84ajAdECUyyV-sYRGEEJrW3MYMevw0PfJ7dBLlsCJfnPKxFoBEuGns4lEGUUsrv/pub)
 
+
 Q: I need help with the HUD/my personal edit or I found a bug!
+
 A: I condone asking for help or report them in the [Github page](https://github.com/rafaderren/ZeesHUD-Updated) as an issue or join the [Discord server](https://discord.gg/dR5vVBv6HH)
+
 
 Q: My MvM shop textures or Team Colored Class Selection is not using the correct texture!
 
