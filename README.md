@@ -25,6 +25,7 @@ Q: I need help with the HUD/my personal edit or I found a bug!
 A: I condone asking for help or report them in the [Github page](https://github.com/rafaderren/ZeesHUD-Updated) as an issue or join the [Discord server](https://discord.gg/dR5vVBv6HH)
 
 Q: My MvM shop textures or Team Colored Class Selection is not using the correct texture!
+
 A: You have 2 options:
 - Go to your tf folder and replace type multiplayer_only into //type multiplayer_only
 - Use [Cueki's Casual Preloader](https://gamebanana.com/tools/19049)
