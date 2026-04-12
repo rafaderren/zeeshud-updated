@@ -939,6 +939,276 @@
 		"image"			"store_cart"
 	}
 
+	"scout_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scout_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_scout_inactive"
+	}
+
+	"scout_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scout_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_scout_blu"
+	}
+
+	"scout_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"scout_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_scout_red"
+	}
+
+	"soldier_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"soldier_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_soldier_inactive"
+	}
+
+	"soldier_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"soldier_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_soldier_blu"
+	}
+
+	"soldier_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"soldier_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_soldier_red"
+	}
+
+	"pyro_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"pyro_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_pyro_inactive"
+	}
+
+	"pyro_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"pyro_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_pyro_blu"
+	}
+
+	"pyro_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"pyro_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_pyro_red"
+	}
+
+	"demo_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"demo_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_demo_inactive"
+	}
+
+	"demo_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"demo_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_demo_blu"
+	}
+
+	"demo_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"demo_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_demo_red"
+	}
+
+	"heavy_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"heavy_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_heavy_inactive"
+	}
+
+	"heavy_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"heavy_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_heavy_blu"
+	}
+
+	"heavy_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"heavy_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_heavy_red"
+	}
+
+	"engineer_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"engineer_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_engineer_inactive"
+	}
+
+	"engineer_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"engineer_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_engineer_blu"
+	}
+
+	"engineer_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"engineer_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_engineer_red"
+	}
+
+	"medic_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"medic_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_medic_inactive"
+	}
+
+	"medic_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"medic_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_medic_blu"
+	}
+
+	"medic_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"medic_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_medic_red"
+	}
+
+	"sniper_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sniper_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_sniper_inactive"
+	}
+
+	"sniper_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sniper_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_sniper_blu"
+	}
+
+	"sniper_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sniper_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_sniper_red"
+	}
+
+	"spy_unsel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"spy_unsel"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_spy_inactive"
+	}
+
+	"spy_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"spy_blue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_spy_blu"
+	}
+
+	"spy_red"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"spy_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"class_sel_sm_spy_red"
+	}
+
 	//=====================================
 	//
 	//		  	MVM STUFF
