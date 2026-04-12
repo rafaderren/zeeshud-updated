@@ -10,9 +10,8 @@ Gamebanana page: https://gamebanana.com/mods/640375
 - Drag and drop the folder **ZeesHUD-Updated-main** in **team fortress 2/tf/custom/** or use [Cueki's Preloader](https://github.com/cueki/casual-pre-loader)
 
 # Fix for MvM shop textures and Team Colored Class Selection addon:
-Go to your tf folder and replace type `multiplayer_only` into `//type multiplayer_only`
-**OR**
-Use [Cueki's Casual Preloader](https://gamebanana.com/tools/19049)
+- Go to your tf folder and replace `type multiplayer_only` into `//type multiplayer_only`
+- Alternatively: Use [Cueki's Casual Preloader](https://gamebanana.com/tools/19049)
 
 
 I'm not a hud developer I'm just doing this because I love this hud :)
