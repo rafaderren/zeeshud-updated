@@ -11,7 +11,7 @@ Gamebanana page: https://gamebanana.com/mods/640375
 
 I'm not a hud developer I'm just doing this because I love this hud :)
 
-FAQ:
+# FAQ
 Q: Will the HUD use logbase in the future?
 A: No, the HUD is not designed to use logbase as it will be complicated to make addons work with another
 
