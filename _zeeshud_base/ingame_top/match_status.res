@@ -624,7 +624,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"border"		"ZeesBorderBlueOpaque"
 		}
 		"BlueTeamImage"
 		{
@@ -762,7 +762,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"		"ZeesBorderRedOpaque"
 		}
 		
 		"RedTeamImage"

@@ -54,7 +54,7 @@
 		"tall"			"43"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"WhiteBorderThick"
 		"proportionaltoparent"	"1"
 
 		if_uses_xp
@@ -254,8 +254,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"DarkBlueTeamBorder"
-					"bgcolor_override"	"ZeesBlue"
+					"border"		"ZeesBorderBlueOpaque"
 
 					if_large
 					{
@@ -529,8 +528,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"DarkRedTeamBorder"
-					"bgcolor_override"	"ZeesRed"
+					"border"		"ZeesBorderRedOpaque"
 
 					if_large
 					{
