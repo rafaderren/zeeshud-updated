@@ -8,9 +8,9 @@
 		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"border"		"ReplayDefaultBorder"
-		"paintbackground"	"0"
-		"bgcolor_override"	"255 0 0 250"
+		"border"		"WhiteBorderThick"
+		"paintbackground"	"1"
+		"bgcolor_override"	"ZeesBlack"
 	}
 
 	"avatar"
@@ -129,8 +129,9 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"SaleGreen"
+		"armedBgColor_override"		"ZeesGreen"
+		"defaultBgColor_override"	"ZeesDarkGreen"
+		"depressedBgColor_override"	"ZeesDarkGreen"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -167,6 +168,9 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 
 
 		"sound_depressed"	"UI/buttonclick.wav"
