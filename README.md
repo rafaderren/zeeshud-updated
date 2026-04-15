@@ -12,8 +12,8 @@ Gamebanana page: https://gamebanana.com/mods/640375
 I'm not a hud developer I'm just doing this because I love this hud :)
 
 # FAQ
-Q: Will the HUD use logbase in the future?<br/>
-A: No, the HUD is not designed to use logbase as it will be complicated to make addons work with another
+Q: Will the HUD use logfile in the future?<br/>
+A: No, the HUD is not designed to use logfile as it will be complicated to make addons work with another
 
 Q: How do I contribute fixes/additions/improvements to this project?<br/>
 A: You may make pull requests in the [Github page](https://github.com/rafaderren/ZeesHUD-Updated)
@@ -26,5 +26,5 @@ A: I condone asking for help or report them in the [Github page](https://github.
 
 Q: My MvM shop textures or Team Colored Class Selection is not using the correct texture!<br/>
 A: You have 2 options:
-- Go to your tf folder and replace `type multiplayer_only` into `//type multiplayer_only`
+- Go to your tf folder, open gameinfo.txt, and replace `type multiplayer_only` into `//type multiplayer_only`
 - Use [Cueki's Casual Preloader](https://gamebanana.com/tools/19049)
