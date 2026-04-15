@@ -85,7 +85,7 @@
 				"image_default"		"glyph_collapse"						
 
 				"image_drawcolor"	"255 255 255 255"
-				"image_armedcolor"	"ZeesMain"
+				"image_armedcolor"	"155 155 155 255"
 
 				"SubImage"
 				{
@@ -135,7 +135,7 @@
 				"image_default"		"glyph_expand"						
 
 				"image_drawcolor"	"255 255 255 255"
-				"image_armedcolor"	"ZeesMain"
+				"image_armedcolor"	"155 155 155 255"
 
 				"SubImage"
 				{
