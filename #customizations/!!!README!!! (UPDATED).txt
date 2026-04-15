@@ -22,7 +22,7 @@ HOW TO USE CUSTOMIZATIONS :
 		- Worth noting that the "health-ammo_small" addon is not compatible with "health_" or "ammo_" displays.
 	- Some addons include a readme inside, make sure to read them!
 	- Team Colored Class Selection addon has issues
-		- Go to your tf folder and replace "type multiplayer_only" into "//type multiplayer_only"
+		- Go to your tf folder, open gameinfo.txt, and replace "type multiplayer_only" into "//type multiplayer_only"
 		- Alternative: Use [Cueki's Casual Preloader](https://gamebanana.com/tools/19049)
 
 
