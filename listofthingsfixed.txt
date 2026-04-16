@@ -127,6 +127,7 @@
 -updated casual scoreboards and map voting (Jess Fox)
 -updated party invite panel (Jess Fox)
 -updated capture progress texture
+-restored and updated defense buff icons
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
