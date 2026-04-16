@@ -15,8 +15,8 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"10"
-		"wide"				"100"
-		"tall"				"50"
+		"wide"				"150"
+		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
 
@@ -53,7 +53,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"12"
+				"xpos"			"47"
 				"ypos"			"8"
 				"tall"			"10"
 				"wide"			"35"
@@ -66,10 +66,10 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"50"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"10"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -77,9 +77,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.77"
+			"xpos"					"cs-.7"
 			"ypos"					"5"
-			"delta_item_x"			"50"
+			"delta_item_x"			"10"
 			"delta_item_start_y"	"10"
 			"delta_item_end_y"		"20"
 			"PositiveColor"			"ZeesGreen"
@@ -94,7 +94,7 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"FUTURA_BOLD_24"
 			"fgcolor"			"ZeesWhite"
-			"xpos"				"26"
+			"xpos"				"75"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
@@ -107,7 +107,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"rs1-16"
+				"xpos"			"77"
 				"ypos"			"8"
 				"wide"			"35"
 				"tall"			"10"
