@@ -194,7 +194,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"AveragesBG2"
-			"xpos"			"c-310"
+			"xpos"			"c-314"
 			"ypos"			"172"
 			"wide"			"650"
 			"tall"			"300"
@@ -209,7 +209,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"AveragesBG"
-			"xpos"			"c-310"
+			"xpos"			"c-314"
 			"ypos"			"172"
 			"wide"			"650"
 			"tall"			"300"
@@ -1941,6 +1941,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"ResetStatsButton"
@@ -1962,6 +1965,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
+		"defaultBgColor_override"		"ZeesBlack"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"CloseButton"
