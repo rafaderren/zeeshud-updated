@@ -318,6 +318,46 @@
 		"image"			"../sprites/obj_icons/icon_obj_blu"
 	}
 
+	"iconobjcapblu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"iconobjcapblu"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
+	}
+
+	"iconobjcapbluup"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"iconobjcapbluup"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_blu_up"
+	}
+
+	"iconobjcapred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"iconobjcapred"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_red"
+	}
+
+	"iconobjcapredup"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"iconobjcapredup"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_red_up"
+	}
+
 	"cpiconblulock"
 	{
 		"ControlName"	"ImagePanel"
