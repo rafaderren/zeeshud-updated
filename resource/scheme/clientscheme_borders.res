@@ -2,19 +2,6 @@ Scheme
 {
 	Borders
 	{
-		// ADDONS
-		//	JRPG HEALTH BAR
-		JRPGHealthRed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Health Bar Hurt"
-			"image"					"replay/thumbnails/addons/health_jrpg/hp_bg_jrpg_bar_hurt"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"20"
-		}
 		// ZEESHUD GENERIC BORDERS
 		
 		
@@ -39,50 +26,6 @@ Scheme
 			"src_corner_width"		"64"
 			"draw_corner_width"		"10"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"10"
-		}
-		PixelBorderNeutral
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"255 255 255 255"
-			"image"					"replay/thumbnails/pixel_border_n"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		PixelBorderBlue
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"255 255 255 255"
-			"image"					"replay/thumbnails/pixel_border_b"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		PixelBorderRed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"255 255 255 255"
-			"image"					"replay/thumbnails/pixel_border_r"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		PixelBorderMixed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"255 255 255 255"
-			"image"					"replay/thumbnails/pixel_border_mix"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
 		}
 		
 		ZeesBorderWhiteOpaque
@@ -239,20 +182,7 @@ Scheme
 			"src_corner_width"		"30"
 			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"
-		}
-		
-		ZeesBorderColorDarkOpaque
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"ZeesDarkMain"
-			"image"					"replay/thumbnails/box_3_n"
-			"src_corner_height"		"30"				// pixels inside the image
-			"src_corner_width"		"30"
-			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"
-		}
-		
+		}		
 		
 		// REST IS FROM RAYSHUD OR DEFAULT TF2
 	
@@ -1982,7 +1912,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeaponGreyedOut"
+			"color"					"QualityColorPaintkitWeapon_GreyedOut"
 			"image"					"replay/thumbnails/box_3_n"
 			"src_corner_height"		"30"				// pixels inside the image
 			"src_corner_width"		"30"
