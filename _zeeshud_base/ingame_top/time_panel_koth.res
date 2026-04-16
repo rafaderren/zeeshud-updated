@@ -24,7 +24,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.53"
-			"ypos"					"5"
+			"ypos"					"2"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"10"
 			"delta_item_end_y"		"20"
@@ -54,7 +54,7 @@
 			{
 				"proportionaltoparent"	"1"
 				"xpos"			"22"
-				"ypos"			"8"
+				"ypos"			"11"
 				"tall"			"10"
 				"wide"			"35"
 				"font"			"FUTURA_BOLD_12"
@@ -78,7 +78,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.53"
-			"ypos"					"5"
+			"ypos"					"2"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"10"
 			"delta_item_end_y"		"20"
@@ -108,7 +108,7 @@
 			{
 				"proportionaltoparent"	"1"
 				"xpos"			"53"
-				"ypos"			"8"
+				"ypos"			"11"
 				"wide"			"35"
 				"tall"			"10"
 				"font"			"FUTURA_BOLD_12"
