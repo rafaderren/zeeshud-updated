@@ -60,7 +60,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
 		"xpos"				"0"
-		"ypos"				"17"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"24"
@@ -75,7 +75,7 @@
 
 		if_match
 		{
-			"xpos"			"2"
+			"ypos"				"17"
 		}
 	}
 	"OvertimeBG"
