@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"flawhudicons"
+				"name"			"FlawHUDIcons"
 				"tall"			"15"
 				"weight"		"400"
 				"additive"		"0"
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"flawhudicons"
+				"name"			"FlawHUDIcons"
 				"tall"			"62"
 				"weight"		"0"
 				"additive"		"0"
@@ -30,7 +30,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"flawhudicons"
+				"name"			"FlawHUDIcons"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -43,7 +43,7 @@ Scheme
 		"121"
 		{
 			"font"	"resource/fonts/icons.otf"
-			"name"	"flawhudicons"
+			"name"	"FlawHUDIcons"
 		}
 	}
 }

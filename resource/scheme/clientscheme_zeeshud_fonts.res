@@ -9,7 +9,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"8"
 				"additive"		"0"
 				"antialias"		"1"
@@ -20,7 +20,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -31,7 +31,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -42,7 +42,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -53,7 +53,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"8"
 				"additive"		"0"
 				"antialias"		"1"
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -88,7 +88,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -100,7 +100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -112,7 +112,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -127,7 +127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -138,7 +138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -149,7 +149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -160,7 +160,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"28"
 				"additive"		"0"
 				"antialias"		"1"
@@ -171,7 +171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -182,7 +182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"36"
 				"additive"		"0"
 				"antialias"		"1"
@@ -193,7 +193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -204,7 +204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"44"
 				"additive"		"0"
 				"antialias"		"1"
@@ -215,7 +215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"48"
 				"additive"		"0"
 				"antialias"		"1"
@@ -226,7 +226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"52"
 				"additive"		"0"
 				"antialias"		"1"
@@ -237,7 +237,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"futura_pt_bold"
+				"name"			"Futura PT Bold"
 				"tall" 		 	"56"
 				"additive"		"0"
 				"antialias"		"1"
