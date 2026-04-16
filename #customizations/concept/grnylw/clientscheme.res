@@ -938,6 +938,16 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"FUTURA_BOLD_20"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"20"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"FUTURA_BOLD_16"
 		{
 			"1"
