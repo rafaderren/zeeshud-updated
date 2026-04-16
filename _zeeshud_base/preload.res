@@ -435,7 +435,7 @@
 	"plicon"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"pliconblu"
+		"fieldName"		"plicon"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -444,7 +444,7 @@
 	"pliconred_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"pliconred"
+		"fieldName"		"pliconred_opaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -453,7 +453,7 @@
 	"pliconblu_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"pliconblu"
+		"fieldName"		"pliconblu_opaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -462,7 +462,7 @@
 	"plicon_opaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"pliconblu"
+		"fieldName"		"plicon_opaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -517,7 +517,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_compass_gray"
+		"image"			"../hud/objectives_flagpanel_compass_grey"
 	}
 	
 	//=====================================
@@ -912,7 +912,7 @@
 	"health_dead"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"sol_def_red"
+		"fieldName"		"health_dead"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -939,274 +939,118 @@
 		"image"			"store_cart"
 	}
 
-	"scout_unsel"
+	//=====================================
+	//
+	//		  	CLASS SELECTION ICONS
+	//
+	//=====================================
+
+	"scout_classselect"
+    {
+        "ControlName"        "CTFImagePanel"
+        "fieldName"          "scout_classselect"
+        "xpos"               "9999"
+        "visible"            "1"
+        "enabled"            "1"
+        "teambg_0"           "class_sel_sm_scout_inactive"
+        "teambg_1"           "class_sel_sm_scout_blu"
+        "teambg_2"           "class_sel_sm_scout_red"
+    }
+
+	"soldier_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"scout_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_scout_inactive"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "soldier_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_soldier_inactive"
+		"teambg_1"           "class_sel_sm_soldier_blu"
+		"teambg_2"           "class_sel_sm_soldier_red"
 	}
 
-	"scout_blue"
+	"pyro_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"scout_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_scout_blu"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "pyro_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_pyro_inactive"
+		"teambg_1"           "class_sel_sm_pyro_blu"
+		"teambg_2"           "class_sel_sm_pyro_red"
 	}
 
-	"scout_red"
+	"demo_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"scout_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_scout_red"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "demo_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_demo_inactive"
+		"teambg_1"           "class_sel_sm_demo_blu"
+		"teambg_2"           "class_sel_sm_demo_red"
 	}
 
-	"soldier_unsel"
+	"heavy_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"soldier_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_soldier_inactive"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "heavy_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_heavy_inactive"
+		"teambg_1"           "class_sel_sm_heavy_blu"
+		"teambg_2"           "class_sel_sm_heavy_red"
 	}
 
-	"soldier_blue"
+	"engineer_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"soldier_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_soldier_blu"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "engineer_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_engineer_inactive"
+		"teambg_1"           "class_sel_sm_engineer_blu"
+		"teambg_2"           "class_sel_sm_engineer_red"
 	}
 
-	"soldier_red"
+	"medic_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"soldier_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_soldier_red"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "medic_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_medic_inactive"
+		"teambg_1"           "class_sel_sm_medic_blu"
+		"teambg_2"           "class_sel_sm_medic_red"
 	}
 
-	"pyro_unsel"
+	"sniper_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"pyro_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_pyro_inactive"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "sniper_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_sniper_inactive"
+		"teambg_1"           "class_sel_sm_sniper_blu"
+		"teambg_2"           "class_sel_sm_sniper_red"
 	}
 
-	"pyro_blue"
+	"spy_classselect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"pyro_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_pyro_blu"
-	}
-
-	"pyro_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"pyro_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_pyro_red"
-	}
-
-	"demo_unsel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"demo_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_demo_inactive"
-	}
-
-	"demo_blue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"demo_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_demo_blu"
-	}
-
-	"demo_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"demo_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_demo_red"
-	}
-
-	"heavy_unsel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"heavy_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_heavy_inactive"
-	}
-
-	"heavy_blue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"heavy_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_heavy_blu"
-	}
-
-	"heavy_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"heavy_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_heavy_red"
-	}
-
-	"engineer_unsel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engineer_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_engineer_inactive"
-	}
-
-	"engineer_blue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engineer_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_engineer_blu"
-	}
-
-	"engineer_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"engineer_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_engineer_red"
-	}
-
-	"medic_unsel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"medic_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_medic_inactive"
-	}
-
-	"medic_blue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"medic_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_medic_blu"
-	}
-
-	"medic_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"medic_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_medic_red"
-	}
-
-	"sniper_unsel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"sniper_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_sniper_inactive"
-	}
-
-	"sniper_blue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"sniper_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_sniper_blu"
-	}
-
-	"sniper_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"sniper_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_sniper_red"
-	}
-
-	"spy_unsel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"spy_unsel"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_spy_inactive"
-	}
-
-	"spy_blue"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"spy_blue"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_spy_blu"
-	}
-
-	"spy_red"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"spy_red"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"class_sel_sm_spy_red"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "spy_classselect"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "class_sel_sm_spy_inactive"
+		"teambg_1"           "class_sel_sm_spy_blu"
+		"teambg_2"           "class_sel_sm_spy_red"
 	}
 
 	//=====================================
@@ -1215,95 +1059,40 @@
 	//
 	//=====================================
 
-	"buy_disabled"
+	"sellicons"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"buy_disabled"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/buy_disabled"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "sellicons"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "pve/buy_selected"
+		"teambg_1"           "pve/buy_enabled"
+		"teambg_2"           "pve/buy_disabled"
 	}
 
-	"buyenabled"
+	"sellicons"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"buyenabled"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/buy_enabled"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "sellicons"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "pve/sell_selected"
+		"teambg_1"           "pve/sell_enabled"
+		"teambg_2"           "pve/sell_disabled"
 	}
 
-	"buyselected"
+	"upgradeicons"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"buyselected"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/buy_selected"
-	}
-
-	"selldisabled"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"selldisabled"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/sell_disabled"
-	}
-
-	"sellenabled"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"sellenabled"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/sell_enabled"
-	}
-
-	"sellselected"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"sellselected"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/sell_selected"
-	}
-
-	"upgradeowned"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"upgradeowned"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/upgrade_owned"
-	}
-
-	"upgradepurchased"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"upgradepurchased"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/upgrade_purchased"
-	}
-
-	"upgradeunowned"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"upgradeunowned"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"pve/upgrade_unowned"
+		"ControlName"        "CTFImagePanel"
+		"fieldName"          "upgradeicons"
+		"xpos"               "9999"
+		"visible"            "1"
+		"enabled"            "1"
+		"teambg_0"           "pve/upgrade_unowned"
+		"teambg_1"           "pve/upgrade_owned"
+		"teambg_2"           "pve/upgrade_purchased"
 	}
 
 	"instantupgradecanteen"
