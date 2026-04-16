@@ -12,7 +12,7 @@
 	"itempanel"
 	{
 		"xpos"			"r240"
-		"ypos"			"r240"
+		"ypos"			"0"
 	}
 
 	"FreezePanelBase"
