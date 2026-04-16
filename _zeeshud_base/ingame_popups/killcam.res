@@ -1,6 +1,14 @@
 #base ../../resource/ui/hudinspectpanel.res
 "Resource/UI/FreezePanel_Basic.res"
 {
+	"FreezePanel"
+	{
+		"ControlName"	"CTFFreezePanel"
+		"fieldName"		"FreezePanel"
+
+		"screenshot_move_panel_to_corner"	"1"
+	}
+	
 	"itempanel"
 	{
 		"xpos"			"r240"
