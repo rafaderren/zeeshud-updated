@@ -78,7 +78,7 @@
 		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/cp_icon/icon_obj_e"
+		"image"			"capture_icon"
 		"scaleImage"	"1"
 	}
 
