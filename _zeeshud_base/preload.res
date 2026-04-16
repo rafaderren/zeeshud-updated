@@ -979,6 +979,66 @@
 		"image"			"store_cart"
 	}
 
+	"defensebuffbulletblue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"defensebuffbulletblue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/defense_buff_bullet_blue"
+	}
+
+	"defensebuffbulletred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"defensebuffbulletred"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/defense_buff_bullet_red"
+	}
+
+	"defensebuffexplosionblue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"defensebuffexplosionblue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/defense_buff_explosion_blue"
+	}
+
+	"defensebuffexplosionred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"defensebuffexplosionred"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/defense_buff_explosion_red"
+	}
+
+	"defensebufffireblue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"defensebufffireblue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/defense_buff_fire_blue"
+	}
+
+	"defensebufffirered"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"defensebufffirered"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/defense_buff_fire_red"
+	}
+	
 	//=====================================
 	//
 	//		  	CLASS SELECTION ICONS
