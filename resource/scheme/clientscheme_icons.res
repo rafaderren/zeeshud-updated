@@ -7,7 +7,8 @@ Scheme
 			"1"
 			{
 				"name"			"FlawHUDIcons"
-				"tall"			"15"
+				"tall"			"12" [$LINUX]
+				"tall"			"15" [!$LINUX]
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -19,7 +20,8 @@ Scheme
 			"1"
 			{
 				"name"			"FlawHUDIcons"
-				"tall"			"62"
+				"tall"			"59" [$LINUX]
+				"tall"			"62" [!$LINUX]
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -31,7 +33,8 @@ Scheme
 			"1"
 			{
 				"name"			"FlawHUDIcons"
-				"tall"			"18"
+				"tall"			"15" [$LINUX]
+				"tall"			"18" [!$LINUX]
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -42,7 +45,7 @@ Scheme
 	{
 		"121"
 		{
-			"font"	"resource/fonts/Icons.otf"
+			"font"	"resource/fonts/icons.otf"
 			"name"	"FlawHUDIcons"
 		}
 	}

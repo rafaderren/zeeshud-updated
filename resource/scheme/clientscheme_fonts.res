@@ -3256,17 +3256,17 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/CIKANDEI.ttf"
+			"font"	"resource/fonts/cikandei.ttf"
 			"name"	"CIKANDEI"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/GAMERIA.ttf"
+			"font"	"resource/fonts/gameria.ttf"
 			"name"	"GAMERIA"
 		}
 		"10"
 		{
-			"font"	"resource/fonts/Futura PT Bold.otf"
+			"font"	"resource/fonts/futura_pt_bold.otf"
 			"name"	"Futura PT Bold"
 			"turkish"
 			{
@@ -3327,17 +3327,17 @@ Scheme
 		}
 		"11"
 		{
-			"font"	"resource/fonts/zeesHUDNumbers.ttf"
+			"font"	"resource/fonts/zeeshudnumbers.ttf"
 			"name"	"zeesHUDNumbers"
 		}
 		"12"
 		{
-			"font"	"resource/fonts/zeesHUDNumbersOutline.ttf"
+			"font"	"resource/fonts/zeeshudnumbersoutline.ttf"
 			"name"	"zeesHUDNumbersOutline"
 		}
 		"13"
 		{
-			"font"	"resource/fonts/AdobeBlank.ttf"
+			"font"	"resource/fonts/adobeblank.ttf"
 			"name"	"Adobe Blank"
 		}
 		"14"		"resource/linux_fonts/DejaVuSans.ttf"
