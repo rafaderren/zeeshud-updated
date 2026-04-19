@@ -1,5 +1,5 @@
 #base ../../resource/ui/hudinspectpanel.res
-"Resource/UI/SpectatorTournament.res"
+"resource/ui/spectatortournament.res"
 {
 	"specgui"
 	{

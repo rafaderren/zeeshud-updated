@@ -1,6 +1,6 @@
 #base "../../#customizations/addons/_enabled/streamer_mode/nobase/spectatorcoach.res"
 #base ../../resource/ui/hudinspectpanel.res
-"Resource/UI/SpectatorCoach.res"
+"resource/ui/spectatorcoach.res"
 {
 	"Spectator"
 	{

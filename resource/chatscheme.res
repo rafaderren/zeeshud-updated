@@ -830,15 +830,15 @@ Scheme
 
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"
-		"14"	"resource/linux_fonts/DejaVuSans.ttf"
-		"15"	"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"16"	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"17"	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"18"	"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"19"	"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"20"	"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"21"	"resource/linux_fonts/FiraSans-Regular.ttf"
+		"1"		"resource/halflife2.ttf"
+		"2"		"resource/hl2ep2.ttf"
+		"14"	"resource/linux_fonts/dejavusans.ttf"
+		"15"	"resource/linux_fonts/dejavusans-bold.ttf"
+		"16"	"resource/linux_fonts/dejavusans-boldoblique.ttf"
+		"17"	"resource/linux_fonts/dejavusans-oblique.ttf"
+		"18"	"resource/linux_fonts/liberationsans-regular.ttf"
+		"19"	"resource/linux_fonts/liberationsans-bold.ttf"
+		"20"	"resource/linux_fonts/liberationmono-regular.ttf"
+		"21"	"resource/linux_fonts/firasans-regular.ttf"
 	}
 }

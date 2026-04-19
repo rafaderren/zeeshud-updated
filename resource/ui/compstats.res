@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\matchmaking\competitive_stats.res"
+#base "../../_zeeshud_base/matchmaking/competitive_stats.res"

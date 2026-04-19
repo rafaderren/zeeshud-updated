@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\kart_boost.res"
+#base "../../_zeeshud_base/ingame_bottom_right/item_meters/kart_boost.res"

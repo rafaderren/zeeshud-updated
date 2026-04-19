@@ -171,8 +171,8 @@ Scheme
 		"11" "resource/fonts/tf2c-timer.otf"
 		
 		// Used by point_worldtext.
-		"12"	"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"13"	"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"12"	"resource/linux_fonts/liberationsans-regular.ttf"
+		"13"	"resource/linux_fonts/liberationsans-bold.ttf"
 		
 		// Used by our GameUI.
 		"14" "resource/fonts/dejavu-sans.ttf"
@@ -186,17 +186,17 @@ Scheme
 
 		"22"
 		{
-			"font"	"resource/fonts/CIKANDEI.ttf"
+			"font"	"resource/fonts/cikandei.ttf"
 			"name"	"CIKANDEI"
 		}
 		"23"
 		{
-			"font"	"resource/fonts/GAMERIA.ttf"
+			"font"	"resource/fonts/gameria.ttf"
 			"name"	"GAMERIA"
 		}
 		"24"
 		{
-			"font"	"resource/fonts/Futura PT Bold.otf"
+			"font"	"resource/fonts/futura pt bold.otf"
 			"name"	"Futura PT Bold"
 			"turkish"
 			{
@@ -257,17 +257,17 @@ Scheme
 		}
 		"25"
 		{
-			"font"	"resource/fonts/zeesHUDNumbers.ttf"
+			"font"	"resource/fonts/zeeshudnumbers.ttf"
 			"name"	"zeesHUDNumbers"
 		}
 		"26"
 		{
-			"font"	"resource/fonts/zeesHUDNumbersOutline.ttf"
+			"font"	"resource/fonts/zeeshudnumbersoutline.ttf"
 			"name"	"zeesHUDNumbersOutline"
 		}
 		"27"
 		{
-			"font"	"resource/fonts/AdobeBlank.ttf"
+			"font"	"resource/fonts/adobeblank.ttf"
 			"name"	"Adobe Blank"
 		}
 	}

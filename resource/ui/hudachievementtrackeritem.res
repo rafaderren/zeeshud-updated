@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_popups\achievement_tracker.res"
+#base "../../_zeeshud_base/ingame_popups/achievement_tracker.res"

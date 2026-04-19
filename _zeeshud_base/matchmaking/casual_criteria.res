@@ -1,6 +1,6 @@
 #base "side_panel.res"
 
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"resource/ui/matchmakingdashboardcasualcriteria.res"
 {
 	"CasualCriteria"
 	{

@@ -1,5 +1,5 @@
 #base ../../resource/ui/hudinspectpanel.res
-"Resource/UI/Spectator.res"
+"resource/ui/spectator.res"
 {
 	"Spectator"
 	{

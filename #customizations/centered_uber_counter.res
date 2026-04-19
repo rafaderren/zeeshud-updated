@@ -1,6 +1,6 @@
 // DRAG AND DROP THE "uber_centered" FOLDER INTO THE "_enabled" FOLDER TO ENABLE THIS.
 
-"Resource/UI/HudMedicCharge.res"
+"resource/ui/hudmediccharge.res"
 {
 	"ChargeLabel"
 	{

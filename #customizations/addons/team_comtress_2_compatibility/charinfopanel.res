@@ -1,4 +1,4 @@
-"Resource/UI/CharInfoPanel.res"
+"resource/ui/charinfopanel.res"
 {	
 	"ClearButton"
 	{

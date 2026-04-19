@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_popups\notif_team_goal.res"
+#base "../../_zeeshud_base/ingame_popups/notif_team_goal.res"

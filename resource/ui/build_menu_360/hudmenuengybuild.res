@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/HudMenuEngyBuild.res"
+"resource/ui/build_menu/hudmenuengybuild.res"
 {
 	"Divider"
 	{
@@ -264,4 +264,4 @@
 	}
 }
 
-#base "../build_menu/HudMenuEngyBuild.res"
+#base "../build_menu/hudmenuengybuild.res"

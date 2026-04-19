@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_objectives\pass_main.res"
+#base "../../_zeeshud_base/ingame_objectives/pass_main.res"

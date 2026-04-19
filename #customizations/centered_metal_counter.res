@@ -1,6 +1,6 @@
 // DRAG AND DROP THE "metal_centered" FOLDER INTO THE "_enabled" FOLDER TO ENABLE THIS.
 
-"Resource/UI/HudAccountPanel.res"
+"resource/ui/hudaccountpanel.res"
 {
 	"AccountValue"
 	{

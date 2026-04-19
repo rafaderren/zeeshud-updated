@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardComp.res"
+"resource/ui/matchmakingdashboardcomp.res"
 {
 	"CompStats"
 	{

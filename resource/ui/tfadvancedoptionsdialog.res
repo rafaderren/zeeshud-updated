@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\menus\advanced_options.res"
+#base "../../_zeeshud_base/menus/advanced_options.res"

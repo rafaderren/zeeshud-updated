@@ -1,3 +1,3 @@
-#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\meter_cleaver.res"
+#base "../../_zeeshud_base/ingame_bottom_right/item_meters/meter_cleaver.res"
 
 // Secondary

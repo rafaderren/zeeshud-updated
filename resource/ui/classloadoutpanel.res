@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\menus\loadout.res"
+#base "../../_zeeshud_base/menus/loadout.res"

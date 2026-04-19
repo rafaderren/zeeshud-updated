@@ -1,6 +1,6 @@
 #base "side_panel.res"
 
-"Resource/UI/MatchMakingDashboardPlayList.res"
+"resource/ui/matchmakingdashboardplaylist.res"
 {
 	"ExpandableList"
 	{

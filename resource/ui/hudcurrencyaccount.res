@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\mvm\money_counter.res"
+#base "../../_zeeshud_base/mvm/money_counter.res"

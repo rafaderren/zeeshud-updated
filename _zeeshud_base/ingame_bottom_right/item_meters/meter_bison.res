@@ -1,6 +1,6 @@
 #base "meter_default.res"
 
-"Resource/UI/HudItemEffectMeter_Raygun.res"
+"resource/ui/huditemeffectmeter_raygun.res"
 {
 
 }

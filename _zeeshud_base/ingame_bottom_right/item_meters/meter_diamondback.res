@@ -1,6 +1,6 @@
 #base "meter_counter.res"
 
-"Resource/UI/HudItemEffectMeter_Spy.res"
+"resource/ui/huditemeffectmeter_spy.res"
 {
 	"ItemEffectMeterBar"
 	{

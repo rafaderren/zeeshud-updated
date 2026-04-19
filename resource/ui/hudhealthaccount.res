@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_bottom_left\health_counter.res"
+#base "../../_zeeshud_base/ingame_bottom_left/health_counter.res"

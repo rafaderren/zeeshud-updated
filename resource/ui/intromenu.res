@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_popups\motd_movie.res"
+#base "../../_zeeshud_base/ingame_popups/motd_movie.res"

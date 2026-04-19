@@ -1,5 +1,5 @@
 #base "meter_big.res"
 
-"Resource/UI/HudItemEffectMeter_SniperFocus.res"
+"resource/ui/huditemeffectmeter_sniperfocus.res"
 {
 }

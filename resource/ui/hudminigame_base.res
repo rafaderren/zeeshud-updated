@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_popups\event_minigame.res"
+#base "../../_zeeshud_base/ingame_popups/event_minigame.res"

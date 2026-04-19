@@ -1,5 +1,5 @@
-#base "../../#customizations\addons\_enabled\team_comtress_2_compatibility\charinfopanel.res"
-"Resource/UI/CharInfoPanel.res"
+#base "../../#customizations/addons/_enabled/team_comtress_2_compatibility/charinfopanel.res"
+"resource/ui/charinfopanel.res"
 {
 	"character_info"
 	{

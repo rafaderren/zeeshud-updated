@@ -3139,7 +3139,7 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font"	"resource/TF2.ttf"
+			"font"	"resource/tf2.ttf"
 			"name"	"TF2"
 			"russian"
 			{
@@ -3152,7 +3152,7 @@ Scheme
 		}
 		"4"
 		{
-			"font"	"resource/TF2Secondary.ttf"
+			"font"	"resource/tf2secondary.ttf"
 			"name"	"TF2 Secondary"
 			"russian"
 			{
@@ -3165,7 +3165,7 @@ Scheme
 		}
 		"5"
 		{
-			"font"	"resource/TF2Professor.ttf"
+			"font"	"resource/tf2professor.ttf"
 			"name"	"TF2 Professor"
 			"russian"
 			{
@@ -3178,7 +3178,7 @@ Scheme
 		}
 		"6"
 		{
-			"font"	"resource/TF2Build.ttf"
+			"font"	"resource/tf2build.ttf"
 			"name"	"TF2 Build"
 			"russian"
 			{
@@ -3340,13 +3340,13 @@ Scheme
 			"font"	"resource/fonts/adobeblank.ttf"
 			"name"	"Adobe Blank"
 		}
-		"14"		"resource/linux_fonts/DejaVuSans.ttf"
-		"15"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"16"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"17"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"18"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"19"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"20"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"21"		"resource/linux_fonts/FiraSans-Regular.ttf"
+		"14"		"resource/linux_fonts/dejavusans.ttf"
+		"15"		"resource/linux_fonts/dejavusans-bold.ttf"
+		"16"		"resource/linux_fonts/dejavusans-boldoblique.ttf"
+		"17"		"resource/linux_fonts/dejavusans-oblique.ttf"
+		"18"		"resource/linux_fonts/liberationsans-regular.ttf"
+		"19"		"resource/linux_fonts/liberationsans-bold.ttf"
+		"20"		"resource/linux_fonts/liberationmono-regular.ttf"
+		"21"		"resource/linux_fonts/firasans-regular.ttf"
 	}
 }

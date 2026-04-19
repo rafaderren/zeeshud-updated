@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerHealth.res"
+"resource/ui/hudplayerhealth.res"
 {
 	//the little bar that goes under the health
 	"PlayerStatusHealthImageBG2"

@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardMvMCriteria.res"
+"resource/ui/matchmakingdashboardmvmcriteria.res"
 {
 	"MVMCriteria"
 	{

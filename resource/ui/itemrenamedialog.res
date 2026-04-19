@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\menus\bp_rename.res"
+#base "../../_zeeshud_base/menus/bp_rename.res"

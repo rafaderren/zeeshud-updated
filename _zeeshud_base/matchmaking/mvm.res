@@ -1,6 +1,6 @@
 #base "side_panel.res"
 
-"Resource/UI/MatchMakingDashboardMvMCriteria.res"
+"resource/ui/matchmakingdashboardmvmcriteria.res"
 {
 	"MVMCriteria"
 	{

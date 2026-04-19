@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\ingame_popups\arena_playercount.res"
+#base "../../_zeeshud_base/ingame_popups/arena_playercount.res"

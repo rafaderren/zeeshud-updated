@@ -1,5 +1,5 @@
 #base "meter_big.res"
 
-"Resource/UI/HudItemEffectMeter_Pyro.res"
+"resource/ui/huditemeffectmeter_pyro.res"
 {
 }

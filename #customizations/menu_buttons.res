@@ -1,6 +1,6 @@
 // Add in extra buttons to the main menu
 
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 
 	"CustomButton1"

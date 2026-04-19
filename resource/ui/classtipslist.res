@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\menus\tips_list.res"
+#base "../../_zeeshud_base/menus/tips_list.res"

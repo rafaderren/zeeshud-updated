@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardPlayList.res"
+"resource/ui/matchmakingdashboardplaylist.res"
 {
 	"ExpandableList"
 	{

@@ -1,5 +1,5 @@
 #base "../../../centered_uber_counter.res"
-"Resource/UI/HudMedicCharge.res"
+"resource/ui/hudmediccharge.res"
 {
 	"Background"
 	{

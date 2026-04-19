@@ -1,5 +1,5 @@
 #base "../../../centered_metal_counter.res"
-"Resource/UI/HudAccountPanel.res"
+"resource/ui/hudaccountpanel.res"
 {
 	"CHudAccountPanel"
 	{

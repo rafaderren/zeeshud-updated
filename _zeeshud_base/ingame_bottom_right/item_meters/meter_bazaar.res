@@ -1,6 +1,6 @@
 #base "meter_counter.res"
 
-"Resource/UI/HudItemEffectMeter_Sniper.res"
+"resource/ui/huditemeffectmeter_sniper.res"
 {
 	"ItemEffectMeterBar"
 	{

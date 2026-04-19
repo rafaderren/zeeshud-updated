@@ -1,5 +1,5 @@
-"Resource/UI/build_menu/HudMenuEurekaEffect.res"
+"resource/ui/build_menu/hudmenueurekaeffect.res"
 {
 	
 }
-#base "../build_menu/HudMenuEurekaEffect.res"
+#base "../build_menu/hudmenueurekaeffect.res"

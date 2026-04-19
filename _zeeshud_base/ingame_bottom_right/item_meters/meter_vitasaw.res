@@ -1,6 +1,6 @@
 #base "meter_counter.res"
 
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"resource/ui/huditemeffectmeter_scout.res"
 {
 
 }
