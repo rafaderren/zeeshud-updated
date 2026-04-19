@@ -90,10 +90,8 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"ZHO_56"
 		"fgcolor"		"Ammo Clip Shadow"
-		"xpos"			"-1" [$LINUX]
-		"ypos"			"-1" [$LINUX]
-		"xpos"			"0" [$!LINUX]
-		"ypos"			"0" [$!LINUX]
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"200"
 		"tall"			"100"
@@ -138,10 +136,8 @@
 		"font"			"ZHO_24"
 		"fgcolor"		"Ammo Reserve Shadow"
 		
-		"xpos"			"1" [$LINUX]
-		"ypos"			"-1" [$LINUX]
-		"xpos"			"0" [$!LINUX]
-		"ypos"			"0" [$!LINUX]
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"f0"
 		"tall"			"100"

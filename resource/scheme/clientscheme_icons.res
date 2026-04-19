@@ -7,8 +7,7 @@ Scheme
 			"1"
 			{
 				"name"			"FlawHUDIcons"
-				"tall"			"12" [$LINUX]
-				"tall"			"15" [!$LINUX]
+				"tall"			"15"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -20,8 +19,7 @@ Scheme
 			"1"
 			{
 				"name"			"FlawHUDIcons"
-				"tall"			"59" [$LINUX]
-				"tall"			"62" [!$LINUX]
+				"tall"			"62"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -33,8 +31,7 @@ Scheme
 			"1"
 			{
 				"name"			"FlawHUDIcons"
-				"tall"			"15" [$LINUX]
-				"tall"			"18" [!$LINUX]
+				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
 			}
