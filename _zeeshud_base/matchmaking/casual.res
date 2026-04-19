@@ -76,6 +76,9 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"TanDark"
+			"defaultBgColor_override"		"ZeesBlack"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"ZeesBlack"
 
 			"SubImage"
 			{
@@ -120,6 +123,9 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"TanDark"
+			"defaultBgColor_override"		"ZeesBlack"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"ZeesBlack"
 
 			"SubImage"
 			{
