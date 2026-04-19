@@ -10,7 +10,8 @@
 		"tall"			"150"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"WhiteBorderThick"
+		"bgcolor_override"	"ZeesBlack"
 		"proportionaltoparent"	"1"
 
 		"QuestionContainer"
@@ -149,9 +150,7 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"armedBgColor_override"			"ZeesMain"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"

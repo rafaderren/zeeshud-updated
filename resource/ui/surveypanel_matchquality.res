@@ -258,6 +258,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"2"
+				"armedBgColor_override"			"ZeesMain"
 			}
 		}
 	}	
