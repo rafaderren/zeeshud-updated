@@ -1941,9 +1941,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
-		"defaultBgColor_override"		"ZeesBlack"
+		"defaultBgColor_override"		"DarkGrey"
 		"armedBgColor_override"			"ZeesMain"
-		"depressedBgColor_override"		"ZeesBlack"
+		"depressedBgColor_override"		"DarkGrey"
 	}
 
 	"ResetStatsButton"
@@ -1965,9 +1965,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
-		"defaultBgColor_override"		"ZeesBlack"
+		"defaultBgColor_override"		"DarkGrey"
 		"armedBgColor_override"			"ZeesMain"
-		"depressedBgColor_override"		"ZeesBlack"
+		"depressedBgColor_override"		"DarkGrey"
 	}
 
 	"CloseButton"
