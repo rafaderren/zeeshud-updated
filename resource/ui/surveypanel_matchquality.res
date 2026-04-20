@@ -259,6 +259,8 @@
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"2"
 				"armedBgColor_override"			"ZeesMain"
+				"depressedBgColor_override"		"DarkGrey"
+				"defaultBgColor_override"		"DarkGrey"
 			}
 		}
 	}	

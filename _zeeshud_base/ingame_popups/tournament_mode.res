@@ -348,11 +348,15 @@
 		"wide"			"250"
 		"tall"			"14"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"TransparentBlack"
 
 		if_mvm
+		{
+			"visible"		"0"
+		}
+		if_match
 		{
 			"visible"		"0"
 		}

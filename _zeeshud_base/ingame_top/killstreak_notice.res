@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
+		"border"		"WhiteBorderThick"
 		"bgcolor_override"		"ZeesBlack"
 	}
 

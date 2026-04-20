@@ -446,7 +446,7 @@
 				"depressedFgColor_override" "46 43 42 255"
 
 				"image_drawcolor"	"ZeesWhite"
-				"image_armedcolor"	"ZeesRed"
+				"image_armedcolor"	"155 155 155 255"
 
 				"SubImage"
 				{
