@@ -2,7 +2,7 @@
 {
 	"Colors"
 	{
-		"ZeesMain"	"255 0 90 255"
+		"ZeesMain"	"255 0 90 255" // darker colors might make some text and elements hard to see
 		"Crosshair"	"255 0 90 255"
 		"CrosshairDamage"	"242 0 0 255"
 		"Hitmarker"	"255 0 0 255"
