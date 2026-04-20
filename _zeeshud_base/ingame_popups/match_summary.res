@@ -344,8 +344,8 @@
 					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
+					"visible"		"0"
+					"enabled"		"0"
 
 					"pin_to_sibling"		"BlueTeamWinner"
 					"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -617,8 +617,8 @@
 					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
+					"visible"		"0"
+					"enabled"		"0"
 
 					"pin_to_sibling"		"RedTeamWinner"
 					"pin_corner_to_sibling"	"PIN_TOPLEFT"
