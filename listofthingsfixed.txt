@@ -163,6 +163,7 @@
 -added status effect icon for the base jumper (Jess Fox)
 -added compatibility for team comtress 2 as an addon
 -added team colored class selection buttons
+-added casual VSH support (Jess Fox)
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
