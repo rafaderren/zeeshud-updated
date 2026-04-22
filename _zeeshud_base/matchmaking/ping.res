@@ -36,7 +36,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"13"
+		"xpos"		"24"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
@@ -45,7 +45,7 @@
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBold"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"ZeesWhite"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -64,7 +64,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"ZeesWhite"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -85,11 +85,11 @@
 
 		"editable"		"0"
 		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"255 255 255 255"
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "255 255 255 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
 
@@ -239,9 +239,9 @@
 		"ControlName"		"CCvarSlider"
 		"fieldName"		"PingSlider"
 		"xpos"		"rs1-10"
-		"ypos"		"175"
+		"ypos"		"171"
 		"wide"		"f40"
-		"tall"		"24"
+		"tall"		"27"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"RoundedCorners"		"15"
@@ -276,7 +276,7 @@
 		{
 			"ControlName"	"CScrollableList"
 			"fieldName"		"DataCenterList"
-			"xpos"			"0"
+			"xpos"			"-4"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"f0"
@@ -299,7 +299,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"ZeesWhite"
 				}
 		
 				"UpButton"
@@ -328,7 +328,7 @@
 			"tall"			"f0"
 			"zpos"			"5"
 			"proportionaltoparent"	"1"
-			"border"		"InnerShadowBorder"
+			"border"		"WhiteBorderThick"
 			"mouseinputenabled"	"0"
 		}
 			
@@ -344,6 +344,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
+			"bgcolor_override"	"ZeesBlack"
 
 			"paintborder"	"1"
 			"border"		"ReplayDefaultBorder"

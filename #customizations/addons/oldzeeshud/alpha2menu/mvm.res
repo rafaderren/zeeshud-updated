@@ -2,6 +2,6 @@
 {
 	"MVMCriteria"
 	{
-		"tall"			"f0"
+		"tall"			"f5"
 	}
 }
