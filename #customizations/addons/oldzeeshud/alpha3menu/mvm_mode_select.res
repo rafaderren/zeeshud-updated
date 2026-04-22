@@ -2,6 +2,6 @@
 {
 	"MVMModeSelect"
 	{
-		"tall"					"f0"
+		"tall"					"f5"
 	}
 }
