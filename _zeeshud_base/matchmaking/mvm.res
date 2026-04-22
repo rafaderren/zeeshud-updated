@@ -107,6 +107,7 @@
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
+		"depressedBgColor_override"	"GreenSolid"
 	}
 
 	"BootCampToolTipButtonHack"
@@ -156,6 +157,7 @@
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
+		"depressedBgColor_override"	"GreenSolid"
 	}
 
 	"NextButton"
