@@ -70,6 +70,9 @@
 			"textAlignment"		"center"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultBgColor_override"		"DarkGrey"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"DarkGrey"
 		}
 
 		"ShowMatchHistoryButton"
@@ -91,6 +94,9 @@
 			"textAlignment"		"center"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultBgColor_override"		"DarkGrey"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"DarkGrey"
 		}
 
 		"PlaylistBGPanel"
@@ -117,10 +123,10 @@
 				"ypos"			"0"
 				"zpos"			"100"
 				"wide"			"p0.95"
-				"tall"			"p0.98"
+				"tall"			"p0.84"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"				"InnerShadowBorder"
+				"border"				"WhiteBorderThick"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"		"0"
 			}
@@ -148,7 +154,7 @@
 					"tall"			"p1.3"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"border"		"MainMenuBGBorder"
+					"border"		"WhiteBorderThick"
 				}
 
 				"SortArrow"
@@ -167,9 +173,9 @@
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override"	"TanDark"
-					"armedFgColor_override"		"TanDark"
-					"selectedFgColor_override"	"TanDark"
+					"defaultFgColor_override"	"ZeesMain"
+					"armedFgColor_override"		"ZeesMain"
+					"selectedFgColor_override"	"ZeesMain"
 				}
 
 				"ResultButton"
@@ -190,9 +196,9 @@
 					"textAlignment"			"west"
 					"textinsetx"			"15"
 
-					"defaultFgColor_override" 	"TanDark"
-					"armedFgColor_override"		"Orange"
-					"selectedFgColor_override"	"TanLight"
+					"defaultFgColor_override" 	"ZeesWhite"
+					"armedFgColor_override"		"ZeesMain"
+					"selectedFgColor_override"	"ZeesMain"
 
 					"image_selectedcolor"	"White"
 					"image_armedcolor"		"Transparent"
@@ -223,9 +229,9 @@
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" 	"ZeesWhite"
+					"armedFgColor_override"		"ZeesMain"
+					"selectedFgColor_override"	"ZeesMain"
 
 					"image_selectedcolor"	"White"
 					"image_armedcolor"		"Transparent"
@@ -256,9 +262,9 @@
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" 	"ZeesWhite"
+					"armedFgColor_override"		"ZeesMain"
+					"selectedFgColor_override"	"ZeesMain"
 
 					"image_selectedcolor"	"White"
 					"image_armedcolor"		"Transparent"
@@ -287,9 +293,9 @@
 					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
+					"defaultFgColor_override" 	"ZeesWhite"
+					"armedFgColor_override"		"ZeesMain"
+					"selectedFgColor_override"	"ZeesMain"
 
 					"image_selectedcolor"	"White"
 					"image_armedcolor"		"Transparent"
@@ -329,7 +335,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"TanDark"
+						"fgcolor_override"	"ZeesWhite"
 					}
 
 					"UpButton"
