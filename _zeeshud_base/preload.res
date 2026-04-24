@@ -1060,6 +1060,18 @@
         "xpos"               "9999"
         "visible"            "1"
         "enabled"            "1"
+        "teambg_0"           "class_sel_sm_random_inactive"
+        "teambg_1"           "class_sel_sm_random_blu"
+        "teambg_2"           "class_sel_sm_random_red"
+    }
+
+	"scout_classselect"
+    {
+        "ControlName"        "CTFImagePanel"
+        "fieldName"          "scout_classselect"
+        "xpos"               "9999"
+        "visible"            "1"
+        "enabled"            "1"
         "teambg_0"           "class_sel_sm_scout_inactive"
         "teambg_1"           "class_sel_sm_scout_blu"
         "teambg_2"           "class_sel_sm_scout_red"

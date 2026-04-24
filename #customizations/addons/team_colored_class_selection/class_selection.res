@@ -236,4 +236,31 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
+	"random"
+	{
+		"image_default"		"class_sel_sm_random_inactive"
+		"image_armed"		"class_sel_sm_random_inactive"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"50"
+			"tall"			"100"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_random_inactive"
+			"scaleImage"	"1"
+		}
+	
+	}
+	"RandomImage"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
 }
