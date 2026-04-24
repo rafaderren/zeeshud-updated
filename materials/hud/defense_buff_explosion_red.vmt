@@ -5,5 +5,5 @@
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
-	"$basetexture" "vgui/replay/thumbnails/zh_res_blast"
+	"$basetexture" "vgui/replay/thumbnails/resicons/zh_res_blast_red_tc"
 }

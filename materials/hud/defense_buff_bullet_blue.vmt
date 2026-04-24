@@ -5,6 +5,5 @@
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
-	"$color" "{255 255 255}"
-	"$basetexture" "vgui/replay/thumbnails/zs_res_bullet"
+	"$basetexture" "vgui/replay/thumbnails/resicons/zh_res_bullet_blu_tc"
 }
