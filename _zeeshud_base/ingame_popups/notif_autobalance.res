@@ -75,7 +75,10 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/ico_teambalance"
+		"image"				"replay/thumbnails/notif/autobalanceBLU"
+		"teambg_1"		"replay/thumbnails/notif/autobalanceBLU"
+		"teambg_2"		"replay/thumbnails/notif/autobalanceRED"
+		"teambg_3"		"replay/thumbnails/notif/autobalanceBLU"
 		"scaleImage"		"1"
 	}
 }
