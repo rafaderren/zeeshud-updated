@@ -979,7 +979,7 @@
 		"fieldName"			"HudTeamSwitch"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"c-123"
+		"xpos"				"c-65"
 		"ypos"				"75"
 		"wide"				"320"
 		"tall"				"100"
