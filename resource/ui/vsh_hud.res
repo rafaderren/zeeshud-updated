@@ -139,6 +139,40 @@
 			"scaleImage"	"1"
 		}
 	}
+
+	"BorderLabel"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"BorderLabel"	
+		"xpos"			"422"
+		"ypos"			"75"
+		"zpos"			"6"
+		"wide"			"22"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"image"			"replay/thumbnails/bosshp"	
+	}
+
+	"BorderFlair"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"BorderFlair"	
+		"xpos"			"405"
+		"ypos"			"75"
+		"zpos"			"6"
+		"wide"			"22"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"image"			"replay/thumbnails/bosshp2"	
+	}
 	
 	"ScoreContainer"
 	{
