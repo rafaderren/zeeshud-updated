@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/zh_slowed"	"$translucent" 1
+	"$vertexcolor" 0
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+}
