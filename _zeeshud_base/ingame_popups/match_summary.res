@@ -54,7 +54,7 @@
 		"tall"			"43"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"WhiteBorderThick"
+		"border"		"ZeesBorderWhite"
 		"proportionaltoparent"	"1"
 
 		if_uses_xp
