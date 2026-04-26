@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"paintbackground"	"1"
 		"border"			"WhiteBorderThick"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"ZeesBlack"
 		"PaintBorder"		"1"
 
 		// Background for the player model & item preview panels
@@ -62,8 +62,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"PanelBorder"
-			"bgcolor_override"	"Grey"
+			"border"		"WhiteBorderThick"
+			"bgcolor_override"	"ZeesBlack"
 		}
 	}
 
@@ -549,6 +549,10 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-2"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 
 	"AddToCartButton"
@@ -573,5 +577,9 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-2"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }
