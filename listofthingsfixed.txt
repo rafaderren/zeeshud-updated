@@ -131,6 +131,7 @@
 -restored and updated defense buff icons
 -updated overtime pulse color
 -updated auto balance notif
+-improved player destruction and passtime UI's (Jess Fox)
 
 -added a zeeshud styled skull control point (im not sure where it's used)
 -added back old zeeshud backgrounds
@@ -165,6 +166,7 @@
 -added compatibility for team comtress 2 as an addon
 -added team colored class selection buttons
 -added casual VSH support (Jess Fox)
+-added a background to "Playing To: " Labels (Jess Fox)
 
 -removed mod_textures.res to avoid new killicons from being unregistered
 -removed unused hud files
