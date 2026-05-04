@@ -307,6 +307,11 @@
         "src_corner_width"		"24"
         "draw_corner_width"		"4"
         "draw_corner_height" 	"4"
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"BlueFlag"
