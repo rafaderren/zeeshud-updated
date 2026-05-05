@@ -308,7 +308,17 @@
         "draw_corner_width"		"4"
         "draw_corner_height" 	"4"
 
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
 		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}

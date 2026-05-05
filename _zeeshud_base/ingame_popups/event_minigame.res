@@ -2,32 +2,30 @@
 {
 	"LeftSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-120"
 		"ypos"			"r20"
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"14"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 153"
-		"scaleImage"	"1"
+		"border"		"ZeesBorderRedOpaque"
 	}
 
 	"RightSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
 		"ypos"			"r20"
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"14"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 50 50 153"
-		"scaleImage"	"1"
+		"border"		"ZeesBorderBlueOpaque"
 	}
 
 	"OutlineBG"
@@ -76,7 +74,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ZeesRed"
 	}
 
 	"RedScore"
@@ -110,7 +108,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ZeesBlue"
 	}
 
 	"PlayingTo"
