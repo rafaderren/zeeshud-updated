@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"QueueText"
-		"xpos"			"rs1-18"
+		"xpos"			"rs1-20"
 		"ypos"			"cs-0.5"
 		"wide"			"f35"
 		"zpos"			"100"
