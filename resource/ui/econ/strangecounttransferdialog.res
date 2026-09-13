@@ -10,7 +10,7 @@
 		"zpos"					"101"
 		"wide"					"f0"
 		"tall"					"f0"
-		"bgcolor_override"		"30 25 25 245"
+		"bgcolor_override"		"30 25 25 0"
 	}
 
 	"BG"
