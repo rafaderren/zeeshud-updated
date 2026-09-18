@@ -383,8 +383,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"west"
-				"bgcolor_override" "0 0 0 255"
-				"fgcolor_override" "0 0 0 255"
+				"bgcolor_override" "0 0 0 155"
+				"fgcolor_override" "0 0 0 155"
 			}
 
 			"RocketIcon"
