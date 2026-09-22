@@ -14,10 +14,10 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"SplashBackground"
-			"xpos"			"65"
-			"ypos"			"3"
-			"wide"			"170"
-			"tall"			"70"
+			"xpos"			"84"
+			"ypos"			"18"
+			"wide"			"130"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -25,36 +25,36 @@
 			"image"			"replay/thumbnails/box_3_r"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"10"
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"6"
+			"draw_corner_height" 	"6"
 		}
 		
 		"SplashLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabelShadow"
-			"font"			"HudFontGiantBold"
+			"font"			"FUTURA_BOLD_32"
 			"labelText"		"#TF_MVM_Victory"
 			"textAlignment" "center"
 			"xpos"			"2"
 			"ypos"			"14"
 			"wide"			"300"
 			"tall"			"50"
-			"fgcolor"		"black"
+			"fgcolor"		"ZeesBlack"
 		}
 		
 		"SplashLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabel"
-			"font"			"HudFontGiantBold"
+			"font"			"FUTURA_BOLD_32"
 			"labelText"		"#TF_MVM_Victory"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"12"
 			"wide"			"300"
 			"tall"			"50"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ZeesWhite"
 		}
 	}
 }
