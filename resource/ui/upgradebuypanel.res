@@ -15,13 +15,13 @@
 		"tabPosition"	"0"
 		
 		"upgradebutton_xpos"	"34"
-		"upgradebutton_ypos"	"25"
+		"upgradebutton_ypos"	"28"
 		
 		"skilltreebuttons_kv"
 		{
-			"wide"			"16"
-			"tall"			"16"
-			"textAlignment"	"center"
+			"wide"			"12"
+			"tall"			"12"
+			"textAlignment"	"west"
 			"font"			"HudFontSmallest"
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"	
