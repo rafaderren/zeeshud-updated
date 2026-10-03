@@ -91,7 +91,7 @@
 			"tall"			"50"
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"border"		"ZeesBorderWhiteOpaque"
 		
 			"TipLabel"
 			{
@@ -109,7 +109,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override"	"235 226 202 255"
+				"fgcolor_override"	"ZeesWhite"
 				"wrap"			"1"
 			}
 
@@ -119,7 +119,7 @@
 				"wide"		"200"
 				"zpos"		"1002"
 			}
-		}	
+		}
 
 		"Dimmer"
 		{
