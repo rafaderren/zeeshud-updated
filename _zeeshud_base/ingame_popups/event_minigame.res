@@ -11,7 +11,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"ZeesBorderRedOpaque"
+		"border"		"ZeesBorderBlueOpaque"
 	}
 
 	"RightSideBG"
@@ -25,7 +25,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"ZeesBorderBlueOpaque"
+		"border"		"ZeesBorderRedOpaque"
 	}
 
 	"OutlineBG"
@@ -74,7 +74,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"ZeesRed"
+		"fgcolor"		"ZeesBlue"
 	}
 
 	"RedScore"
@@ -108,7 +108,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"ZeesBlue"
+		"fgcolor"		"ZeesRed"
 	}
 
 	"PlayingTo"
