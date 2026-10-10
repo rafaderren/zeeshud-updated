@@ -147,6 +147,7 @@ Improvements:
 -updated the look of control point letter label icons (Jess Fox)
 -made the mvm/comp ready label colored green if player readies up (Jess Fox)
 -improved the look of building pickup on target id (Jess Fox)
+-improved the look of bumper cart boost ui (Jess Fox)
 
 Additions:
 

@@ -74,7 +74,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"ZeesBlue"
+		"fgcolor"		"ZeesBlack"
 	}
 
 	"RedScore"
@@ -108,7 +108,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"ZeesRed"
+		"fgcolor"		"ZeesBlack"
 	}
 
 	"PlayingTo"
@@ -132,17 +132,23 @@
 
 	"PlayingToBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"
-		"ypos"			"r50"
+		"ypos"			"r48"
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Transparent"
 		"scaleImage"	"1"
+        	"image"				"replay/thumbnails/box_3_n"
+        	"scaleImage"		"1"
+		"alpha"				"255"
+		"src_corner_height"		"24"
+		"src_corner_width"		"24"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
 	}
 
 	"GameImage"
