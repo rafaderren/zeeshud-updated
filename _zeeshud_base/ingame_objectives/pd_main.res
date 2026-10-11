@@ -1041,25 +1041,6 @@
 		}
 	}
 
-	"CountdownBackground"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"CountdownBackground"
-		"xpos"			"380"
-		"ypos"			"390"
-		"zpos"			"-2"
-		"wide"			"90"
-		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
-        	"image"       "replay/thumbnails/box_3_n"
-		"scaleImage"	"1"	
-                "src_corner_height"		"24"
-                "src_corner_width"		"24"
-                "draw_corner_width"		"5"
-                "draw_corner_height" 	"5"
-		}
-
 	"CountdownContainer"
 	{
 		"ControlName"			"EditablePanel"
@@ -1074,7 +1055,7 @@
 
 		"Background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"105"
 			"ypos"			"10"
@@ -1083,10 +1064,8 @@
 			"tall"			"45"
 			"visible"		"0"
 			"enabled"		"0"
-        		"image"       "replay/thumbnails/box_3_b_t"
+        	"image"       "replay/thumbnails/box_3_b_t"
 			"scaleImage"	"1"	
-        		"image"       "replay/thumbnails/box_3_r_t"
-        		"image"       "replay/thumbnails/box_3_b_t"
 			"proportionalToParent"	"1"
 		}
 
@@ -1096,32 +1075,33 @@
 			"fieldName"		"CountdownImage"
 			"xpos"			"115"
 			"ypos"			"17"
-			"zpos"			"2"
+			"zpos"			"9"
 			"wide"			"32"
 			"tall"			"32"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/arrow_big_down"
-			"scaleImage"		"1"	
-			"proportionalToParent"	"1"
+			"scaleImage"		"1"
 		}
 		
 		"CountdownLabelTime"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CountdownLabelTime"
-			"xpos"			"150"
-			"ypos"			"17"
-			"zpos"			"8"
-			"wide"			"35"
-			"tall"			"35"
+			"xpos"			"110"
+			"ypos"			"13"
+			"zpos"			"-999"
+			"wide"			"80"
+			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"center"	
+			"textAlignment"	"east"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumBold"
 			"fgcolor"		"TanLight"		
 			"proportionalToParent"	"1"
+			"border"		"ZeesBorderWhiteOpaque"
+			"textinsetx"		"30"
 		}
 
 		"CountdownLabelTimeTimeShadow"
@@ -1131,10 +1111,10 @@
 			"xpos"			"151"
 			"ypos"			"18"
 			"zpos"			"7"
-			"wide"			"35"
+			"wide"			"85"
 			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumBold"
