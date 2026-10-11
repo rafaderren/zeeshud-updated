@@ -1081,6 +1081,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/arrow_big_down"
+			"proportionalToParent"	"1"
 			"scaleImage"		"1"
 		}
 		
@@ -1092,7 +1093,7 @@
 			"ypos"			"13"
 			"zpos"			"-999"
 			"wide"			"80"
-			"tall"			"40"
+			"tall"			"41"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"east"	
