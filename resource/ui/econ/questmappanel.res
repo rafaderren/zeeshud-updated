@@ -54,7 +54,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"ZeesBorderWhiteOpaque"
 		
 			"text_center"		"1"
 			"model_hide"		"1"
@@ -119,7 +119,7 @@
 				"wide"		"200"
 				"zpos"		"1002"
 			}
-		}
+		}	
 
 		"Dimmer"
 		{

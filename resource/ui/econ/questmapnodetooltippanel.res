@@ -30,7 +30,7 @@
 			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-			"border"		"MainMenuBGBorder"
+			"border"		"ZeesBorderWhiteOpaque"
 
 			"NameLabel"
 			{

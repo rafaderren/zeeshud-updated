@@ -34,7 +34,7 @@
 		"mouseinputenabled"		"0"
 		"keyboardinputenabled"	"0"
 
-		"border"		"ReplayDefaultBorder"
+		"border"		"ZeesBorderWhiteOpaque"
 	}	
 
 	"Background"
