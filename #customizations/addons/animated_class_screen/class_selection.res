@@ -12,6 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
+		"teambg_1"		"replay/thumbnails/class/class_bg_grey_concept"
 		"teambg_2"		"replay/thumbnails/class/class_bg_concept"
 		"teambg_3"		"replay/thumbnails/class/class_bg_concept_blu"
 	}
