@@ -19,13 +19,13 @@
 			"ControlName"			"EditablePanel"
 			"fieldName"				"MainContainer"
 			"xpos"					"r0"
-			"ypos"					"0"
+			"ypos"					"-5"
 			"wide"					"110"
 			"tall"					"20"
 			"visible"				"1"
 			"proportionaltoparent"	"1"
 
-			"border"	"NoBorder"	//QuestStatusBorder
+			"border"	"ZeesBorderWhiteOpaque"	//QuestStatusBorder
 			"paintborder"	"2"
 
 			"ItemName"
@@ -42,7 +42,7 @@
 				"fgcolor_override"		"255 255 255 255"	//235 226 202 255
 				"font"			"AchievementTracker_Name"
 				//"wrap"			"1"
-				"TextAlignment"		"east"
+				"TextAlignment"		"center"
 				"proportionaltoparent" "1"
 			}
 
@@ -59,7 +59,7 @@
 				"enabled"		"1"
 				"image"			"animated/tf2_speaker_icon"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"0"
 			}
 		}
 	}
