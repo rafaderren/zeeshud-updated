@@ -1034,6 +1034,9 @@
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 	}
 	
 	"ShowExplanationsButton1"

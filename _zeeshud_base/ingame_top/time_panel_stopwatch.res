@@ -26,7 +26,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StopWatchImageCaptureTime"
 		"xpos"			"11"
-		"ypos"			"12"
+		"ypos"			"11"
 		"zpos"			"0"
 		"wide"			"17"
 		"tall"			"17"

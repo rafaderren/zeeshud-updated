@@ -675,10 +675,11 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CountdownBG"
 		"xpos"			"403"
-		"ypos"			"429"
+		"ypos"			"153"
+		"zpos"			"-99"
 		"wide"			"49"
 		"tall"			"33"
-		"image"			"replay/thumbnails/blank"
+		"image"			"replay/thumbnails/box_3_n"
 		"enabled"		"1"
 		"visible"		"0"
 
@@ -690,9 +691,8 @@
 
 		if_mvm
 		{
-		"image"			"replay/thumbnails/box_3_n"
+		"ypos"			"429"
 		}
-
 	}
 
 	"CountdownLabel"
