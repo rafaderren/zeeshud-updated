@@ -30,6 +30,16 @@ event FlickerHealthIndicatorOvh
 	Animate CrosshairIndicatorOvh			Alpha		"0"			Spline 1.5 0.2
 }
 
+event HudTournament_ShowRoundSign
+{
+	Animate RoundSign ypos 0 Spline 0 0
+	Animate RoundSign ypos 85 Spline 0 1
+	Animate RoundSignBorder alpha 255 Spline 0 0
+	Animate RoundSignText alpha 255 Spline 0 0
+
+	Animate RoundSign ypos -200 Spline 4 1.5
+}
+
 event HudHealthBonusPulseMain
 {
 	Animate	PlayerStatusHealthOverheal		Alpha		"255"				Linear 0.0 0.0

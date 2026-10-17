@@ -191,6 +191,7 @@ Additions:
 -added a custom icon to crit boosted robots in mvm (Jess Fox)
 -added support to tutorial popups (Jess Fox)
 -added grey variants for class select instead of a white flashbang (Jess Fox)
+-added a custom casual round start sign (Jess Fox)
 
 Removals:
 
