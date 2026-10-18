@@ -12,7 +12,7 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"ZeesBorderWhite"
+		"border"				"ZeesBorderWhiteOpaque"
 	}
 
 	"mouseoveritempanel"
@@ -180,6 +180,10 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-2"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 	
 	"OkButton"
@@ -205,5 +209,9 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"textinsety"		"-2"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}
 }

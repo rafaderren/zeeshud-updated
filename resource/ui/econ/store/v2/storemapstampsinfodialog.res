@@ -1,4 +1,4 @@
-"StoreMapStampsInfoDialog.res"
+"storemapstampsinfodialog.res"
 {
 	"MapStampsInfoDialog"
 	{
@@ -45,8 +45,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"paintbackground"	"1"
+		"border"		"WhiteBorderThick"
+		"bgcolor_override" "0 0 0 255"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -62,7 +63,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"border"		"WhiteBorderThick"
 		}
 	
 	
@@ -81,7 +82,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "0 0 0 255"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -99,7 +100,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "0 0 0 255"
 		}
 		
 		"MapsDescLabel"
@@ -163,8 +164,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"155 155 155 255"
 		
 		"SubImage"
 		{
@@ -205,5 +206,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
+		"textinsety"		"-2"
+		"paintbackground"	"0"
+		"border_default"	"ZeesBorderWhiteOpaque"
+		"border_armed"		"ZeesBorderColorOpaque"
 	}		
 }

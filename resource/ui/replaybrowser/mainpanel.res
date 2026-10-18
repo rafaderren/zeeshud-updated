@@ -139,10 +139,10 @@
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"25 25 25 255"
 			"paintbackground"			"1"
-			"activeborder_override"		"WhiteBorderThick"
+			"activeborder_override"		"WhiteBorderThickTab"
 			"normalborder_override"		"WhiteSelectedBorderThick"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"depressedBgColor_override"		"10 10 10 255"
+			"unselectedBgColor_override"	"25 25 25 255"
+			"depressedBgColor_override"		"25 25 25 255"
 		}
 	}
 

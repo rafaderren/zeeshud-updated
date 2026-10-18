@@ -151,7 +151,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override"	"TextColor"
+		"fgcolor_override"	"ZeesWhite"
 	}
 
 	"ShowPrevButton"

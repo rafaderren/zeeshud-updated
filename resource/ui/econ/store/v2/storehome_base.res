@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
-		"bgcolor_override"				"25 25 25 255"
+		"bgcolor_override"				"0 0 0 255"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
 
@@ -38,7 +38,7 @@
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"0"
 		"item_backdrop_zpos"				"1"
-		"item_panel_bgcolor"			"45 45 45 255"
+		"item_panel_bgcolor"			"35 35 35 255"
 		"item_panel_bgcolor_mouseover"	"ZeesMain"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
 		"classicon_xdelta"				"5"
@@ -177,15 +177,15 @@
     		"xpos"				"0"
     		"ypos"				"0"
     		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
+    		"wide"				"200"
+    		"tall"	 			"200"
+    		"visible"			"0"
+    		"enabled"			"0"
 			"pinCorner"			"0"
 			"autoResize"		"0"
-			"PaintBackgroundType" "2"
-			"border"			"NoBorder"
-			"bgcolor_override"	"DarkGrey"
+			"PaintBackgroundType" "0"
+			"border"			"ZeesBorderWhiteOpaque"
+			"bgcolor_override"	"0 0 0 0"
 		}
 
 		"attriblabel"
@@ -294,7 +294,7 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ItemCategoryTabs"
-		"xpos"				"c-230"
+		"xpos"				"c-130"
 		"ypos"				"30"
 		"zpos"				"0"
 		"wide"				"430"
@@ -324,11 +324,11 @@
 			"font"				"HudFontSmallest"
 			"fgcolor"			"TanDark"
 
-			"defaultBgColor_override"	"5 5 5 255"
-			"defaultFgColor_override"	"124 124 124 255"
-			"armedBgColor_override"		"0 0 0 100"
-			"armedFgColor_override"		"225 225 225 255"
-			"selectedBgColor_override"	"0 0 0 100"
+			"defaultBgColor_override"	"0 0 0 0"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedBgColor_override"		"0 0 0 0"
+			"armedFgColor_override"		"ZeesMain"
+			"selectedBgColor_override"	"ZeesMain"
 			"selectedFgColor_override"	"255 255 255 255"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -337,11 +337,26 @@
 
 			"paintbackground"	"1"
 			"paintborder"		"1"
-			"border"			"ButtonBorder"
 
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
 		}
+	}
+
+	"ItemCategoryTabsBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ItemCategoryTabsBorder"
+		"xpos"			"c-134"
+		"ypos"			"27"
+		"zpos"			"-6"
+		"wide"			"274"
+		"tall"			"40"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"ZeesBorderWhiteOpaque"
 	}
 
 	"PrevPageButton"
@@ -367,9 +382,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"textinsety"		"-3"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
+		"defaultBgColor_override"	"0 0 0 255"
+		"armedBgColor_override"		"ZeesMain"
+		"depressedBgColor_override"	"0 0 0 255"
 	}
 
 	"CurPageLabel"
@@ -413,11 +431,13 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override" "TanDarker"
 		"textinsety"		"-3"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
+		"defaultBgColor_override"	"0 0 0 255"
+		"armedBgColor_override"		"ZeesMain"
+		"depressedBgColor_override"	"0 0 0 255"
 	}
 
 	"BackpackSpaceLabel"
@@ -427,7 +447,7 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
-		"xpos"			"c-237"
+		"xpos"			"c-60"
 		"ypos"			"315"
 		"zpos"			"10"
 		"wide"			"160"
@@ -445,7 +465,7 @@
 		"font"			"HudFontSmall"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c-238"
+		"xpos"			"c-28"
 		"ypos"			"334"
 		"zpos"			"12"
 		"wide"			"56"
@@ -455,20 +475,22 @@
 		"PaintBackgroundType"	"0"
 		"textinsetx"	"15"
 		"Command"		"viewcart"
-		"defaultBgColor_override" "TanDarker"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"textinsety"		"-1"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
+		"defaultBgColor_override"	"0 0 0 255"
+		"armedBgColor_override"		"ZeesMain"
+		"depressedBgColor_override"	"0 0 0 255"
 	}
 
 	"CartImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
-		"xpos"			"c-233"
+		"xpos"			"c-25"
 		"ypos"			"336"
 		"zpos"			"13"
 		"wide"			"24"
@@ -530,10 +552,11 @@
 		"textinsety"		"-1"
 		"paintbackground"	"1"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
 		"defaultBgColor_override"	"0 0 0 255"
-		"armedBgColor_override"		"0 0 0 100"
-		"depressedBgColor_override"	"0 0 0 100"
+		"armedBgColor_override"		"ZeesMain"
+		"depressedBgColor_override"	"0 0 0 255"
+
 	}
 
 	"TitleLabel"
@@ -635,7 +658,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"DarkerGrey"
+		"border"		"WhiteBorderThick"
+		"bgcolor_override"	"ZeesBlack"
 		"PaintBackgroundType"	"0"
 	}
 }
