@@ -169,7 +169,7 @@
 		"default"			"1"
 		"Command"			"close"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/panel_close.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
 		"border_default"	"ZeesBorderWhiteOpaque"
 		"border_armed"		"ZeesBorderColorOpaque"
