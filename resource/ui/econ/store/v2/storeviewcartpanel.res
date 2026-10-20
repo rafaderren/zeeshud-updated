@@ -130,10 +130,10 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"1"
 				"border_default"	"WhiteBorderThick"
-				"border_armed"		"WhiteSelectedBorderThick"
+				"border_armed"		"WhiteBorderThick"
 				"defaultBgColor_override"	"0 0 0 255"
-				"armedBgColor_override"		"0 0 0 255"
-				"depressedBgColor_override"	"0 0 0 100"
+				"armedBgColor_override"		"ZeesMain"
+				"depressedBgColor_override"	"0 0 0 255"
 			}
 
 			"PriceLabel"

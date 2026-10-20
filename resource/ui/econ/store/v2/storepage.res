@@ -551,8 +551,8 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 
-			"image_drawcolor"		"255 255 255 180"
-			"image_armedcolor"		"255 255 255 255"
+			"image_drawcolor"		"125 125 125 255"
+			"image_armedcolor"		"185 185 185 255"
 			"image_selectedcolor"	"255 255 255 255"
 
 			"stayselectedonclick"	"1"
@@ -578,9 +578,9 @@
 			"all"
 			{
 				"userdata"			"0"
-				"image_default"		"class_icons/filter_all"
-				"image_armed"		"class_icons/filter_all"
-				"image_selected"	"class_icons/filter_all_on"
+				"image_default"		"../vgui/glyph_multiplayer"
+				"image_armed"		"../vgui/glyph_multiplayer"
+				"image_selected"	"../vgui/glyph_multiplayer"
 				"tooltiptext"		"#TF_Items_All"
 
 				"SubImage"
@@ -591,9 +591,9 @@
 			"scout"
 			{
 				"userdata"			"1"
-				"image_default"		"class_icons/filter_scout"
-				"image_armed"		"class_icons/filter_scout"
-				"image_selected"	"class_icons/filter_scout_on"
+				"image_default"		"../hud/leaderboard_class_scout"
+				"image_armed"		"../hud/leaderboard_class_scout"
+				"image_selected"	"../hud/leaderboard_class_scout"
 				"tooltiptext"		"#TF_Items_Scout"
 
 				"SubImage"
@@ -604,9 +604,9 @@
 			"soldier"
 			{
 				"userdata"			"3"
-				"image_default"		"class_icons/filter_soldier"
-				"image_armed"		"class_icons/filter_soldier"
-				"image_selected"	"class_icons/filter_soldier_on"
+				"image_default"		"../hud/leaderboard_class_soldier"
+				"image_armed"		"../hud/leaderboard_class_soldier"
+				"image_selected"	"../hud/leaderboard_class_soldier"
 				"tooltiptext"		"#TF_Items_Soldier"
 
 				"SubImage"
@@ -617,9 +617,9 @@
 			"pyro"
 			{
 				"userdata"			"7"
-				"image_default"		"class_icons/filter_pyro"
-				"image_armed"		"class_icons/filter_pyro"
-				"image_selected"	"class_icons/filter_pyro_on"
+				"image_default"		"../hud/leaderboard_class_pyro"
+				"image_armed"		"../hud/leaderboard_class_pyro"
+				"image_selected"	"../hud/leaderboard_class_pyro"
 				"tooltiptext"		"#TF_Items_Pyro"
 
 				"SubImage"
@@ -630,9 +630,9 @@
 			"demo"
 			{
 				"userdata"			"4"
-				"image_default"		"class_icons/filter_demo"
-				"image_armed"		"class_icons/filter_demo"
-				"image_selected"	"class_icons/filter_demo_on"
+				"image_default"		"../hud/leaderboard_class_demo"
+				"image_armed"		"../hud/leaderboard_class_demo"
+				"image_selected"	"../hud/leaderboard_class_demo"
 				"tooltiptext"		"#TF_Items_Demoman"
 
 				"SubImage"
@@ -643,9 +643,9 @@
 			"heavy"
 			{
 				"userdata"			"6"
-				"image_default"		"class_icons/filter_heavy"
-				"image_armed"		"class_icons/filter_heavy"
-				"image_selected"	"class_icons/filter_heavy_on"
+				"image_default"		"../hud/leaderboard_class_heavy"
+				"image_armed"		"../hud/leaderboard_class_heavy"
+				"image_selected"	"../hud/leaderboard_class_heavy"
 				"tooltiptext"		"#TF_Items_Heavy"
 
 				"SubImage"
@@ -656,9 +656,9 @@
 			"engineer"
 			{
 				"userdata"			"9"
-				"image_default"		"class_icons/filter_engineer"
-				"image_armed"		"class_icons/filter_engineer"
-				"image_selected"	"class_icons/filter_engineer_on"
+				"image_default"		"../hud/leaderboard_class_engineer"
+				"image_armed"		"../hud/leaderboard_class_engineer"
+				"image_selected"	"../hud/leaderboard_class_engineer"
 				"tooltiptext"		"#TF_Items_Engineer"
 
 				"SubImage"
@@ -669,9 +669,9 @@
 			"medic"
 			{
 				"userdata"			"5"
-				"image_default"		"class_icons/filter_medic"
-				"image_armed"		"class_icons/filter_medic"
-				"image_selected"	"class_icons/filter_medic_on"
+				"image_default"		"../hud/leaderboard_class_medic"
+				"image_armed"		"../hud/leaderboard_class_medic"
+				"image_selected"	"../hud/leaderboard_class_medic"
 				"tooltiptext"		"#TF_Items_Medic"
 
 				"SubImage"
@@ -682,9 +682,9 @@
 			"sniper"
 			{
 				"userdata"			"2"
-				"image_default"		"class_icons/filter_sniper"
-				"image_armed"		"class_icons/filter_sniper"
-				"image_selected"	"class_icons/filter_sniper_on"
+				"image_default"		"../hud/leaderboard_class_sniper"
+				"image_armed"		"../hud/leaderboard_class_sniper"
+				"image_selected"	"../hud/leaderboard_class_sniper"
 				"tooltiptext"		"#TF_Items_Sniper"
 
 				"SubImage"
@@ -695,9 +695,9 @@
 			"spy"
 			{
 				"userdata"			"8"
-				"image_default"		"class_icons/filter_spy"
-				"image_armed"		"class_icons/filter_spy"
-				"image_selected"	"class_icons/filter_spy_on"
+				"image_default"		"../hud/leaderboard_class_spy"
+				"image_armed"		"../hud/leaderboard_class_spy"
+				"image_selected"	"../hud/leaderboard_class_spy"
 				"tooltiptext"		"#TF_Items_Spy"
 
 				"SubImage"
