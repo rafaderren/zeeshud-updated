@@ -19,7 +19,7 @@
 	{
 		"visible"	"1"
 		"enabled"	"1"
-		"font"	"Damage (12)"
+		"font"	"Damage (16)"
 		"xpos"	"c-25"
 		"ypos"	"c5"
 		"textAlignment"	"center"

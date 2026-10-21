@@ -506,7 +506,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\nogc"
+		"image"			"replay/thumbnails/nogc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}

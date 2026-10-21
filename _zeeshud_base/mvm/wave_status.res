@@ -111,7 +111,7 @@
 		"tall"				"6"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"../HUD/tournament_panel_tan"
+		"fillcolor"			"ZeesWhite"
 
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"

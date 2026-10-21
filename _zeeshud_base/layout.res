@@ -155,7 +155,7 @@
 		"IconYPos"				"0"
 		"TextYPos"				"70"
 		"ErrorYPos"				"48"
-		"TextColor"				"SelectionTextFg"
+		"TextColor"				"ZeesWhite"
 		"MaxSlots"				"6"
 		"PlaySelectSounds"		"1"
 		"Alpha" 				"220"
@@ -324,7 +324,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"FlashColor" 			"HudIcon_Red"
+		"FlashColor" 			"ZeesRed"
 		"icon_xpos"				"0"
 		"icon_ypos"				"2"
 		"digit_xpos"			"34"
@@ -341,7 +341,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"IconColor"				"Hostage_Yellow"
+		"IconColor"				"ZeesYellow"
 	}
 
 	HudFlashlight
