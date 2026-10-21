@@ -151,6 +151,13 @@ Scheme
 		TextEntry.TextColor					"White"
 		TextEntry.DisabledTextColor	        "DullWhite"
 		TextEntry.SelectedBgColor			"White"
+
+		RichText.SelectedBgColor			"White"
+
+		SectionedListPanel.SelectedBgColor	"White"	
+
+		Tooltip.BgColor						"27 27 27 255"
+		Tooltip.TextColor					"White"
 	}
 
 	Fonts

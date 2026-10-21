@@ -393,6 +393,13 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
 
+		"loadoutBG"
+		{
+			"image"			""
+			"visible"		"0"
+			"enabled"		"0"
+		}
+
 		"YouTradedForLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1063,6 +1070,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border"		"WhiteBorderThick"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 	}
 
 	"DebugReload"
@@ -1113,6 +1123,9 @@
 		"Command"		"startexplanation2"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"DarkGrey"
 	}
 
 	"StartExplanation"
