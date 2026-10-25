@@ -15,7 +15,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
-		"thumbnail_bgcolor"				"45 45 45 255"
+		"thumbnail_bgcolor"				"35 35 35 255"
 		"thumbnail_bgcolor_mouseover"	"ZeesMain"
 		"thumbnail_bgcolor_selected"	"ZeesMain"
 		"thumbnails_rows"		"4"
