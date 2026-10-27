@@ -183,14 +183,14 @@ Scheme
 
 		"HTMLBackground"						"95 92 101 255"
 
-		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribLevel"						"155 155 155 255"
+		"ItemAttribNeutral"						"230 230 230 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
 		"ItemSetName"							"225 255 15 255"
 		"ItemSetItemEquipped"					"149 175 12 255"
-		"ItemSetItemMissing"					"139 137 137 255"
+		"ItemSetItemMissing"					"155 155 155 255"
 		"ItemIsotope"							"225 255 15 255"
 		"ItemBundleItem"						"149 175 12 255"
 		"ItemLimitedUse"						"0 160 0 255"
