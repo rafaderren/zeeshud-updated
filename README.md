@@ -28,3 +28,6 @@ Q: My MvM shop textures or Team Colored Class Selection is not using the correct
 A: You have 2 options:
 - Go to your tf folder, open gameinfo.txt, and replace `type multiplayer_only` into `//type multiplayer_only`
 - Use [Cueki's Casual Preloader](https://gamebanana.com/tools/19049)
+
+# Redistributions
+If you publicly redistribute this HUD or a fork of it on another website or platform, you are required to include a link to the original ZeesHUD Updated page on [Gamebanana](https://gamebanana.com/mods/640375) or [Github](https://github.com/rafaderren/zeeshud-updated).
