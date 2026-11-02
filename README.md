@@ -30,4 +30,4 @@ A: You have 2 options:
 - Use [Cueki's Casual Preloader](https://gamebanana.com/tools/19049)
 
 # Redistributions
-If you publicly redistribute this HUD or a fork of it on another website or platform, you are required to include a link to the original ZeesHUD Updated page on [Gamebanana](https://gamebanana.com/mods/640375) or [Github](https://github.com/rafaderren/zeeshud-updated) and a requirement to mention "ZeesHUD Updated" into the credits.
+If you publicly redistribute this HUD or a fork of it on another website or platform, you are required to include a link to the original ZeesHUD Updated page on [Gamebanana](https://gamebanana.com/mods/640375) or [Github](https://github.com/rafaderren/zeeshud-updated) and a requirement to mention "ZeesHUD Updated" into the credits, if you are planning to fork this project you may not monetize it.
