@@ -8,14 +8,14 @@
 		"presetbutton_kv"
 		{
 			"zpos"				"20"
-			"wide"				"25"
+			"wide"				"30"
 			"tall"				"25"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"font"				"Cerbetica28"
+			"font"				"Cerbetica24"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
 			"dulltext"			"0"
@@ -24,6 +24,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"		"1"
+			"armedBgColor_override"			"ZeesMain"
+			"depressedBgColor_override"		"DarkGrey"
+			"defaultBgColor_override"		"DarkGrey"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 }

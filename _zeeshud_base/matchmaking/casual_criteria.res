@@ -66,7 +66,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
 		"xpos"			"cs-0.51"
-		"ypos"			"rs1-8"
+		"ypos"			"rs1-6"
 		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"

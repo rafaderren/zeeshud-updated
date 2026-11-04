@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/doors/loading_bg_topdoors"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.18
+			"texturescrollangle" 0
+		}
+	}
+}

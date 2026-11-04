@@ -2,6 +2,6 @@
 {
 	"CasualCriteria"
 	{
-		"tall"					"f5"
+		"tall"					"f10"
 	}
 }

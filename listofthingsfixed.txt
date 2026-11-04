@@ -148,6 +148,7 @@ Improvements:
 -made the mvm/comp ready label colored green if player readies up (Jess Fox)
 -improved the look of building pickup on target id (Jess Fox)
 -improved the look of bumper cart boost ui (Jess Fox)
+-improved the look of loadout preset buttons (Jess Fox)
 
 Additions:
 
@@ -192,6 +193,7 @@ Additions:
 -added support to tutorial popups (Jess Fox)
 -added grey variants for class select instead of a white flashbang (Jess Fox)
 -added a custom casual round start sign (Jess Fox)
+-added custom casual round doors and a new match start animation (Jess Fox)
 
 Removals:
 
