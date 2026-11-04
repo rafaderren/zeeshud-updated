@@ -1,4 +1,8 @@
 # ZeesHUD Updated
+```diff
+- The people behind this project are not associated with Zeesastrous, we do not endorse their actions.
+```
+
 The (in)famous TF2 HUD that looks like Persona 5's UI updated by rafaderren.
 
 This version aims to fix issues that ZeesHUD had as well as add new features (when I feel like it)
@@ -31,4 +35,5 @@ A: You have 2 options:
 
 # Redistributions
 If you publicly redistribute this HUD or a fork of it on another website or platform, you are required to include a link to the original ZeesHUD Updated page on [Gamebanana](https://gamebanana.com/mods/640375) or [Github](https://github.com/rafaderren/zeeshud-updated) and a requirement to mention "ZeesHUD Updated" into the credits, if you are planning to fork this project you may not monetize it.
+
 https://creativecommons.org/licenses/by-nc/4.0/
