@@ -155,105 +155,12 @@
 			"border"		"ZeesBorderWhiteTransparent"
 		}
 
-		"CreditsButtonCrayon"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"CreditsCrayon"
-			"xpos"		"180"
-			"ypos"		"185"
-			"zpos"		"2"
-			"wide"		"110"
-			"tall"		"30"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"		"FUTURA_BOLD_24"
-			"paintbackground"	"0"
-			"labelText"			"CRAYON"
-			"font"			"HudFontSmallishBold"
-			"textAlignment"	"center"
-			"textinsetx"	"10"
-			
-			"border_default"		"ZeesMenuButton"
-
-			"defaultFgColor_override" 	"ZeesWhite"
-			
-			"pin_to_sibling" "ButtonAnchor"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPLEFT"
-			
-		}
-
-		"CrayonDesc"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CrayonDesc"
-			"font"			"FUTURA_BOLD_24"
-			"labelText"		"Project co-leader"
-			"textAlignment"	"north-west"
-			"xpos"			"181"
-			"ypos"			"225"
-			"wide"			"300"
-			"tall"			"200"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"ZeesWhite"
-			"wrap"			"1"
-		}
-
-		"CrayonLink"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CrayonLink"
-			"font"			"FUTURA_BOLD_8"
-			"labelText"		""
-			"textAlignment"	"north-west"
-			"xpos"			"181"
-			"ypos"			"217"
-			"wide"			"300"
-			"tall"			"200"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 60"
-			"wrap"			"1"
-		}
-
-		"CrayonPFP"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"CrayonPFP"
-			"xpos"			"50"
-			"ypos"			"186"
-			"zpos"			"-3"
-			"wide"			"100"
-			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/CrayonPFP"
-			"fgcolor"		"255 255 255 255"
-			"bgcolor_override"	"0 0 0 0"
-		}
-
-		"CrayonBorder"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"CrayonBorder"
-			"xpos"			"45"
-			"ypos"			"182"
-			"zpos"			"-3"
-			"wide"			"110"
-			"tall"			"109"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"ZeesBorderWhiteTransparent"
-		}
-
 		"CreditsButtonJess"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"CreditsJess"
 			"xpos"		"180"
-			"ypos"		"324"
+			"ypos"		"185"
 			"zpos"		"2"
 			"wide"		"110"
 			"tall"		"30"
@@ -276,12 +183,46 @@
 			
 		}
 
+		"JessDesc"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"JessDesc"
+			"font"			"FUTURA_BOLD_24"
+			"labelText"		"Project co-leader"
+			"textAlignment"	"north-west"
+			"xpos"			"181"
+			"ypos"			"225"
+			"wide"			"300"
+			"tall"			"200"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"ZeesWhite"
+			"wrap"			"1"
+		}
+
+		"JessLink"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"JessLink"
+			"font"			"FUTURA_BOLD_8"
+			"labelText"		"http://steamcommunity.com/profiles/76561198384108974"
+			"textAlignment"	"north-west"
+			"xpos"			"181"
+			"ypos"			"217"
+			"wide"			"300"
+			"tall"			"200"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"255 255 255 60"
+			"wrap"			"1"
+		}
+
 		"JessPFP"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"JessPFP"
 			"xpos"			"50"
-			"ypos"			"325"
+			"ypos"			"186"
 			"zpos"			"-3"
 			"wide"			"100"
 			"tall"			"100"
@@ -298,6 +239,65 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"JessBorder"
 			"xpos"			"45"
+			"ypos"			"182"
+			"zpos"			"-3"
+			"wide"			"110"
+			"tall"			"109"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"ZeesBorderWhiteTransparent"
+		}
+
+		"CreditsButtonCrayon"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"CreditsCrayon"
+			"xpos"		"180"
+			"ypos"		"324"
+			"zpos"		"2"
+			"wide"		"110"
+			"tall"		"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"		"FUTURA_BOLD_24"
+			"paintbackground"	"0"
+			"labelText"			"CRAYON"
+			"font"			"HudFontSmallishBold"
+			"textAlignment"	"center"
+			"textinsetx"	"10"
+			
+			"border_default"		"ZeesMenuButton"
+
+			"defaultFgColor_override" 	"ZeesWhite"
+			
+			"pin_to_sibling" "ButtonAnchor"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
+			
+		}
+
+		"CrayonPFP"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CrayonPFP"
+			"xpos"			"50"
+			"ypos"			"325"
+			"zpos"			"-3"
+			"wide"			"100"
+			"tall"			"100"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/CrayonPFP"
+			"fgcolor"		"255 255 255 255"
+			"bgcolor_override"	"0 0 0 0"
+		}
+
+		"CrayonBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"CrayonBorder"
+			"xpos"			"45"
 			"ypos"			"321"
 			"zpos"			"-3"
 			"wide"			"110"
@@ -307,10 +307,10 @@
 			"border"		"ZeesBorderWhiteTransparent"
 		}
 
-		"JessDesc"
+		"CrayonDesc"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"JessDesc"
+			"fieldName"		"CrayonDesc"
 			"font"			"FUTURA_BOLD_24"
 			"labelText"		"Project Contributor"
 			"textAlignment"	"north-west"
@@ -324,12 +324,12 @@
 			"wrap"			"1"
 		}
 
-		"JessLink"
+		"CrayonLink"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"JessLink"
+			"fieldName"		"CrayonLink"
 			"font"			"FUTURA_BOLD_8"
-			"labelText"		"http://steamcommunity.com/profiles/76561198384108974"
+			"labelText"		""
 			"textAlignment"	"north-west"
 			"xpos"			"181"
 			"ypos"			"357"
@@ -373,10 +373,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HonorableMentions"
-			"font"			"FUTURA_BOLD_20"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"Special thanks to: Borm, PhantomMike35, Emir42502, Jofre, Techno, DarSitam and the reddit guy/RightWestern for helping with the mod!"
 			"textAlignment"	"north-west"
-			"xpos"			"120"
+			"xpos"			"125"
 			"ypos"			"450"
 			"wide"			"350"
 			"tall"			"200"
@@ -391,14 +391,14 @@
 	{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"CloseButton"
-			"xpos"		"20"
+			"xpos"		"25"
 			"ypos"		"450"
 			"zpos"		"1008"
 			"wide"		"90"
 			"tall"		"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"		"FUTURA_BOLD_20"
+			"font"		"FUTURA_BOLD_12"
 			"paintbackground"	"0"
 			"command"		"engine CreditsMenuOff"
 			"labelText"			"EXIT CREDITS"
