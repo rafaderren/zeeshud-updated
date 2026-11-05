@@ -6,6 +6,7 @@
 
 #base "../../#customizations/addons/_enabled/health-ammo-style_ut/player_health.res"
 #base "../../#customizations/addons/_enabled/health-ammo_font_futura/player_health.res"
+#base "../../#customizations/addons/_enabled/health-ammo_font_classic/player_health.res"
 #base "../../#customizations/addons/_enabled/health-ammo_alt_font/player_health.res"
 #base "../../#customizations/addons/_enabled/health-ammo-style_classic/player_health.res"
 #base "../../#customizations/addons/_enabled/health-ammo-style_ut/font_player_health.res"

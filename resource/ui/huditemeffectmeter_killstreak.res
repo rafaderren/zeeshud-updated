@@ -1,4 +1,5 @@
 #base "../../#customizations/addons/_enabled/health-ammo_font_futura/killstreak.res"
+#base "../../#customizations/addons/_enabled/health-ammo_font_classic/killstreak.res"
 #base "../../#customizations/addons/_enabled/health-ammo_alt_font/killstreak.res"
 #base "../../#customizations/addons/_enabled/health_jrpg_nobar/huditemeffectmeter_killstreak_jrpg.res"
 #base "../../#customizations/addons/_enabled/health_jrpg/huditemeffectmeter_killstreak_jrpg.res"
