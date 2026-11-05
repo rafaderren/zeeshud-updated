@@ -674,7 +674,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"403"
+		"xpos"			"cs-0.5"
 		"ypos"			"153"
 		"zpos"			"-99"
 		"wide"			"49"

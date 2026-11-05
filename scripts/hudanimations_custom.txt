@@ -87,6 +87,26 @@ event TeamStatus_PlayerDead
 	Animate respawntime ypos 21 Accel 0 0.2
 }
 
+// Fix warmup timer
+
+event HudTournament_MoveTimerDown
+{
+	Animate CountdownLabel ypos 150 Linear 0 0
+	Animate CountdownLabelShadow ypos 150 Linear 0 0
+
+	SetVisible CountdownBG 0 0
+	SetVisible CountdownLabel 0 0
+	SetVisible CountdownLabelShadow 0 0
+
+	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
+	Animate CountdownLabelShadow ypos c0 Gain 0.75 0 0.4
+
+	SetVisible	TournamentConditionLabel 0 2
+
+	SetVisible CountdownLabel 0 3
+	SetVisible CountdownLabelShadow 0 3
+}
+
 // Bonus Health Pulse
 
 event HudHealthBonusPulseCycle1
