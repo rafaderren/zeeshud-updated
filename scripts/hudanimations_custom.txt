@@ -1,3 +1,92 @@
+// obsolete hudanimations_tf
+event MenuOpen
+{
+	StopEvent	MenuClose 0.0 
+
+	// fade in
+	Animate HudMenu Alpha		"255"		Linear 0.0 0.1
+	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
+	Animate HudMenu xPos		"0"		Linear 0.0 0.1
+	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
+	Animate HudMenu FgColor		"FgColor"		Linear 0.0 0.1
+	Animate HudMenu MenuColor		"MenuColor"	Linear  0.0 0.1
+	Animate HudMenu ItemColor		"ItemColor"	Linear 0.0 0.1
+	Animate HudMenu TextScan		"1"		Linear 0.0 0.1
+
+	// Undo any blur
+	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
+}
+
+event MenuClose
+{	
+	// Hide it
+	Animate HudMenu Alpha		"0"		Linear 0.2 0.1
+	Animate HudMenu xPos		"-200" Linear 0.0 0.1
+	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
+	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+}
+
+event OvertimeLabelPulseRed
+{
+	Animate	OvertimeLabel 	FgColor		TanLight	Linear 0.0 0.3
+	Animate	OvertimeLabel 	FgColor		ZeesMain	Linear 0.3 0.3
+
+	RunEvent OvertimeLabelPulseRed 0.6
+}
+
+event SuddenDeathLabelPulseRed
+{
+	Animate	SuddenDeathLabel 	FgColor		TanLight	Linear 0.0 0.3
+	Animate	SuddenDeathLabel 	FgColor		ZeesMain	Linear 0.3 0.3
+
+	RunEvent SuddenDeathLabelPulseRed 0.2
+}
+
+event HudReadyPulse
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"ZeesMain"		Linear 0.3 0.4
+
+	RunEvent HudReadyPulseLoop	0.5
+}
+
+event HudReadyPulseEnd
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"56 179 72 255"		Linear 0.0 0.1
+	
+	StopEvent HudReadyPulse			0.0
+	StopEvent HudReadyPulseLoop		0.0
+}
+
+event HudTournament_MoveTimerDown
+{
+	Animate CountdownLabel ypos 150 Linear 0 0
+	Animate CountdownLabelShadow ypos 150 Linear 0 0
+
+	SetVisible CountdownBG 0 0
+	SetVisible CountdownLabel 0 0
+	SetVisible CountdownLabelShadow 0 0
+
+	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
+	Animate CountdownLabelShadow ypos c0 Gain 0.75 0 0.4
+
+	SetVisible	TournamentConditionLabel 0 2
+
+	SetVisible CountdownLabel 0 3
+	SetVisible CountdownLabelShadow 0 3
+}
+
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	SetVisible respawntime  1 0
+
+	Animate DeathPanel ypos 19 Accel 0 0.2
+	Animate respawntime ypos 21 Accel 0 0.2
+}
+
 // Bonus Health Pulse
 
 event HudHealthBonusPulseCycle1
@@ -30,8 +119,6 @@ event FlickerHealthIndicatorOvh
 	Animate CrosshairIndicatorOvh			Alpha		"0"			Spline 1.5 0.2
 }
 
-// Shows the custom casual round sign
-
 event HudTournament_ShowRoundSign
 {
 	Animate RoundSign ypos 0 Spline 0 0
@@ -40,167 +127,6 @@ event HudTournament_ShowRoundSign
 	Animate RoundSignText alpha 255 Spline 0 0
 
 	Animate RoundSign ypos -200 Spline 4 1.5
-}
-
-// Shows victory doors in competitive?
-
-event HudMatchStatus_ShowMatchWinDoors
-{
-	SetVisible	DoorLeft	1	0
-	SetVisible	DoorLeftHinge	1	0
-	SetVisible	DoorLeftCenter	1	0
-	SetVisible	DoorLeftMiddle	1	0
-	SetVisible	DoorLeftDecorBottom	1	0
-	SetVisible	DoorLeftDecorTop	1	0
-	SetVisible	DoorRight	1	0
-	SetVisible	DoorRightCenter	1	0
-	SetVisible	DoorRightHinge	1	0
-	SetVisible	DoorRightMiddle	1	0
-	SetVisible	DoorRightDecorBottom	1	0
-	SetVisible	DoorRightDecorTop	1	0
-	SetVisible	FrontParticlePanel	1	0
-
-	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
-	Animate DoorLeftAnchor xpos 325 Spline 0 0.45
-	Animate DoorRightAnchor xpos 1228 Spline 0 0.45
-
-	PlaySound 0 "player/taunt_yeti_standee_swoosh.wav"
-	PlaySound 0.3 "ui/mm_door_close.wav"
-
-	SetVisible	FrontParticlePanel	0	7
-	Animate DoorLeftAnchor xpos -165 Accel 7.5 1.5
-	Animate DoorRightAnchor xpos 1750 Accel 7.5 1.5
-}
-
-// Shows victory doors
-
-event HudMatchStatus_ShowMatchWinDoors_NoOpen
-{
-	SetVisible	DoorLeft	1	0
-	SetVisible	DoorLeftHinge	1	0
-	SetVisible	DoorLeftCenter	1	0
-	SetVisible	DoorLeftMiddle	1	0
-	SetVisible	DoorLeftDecorBottom	1	0
-	SetVisible	DoorLeftDecorTop	1	0
-	SetVisible	DoorRight	1	0
-	SetVisible	DoorRightCenter	1	0
-	SetVisible	DoorRightHinge	1	0
-	SetVisible	DoorRightMiddle	1	0
-	SetVisible	DoorRightDecorBottom	1	0
-	SetVisible	DoorRightDecorTop	1	0
-	SetVisible	FrontParticlePanel	1	0
-	Animate DoorLeftAnchor xpos 325 Spline 0 0.45
-	Animate DoorRightAnchor xpos 1228 Spline 0 0.45
-
-	PlaySound 0 "player/taunt_yeti_standee_swoosh.wav"
-	PlaySound 0.3 "ui/mm_door_close.wav"
-
-	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
-	Animate DoorLeftAnchor xpos -165 Accel 2.1 0
-	Animate DoorRightAnchor xpos 1750 Accel 2.1 0
-}
-
-// Controls the team panels animating in match start
-
-event HudTournament_AnimateTeams_In
-{
-	Animate RedTeamPanel xpos c150 Spline 2.5 0.5
-	Animate BlueTeamPanel xpos c-300 Spline 2.5 0.5
-}
-
-// This also hides the black background behind team panels
-
-event HudTournament_AnimateTeams_Out
-{
-	Animate RedTeamPanel xpos r-5 Accel 0 0.68
-	Animate BlueTeamPanel xpos -155 Accel 0 0.68
-	Animate PlayersFooter ypos 480 Spline 0 0.5
-	Animate PlayersHeader ypos -50 Spline 0 0.5
-	SetVisible	PlayersBG	0	0
-}
-
-// Shows match start doors and animation
-
-event HudMatchStatus_ShowMatchStartDoors
-{	
-	SetVisible	PlayersHeader	1	0
-	SetVisible	PlayersFooter	1	0
-	SetVisible	DoorLeft	1	0
-	SetVisible	DoorLeftHinge	1	0
-	SetVisible	DoorLeftCenter	1	0
-	SetVisible	DoorLeftMiddle	1	0
-	SetVisible	DoorLeftDecorBottom	1	0
-	SetVisible	DoorLeftDecorTop	1	0
-	SetVisible	DoorRight	1	0
-	SetVisible	DoorRightCenter	1	0
-	SetVisible	DoorRightHinge	1	0
-	SetVisible	DoorRightMiddle	1	0
-	SetVisible	DoorRightDecorBottom	1	0
-	SetVisible	DoorRightDecorTop	1	0
-	SetVisible	BlueTeamPanel	1	0
-	SetVisible	RedTeamPanel	1	0
-	SetVisible	PlayersBG	1	2
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-	Animate CountdownLabel ypos 150 Linear 0 0
-	Animate CountdownLabelShadow ypos 150 Linear 0 0
-	Animate DoorLeftAnchor xpos 325 Spline 0 0.45
-	Animate DoorRightAnchor xpos 1228 Spline 0 0.45 
-
-	PlaySound 0 "player/taunt_yeti_standee_swoosh.wav"
-	PlaySound 0.3 "ui/mm_door_close.wav"
-	PlaySound 2 "ui/mm_door_open.wav"
-	PlaySound 2.8 "ui/trade_changed.wav"
-	PlaySound 7.5 "ui/trade_changed.wav"
-
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c-0 Gain 0.75 0 0.4
-
-	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
-
-	SetVisible	HudTournamentBG 0	2
-	Animate DoorLeftAnchor xpos -165 Accel 2 1.5
-	Animate DoorRightAnchor xpos 1750 Accel 2 1.5
-	Animate PlayersFooter ypos 431 Spline 2.5 0.5
-	Animate PlayersHeader ypos 0 Spline 2.5 0.5
-
-	RunEvent HudTournament_AnimateTeams_In 0.25
-	RunEvent HudTournament_AnimateTeams_Out 7.70
-
-	SetVisible CountdownLabel 0 9.9
-	SetVisible CountdownLabelShadow 0 9.9
-
-	RunEvent HudTournament_DoorsCleanup 10
-	
-	SetVisible CountdownBG 1 11
-}
-
-// Hides doors and elements when they aren't used
-
-event HudTournament_DoorsCleanup
-{
-	SetVisible	DoorLeft	0	0
-	SetVisible	DoorLeftHinge	0	0
-	SetVisible	DoorLeftCenter	0	0
-	SetVisible	DoorLeftMiddle	0	0
-	SetVisible	DoorLeftDecorBottom	0	0
-	SetVisible	DoorLeftDecorTop	0	0
-	SetVisible	DoorRight	0	0
-	SetVisible	DoorRightCenter	0	0
-	SetVisible	DoorRightHinge	0	0
-	SetVisible	DoorRightMiddle	0	0
-	SetVisible	DoorRightDecorBottom	0	0
-	SetVisible	DoorRightDecorTop	0	0
-	SetVisible	MatchDoors	0	0
-	SetVisible	BlueTeamPanel	0	7.5
-	SetVisible	RedTeamPanel	0	7.5
-	SetVisible	MatchDoors	0	0
-	SetVisible	PlayersHeader	0	10
-	SetVisible	PlayersFooter	0	10
-	SetVisible	PlayersBG	0	10
-
-	Animate RedTeamPanel xpos r-5 Accel 7.5 0
-	Animate BlueTeamPanel xpos -155 Accel 7.5 0
 }
 
 event HudHealthBonusPulseMain
@@ -444,8 +370,6 @@ event HudSnapShotReminderIn
 
 event CompetitiveGame_LowerChatWindow	{ }
 
-// Clears the doors after 2 seconds of spawning in case they break
-
 event CompetitiveGame_RestoreChatWindow	{ 
 	RunEvent DefaultAnimHudSnapShotReminderIn	0.0
     
@@ -454,6 +378,5 @@ event CompetitiveGame_RestoreChatWindow	{
     RunEvent HudHealthDyingPulseStop 		0.0
     RunEvent HudLowAmmoPulseStop 			0.0
     RunEvent HudMedicChargedStop 			0.0
-    RunEvent HudTournament_DoorsCleanup 2.5
 }
 event HudTournament_MoveChatWindow 		{ }
