@@ -58,6 +58,91 @@
 		}
 	}
 
+		"TransitionBox1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransitionBox1"
+		"xpos"			"c-2000"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"1000"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu/bg2"
+		"scaleImage"	"1"
+		"drawcolor"		"ZeesBlack"
+	}
+
+	"TransitionBox2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransitionBox2"
+		"xpos"			"c-1420"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"1000"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/doors/transitionbg2"
+		"scaleImage"	"1"
+		"drawcolor"		"ZeesBlack"
+
+		"pin_to_sibling"	"TransitionBox1"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
+	}
+
+	"PlayersFooter"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayersFooter"
+		"xpos"			"0"
+		"ypos"			"480"
+		"wide"			"f0"
+		"tall"			"50"
+		"zpos"			"-51"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/items/footer"
+	}
+
+	"PlayersHeader"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayersHeader"
+		"xpos"			"0"
+		"ypos"			"-50"
+		"wide"			"f0"
+		"tall"			"50"
+		"zpos"			"-51"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/doors/footer2"
+	}
+
+	"PlayersBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayersBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"zpos"			"-52"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"Bgcolor_override"	"0 0 0 225"
+	}
+
+
 	"CountdownLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -763,10 +848,10 @@
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"BluePlayerList"
-			"xpos"			"6"
+			"xpos"			"7"
 			"ypos"			"38"
 			"zpos"			"1"
-			"wide"			"136"
+			"wide"			"134"
 			"tall"			"205"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -795,7 +880,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"ZeesBorderBlueOpaque"
 
 			if_large
 			{
@@ -902,10 +987,10 @@
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"RedPlayerList"
-			"xpos"			"6"
+			"xpos"			"7"
 			"ypos"			"38"
 			"zpos"			"1"
-			"wide"			"136"
+			"wide"			"134"
 			"tall"			"205"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -934,7 +1019,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"ZeesBorderRedOpaque"
 
 			if_large
 			{

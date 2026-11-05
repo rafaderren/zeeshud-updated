@@ -321,45 +321,4 @@
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"4"
 	}
-
-	"MatchDoors"
-	{
-		"enabled"		"0"
-
-		"model"
-		{
-			"origin_y"	"12950"
-		}
-	}
-
-	"BlueTeamPanel"
-	{
-		"zpos"				"-50"
-		
-		"BluePlayerList"
-		{
-			"xpos"			"7"
-			"wide"			"134"
-		}
-
-		"BluePlayerListBG"
-		{
-			"border"		"ZeesBorderBlueOpaque"
-		}
-	}
-
-	"RedTeamPanel"
-	{
-		"zpos"				"-50"
-
-		"RedPlayerList"
-		{
-			"xpos"			"7"
-			"wide"			"134"
-		}
-		"RedPlayerListBG"
-		{
-			"border"		"ZeesBorderRedOpaque"
-		}
-	}
 }
