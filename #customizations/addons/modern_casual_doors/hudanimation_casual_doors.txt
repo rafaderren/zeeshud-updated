@@ -54,8 +54,6 @@ event HudMatchStatus_ShowMatchWinDoors_NoOpen
 	PlaySound 0.3 "ui/mm_door_close.wav"
 
 	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
-	Animate DoorLeftAnchor xpos -165 Accel 2.1 0
-	Animate DoorRightAnchor xpos 1750 Accel 2.1 0
 }
 
 // Shows match start doors and animation
