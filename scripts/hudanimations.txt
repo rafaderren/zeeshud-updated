@@ -68,6 +68,8 @@ event HudTournament_DoorsCleanup
 	SetVisible	TransitionBox1	0	0
 	SetVisible	TransitionBox2	0	0
 
+	Animate DoorLeftAnchor xpos -165 Accel 0 0
+	Animate DoorRightAnchor xpos 1750 Accel 0 0
 	Animate RedTeamPanel xpos r-5 Accel 7.5 0
 	Animate BlueTeamPanel xpos -155 Accel 7.5 0
 }
