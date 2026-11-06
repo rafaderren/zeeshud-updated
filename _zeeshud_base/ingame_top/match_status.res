@@ -94,6 +94,24 @@
 		"pin_to_sibling_corner"		"4"
 	}
 
+		"TransitionBoxMiddle"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TransitionBoxMiddle"
+		"xpos"			"c-1720"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"2000"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"Bgcolor_override"		"ZeesBlack"
+
+		"pin_to_sibling"	"TransitionBox1"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
+	}
+
 	"PlayersFooter"
 	{
 		"ControlName"	"CTFImagePanel"

@@ -5,7 +5,7 @@ hudanimations_manifest
 	//custom health bar
 	//"file"		"#customizations/addons/_enabled/health_jrpg_horizbar/hudanimations_health_jrpg.txt"
 
-	"file"		"#customizations/addons/_enabled/modern_casual_doors/hudanimation_casual_doors.txt"
+	"file"		"#customizations/addons/_enabled/modern_casual_doors_1920x1080_only/hudanimation_casual_doors.txt"
 	"file"		"scripts/hudanimations_custom.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 	

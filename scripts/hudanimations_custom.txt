@@ -133,6 +133,8 @@ event HudTournament_ShowRoundSign
 	Animate RoundSign ypos -200 Spline 4 1.5
 }
 
+// Shows match start doors and animation
+
 event HudMatchStatus_ShowMatchStartDoors
 {	
 	SetVisible	TransitionBox1	1	0
@@ -146,9 +148,9 @@ event HudMatchStatus_ShowMatchStartDoors
 	SetVisible CountdownLabelShadow 1 0
 	Animate CountdownLabel ypos 150 Linear 0 0
 	Animate CountdownLabelShadow ypos 150 Linear 0 0
-	Animate TransitionBox1 xpos c1500 Linear 0.75 2.275
+	Animate TransitionBox1 xpos c3000 Linear 0.75 2.3
 
-	PlaySound 1.25 "player/taunt_yeti_standee_swoosh.wav"
+	PlaySound 1.1 "player/taunt_yeti_standee_swoosh.wav"
 	PlaySound 2.7 "ui/trade_changed.wav"
 	PlaySound 7.5 "ui/trade_changed.wav"
 
@@ -170,6 +172,8 @@ event HudMatchStatus_ShowMatchStartDoors
 	SetVisible CountdownBG 1 11
 }
 
+// Hides doors and elements when they aren't used
+
 event HudTournament_DoorsCleanup
 {
 	SetVisible	BlueTeamPanel	0	7.5
@@ -179,6 +183,7 @@ event HudTournament_DoorsCleanup
 	SetVisible	PlayersBG	0	10
 	SetVisible	TransitionBox1	0	0
 	SetVisible	TransitionBox2	0	0
+	SetVisible	TransitionBoxMiddle	0	0
 
 
 	Animate RedTeamPanel xpos r-5 Accel 7.5 0
@@ -190,10 +195,11 @@ event HudTournament_DoorsCleanup
 event HudMatchStatus_ShowMatchWinDoors_NoOpen
 {
 	SetVisible	TransitionBox1	1	0
+	SetVisible	TransitionBoxMiddle	1	0
 	SetVisible	TransitionBox2	1	0
-	Animate TransitionBox1 xpos c400 Linear 0.2 1.5
+	Animate TransitionBox1 xpos c900 Linear 0.2 1.5
 
-	PlaySound 1.25 "player/taunt_yeti_standee_swoosh.wav"
+	PlaySound 0.6 "player/taunt_yeti_standee_swoosh.wav"
 	Animate TransitionBox1 xpos c-9999 Accel 2.1 0
 }
 
@@ -221,12 +227,12 @@ event HudTournament_AnimateTeams_Out
 event HudMatchStatus_ShowMatchWinDoors
 {
 	SetVisible	TransitionBox1	1	0
+	SetVisible	TransitionBoxMiddle	1	0
 	SetVisible	TransitionBox2	1	0
+	Animate TransitionBox1 xpos c900 Linear 0.2 1.5
 
-	PlaySound 1.25 "player/taunt_yeti_standee_swoosh.wav"
-
-	SetVisible	FrontParticlePanel	0	7
-	Animate TransitionBox1 xpos -165 Accel 7.5 1.5
+	PlaySound 0.6 "player/taunt_yeti_standee_swoosh.wav"
+	Animate TransitionBox1 xpos c-9999 Accel 2.1 0
 }
 
 event HudHealthBonusPulseMain

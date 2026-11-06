@@ -67,6 +67,7 @@ event HudTournament_DoorsCleanup
 	SetVisible	PlayersBG	0	10
 	SetVisible	TransitionBox1	0	0
 	SetVisible	TransitionBox2	0	0
+	SetVisible	TransitionBoxMiddle	0	0
 
 	Animate DoorLeftAnchor xpos -165 Accel 0 0
 	Animate DoorRightAnchor xpos 1750 Accel 0 0
