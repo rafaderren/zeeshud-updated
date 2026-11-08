@@ -16,11 +16,26 @@
 
 	}
 	
-	//the bar itself
+	// Hide the original to remove the broken highlight upon capping
 	"LevelBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"			"LevelBar"
+		"xpos"				"cs-0.5"
+		"ypos"				"999"
+		"zpos"				"0"
+		"wide"				"150"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"1"
+		"labelText"			""
+	}
+
+	// Shown duplicate of the bar
+	"LevelBar2"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"LevelBar2"
 		"xpos"				"cs-0.5"
 		"ypos"				"61"
 		"zpos"				"0"

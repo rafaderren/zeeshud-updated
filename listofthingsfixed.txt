@@ -59,6 +59,7 @@ Fixes:
 -fixed dashboard colors (Jess Fox)
 -fixed overtime label on koth
 -fixed item discard panel (Jess Fox)
+-fixed broken highlight animation when pushing the payload (Jess Fox)
 
 Improvements:
 
