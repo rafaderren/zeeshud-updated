@@ -87,7 +87,7 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"WhiteBorderThick"
 
 			"NavToRelay"	"TourList"
 
@@ -149,7 +149,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorderThick"
 
 		"TourLootImage"
 		{
@@ -207,7 +207,7 @@
 		"wide"			"400"
 		"tall"			"120"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorderThick"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -263,7 +263,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
+			"fgcolor_override"	"ZeesMain"
 			"xpos"			"15"
 			"ypos"			"24"
 			"zpos"			"2"
@@ -306,7 +306,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
+			"fgcolor_override"	"ZeesMain"
 			"xpos"			"82"
 			"ypos"			"24"
 			"zpos"			"2"
@@ -426,7 +426,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MissingTicketsAlertImage"
 			"xpos"			"195"
-			"ypos"			"r35"
+			"ypos"			"r39"
 			"zpos"			"105"
 			"wide"			"35"
 			"tall"			"35"
@@ -449,7 +449,7 @@
 			"textAlignment"	"south-west"
 			"wrap"			"1"
 			"xpos"			"235"
-			"ypos"			"rs1-5"
+			"ypos"			"rs1-6"
 			"zpos"			"0"
 			"wide"			"165"
 			"tall"			"60"
@@ -469,7 +469,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"WhiteBorderThick"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -529,7 +529,7 @@
 			"ypos"			"85"
 			"zpos"			"2"
 			"wide"			"120"
-			"tall"			"20"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -543,6 +543,9 @@
 			"command" "mann_up_now"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"border_default"	"ZeesBorderWhiteOpaque"
+			"border_armed"		"ZeesBorderColorOpaque"
 		}
 	}
 
@@ -632,7 +635,7 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"WhiteBorderThick"
 
 			"NavToRelay"	"ChallengeList"
 

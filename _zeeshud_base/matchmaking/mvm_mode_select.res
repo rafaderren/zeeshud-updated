@@ -146,6 +146,25 @@
 			"depressedBgColor_override"		"ZeesBlack"
 		}
 
+		"PracticeButtonBorder"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"				"PracticeButtonBorder"
+			"xpos"					"cs-0.5"
+			"ypos"					"rs1-5"
+			"zpos"					"21"
+			"tall"					"27"
+			"wide"					"123"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+			"border"		"WhiteBorderThick"
+			"mouseinputenabled" "0"
+			"keyboardinputenabled" "0"
+		}
+
 		"PlayForBraggingRightsExplanation"
 		{
 			"ControlName"			"Label"
@@ -155,7 +174,7 @@
 			"labelText"				"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"			"north-west"
 			"xpos"					"cs-0.5"
-			"ypos"					"rs1"
+			"ypos"					"rs1.1"
 			"zpos"					"2"
 			"wide"					"f20"
 			"tall"					"60"
@@ -235,7 +254,7 @@
 			//"ControlName"			"CExButton"
 			"fieldName"				"PracticeButton"
 			"xpos"					"cs-0.5"
-			"ypos"					"rs1-5"
+			"ypos"					"rs1-6"
 			"zpos"					"20"
 			"tall"					"25"
 			"wide"					"120"
@@ -263,6 +282,25 @@
 			"defaultBgColor_override"		"ZeesBlack"
 			"armedBgColor_override"			"ZeesMain"
 			"depressedBgColor_override"		"ZeesBlack"
+		}
+
+		"PracticeButtonBorder"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"				"PracticeButtonBorder"
+			"xpos"					"cs-0.5"
+			"ypos"					"rs1-5"
+			"zpos"					"21"
+			"tall"					"27"
+			"wide"					"123"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+			"border"		"WhiteBorderThick"
+			"mouseinputenabled" "0"
+			"keyboardinputenabled" "0"
 		}
 
 		"PlayOnCommunityServerExplanation"
