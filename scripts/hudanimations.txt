@@ -41,10 +41,10 @@
 
 event LevelInit
 {
-    RunEvent HudTournament_DoorsCleanup 0
+    RunEvent HudTournament_DoorsCleanupLoad 0
 }
 
-event HudTournament_DoorsCleanup
+event HudTournament_DoorsCleanupLoad
 {
 	SetVisible	DoorLeft	0	0
 	SetVisible	DoorLeftHinge	0	0
@@ -59,12 +59,12 @@ event HudTournament_DoorsCleanup
 	SetVisible	DoorRightDecorBottom	0	0
 	SetVisible	DoorRightDecorTop	0	0
 	SetVisible	MatchDoors	0	0
-	SetVisible	BlueTeamPanel	0	7.5
-	SetVisible	RedTeamPanel	0	7.5
+	SetVisible	BlueTeamPanel	0	0
+	SetVisible	RedTeamPanel	0	0
 	SetVisible	MatchDoors	0	0
-	SetVisible	PlayersHeader	0	10
-	SetVisible	PlayersFooter	0	10
-	SetVisible	PlayersBG	0	10
+	SetVisible	PlayersHeader	0	0
+	SetVisible	PlayersFooter	0	0
+	SetVisible	PlayersBG	0	0
 	SetVisible	TransitionBox1	0	0
 	SetVisible	TransitionBox2	0	0
 	SetVisible	TransitionBoxMiddle	0	0
