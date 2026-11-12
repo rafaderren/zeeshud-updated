@@ -184,6 +184,7 @@ event HudTournament_DoorsCleanup
 	SetVisible	TransitionBox1	0	0
 	SetVisible	TransitionBox2	0	0
 	SetVisible	TransitionBoxMiddle	0	0
+	Animate TransitionBox1 xpos c-2000 Accel 0 0
 
 
 	Animate RedTeamPanel xpos r-5 Accel 7.5 0
@@ -200,7 +201,7 @@ event HudMatchStatus_ShowMatchWinDoors_NoOpen
 	Animate TransitionBox1 xpos c900 Linear 0.2 1.5
 
 	PlaySound 0.6 "player/taunt_yeti_standee_swoosh.wav"
-	Animate TransitionBox1 xpos c-9999 Accel 2.1 0
+	Animate TransitionBox1 xpos c-2000 Accel 2.1 0
 }
 
 // Controls the team panels animating in match start
@@ -232,7 +233,7 @@ event HudMatchStatus_ShowMatchWinDoors
 	Animate TransitionBox1 xpos c900 Linear 0.2 1.5
 
 	PlaySound 0.6 "player/taunt_yeti_standee_swoosh.wav"
-	Animate TransitionBox1 xpos c-9999 Accel 2.1 0
+	Animate TransitionBox1 xpos c-2000 Accel 2.1 0
 }
 
 event HudHealthBonusPulseMain
@@ -484,6 +485,5 @@ event CompetitiveGame_RestoreChatWindow	{
     RunEvent HudHealthDyingPulseStop 		0.0
     RunEvent HudLowAmmoPulseStop 			0.0
     RunEvent HudMedicChargedStop 			0.0
-	RunEvent HudTournament_DoorsCleanup 2.5
 }
 event HudTournament_MoveChatWindow 		{ }
