@@ -148,6 +148,7 @@ event HudMatchStatus_ShowMatchStartDoors
 	SetVisible CountdownLabelShadow 1 0
 	Animate CountdownLabel ypos 150 Linear 0 0
 	Animate CountdownLabelShadow ypos 150 Linear 0 0
+	Animate TransitionBox1 xpos c-2000 Accel 0 0
 	Animate TransitionBox1 xpos c3000 Linear 0.75 2.3
 
 	PlaySound 1.1 "player/taunt_yeti_standee_swoosh.wav"
@@ -198,6 +199,7 @@ event HudMatchStatus_ShowMatchWinDoors_NoOpen
 	SetVisible	TransitionBox1	1	0
 	SetVisible	TransitionBoxMiddle	1	0
 	SetVisible	TransitionBox2	1	0
+	Animate TransitionBox1 xpos c-2000 Accel 0 0
 	Animate TransitionBox1 xpos c900 Linear 0.2 1.5
 
 	PlaySound 0.6 "player/taunt_yeti_standee_swoosh.wav"
@@ -230,6 +232,7 @@ event HudMatchStatus_ShowMatchWinDoors
 	SetVisible	TransitionBox1	1	0
 	SetVisible	TransitionBoxMiddle	1	0
 	SetVisible	TransitionBox2	1	0
+	Animate TransitionBox1 xpos c-2000 Accel 0 0
 	Animate TransitionBox1 xpos c900 Linear 0.2 1.5
 
 	PlaySound 0.6 "player/taunt_yeti_standee_swoosh.wav"
