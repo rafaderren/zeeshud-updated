@@ -52,7 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "ZeesMain"
+		"fgcolor_override" "ZeesWhite"
 	}
 		
 	"CancelButton"
