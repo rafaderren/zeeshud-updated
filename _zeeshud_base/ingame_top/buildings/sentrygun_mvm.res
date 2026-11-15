@@ -111,7 +111,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"
 			"icon"			""
-			"iconColor"		"White"
+			"iconColor"		"ZeesWhite"
 		}
 
 		"AlertTray"
@@ -126,6 +126,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall"
+			"iconColor"		"ZeesWhite"
 		}
 
 		"WrenchIcon"
@@ -141,7 +142,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"White"
+			"iconColor"		"ZeesWhite"
 		}
 
 		"SapperIcon"
@@ -157,7 +158,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"White"
+			"iconColor"		"ZeesWhite"
 		}
 
 		"Health"

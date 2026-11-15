@@ -55,7 +55,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sapper"
-				"iconColor"		"ZeesBlack"
+		"iconColor"		"ZeesBlack"
 		"iconColor_minmode"	"ZeesWhite"
 	}
 
@@ -192,8 +192,8 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"obj_status_sentrygun_1"
-						"iconColor"		"ZeesBlack"
-		"iconColor_minmode"	"ZeesWhite"	
+				"iconColor"		"ZeesBlack"
+				"iconColor_minmode"	"ZeesWhite"	
 			}
 
 			"TargetHealth"

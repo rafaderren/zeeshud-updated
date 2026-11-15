@@ -213,8 +213,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-					"iconColor"		"ZeesWhite"
-		"iconColor_minmode"	"ZeesWhite"
+			"iconColor"		"ZeesWhite"
+			"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"SapperIcon"

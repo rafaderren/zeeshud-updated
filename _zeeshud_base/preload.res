@@ -861,16 +861,6 @@
 		"image"			"../hud/hud_obj_status_dispenser"
 	}
 
-	"hudobjstatussapper"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"hudobjstatussapper"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/hud_obj_status_sapper"
-	}
-
 	"hudobjstatussentry_1"
 	{
 		"ControlName"	"ImagePanel"
