@@ -147,6 +147,8 @@
 				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
+				"fgcolor_override"			"ZeesWhite"
+				"selectionTextColor_override"		"ZeesWhite"
 			}
 			"BarChartComboB"
 			{
@@ -167,12 +169,14 @@
 				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
+				"fgcolor_override"			"ZeesWhite"
+				"selectionTextColor_override"		"ZeesWhite"
 			}
 			"ClassCombo"
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"			"ClassCombo"
-				"xpos"				"c+124"
+				"xpos"				"c+129"
 				"ypos"				"212"
 				"zpos"				"10"
 				"wide"				"167"
@@ -187,6 +191,8 @@
 				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
+				"fgcolor_override"			"ZeesWhite"
+				"selectionTextColor_override"		"ZeesWhite"
 			}
 		}
 
@@ -1941,9 +1947,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
-		"defaultBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"ZeesBlack"
 		"armedBgColor_override"			"ZeesMain"
-		"depressedBgColor_override"		"DarkGrey"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"ResetStatsButton"
@@ -1965,9 +1971,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
-		"defaultBgColor_override"		"DarkGrey"
+		"defaultBgColor_override"		"ZeesBlack"
 		"armedBgColor_override"			"ZeesMain"
-		"depressedBgColor_override"		"DarkGrey"
+		"depressedBgColor_override"		"ZeesBlack"
 	}
 
 	"CloseButton"

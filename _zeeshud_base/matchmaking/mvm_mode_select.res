@@ -133,6 +133,7 @@
 			"Command"				"mannup"
 			"actionsignallevel"		"2"
 			"proportionaltoparent"	"1"
+			"textinsety"		"-2"
 
 			"NavUp"					"Sheet"
 			"NavDown"				"BackButton"
