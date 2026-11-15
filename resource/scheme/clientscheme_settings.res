@@ -8,8 +8,8 @@ Scheme
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor							"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor	"200 128 255 255"
-		ReplayBrowser.Button.ArmedBgColor				"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor			"TFOrange"
+		ReplayBrowser.Button.ArmedBgColor				"ZeesMain"
+		ReplayBrowser.Button.DepressedBgColor			"ZeesMain"
 		ReplayBrowser.CollectionTitle.FgColor			"LightRed"
 		ReplayBrowser.Warning.FgColor					"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"

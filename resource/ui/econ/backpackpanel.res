@@ -67,9 +67,13 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"textinsety"		"-1"
-				"paintbackground"	"0"
+				"paintbackground"	"1"
+				"armedBgColor_override"			"ZeesMain"
+				"depressedBgColor_override"		"ZeesBlack"
+				"defaultBgColor_override"		"ZeesBlack"
+				"selectedBgColor_override"		"ZeesMain"
 				"border_default"	"WhiteBorderThick"
-				"border_armed"		"WhiteSelectedBorderThick"
+				"border_armed"		"WhiteBorderThick"
 			}
 
 			"New"
@@ -250,12 +254,12 @@
 		"default"			"0"
 
 		"fgcolor_override"					"ZeesWhite"
-		"bgcolor_override"					"Transparent"
+		"bgcolor_override"					"ZeesBlack"
 		"disabledFgColor_override"			"ZeesWhite"
-		"disabledBgColor_override"			"Transparent"
+		"disabledBgColor_override"			"ZeesBlack"
 		"selectionColor_override"			"Transparent"
 		"selectionTextColor_override"		"ZeesWhite"
-		"defaultSelectionBG2Color_override"	"Transparent"
+		"defaultSelectionBG2Color_override"	"ZeesBlack"
 	}
 
 	"ShowBaseItemsCheckbox"
@@ -341,13 +345,13 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 
-		"fgcolor_override"				"ZeesWhite"
-		"bgcolor_override"				"Transparent"
-		"disabledFgColor_override"		"ZeesWhite"
-		"disabledBgColor_override"		"Transparent"
-		"selectionColor_override"		"Transparent"
-		"selectionTextColor_override"	"ZeesWhite"
-		"defaultSelectionBG2Color_override" "Transparent"
+		"fgcolor_override"					"ZeesWhite"
+		"bgcolor_override"					"ZeesBlack"
+		"disabledFgColor_override"			"ZeesWhite"
+		"disabledBgColor_override"			"ZeesBlack"
+		"selectionColor_override"			"Transparent"
+		"selectionTextColor_override"		"ZeesWhite"
+		"defaultSelectionBG2Color_override"	"ZeesBlack"
 	}
 
 	"mouseoveritempanel"
@@ -438,9 +442,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"textinsety"		"-3"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
+		"defaultBgColor_override"		"ZeesBlack"
+		"selectedBgColor_override"		"ZeesMain"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
 	}
 
 	"CurPageLabel"
@@ -485,9 +493,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"textinsety"		"-3"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
+		"defaultBgColor_override"		"ZeesBlack"
+		"selectedBgColor_override"		"ZeesMain"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
 	}
 
 	"DragToNextPageButton"
@@ -513,9 +525,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"textinsety"		"0"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
+		"defaultBgColor_override"		"ZeesBlack"
+		"selectedBgColor_override"		"ZeesMain"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
 	}
 
 	"DragToPrevPageButton"
@@ -541,9 +557,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"textinsety"		"0"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
+		"armedBgColor_override"			"ZeesMain"
+		"depressedBgColor_override"		"ZeesBlack"
+		"defaultBgColor_override"		"ZeesBlack"
+		"selectedBgColor_override"		"ZeesMain"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
+		"border_armed"		"WhiteBorderThick"
 	}
 
 	"CancelApplyToolButton"
@@ -572,8 +592,8 @@
 		"textinsety"		"0"
 		"paintbackground"	"1"
 		"border_default"	"WhiteBorderThick"
-		"border_armed"		"WhiteSelectedBorderThick"
-		"armedBgColor_override"			"ZeesBlack"
+		"border_armed"		"WhiteBorderThick"
+		"armedBgColor_override"			"ZeesMain"
 		"depressedBgColor_override"		"ZeesBlack"
 		"defaultBgColor_override"		"ZeesBlack"
 	}

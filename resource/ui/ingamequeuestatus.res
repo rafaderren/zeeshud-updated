@@ -31,7 +31,7 @@
 		"radius"		"8"
 		"velocity"		"100"
 
-		"fgcolor_override"	"TFOrange"
+		"fgcolor_override"	"ZeesMain"
 	}
 
 	"QueueText"
