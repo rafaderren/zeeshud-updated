@@ -673,9 +673,30 @@
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
 			"armedBgColor_override"			"ZeesMain"
-			"depressedBgColor_override"		"DarkGrey"
-			"defaultBgColor_override"		"DarkGrey"
+			"depressedBgColor_override"		"ZeesBlack"
+			"defaultBgColor_override"		"ZeesBlack"
+			"border_default"	"WhiteBorderThick"
+			"border_armed"		"WhiteBorderThick"
 		}
+
+		"CallVoteButtonBorder"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"CallVoteButtonBorder"
+			"xpos"				"195"
+			"ypos"				"320"
+			"zpos"				"9999"
+			"wide"				"160"
+			"tall"				"25"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"border"		"WhiteBorderThick"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled"	"0"
+		}
+
 		"Button1"
 		{
 			"ControlName"		"Button"
@@ -697,8 +718,25 @@
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
 			"armedBgColor_override"			"ZeesMain"
-			"depressedBgColor_override"		"DarkGrey"
-			"defaultBgColor_override"		"DarkGrey"
+			"depressedBgColor_override"		"ZeesBlack"
+			"defaultBgColor_override"		"ZeesBlack"
 		}
-	}
+
+		"Button1Border"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"Button1Border"
+			"xpos"				"360"
+			"zpos"				"9999"
+			"ypos"				"320"
+			"wide"				"80"
+			"tall"				"25"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"border"		"WhiteBorderThick"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled"	"0"
+		}
 }

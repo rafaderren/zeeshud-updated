@@ -14,7 +14,10 @@
 		"scaleImage"	"1"
 
 		"if_mvm"  {
-			"ypos"		"0"
+			"ypos"		"1"
+			"xpos"		"91"
+			"wide"		"40"
+			"tall"		"40"
 		}
 	}
 
@@ -34,9 +37,10 @@
 
 		"if_mvm"
 		{
-			"ypos"		"14"
-			"wide"		"26"
-			"tall"		"26"
+			"xpos"		"102"
+			"ypos"		"11"
+			"wide"		"19"
+			"tall"		"20"
 		}
 
 		"if_specialdelivery"

@@ -150,6 +150,7 @@ Improvements:
 -improved the look of building pickup on target id (Jess Fox)
 -improved the look of bumper cart boost ui (Jess Fox)
 -improved the look of loadout preset buttons (Jess Fox)
+-improved the look of mvm bomb carrier (Jess Fox)
 
 Additions:
 
