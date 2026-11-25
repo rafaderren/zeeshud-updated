@@ -10,7 +10,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/bomb_carrier_upgrade_base"
+		"image"			"replay/thumbnails/mvm/bomb_carrier_upgrade_base"
 	}
 	
 	"FillContainer"
@@ -34,7 +34,7 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/bomb_carrier_upgrade_meter"
+			"image"			"replay/thumbnails/mvm/bomb_carrier_upgrade_meter"
 		}
 	}
 	
@@ -48,7 +48,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/bomb_carrier_upgrade_frame"
+		"image"			"replay/thumbnails/mvm/bomb_carrier_upgrade_frame"
 	}
 	
 }
